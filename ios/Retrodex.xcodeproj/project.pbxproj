@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RetrodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RetrodexTests.m */; };
 		040853E7AD56387EA83C1223 /* libPods-Retrodex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9B94B999B2A1DAE3D0ADC /* libPods-Retrodex.a */; };
@@ -20,6 +19,7 @@
 		3A9CBC70099232CAE940E020 /* libPods-Retrodex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */; };
 		63904C83EA4647D5D20B9C29 /* libPods-RetrodexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */; };
 		A711CC3C47428859221EB679 /* libPods-Retrodex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F71C4C0591688EC9067F26C /* libPods-Retrodex-tvOSTests.a */; };
+		FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6AD52016730453E9A6826F9 /* pokemon-font.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 		D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		C6AD52016730453E9A6826F9 /* pokemon-font.otf */ = {isa = PBXFileReference; name = "pokemon-font.otf"; path = "../assets/fonts/pokemon-font.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +182,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				252D4470A255389CFD4A57D7 /* Pods */,
+				AC2AB6508C804F84B43D6A14 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +199,15 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		AC2AB6508C804F84B43D6A14 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C6AD52016730453E9A6826F9 /* pokemon-font.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +296,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +349,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
