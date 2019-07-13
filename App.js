@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, StyleSheet, ScrollView, StatusBar } from "react-native";
-import PokedexList from "./components/PokedexList";
+import Pokedex from "./components/Pokedex";
 
 const App = () => (
   <>
@@ -10,7 +10,7 @@ const App = () => (
         contentInsetAdjustmentBehavior="automatic"
         style={styles.scrollView}
       >
-        <PokedexList />
+        <Pokedex />
       </ScrollView>
     </SafeAreaView>
   </>

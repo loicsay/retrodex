@@ -9,7 +9,8 @@ const styles = StyleSheet.create({
   pokemonText: {
     flex: 3,
     fontFamily: "pokemon-font",
-    fontSize: 18
+    fontSize: 18,
+    textTransform: "uppercase"
   }
 });
 

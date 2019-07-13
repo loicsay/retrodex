@@ -1,16 +1,20 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import PokemonText from "./PokemonText";
+import PokemonListItem from './PokemonListItem';
 
-const PokemonList = () => (
+const PokemonList = ({ pokemons }) => (
   <View style={styles.listContainer}>
-      <PokemonText>CONTENT</PokemonText>
+    <PokemonText>CONTENTS</PokemonText>
+    {pokemons.map(p => (
+      <PokemonListItem key={p.national_id} pokemon={p} />
+    ))}
   </View>
 );
 
 const styles = StyleSheet.create({
   listContainer: {
-    flex: 2.5,
+    flex: 2.5
   }
 });
 
