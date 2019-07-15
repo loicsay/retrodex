@@ -4,16 +4,34 @@ import MenuItem from "./MenuItem";
 
 const Menu = () => (
   <View style={styles.menuContainer}>
-    <MenuItem label="SEEN">151</MenuItem>
-    <MenuItem label="OWN">151</MenuItem>
+    <View style={styles.menuSection}>
+      <MenuItem label="SEEN">151</MenuItem>
+      <MenuItem label="OWN">151</MenuItem>
+    </View>
+    <View style={styles.menuSection}>
+      <MenuItem label="DATA" />
+      <MenuItem label="CRY" />
+      <MenuItem label="AREA" />
+    </View>
+    <View style={styles.menuSection}>
+      <MenuItem label="LANG" />
+      <MenuItem label="VER" />
+    </View>
   </View>
 );
 
 const styles = StyleSheet.create({
   menuContainer: {
     flex: 1,
-    height: "100%",
-    marginTop: "6%"
+    borderStyle: "solid",
+    borderLeftWidth: 4,
+    borderLeftColor: "black"
+  },
+  menuSection: {
+    marginTop: 28,
+    borderStyle: "solid",
+    borderBottomWidth: 4,
+    borderBottomColor: "black"
   }
 });
 

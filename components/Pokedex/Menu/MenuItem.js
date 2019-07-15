@@ -5,13 +5,13 @@ import PokemonText from "../../PokemonText";
 const MenuItem = ({ label, children }) => (
   <View style={styles.menuItem}>
     <PokemonText>{label}</PokemonText>
-    <PokemonText>{children}</PokemonText>
+    {children && <PokemonText>{children}</PokemonText>}
   </View>
 );
 
 const styles = StyleSheet.create({
   menuItem: {
-    paddingLeft: 18,
+    paddingLeft: 26,
     marginBottom: 14
   }
 });

@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, StyleSheet } from "react-native";
 
 import PokemonList from "./components/PokemonList";
 import Menu from "./Menu";
 import pokemons from "../../data/pokemons.json";
 
-const Pokedex = () => (
-  <View style={styles.listContainer}>
-    <PokemonList pokemons={pokemons} />
-    <Menu />
-  </View>
-);
+const Pokedex = () => {
+  const [selection, setSelection] = useState(1);
+
+  return (
+    <View style={styles.listContainer}>
+      <PokemonList pokemons={pokemons} selection={selection} setSelection={setSelection}/>
+      <Menu />
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   listContainer: {

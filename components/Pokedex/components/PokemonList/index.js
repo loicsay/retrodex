@@ -3,23 +3,27 @@ import { ScrollView, View, StyleSheet } from "react-native";
 import PokemonText from "../../../PokemonText";
 import PokemonListItem from "./PokemonListItem";
 
-const PokemonList = ({ pokemons }) => (
-  <View syle={styles.listContainer}>
+const PokemonList = ({ pokemons, selection, setSelection }) => (
+  <View style={{ flex: 2.6 }}>
     <View style={styles.title}>
       <PokemonText>CONTENTS</PokemonText>
     </View>
     <ScrollView>
-      {pokemons.map(p => (
-        <PokemonListItem key={p.national_id} pokemon={p} />
-      ))}
+      <View style={{ paddingBottom: "12%" }}>
+        {pokemons.map(p => (
+          <PokemonListItem
+            key={p.national_id}
+            pokemon={p}
+            selected={selection === p.national_id}
+            setSelection={setSelection}
+          />
+        ))}
+      </View>
     </ScrollView>
   </View>
 );
 
 const styles = StyleSheet.create({
-  listContainer: {
-    flex: 2.8
-  },
   title: {
     paddingLeft: "8%"
   }
