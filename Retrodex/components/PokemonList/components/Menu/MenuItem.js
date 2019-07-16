@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import PokemonText from "../../PokemonText";
+import PokemonText from "../../../PokemonText";
 
 const MenuItem = ({ label, children }) => (
   <View style={styles.menuItem}>

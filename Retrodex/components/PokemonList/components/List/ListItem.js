@@ -3,14 +3,20 @@ import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 import PokemonText from "../../../PokemonText";
 
-const PokemonListItem = ({ pokemon, selected, setSelection }) => {
-  const handleOnPress = () => setSelection(pokemon.national_id);
+const ListItem = ({ pokemon, selected, setSelection, navigation }) => {
+  const handleOnPressIn = () => setSelection(pokemon.national_id);
+
+  const handleOnPress = () => navigation.navigate("PokemonView", { pokemon });
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
 
   return (
-    <TouchableOpacity style={styles.listContainer} onPress={handleOnPress}>
+    <TouchableOpacity
+      style={styles.listContainer}
+      onPressIn={handleOnPressIn}
+      onPress={handleOnPress}
+    >
       <View style={styles.id}>
         <PokemonText>{pokemonId}</PokemonText>
       </View>
@@ -19,7 +25,7 @@ const PokemonListItem = ({ pokemon, selected, setSelection }) => {
           <Image
             style={styles.selector}
             resizeMode="contain"
-            source={require("../../../../data/sprites/red-blue/selector.png")}
+            source={require("../../../../../data/sprites/red-blue/selector.png")}
           />
         )}
         <View style={styles.pokemonName}>
@@ -31,9 +37,6 @@ const PokemonListItem = ({ pokemon, selected, setSelection }) => {
 };
 
 const styles = StyleSheet.create({
-  pokemonListItem: {
-    position: "relative"
-  },
   pokemonName: {
     paddingLeft: "27%"
   },
@@ -51,4 +54,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default PokemonListItem;
+export default ListItem;

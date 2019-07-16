@@ -1,7 +1,7 @@
 [
   {
     "height_us": "2'04\"",
-    "weight_us": "15.2 lbs.",
+    "weight_us": "15.2lb",
     "weight_eu": "6.9 kg",
     "names": {
       "fr": "Bulbizarre",
@@ -109,11 +109,11 @@
         "en": "It carries a seed on its back right from birth. As it grows older, the seed also grows larger."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed Pok\u00e9mon" }
+    "categories": { "de": "Samen", "en": "Seed" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "28.7 lbs.",
+    "weight_us": "28.7lb",
     "weight_eu": "13.0 kg",
     "names": {
       "fr": "Herbizarre",
@@ -221,11 +221,11 @@
         "en": "If the bud on its back starts to smell sweet, it is evidence that the large flower will soon bloom."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed Pok\u00e9mon" }
+    "categories": { "de": "Samen", "en": "Seed" }
   },
   {
     "height_us": "6'07\"",
-    "weight_us": "220.5 lbs.",
+    "weight_us": "220.5lb",
     "weight_eu": "100.0 kg",
     "names": {
       "fr": "Florizarre",
@@ -333,11 +333,11 @@
         "en": "It is able to convert sunlight into energy. As a result, it is more powerful in the summertime."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed Pok\u00e9mon" }
+    "categories": { "de": "Samen", "en": "Seed" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "18.7 lbs.",
+    "weight_us": "18.7lb",
     "weight_eu": "8.5 kg",
     "names": {
       "fr": "Salam\u00e8che",
@@ -445,11 +445,11 @@
         "en": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly."
       }
     },
-    "categories": { "de": "Echse", "en": "Lizard Pok\u00e9mon" }
+    "categories": { "de": "Echse", "en": "Lizard" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "41.9 lbs.",
+    "weight_us": "41.9lb",
     "weight_eu": "19.0 kg",
     "names": {
       "fr": "Reptincel",
@@ -557,11 +557,11 @@
         "en": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame Pok\u00e9mon" }
+    "categories": { "de": "Flamme", "en": "Flame" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "199.5 lbs.",
+    "weight_us": "199.5lb",
     "weight_eu": "90.5 kg",
     "names": {
       "fr": "Dracaufeu",
@@ -669,11 +669,11 @@
         "en": "Breathing intense, hot flames, it can melt almost anything. Its breath inflicts terrible pain on enemies."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame Pok\u00e9mon" }
+    "categories": { "de": "Flamme", "en": "Flame" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "19.8 lbs.",
+    "weight_us": "19.8lb",
     "weight_eu": "9.0 kg",
     "names": {
       "fr": "Carapuce",
@@ -781,11 +781,11 @@
         "en": "The shell, which hardens soon after it is born, is resilient. If you poke it, it will bounce back out."
       }
     },
-    "categories": { "de": "Minikr\u00f6te", "en": "Tiny Turtle Pok\u00e9mon" }
+    "categories": { "de": "Minikr\u00f6te", "en": "Tiny Turtle" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "49.6 lbs.",
+    "weight_us": "49.6lb",
     "weight_eu": "22.5 kg",
     "names": {
       "fr": "Carabaffe",
@@ -893,11 +893,11 @@
         "en": "It cleverly controls its furry ears and tail to maintain its balance while swimming."
       }
     },
-    "categories": { "de": "Kr\u00f6te", "en": "Turtle Pok\u00e9mon" }
+    "categories": { "de": "Kr\u00f6te", "en": "Turtle" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "188.5 lbs.",
+    "weight_us": "188.5lb",
     "weight_eu": "85.5 kg",
     "names": {
       "fr": "Tortank",
@@ -1005,11 +1005,11 @@
         "en": "The rocket cannons on its shell fire jets of water capable of punching holes through thick steel."
       }
     },
-    "categories": { "de": "Panzertier", "en": "Shellfish Pok\u00e9mon" }
+    "categories": { "de": "Panzertier", "en": "Shellfish" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "6.4 lbs.",
+    "weight_us": "6.4lb",
     "weight_eu": "2.9 kg",
     "names": {
       "fr": "Chenipan",
@@ -1133,11 +1133,11 @@
         "en": "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
       }
     },
-    "categories": { "de": "Wurm", "en": "Worm Pok\u00e9mon" }
+    "categories": { "de": "Wurm", "en": "Worm" }
   },
   {
     "height_us": "2'04\"",
-    "weight_us": "21.8 lbs.",
+    "weight_us": "21.8lb",
     "weight_eu": "9.9 kg",
     "names": {
       "fr": "Chrysacier",
@@ -1261,11 +1261,11 @@
         "en": "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
       }
     },
-    "categories": { "de": "Kokon", "en": "Cocoon Pok\u00e9mon" }
+    "categories": { "de": "Kokon", "en": "Cocoon" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "70.5 lbs.",
+    "weight_us": "70.5lb",
     "weight_eu": "32.0 kg",
     "names": {
       "fr": "Papilusion",
@@ -1389,11 +1389,11 @@
         "en": "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
       }
     },
-    "categories": { "de": "Falter", "en": "Butterfly Pok\u00e9mon" }
+    "categories": { "de": "Falter", "en": "Butterfly" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "7.1 lbs.",
+    "weight_us": "7.1lb",
     "weight_eu": "3.2 kg",
     "names": {
       "fr": "Aspicot",
@@ -1501,11 +1501,11 @@
         "en": "It attacks using a two-inch poison barb on its head. It can usually be found under the leaves it eats."
       }
     },
-    "categories": { "de": "Raupe", "en": "Hairy Bug Pok\u00e9mon" }
+    "categories": { "de": "Raupe", "en": "Hairy Bug" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "22.0 lbs.",
+    "weight_us": "22.0lb",
     "weight_eu": "10.0 kg",
     "names": {
       "fr": "Coconfort",
@@ -1613,11 +1613,11 @@
         "en": "From this form, it will grow into an adult. As its body becomes softer, the external shell hardens."
       }
     },
-    "categories": { "de": "Kokon", "en": "Cocoon Pok\u00e9mon" }
+    "categories": { "de": "Kokon", "en": "Cocoon" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "65.0 lbs.",
+    "weight_us": "65.0lb",
     "weight_eu": "29.5 kg",
     "names": {
       "fr": "Dardargnan",
@@ -1725,11 +1725,11 @@
         "en": "It has three poison barbs. The barb on its tail secretes the most powerful poison."
       }
     },
-    "categories": { "de": "Giftbiene", "en": "Poison Bee Pok\u00e9mon" }
+    "categories": { "de": "Giftbiene", "en": "Poison Bee" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "4.0 lbs.",
+    "weight_us": "4.0lb",
     "weight_eu": "1.8 kg",
     "names": {
       "fr": "Roucool",
@@ -1837,11 +1837,11 @@
         "en": "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand."
       }
     },
-    "categories": { "de": "Kleinvogel", "en": "Tiny Bird Pok\u00e9mon" }
+    "categories": { "de": "Kleinvogel", "en": "Tiny Bird" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": {
       "fr": "Roucoups",
@@ -1949,11 +1949,11 @@
         "en": "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest."
       }
     },
-    "categories": { "de": "Vogel", "en": "Bird Pok\u00e9mon" }
+    "categories": { "de": "Vogel", "en": "Bird" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "87.1 lbs.",
+    "weight_us": "87.1lb",
     "weight_eu": "39.5 kg",
     "names": {
       "fr": "Roucarnage",
@@ -2061,11 +2061,11 @@
         "en": "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed."
       }
     },
-    "categories": { "de": "Vogel", "en": "Bird Pok\u00e9mon" }
+    "categories": { "de": "Vogel", "en": "Bird" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "7.7 lbs.",
+    "weight_us": "7.7lb",
     "weight_eu": "3.5 kg",
     "names": {
       "fr": "Rattata",
@@ -2189,14 +2189,11 @@
         "en": "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
       }
     },
-    "categories": {
-      "de": "Maus (Ratte vor der 2. Gen.)",
-      "en": "Mouse Pok\u00e9mon"
-    }
+    "categories": { "de": "Maus (Ratte vor der 2. Gen.)", "en": "Mouse" }
   },
   {
     "height_us": "2'04\"",
-    "weight_us": "40.8 lbs.",
+    "weight_us": "40.8lb",
     "weight_eu": "18.5 kg",
     "names": {
       "fr": "Rattatac",
@@ -2320,14 +2317,11 @@
         "en": "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
       }
     },
-    "categories": {
-      "de": "Maus (Ratte vor der 2. Gen.)",
-      "en": "Mouse Pok\u00e9mon"
-    }
+    "categories": { "de": "Maus (Ratte vor der 2. Gen.)", "en": "Mouse" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "4.4 lbs.",
+    "weight_us": "4.4lb",
     "weight_eu": "2.0 kg",
     "names": {
       "fr": "Piafabec",
@@ -2451,11 +2445,11 @@
         "en": "Very protective of its territory, it flaps its short wings busily to dart around at high speed."
       }
     },
-    "categories": { "de": "Kleinvogel", "en": "Tiny Bird Pok\u00e9mon" }
+    "categories": { "de": "Kleinvogel", "en": "Tiny Bird" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "83.8 lbs.",
+    "weight_us": "83.8lb",
     "weight_eu": "38.0 kg",
     "names": {
       "fr": "Rapasdepic",
@@ -2579,11 +2573,11 @@
         "en": "It cleverly uses its thin, long beak to pluck and eat small insects that hide under the ground."
       }
     },
-    "categories": { "de": "Pickvogel", "en": "Beak Pok\u00e9mon" }
+    "categories": { "de": "Pickvogel", "en": "Beak" }
   },
   {
     "height_us": "6'07\"",
-    "weight_us": "15.2 lbs.",
+    "weight_us": "15.2lb",
     "weight_eu": "6.9 kg",
     "names": { "fr": "Abo", "de": "Rettan", "en": "Ekans", "it": "Ekans" },
     "height_eu": "2.0 m",
@@ -2694,11 +2688,11 @@
         "en": "It always hides in grass. When first born, it has no poison, so its bite is painful, but harmless."
       }
     },
-    "categories": { "de": "Schlange", "en": "Snake Pok\u00e9mon" }
+    "categories": { "de": "Schlange", "en": "Snake" }
   },
   {
     "height_us": "11'06\"",
-    "weight_us": "143.3 lbs.",
+    "weight_us": "143.3lb",
     "weight_eu": "65.0 kg",
     "names": { "fr": "Arbok", "de": "Arbok", "en": "Arbok", "it": "Arbok" },
     "height_eu": "3.5 m",
@@ -2809,11 +2803,11 @@
         "en": "With a very vengeful nature, it won't give up the chase, no matter how far, once it targets its prey."
       }
     },
-    "categories": { "de": "Kobra", "en": "Cobra Pok\u00e9mon" }
+    "categories": { "de": "Kobra", "en": "Cobra" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "13.2 lbs.",
+    "weight_us": "13.2lb",
     "weight_eu": "6.0 kg",
     "names": {
       "fr": "Pikachu",
@@ -2937,11 +2931,11 @@
         "en": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse Pok\u00e9mon" }
+    "categories": { "de": "Maus", "en": "Mouse" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": { "fr": "Raichu", "de": "Raichu", "en": "Raichu", "it": "Raichu" },
     "height_eu": "0.8 m",
@@ -3060,11 +3054,11 @@
         "en": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse Pok\u00e9mon" }
+    "categories": { "de": "Maus", "en": "Mouse" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "26.5 lbs.",
+    "weight_us": "26.5lb",
     "weight_eu": "12.0 kg",
     "names": {
       "fr": "Sabelette",
@@ -3188,11 +3182,11 @@
         "en": "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse Pok\u00e9mon" }
+    "categories": { "de": "Maus", "en": "Mouse" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "65.0 lbs.",
+    "weight_us": "65.0lb",
     "weight_eu": "29.5 kg",
     "names": {
       "fr": "Sablaireau",
@@ -3316,11 +3310,11 @@
         "en": "If it digs at an incredible pace, it may snap off its spike and claws. They grow back in a day."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse Pok\u00e9mon" }
+    "categories": { "de": "Maus", "en": "Mouse" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "15.4 lbs.",
+    "weight_us": "15.4lb",
     "weight_eu": "7.0 kg",
     "names": {
       "fr": "Nidoran\u2640",
@@ -3428,11 +3422,11 @@
         "en": "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin Pok\u00e9mon" }
+    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "44.1 lbs.",
+    "weight_us": "44.1lb",
     "weight_eu": "20.0 kg",
     "names": {
       "fr": "Nidorina",
@@ -3540,11 +3534,11 @@
         "en": "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin Pok\u00e9mon" }
+    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "132.3 lbs.",
+    "weight_us": "132.3lb",
     "weight_eu": "60.0 kg",
     "names": {
       "fr": "Nidoqueen",
@@ -3652,11 +3646,11 @@
         "en": "It uses its scaly rugged body to seal the entrance of its nest and protect its young from predators."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill Pok\u00e9mon" }
+    "categories": { "de": "Bohrer", "en": "Drill" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "19.8 lbs.",
+    "weight_us": "19.8lb",
     "weight_eu": "9.0 kg",
     "names": {
       "fr": "Nidoran\u2642",
@@ -3764,11 +3758,11 @@
         "en": "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin Pok\u00e9mon" }
+    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "43.0 lbs.",
+    "weight_us": "43.0lb",
     "weight_eu": "19.5 kg",
     "names": {
       "fr": "Nidorino",
@@ -3876,11 +3870,11 @@
         "en": "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin Pok\u00e9mon" }
+    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "136.7 lbs.",
+    "weight_us": "136.7lb",
     "weight_eu": "62.0 kg",
     "names": {
       "fr": "Nidoking",
@@ -3988,11 +3982,11 @@
         "en": "Its tail is thick and powerful. If it binds an enemy, it can snap the victim's spine quite easily."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill Pok\u00e9mon" }
+    "categories": { "de": "Bohrer", "en": "Drill" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "16.5 lbs.",
+    "weight_us": "16.5lb",
     "weight_eu": "7.5 kg",
     "names": {
       "fr": "M\u00e9lof\u00e9e",
@@ -4116,11 +4110,11 @@
         "en": "Its adorable behavior and cry make it highly popular. However, this cute Pok\u00e9mon is rarely found."
       }
     },
-    "categories": { "de": "Fee", "en": "Fairy Pok\u00e9mon" }
+    "categories": { "de": "Fee", "en": "Fairy" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "88.2 lbs.",
+    "weight_us": "88.2lb",
     "weight_eu": "40.0 kg",
     "names": {
       "fr": "M\u00e9lodelfe",
@@ -4244,11 +4238,11 @@
         "en": "Its very sensitive ears let it distinguish distant sounds. As a result, it prefers quiet places."
       }
     },
-    "categories": { "de": "Fee", "en": "Fairy Pok\u00e9mon" }
+    "categories": { "de": "Fee", "en": "Fairy" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "21.8 lbs.",
+    "weight_us": "21.8lb",
     "weight_eu": "9.9 kg",
     "names": { "fr": "Goupix", "de": "Vulpix", "en": "Vulpix", "it": "Vulpix" },
     "height_eu": "0.6 m",
@@ -4367,11 +4361,11 @@
         "en": "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes."
       }
     },
-    "categories": { "de": "Fuchs", "en": "Fox Pok\u00e9mon" }
+    "categories": { "de": "Fuchs", "en": "Fox" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "43.9 lbs.",
+    "weight_us": "43.9lb",
     "weight_eu": "19.9 kg",
     "names": {
       "fr": "Feunard",
@@ -4495,11 +4489,11 @@
         "en": "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years."
       }
     },
-    "categories": { "de": "Fuchs", "en": "Fox Pok\u00e9mon" }
+    "categories": { "de": "Fuchs", "en": "Fox" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "12.1 lbs.",
+    "weight_us": "12.1lb",
     "weight_eu": "5.5 kg",
     "names": {
       "fr": "Rondoudou",
@@ -4623,11 +4617,11 @@
         "en": "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
       }
     },
-    "categories": { "de": "Ballon", "en": "Balloon Pok\u00e9mon" }
+    "categories": { "de": "Ballon", "en": "Balloon" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "26.5 lbs.",
+    "weight_us": "26.5lb",
     "weight_eu": "12.0 kg",
     "names": {
       "fr": "Grodoudou",
@@ -4751,11 +4745,11 @@
         "en": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam."
       }
     },
-    "categories": { "de": "Ballon", "en": "Balloon Pok\u00e9mon" }
+    "categories": { "de": "Ballon", "en": "Balloon" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "16.5 lbs.",
+    "weight_us": "16.5lb",
     "weight_eu": "7.5 kg",
     "names": {
       "fr": "Nosferapti",
@@ -4879,11 +4873,11 @@
         "en": "Capable of flying safely in dark places, it emits ultrasonic cries to check for any obstacles."
       }
     },
-    "categories": { "de": "Fledermaus", "en": "Bat Pok\u00e9mon" }
+    "categories": { "de": "Fledermaus", "en": "Bat" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "121.3 lbs.",
+    "weight_us": "121.3lb",
     "weight_eu": "55.0 kg",
     "names": {
       "fr": "Nosferalto",
@@ -5007,11 +5001,11 @@
         "en": "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
       }
     },
-    "categories": { "de": "Fledermaus", "en": "Bat Pok\u00e9mon" }
+    "categories": { "de": "Fledermaus", "en": "Bat" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "11.9 lbs.",
+    "weight_us": "11.9lb",
     "weight_eu": "5.4 kg",
     "names": {
       "fr": "Mystherbe",
@@ -5119,11 +5113,11 @@
         "en": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds."
       }
     },
-    "categories": { "de": "Unkraut", "en": "Weed Pok\u00e9mon" }
+    "categories": { "de": "Unkraut", "en": "Weed" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "19.0 lbs.",
+    "weight_us": "19.0lb",
     "weight_eu": "8.6 kg",
     "names": { "fr": "Ortide", "de": "Duflor", "en": "Gloom", "it": "Gloom" },
     "height_eu": "0.8 m",
@@ -5226,11 +5220,11 @@
         "en": "It secretes a sticky, drool-like honey. Although sweet, it smells too repulsive to get very close."
       }
     },
-    "categories": { "de": "Unkraut", "en": "Weed Pok\u00e9mon" }
+    "categories": { "de": "Unkraut", "en": "Weed" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "41.0 lbs.",
+    "weight_us": "41.0lb",
     "weight_eu": "18.6 kg",
     "names": {
       "fr": "Raffl\u00e9sia",
@@ -5338,11 +5332,11 @@
         "en": "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen."
       }
     },
-    "categories": { "de": "Blume", "en": "Flower Pok\u00e9mon" }
+    "categories": { "de": "Blume", "en": "Flower" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "11.9 lbs.",
+    "weight_us": "11.9lb",
     "weight_eu": "5.4 kg",
     "names": { "fr": "Paras", "de": "Paras", "en": "Paras", "it": "Paras" },
     "height_eu": "0.3 m",
@@ -5461,11 +5455,11 @@
         "en": "As its body grows, large mushrooms named tochukaso start sprouting out of its back."
       }
     },
-    "categories": { "de": "Pilz", "en": "Mushroom Pok\u00e9mon" }
+    "categories": { "de": "Pilz", "en": "Mushroom" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "65.0 lbs.",
+    "weight_us": "65.0lb",
     "weight_eu": "29.5 kg",
     "names": {
       "fr": "Parasect",
@@ -5589,11 +5583,11 @@
         "en": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
       }
     },
-    "categories": { "de": "Pilz", "en": "Mushroom Pok\u00e9mon" }
+    "categories": { "de": "Pilz", "en": "Mushroom" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": {
       "fr": "Mimitoss",
@@ -5701,11 +5695,11 @@
         "en": "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
       }
     },
-    "categories": { "de": "Insekt", "en": "Insect Pok\u00e9mon" }
+    "categories": { "de": "Insekt", "en": "Insect" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "27.6 lbs.",
+    "weight_us": "27.6lb",
     "weight_eu": "12.5 kg",
     "names": {
       "fr": "A\u00e9romite",
@@ -5813,11 +5807,11 @@
         "en": "The powder on its wings is poisonous if it is dark in hue. If it is light in hue, it causes paralysis."
       }
     },
-    "categories": { "de": "Giftmotte", "en": "Poison Moth Pok\u00e9mon" }
+    "categories": { "de": "Giftmotte", "en": "Poison Moth" }
   },
   {
     "height_us": "0'08\"",
-    "weight_us": "1.8 lbs.",
+    "weight_us": "1.8lb",
     "weight_eu": "0.8 kg",
     "names": {
       "fr": "Taupiqueur",
@@ -5941,11 +5935,11 @@
         "en": "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
       }
     },
-    "categories": { "de": "Maulwurf", "en": "Mole Pok\u00e9mon" }
+    "categories": { "de": "Maulwurf", "en": "Mole" }
   },
   {
     "height_us": "2'04\"",
-    "weight_us": "73.4 lbs.",
+    "weight_us": "73.4lb",
     "weight_eu": "33.3 kg",
     "names": {
       "fr": "Triopikeur",
@@ -6069,11 +6063,11 @@
         "en": "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
       }
     },
-    "categories": { "de": "Maulwurf", "en": "Mole Pok\u00e9mon" }
+    "categories": { "de": "Maulwurf", "en": "Mole" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "9.3 lbs.",
+    "weight_us": "9.3lb",
     "weight_eu": "4.2 kg",
     "names": { "fr": "Miaouss", "de": "Mauzi", "en": "Meowth", "it": "Meowth" },
     "height_eu": "0.4 m",
@@ -6192,11 +6186,11 @@
         "en": "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
       }
     },
-    "categories": { "de": "Katze", "en": "Scratch Cat Pok\u00e9mon" }
+    "categories": { "de": "Katze", "en": "Scratch Cat" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "70.5 lbs.",
+    "weight_us": "70.5lb",
     "weight_eu": "32.0 kg",
     "names": {
       "fr": "Persian",
@@ -6320,11 +6314,11 @@
         "en": "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
       }
     },
-    "categories": { "de": "Rassekatze", "en": "Classy Cat Pok\u00e9mon" }
+    "categories": { "de": "Rassekatze", "en": "Classy Cat" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "43.2 lbs.",
+    "weight_us": "43.2lb",
     "weight_eu": "19.6 kg",
     "names": {
       "fr": "Psykokwak",
@@ -6448,11 +6442,11 @@
         "en": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode."
       }
     },
-    "categories": { "de": "Ente", "en": "Duck Pok\u00e9mon" }
+    "categories": { "de": "Ente", "en": "Duck" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "168.9 lbs.",
+    "weight_us": "168.9lb",
     "weight_eu": "76.6 kg",
     "names": {
       "fr": "Akwakwak",
@@ -6576,11 +6570,11 @@
         "en": "It appears by waterways at dusk. It may use telekinetic powers if its forehead glows mysteriously."
       }
     },
-    "categories": { "de": "Ente", "en": "Duck Pok\u00e9mon" }
+    "categories": { "de": "Ente", "en": "Duck" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "61.7 lbs.",
+    "weight_us": "61.7lb",
     "weight_eu": "28.0 kg",
     "names": {
       "fr": "F\u00e9rosinge",
@@ -6704,11 +6698,11 @@
         "en": "It's unsafe to approach if it gets violently enraged for no reason and can't distinguish friends from foes."
       }
     },
-    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey Pok\u00e9mon" }
+    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "70.5 lbs.",
+    "weight_us": "70.5lb",
     "weight_eu": "32.0 kg",
     "names": {
       "fr": "Colossinge",
@@ -6832,11 +6826,11 @@
         "en": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare."
       }
     },
-    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey Pok\u00e9mon" }
+    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey" }
   },
   {
     "height_us": "2'04\"",
-    "weight_us": "41.9 lbs.",
+    "weight_us": "41.9lb",
     "weight_eu": "19.0 kg",
     "names": {
       "fr": "Caninos",
@@ -6960,11 +6954,11 @@
         "en": "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm."
       }
     },
-    "categories": { "de": "Hund", "en": "Puppy Pok\u00e9mon" }
+    "categories": { "de": "Hund", "en": "Puppy" }
   },
   {
     "height_us": "6'03\"",
-    "weight_us": "341.7 lbs.",
+    "weight_us": "341.7lb",
     "weight_eu": "155.0 kg",
     "names": {
       "fr": "Arcanin",
@@ -7088,11 +7082,11 @@
         "en": "Its magnificent bark conveys a sense of majesty. Anyone hearing it can't help but grovel before it."
       }
     },
-    "categories": { "de": "Legend\u00e4r", "en": "Legendary Pok\u00e9mon" }
+    "categories": { "de": "Legend\u00e4r", "en": "Legendary" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "27.3 lbs.",
+    "weight_us": "27.3lb",
     "weight_eu": "12.4 kg",
     "names": {
       "fr": "Ptitard",
@@ -7216,11 +7210,11 @@
         "en": "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole Pok\u00e9mon" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "44.1 lbs.",
+    "weight_us": "44.1lb",
     "weight_eu": "20.0 kg",
     "names": {
       "fr": "T\u00eatarte",
@@ -7344,11 +7338,11 @@
         "en": "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole Pok\u00e9mon" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "119.0 lbs.",
+    "weight_us": "119.0lb",
     "weight_eu": "54.0 kg",
     "names": {
       "fr": "Tartard",
@@ -7472,11 +7466,11 @@
         "en": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole Pok\u00e9mon" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "43.0 lbs.",
+    "weight_us": "43.0lb",
     "weight_eu": "19.5 kg",
     "names": { "fr": "Abra", "de": "Abra", "en": "Abra", "it": "Abra" },
     "height_eu": "0.9 m",
@@ -7595,11 +7589,11 @@
         "en": "If it decides to teleport randomly, it evokes the illusion that it has created copies of itself."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi Pok\u00e9mon" }
+    "categories": { "de": "Psi", "en": "Psi" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "124.6 lbs.",
+    "weight_us": "124.6lb",
     "weight_eu": "56.5 kg",
     "names": {
       "fr": "Kadabra",
@@ -7723,11 +7717,11 @@
         "en": "If it uses its abilities, it emits special alpha waves that cause machines to malfunction."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi Pok\u00e9mon" }
+    "categories": { "de": "Psi", "en": "Psi" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "105.8 lbs.",
+    "weight_us": "105.8lb",
     "weight_eu": "48.0 kg",
     "names": {
       "fr": "Alakazam",
@@ -7851,11 +7845,11 @@
         "en": "Its brain cells multiply continually until it dies. As a result, it remembers everything."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi Pok\u00e9mon" }
+    "categories": { "de": "Psi", "en": "Psi" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "43.0 lbs.",
+    "weight_us": "43.0lb",
     "weight_eu": "19.5 kg",
     "names": {
       "fr": "Machoc",
@@ -7979,11 +7973,11 @@
         "en": "It loves to work out and build its muscles. It is never satisfied, even if it trains hard all day long."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower Pok\u00e9mon" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "155.4 lbs.",
+    "weight_us": "155.4lb",
     "weight_eu": "70.5 kg",
     "names": {
       "fr": "Machopeur",
@@ -8107,11 +8101,11 @@
         "en": "The muscles covering its body teem with power. Even when still, it exudes an amazing sense of strength."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower Pok\u00e9mon" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "286.6 lbs.",
+    "weight_us": "286.6lb",
     "weight_eu": "130.0 kg",
     "names": {
       "fr": "Mackogneur",
@@ -8235,11 +8229,11 @@
         "en": "It uses its four powerful arms to pin the limbs of its foe, then throws the victim over the horizon."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower Pok\u00e9mon" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower" }
   },
   {
     "height_us": "2'04\"",
-    "weight_us": "8.8 lbs.",
+    "weight_us": "8.8lb",
     "weight_eu": "4.0 kg",
     "names": {
       "fr": "Ch\u00e9tiflor",
@@ -8347,11 +8341,11 @@
         "en": "It plants its feet deep underground to replenish water. It can't escape its enemy while it's rooted."
       }
     },
-    "categories": { "de": "Blume", "en": "Flower Pok\u00e9mon" }
+    "categories": { "de": "Blume", "en": "Flower" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "14.1 lbs.",
+    "weight_us": "14.1lb",
     "weight_eu": "6.4 kg",
     "names": {
       "fr": "Boustiflor",
@@ -8459,11 +8453,11 @@
         "en": "If its prey is bigger than its mouth, it slices up the victim with sharp leaves, then eats every morsel."
       }
     },
-    "categories": { "de": "Fliegentod", "en": "Flycatcher Pok\u00e9mon" }
+    "categories": { "de": "Fliegentod", "en": "Flycatcher" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "34.2 lbs.",
+    "weight_us": "34.2lb",
     "weight_eu": "15.5 kg",
     "names": {
       "fr": "Empiflor",
@@ -8573,12 +8567,12 @@
     },
     "categories": {
       "de": "Fliegentod (Fliegentot vor der 5. Gen.)",
-      "en": "Flycatcher Pok\u00e9mon"
+      "en": "Flycatcher"
     }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "100.3 lbs.",
+    "weight_us": "100.3lb",
     "weight_eu": "45.5 kg",
     "names": {
       "fr": "Tentacool",
@@ -8702,11 +8696,11 @@
         "en": "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
       }
     },
-    "categories": { "de": "Qualle", "en": "Jellyfish Pok\u00e9mon" }
+    "categories": { "de": "Qualle", "en": "Jellyfish" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "121.3 lbs.",
+    "weight_us": "121.3lb",
     "weight_eu": "55.0 kg",
     "names": {
       "fr": "Tentacruel",
@@ -8830,11 +8824,11 @@
         "en": "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
       }
     },
-    "categories": { "de": "Qualle", "en": "Jellyfish Pok\u00e9mon" }
+    "categories": { "de": "Qualle", "en": "Jellyfish" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "44.1 lbs.",
+    "weight_us": "44.1lb",
     "weight_eu": "20.0 kg",
     "names": {
       "fr": "Racaillou",
@@ -8958,11 +8952,11 @@
         "en": "It uses its arms to steadily climb steep mountain paths. It swings its fists around if angered."
       }
     },
-    "categories": { "de": "Gestein", "en": "Rock Pok\u00e9mon" }
+    "categories": { "de": "Gestein", "en": "Rock" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "231.5 lbs.",
+    "weight_us": "231.5lb",
     "weight_eu": "105.0 kg",
     "names": {
       "fr": "Gravalanch",
@@ -9086,11 +9080,11 @@
         "en": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path."
       }
     },
-    "categories": { "de": "Gestein", "en": "Rock Pok\u00e9mon" }
+    "categories": { "de": "Gestein", "en": "Rock" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "661.4 lbs.",
+    "weight_us": "661.4lb",
     "weight_eu": "300.0 kg",
     "names": { "fr": "Grolem", "de": "Geowaz", "en": "Golem", "it": "Golem" },
     "height_eu": "1.4 m",
@@ -9209,11 +9203,11 @@
         "en": "It is capable of blowing itself up. It uses this explosive force to jump from mountain to mountain."
       }
     },
-    "categories": { "de": "Urgestein", "en": "Megaton Pok\u00e9mon" }
+    "categories": { "de": "Urgestein", "en": "Megaton" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": { "fr": "Ponyta", "de": "Ponita", "en": "Ponyta", "it": "Ponyta" },
     "height_eu": "1.0 m",
@@ -9316,11 +9310,11 @@
         "en": "Its hind legs, which have hooves that are harder than diamond, kick back at any presence it senses behind it."
       }
     },
-    "categories": { "de": "Feuerpferd", "en": "Fire Horse Pok\u00e9mon" }
+    "categories": { "de": "Feuerpferd", "en": "Fire Horse" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "209.4 lbs.",
+    "weight_us": "209.4lb",
     "weight_eu": "95.0 kg",
     "names": {
       "fr": "Galopa",
@@ -9428,11 +9422,11 @@
         "en": "With incredible acceleration, it reaches its top speed of 150 mph after running just 10 steps."
       }
     },
-    "categories": { "de": "Feuerpferd", "en": "Fire Horse Pok\u00e9mon" }
+    "categories": { "de": "Feuerpferd", "en": "Fire Horse" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "79.4 lbs.",
+    "weight_us": "79.4lb",
     "weight_eu": "36.0 kg",
     "names": {
       "fr": "Ramoloss",
@@ -9556,11 +9550,11 @@
         "en": "A sweet sap leaks from its tail's tip. Although not nutritious, the tail is pleasant to chew on."
       }
     },
-    "categories": { "de": "Schnarcher", "en": "Dopey Pok\u00e9mon" }
+    "categories": { "de": "Schnarcher", "en": "Dopey" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "173.1 lbs.",
+    "weight_us": "173.1lb",
     "weight_eu": "78.5 kg",
     "names": {
       "fr": "Flagadoss",
@@ -9684,11 +9678,11 @@
         "en": "Naturally dull to begin with, it lost its ability to feel pain due to Shellder's seeping poison."
       }
     },
-    "categories": { "de": "Symbiose", "en": "Hermit Crab Pok\u00e9mon" }
+    "categories": { "de": "Symbiose", "en": "Hermit Crab" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "13.2 lbs.",
+    "weight_us": "13.2lb",
     "weight_eu": "6.0 kg",
     "names": {
       "fr": "Magn\u00e9ti",
@@ -9812,11 +9806,11 @@
         "en": "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
       }
     },
-    "categories": { "de": "Magnet", "en": "Magnet Pok\u00e9mon" }
+    "categories": { "de": "Magnet", "en": "Magnet" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "132.3 lbs.",
+    "weight_us": "132.3lb",
     "weight_eu": "60.0 kg",
     "names": {
       "fr": "Magn\u00e9ton",
@@ -9940,11 +9934,11 @@
         "en": "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
       }
     },
-    "categories": { "de": "Magnet", "en": "Magnet Pok\u00e9mon" }
+    "categories": { "de": "Magnet", "en": "Magnet" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "33.1 lbs.",
+    "weight_us": "33.1lb",
     "weight_eu": "15.0 kg",
     "names": {
       "fr": "Canarticho",
@@ -10052,11 +10046,11 @@
         "en": "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk."
       }
     },
-    "categories": { "de": "Wildente", "en": "Wild Duck Pok\u00e9mon" }
+    "categories": { "de": "Wildente", "en": "Wild Duck" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "86.4 lbs.",
+    "weight_us": "86.4lb",
     "weight_eu": "39.2 kg",
     "names": { "fr": "Doduo", "de": "Dodu", "en": "Doduo", "it": "Doduo" },
     "height_eu": "1.4 m",
@@ -10159,11 +10153,11 @@
         "en": "It races through grassy plains with powerful strides, leaving footprints up to four inches deep."
       }
     },
-    "categories": { "de": "Duovogel", "en": "Twin Bird Pok\u00e9mon" }
+    "categories": { "de": "Duovogel", "en": "Twin Bird" }
   },
   {
     "height_us": "5'11\"",
-    "weight_us": "187.8 lbs.",
+    "weight_us": "187.8lb",
     "weight_eu": "85.2 kg",
     "names": { "fr": "Dodrio", "de": "Dodri", "en": "Dodrio", "it": "Dodrio" },
     "height_eu": "1.8 m",
@@ -10266,11 +10260,11 @@
         "en": "If one of the heads gets to eat, the others will be satisfied, too, and they will stop squabbling."
       }
     },
-    "categories": { "de": "Trivogel", "en": "Triple Bird Pok\u00e9mon" }
+    "categories": { "de": "Trivogel", "en": "Triple Bird" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "198.4 lbs.",
+    "weight_us": "198.4lb",
     "weight_eu": "90.0 kg",
     "names": { "fr": "Otaria", "de": "Jurob", "en": "Seel", "it": "Seel" },
     "height_eu": "1.1 m",
@@ -10381,11 +10375,11 @@
         "en": "In daytime, it is often found asleep on the seabed in shallow waters. Its nostrils close while it swims."
       }
     },
-    "categories": { "de": "Seehund", "en": "Sea Lion Pok\u00e9mon" }
+    "categories": { "de": "Seehund", "en": "Sea Lion" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "264.6 lbs.",
+    "weight_us": "264.6lb",
     "weight_eu": "120.0 kg",
     "names": {
       "fr": "Lamantine",
@@ -10501,11 +10495,11 @@
         "en": "It loves frigid seas with ice floes. It uses its long tail to change swimming direction quickly."
       }
     },
-    "categories": { "de": "Seehund", "en": "Sea Lion Pok\u00e9mon" }
+    "categories": { "de": "Seehund", "en": "Sea Lion" }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": {
       "fr": "Tadmorv",
@@ -10629,11 +10623,11 @@
         "en": "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
       }
     },
-    "categories": { "de": "Schlamm", "en": "Sludge Pok\u00e9mon" }
+    "categories": { "de": "Schlamm", "en": "Sludge" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": { "fr": "Grotadmorv", "de": "Sleimok", "en": "Muk", "it": "Muk" },
     "height_eu": "1.2 m",
@@ -10752,11 +10746,11 @@
         "en": "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
       }
     },
-    "categories": { "de": "Schlamm", "en": "Sludge Pok\u00e9mon" }
+    "categories": { "de": "Schlamm", "en": "Sludge" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "8.8 lbs.",
+    "weight_us": "8.8lb",
     "weight_eu": "4.0 kg",
     "names": {
       "fr": "Kokiyas",
@@ -10880,11 +10874,11 @@
         "en": "Grains of sand trapped in its shells mix with its body fluids to form beautiful pearls."
       }
     },
-    "categories": { "de": "Muschel", "en": "Bivalve Pok\u00e9mon" }
+    "categories": { "de": "Muschel", "en": "Bivalve" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "292.1 lbs.",
+    "weight_us": "292.1lb",
     "weight_eu": "132.5 kg",
     "names": {
       "fr": "Crustabri",
@@ -11008,11 +11002,11 @@
         "en": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells."
       }
     },
-    "categories": { "de": "Muschel", "en": "Bivalve Pok\u00e9mon" }
+    "categories": { "de": "Muschel", "en": "Bivalve" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "0.2 lbs.",
+    "weight_us": "0.2lb",
     "weight_eu": "0.1 kg",
     "names": {
       "fr": "Fantominus",
@@ -11136,11 +11130,11 @@
         "en": "Its thin body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
       }
     },
-    "categories": { "de": "Gas", "en": "Gas Pok\u00e9mon" }
+    "categories": { "de": "Gas", "en": "Gas" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "0.2 lbs.",
+    "weight_us": "0.2lb",
     "weight_eu": "0.1 kg",
     "names": {
       "fr": "Spectrum",
@@ -11264,11 +11258,11 @@
         "en": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
       }
     },
-    "categories": { "de": "Gas", "en": "Gas Pok\u00e9mon" }
+    "categories": { "de": "Gas", "en": "Gas" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "89.3 lbs.",
+    "weight_us": "89.3lb",
     "weight_eu": "40.5 kg",
     "names": {
       "fr": "Ectoplasma",
@@ -11392,11 +11386,11 @@
         "en": "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity."
       }
     },
-    "categories": { "de": "Schatten", "en": "Shadow Pok\u00e9mon" }
+    "categories": { "de": "Schatten", "en": "Shadow" }
   },
   {
     "height_us": "28'10\"",
-    "weight_us": "463.0 lbs.",
+    "weight_us": "463.0lb",
     "weight_eu": "210.0 kg",
     "names": { "fr": "Onix", "de": "Onix", "en": "Onix", "it": "Onix" },
     "height_eu": "8.8 m",
@@ -11499,11 +11493,11 @@
         "en": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
       }
     },
-    "categories": { "de": "Felsnatter", "en": "Rock Snake Pok\u00e9mon" }
+    "categories": { "de": "Felsnatter", "en": "Rock Snake" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "71.4 lbs.",
+    "weight_us": "71.4lb",
     "weight_eu": "32.4 kg",
     "names": {
       "fr": "Soporifik",
@@ -11627,11 +11621,11 @@
         "en": "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier."
       }
     },
-    "categories": { "de": "Hypnose", "en": "Hypnosis Pok\u00e9mon" }
+    "categories": { "de": "Hypnose", "en": "Hypnosis" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "166.7 lbs.",
+    "weight_us": "166.7lb",
     "weight_eu": "75.6 kg",
     "names": { "fr": "Hypnomade", "de": "Hypno", "en": "Hypno", "it": "Hypno" },
     "height_eu": "1.6 m",
@@ -11750,11 +11744,11 @@
         "en": "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby."
       }
     },
-    "categories": { "de": "Hypnose", "en": "Hypnosis Pok\u00e9mon" }
+    "categories": { "de": "Hypnose", "en": "Hypnosis" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "14.3 lbs.",
+    "weight_us": "14.3lb",
     "weight_eu": "6.5 kg",
     "names": { "fr": "Krabby", "de": "Krabby", "en": "Krabby", "it": "Krabby" },
     "height_eu": "0.4 m",
@@ -11857,11 +11851,11 @@
         "en": "The pincers break off easily. If it loses a pincer, it somehow becomes incapable of walking sideways."
       }
     },
-    "categories": { "de": "Krabbe", "en": "River Crab Pok\u00e9mon" }
+    "categories": { "de": "Krabbe", "en": "River Crab" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "132.3 lbs.",
+    "weight_us": "132.3lb",
     "weight_eu": "60.0 kg",
     "names": {
       "fr": "Krabboss",
@@ -11969,11 +11963,11 @@
         "en": "Its pincers grow peculiarly large. If it lifts the pincers too fast, it loses its balance and staggers."
       }
     },
-    "categories": { "de": "Kneifer", "en": "Pincer Pok\u00e9mon" }
+    "categories": { "de": "Kneifer", "en": "Pincer" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "22.9 lbs.",
+    "weight_us": "22.9lb",
     "weight_eu": "10.4 kg",
     "names": {
       "fr": "Voltorbe",
@@ -12081,11 +12075,11 @@
         "en": "It was discovered when Pok\u00e9 Balls were introduced. It is said that there is some connection."
       }
     },
-    "categories": { "de": "Ball", "en": "Ball Pok\u00e9mon" }
+    "categories": { "de": "Ball", "en": "Ball" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "146.8 lbs.",
+    "weight_us": "146.8lb",
     "weight_eu": "66.6 kg",
     "names": {
       "fr": "\u00c9lectrode",
@@ -12193,11 +12187,11 @@
         "en": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
       }
     },
-    "categories": { "de": "Ball", "en": "Ball Pok\u00e9mon" }
+    "categories": { "de": "Ball", "en": "Ball" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "5.5 lbs.",
+    "weight_us": "5.5lb",
     "weight_eu": "2.5 kg",
     "names": {
       "fr": "N\u0153un\u0153uf",
@@ -12321,11 +12315,11 @@
         "en": "Using telepathy only they can employ, they always form a cluster of six Exeggcute."
       }
     },
-    "categories": { "de": "Ei", "en": "Egg Pok\u00e9mon" }
+    "categories": { "de": "Ei", "en": "Egg" }
   },
   {
     "height_us": "6'07\"",
-    "weight_us": "264.6 lbs.",
+    "weight_us": "264.6lb",
     "weight_eu": "120.0 kg",
     "names": {
       "fr": "Noadkoko",
@@ -12449,11 +12443,11 @@
         "en": "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
       }
     },
-    "categories": { "de": "Palmfrucht", "en": "Coconut Pok\u00e9mon" }
+    "categories": { "de": "Palmfrucht", "en": "Coconut" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "14.3 lbs.",
+    "weight_us": "14.3lb",
     "weight_eu": "6.5 kg",
     "names": {
       "fr": "Osselait",
@@ -12577,11 +12571,11 @@
         "en": "It always wears the skull of its dead mother, so no one has any idea what its hidden face looks like."
       }
     },
-    "categories": { "de": "Einsam", "en": "Lonely Pok\u00e9mon" }
+    "categories": { "de": "Einsam", "en": "Lonely" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "99.2 lbs.",
+    "weight_us": "99.2lb",
     "weight_eu": "45.0 kg",
     "names": {
       "fr": "Ossatueur",
@@ -12705,11 +12699,11 @@
         "en": "It collects bones from an unknown place. Some whisper that a Marowak graveyard exists somewhere in the world."
       }
     },
-    "categories": { "de": "Knochenfan", "en": "Bone Keeper Pok\u00e9mon" }
+    "categories": { "de": "Knochenfan", "en": "Bone Keeper" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "109.8 lbs.",
+    "weight_us": "109.8lb",
     "weight_eu": "49.8 kg",
     "names": {
       "fr": "Kicklee",
@@ -12817,11 +12811,11 @@
         "en": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
       }
     },
-    "categories": { "de": "Kicker", "en": "Kicking Pok\u00e9mon" }
+    "categories": { "de": "Kicker", "en": "Kicking" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "110.7 lbs.",
+    "weight_us": "110.7lb",
     "weight_eu": "50.2 kg",
     "names": {
       "fr": "Tygnon",
@@ -12929,11 +12923,11 @@
         "en": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn."
       }
     },
-    "categories": { "de": "Puncher", "en": "Punching Pok\u00e9mon" }
+    "categories": { "de": "Puncher", "en": "Punching" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "144.4 lbs.",
+    "weight_us": "144.4lb",
     "weight_eu": "65.5 kg",
     "names": {
       "fr": "Excelangue",
@@ -13049,11 +13043,11 @@
         "en": "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful."
       }
     },
-    "categories": { "de": "Schlecker", "en": "Licking Pok\u00e9mon" }
+    "categories": { "de": "Schlecker", "en": "Licking" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "2.2 lbs.",
+    "weight_us": "2.2lb",
     "weight_eu": "1.0 kg",
     "names": {
       "fr": "Smogo",
@@ -13161,11 +13155,11 @@
         "en": "The poisonous gases it contains are a little bit lighter than air, keeping it slightly airborne."
       }
     },
-    "categories": { "de": "Giftwolke", "en": "Poison Gas Pok\u00e9mon" }
+    "categories": { "de": "Giftwolke", "en": "Poison Gas" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "20.9 lbs.",
+    "weight_us": "20.9lb",
     "weight_eu": "9.5 kg",
     "names": {
       "fr": "Smogogo",
@@ -13273,11 +13267,11 @@
         "en": "Top-grade perfume is made using its internal poison gases by diluting them to the highest level."
       }
     },
-    "categories": { "de": "Giftwolke", "en": "Poison Gas Pok\u00e9mon" }
+    "categories": { "de": "Giftwolke", "en": "Poison Gas" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "253.5 lbs.",
+    "weight_us": "253.5lb",
     "weight_eu": "115.0 kg",
     "names": {
       "fr": "Rhinocorne",
@@ -13385,11 +13379,11 @@
         "en": "It doesn't care if there is anything in its way. It just charges and destroys all obstacles."
       }
     },
-    "categories": { "de": "Stachler", "en": "Spikes Pok\u00e9mon" }
+    "categories": { "de": "Stachler", "en": "Spikes" }
   },
   {
     "height_us": "6'03\"",
-    "weight_us": "264.6 lbs.",
+    "weight_us": "264.6lb",
     "weight_eu": "120.0 kg",
     "names": {
       "fr": "Rhinof\u00e9ros",
@@ -13497,11 +13491,11 @@
         "en": "Its brain developed when it began walking on hind legs. Its thick hide protects it even in magma."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill Pok\u00e9mon" }
+    "categories": { "de": "Bohrer", "en": "Drill" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "76.3 lbs.",
+    "weight_us": "76.3lb",
     "weight_eu": "34.6 kg",
     "names": {
       "fr": "Leveinard",
@@ -13625,11 +13619,11 @@
         "en": "Being few in number and difficult to capture, it is said to bring happiness to the Trainer who catches it."
       }
     },
-    "categories": { "de": "Ei", "en": "Egg Pok\u00e9mon" }
+    "categories": { "de": "Ei", "en": "Egg" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "77.2 lbs.",
+    "weight_us": "77.2lb",
     "weight_eu": "35.0 kg",
     "names": {
       "fr": "Saquedeneu",
@@ -13737,11 +13731,11 @@
         "en": "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared."
       }
     },
-    "categories": { "de": "Ranke", "en": "Vine Pok\u00e9mon" }
+    "categories": { "de": "Ranke", "en": "Vine" }
   },
   {
     "height_us": "7'03\"",
-    "weight_us": "176.4 lbs.",
+    "weight_us": "176.4lb",
     "weight_eu": "80.0 kg",
     "names": {
       "fr": "Kangourex",
@@ -13865,11 +13859,11 @@
         "en": "To protect its young, it will never give up during battle, no matter how badly wounded it is."
       }
     },
-    "categories": { "de": "Muttertier", "en": "Parent Pok\u00e9mon" }
+    "categories": { "de": "Muttertier", "en": "Parent" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "17.6 lbs.",
+    "weight_us": "17.6lb",
     "weight_eu": "8.0 kg",
     "names": {
       "fr": "Hypotrempe",
@@ -13977,11 +13971,11 @@
         "en": "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon Pok\u00e9mon" }
+    "categories": { "de": "Drache", "en": "Dragon" }
   },
   {
     "height_us": "3'11\"",
-    "weight_us": "55.1 lbs.",
+    "weight_us": "55.1lb",
     "weight_eu": "25.0 kg",
     "names": {
       "fr": "Hypoc\u00e9an",
@@ -14089,11 +14083,11 @@
         "en": "Its fin tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon Pok\u00e9mon" }
+    "categories": { "de": "Drache", "en": "Dragon" }
   },
   {
     "height_us": "2'00\"",
-    "weight_us": "33.1 lbs.",
+    "weight_us": "33.1lb",
     "weight_eu": "15.0 kg",
     "names": {
       "fr": "Poissir\u00e8ne",
@@ -14217,11 +14211,11 @@
         "en": "A strong swimmer, it is capable of swimming nonstop up fast streams at a steady speed of five knots per hour."
       }
     },
-    "categories": { "de": "Goldfisch", "en": "Goldfish Pok\u00e9mon" }
+    "categories": { "de": "Goldfisch", "en": "Goldfish" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "86.0 lbs.",
+    "weight_us": "86.0lb",
     "weight_eu": "39.0 kg",
     "names": {
       "fr": "Poissoroy",
@@ -14345,11 +14339,11 @@
         "en": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
       }
     },
-    "categories": { "de": "Goldfisch", "en": "Goldfish Pok\u00e9mon" }
+    "categories": { "de": "Goldfisch", "en": "Goldfish" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "76.1 lbs.",
+    "weight_us": "76.1lb",
     "weight_eu": "34.5 kg",
     "names": { "fr": "Stari", "de": "Sterndu", "en": "Staryu", "it": "Staryu" },
     "height_eu": "0.8 m",
@@ -14468,11 +14462,11 @@
         "en": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact."
       }
     },
-    "categories": { "de": "Sternform", "en": "Star Shape Pok\u00e9mon" }
+    "categories": { "de": "Sternform", "en": "Star Shape" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "176.4 lbs.",
+    "weight_us": "176.4lb",
     "weight_eu": "80.0 kg",
     "names": {
       "fr": "Staross",
@@ -14596,11 +14590,11 @@
         "en": "Regardless of the environment it lives in, its body grows to form a symmetrical geometric shape."
       }
     },
-    "categories": { "de": "Mysteri\u00f6s", "en": "Mysterious Pok\u00e9mon" }
+    "categories": { "de": "Mysteri\u00f6s", "en": "Mysterious" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "120.1 lbs.",
+    "weight_us": "120.1lb",
     "weight_eu": "54.5 kg",
     "names": {
       "fr": "M. Mime",
@@ -14716,11 +14710,11 @@
         "en": "Its fingertips emit a peculiar force field that hardens air to create an actual wall."
       }
     },
-    "categories": { "de": "Sperre", "en": "Barrier Pok\u00e9mon" }
+    "categories": { "de": "Sperre", "en": "Barrier" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "123.5 lbs.",
+    "weight_us": "123.5lb",
     "weight_eu": "56.0 kg",
     "names": {
       "fr": "Ins\u00e9cateur",
@@ -14844,11 +14838,11 @@
         "en": "When it moves, it leaves only a blur. If it hides in grass, its protective coloration makes it invisible."
       }
     },
-    "categories": { "de": "Mantis", "en": "Mantis Pok\u00e9mon" }
+    "categories": { "de": "Mantis", "en": "Mantis" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "89.5 lbs.",
+    "weight_us": "89.5lb",
     "weight_eu": "40.6 kg",
     "names": { "fr": "Lippoutou", "de": "Rossana", "en": "Jynx", "it": "Jynx" },
     "height_eu": "1.4 m",
@@ -14959,11 +14953,11 @@
         "en": "It speaks a language similar to that of humans. However, it seems to use dancing to communicate."
       }
     },
-    "categories": { "de": "Humanotyp", "en": "Human Shape Pok\u00e9mon" }
+    "categories": { "de": "Humanotyp", "en": "Human Shape" }
   },
   {
     "height_us": "3'07\"",
-    "weight_us": "66.1 lbs.",
+    "weight_us": "66.1lb",
     "weight_eu": "30.0 kg",
     "names": {
       "fr": "\u00c9lektek",
@@ -15087,11 +15081,11 @@
         "en": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
       }
     },
-    "categories": { "de": "Elektro", "en": "Electric Pok\u00e9mon" }
+    "categories": { "de": "Elektro", "en": "Electric" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "98.1 lbs.",
+    "weight_us": "98.1lb",
     "weight_eu": "44.5 kg",
     "names": { "fr": "Magmar", "de": "Magmar", "en": "Magmar", "it": "Magmar" },
     "height_eu": "1.3 m",
@@ -15210,11 +15204,11 @@
         "en": "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun."
       }
     },
-    "categories": { "de": "Brenner", "en": "Spitfire Pok\u00e9mon" }
+    "categories": { "de": "Brenner", "en": "Spitfire" }
   },
   {
     "height_us": "4'11\"",
-    "weight_us": "121.3 lbs.",
+    "weight_us": "121.3lb",
     "weight_eu": "55.0 kg",
     "names": {
       "fr": "Scarabrute",
@@ -15338,11 +15332,11 @@
         "en": "It swings its long pincer horns wildly to attack. During cold periods, it hides deep in forests."
       }
     },
-    "categories": { "de": "Kneifk\u00e4fer", "en": "Stag Beetle Pok\u00e9mon" }
+    "categories": { "de": "Kneifk\u00e4fer", "en": "Stag Beetle" }
   },
   {
     "height_us": "4'07\"",
-    "weight_us": "194.9 lbs.",
+    "weight_us": "194.9lb",
     "weight_eu": "88.4 kg",
     "names": { "fr": "Tauros", "de": "Tauros", "en": "Tauros", "it": "Tauros" },
     "height_eu": "1.4 m",
@@ -15461,11 +15455,11 @@
         "en": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
       }
     },
-    "categories": { "de": "Wildbulle", "en": "Wild Bull Pok\u00e9mon" }
+    "categories": { "de": "Wildbulle", "en": "Wild Bull" }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "22.0 lbs.",
+    "weight_us": "22.0lb",
     "weight_eu": "10.0 kg",
     "names": {
       "fr": "Magicarpe",
@@ -15589,11 +15583,11 @@
         "en": "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump."
       }
     },
-    "categories": { "de": "Fisch", "en": "Fish Pok\u00e9mon" }
+    "categories": { "de": "Fisch", "en": "Fish" }
   },
   {
     "height_us": "21'04\"",
-    "weight_us": "518.1 lbs.",
+    "weight_us": "518.1lb",
     "weight_eu": "235.0 kg",
     "names": {
       "fr": "L\u00e9viator",
@@ -15717,11 +15711,11 @@
         "en": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
       }
     },
-    "categories": { "de": "Grausam", "en": "Atrocious Pok\u00e9mon" }
+    "categories": { "de": "Grausam", "en": "Atrocious" }
   },
   {
     "height_us": "8'02\"",
-    "weight_us": "485.0 lbs.",
+    "weight_us": "485.0lb",
     "weight_eu": "220.0 kg",
     "names": {
       "fr": "Lokhlass",
@@ -15845,11 +15839,11 @@
         "en": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood."
       }
     },
-    "categories": { "de": "Transport", "en": "Transport Pok\u00e9mon" }
+    "categories": { "de": "Transport", "en": "Transport" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "8.8 lbs.",
+    "weight_us": "8.8lb",
     "weight_eu": "4.0 kg",
     "names": {
       "fr": "M\u00e9tamorph",
@@ -15973,11 +15967,11 @@
         "en": "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise."
       }
     },
-    "categories": { "de": "Transform", "en": "Transform Pok\u00e9mon" }
+    "categories": { "de": "Transform", "en": "Transform" }
   },
   {
     "height_us": "1'00\"",
-    "weight_us": "14.3 lbs.",
+    "weight_us": "14.3lb",
     "weight_eu": "6.5 kg",
     "names": {
       "fr": "\u00c9voli",
@@ -16101,11 +16095,11 @@
         "en": "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes."
       }
     },
-    "categories": { "de": "Evolution", "en": "Evolution Pok\u00e9mon" }
+    "categories": { "de": "Evolution", "en": "Evolution" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "63.9 lbs.",
+    "weight_us": "63.9lb",
     "weight_eu": "29.0 kg",
     "names": {
       "fr": "Aquali",
@@ -16229,11 +16223,11 @@
         "en": "It prefers beautiful shores. With cells similar to water molecules, it could melt in water."
       }
     },
-    "categories": { "de": "Blubblase", "en": "Bubble Jet Pok\u00e9mon" }
+    "categories": { "de": "Blubblase", "en": "Bubble Jet" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "54.0 lbs.",
+    "weight_us": "54.0lb",
     "weight_eu": "24.5 kg",
     "names": {
       "fr": "Voltali",
@@ -16357,11 +16351,11 @@
         "en": "Every hair on its body starts to stand sharply on end if it becomes charged with electricity."
       }
     },
-    "categories": { "de": "Blitz", "en": "Lightning Pok\u00e9mon" }
+    "categories": { "de": "Blitz", "en": "Lightning" }
   },
   {
     "height_us": "2'11\"",
-    "weight_us": "55.1 lbs.",
+    "weight_us": "55.1lb",
     "weight_eu": "25.0 kg",
     "names": {
       "fr": "Pyroli",
@@ -16485,11 +16479,11 @@
         "en": "It fluffs out its fur collar to cool down its body temperature, which can reach 1,650 degrees Fahrenheit."
       }
     },
-    "categories": { "de": "Feuer", "en": "Flame Pok\u00e9mon" }
+    "categories": { "de": "Feuer", "en": "Flame" }
   },
   {
     "height_us": "2'07\"",
-    "weight_us": "80.5 lbs.",
+    "weight_us": "80.5lb",
     "weight_eu": "36.5 kg",
     "names": {
       "fr": "Porygon",
@@ -16614,11 +16608,11 @@
         "en": "A manmade Pok\u00e9mon that came about as a result of research. It is programmed with only basic motions."
       }
     },
-    "categories": { "de": "Virtuell", "en": "Virtual Pok\u00e9mon" }
+    "categories": { "de": "Virtuell", "en": "Virtual" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "16.5 lbs.",
+    "weight_us": "16.5lb",
     "weight_eu": "7.5 kg",
     "names": {
       "fr": "Amonita",
@@ -16734,11 +16728,11 @@
         "en": "This Pok\u00e9mon from ancient times is said to have navigated the sea by adeptly twisting its 10 tentacles."
       }
     },
-    "categories": { "de": "Spirale", "en": "Spiral Pok\u00e9mon" }
+    "categories": { "de": "Spirale", "en": "Spiral" }
   },
   {
     "height_us": "3'03\"",
-    "weight_us": "77.2 lbs.",
+    "weight_us": "77.2lb",
     "weight_eu": "35.0 kg",
     "names": {
       "fr": "Amonistar",
@@ -16854,11 +16848,11 @@
         "en": "Once wrapped around its prey, it never lets go. It eats the prey by tearing at it with sharp fangs."
       }
     },
-    "categories": { "de": "Spirale", "en": "Spiral Pok\u00e9mon" }
+    "categories": { "de": "Spirale", "en": "Spiral" }
   },
   {
     "height_us": "1'08\"",
-    "weight_us": "25.4 lbs.",
+    "weight_us": "25.4lb",
     "weight_eu": "11.5 kg",
     "names": { "fr": "Kabuto", "de": "Kabuto", "en": "Kabuto", "it": "Kabuto" },
     "height_eu": "0.5 m",
@@ -16969,11 +16963,11 @@
         "en": "This Pok\u00e9mon lived in ancient times. On rare occasions, it has been discovered as a living fossil."
       }
     },
-    "categories": { "de": "Schaltier", "en": "Shellfish Pok\u00e9mon" }
+    "categories": { "de": "Schaltier", "en": "Shellfish" }
   },
   {
     "height_us": "4'03\"",
-    "weight_us": "89.3 lbs.",
+    "weight_us": "89.3lb",
     "weight_eu": "40.5 kg",
     "names": {
       "fr": "Kabutops",
@@ -17089,11 +17083,11 @@
         "en": "With sharp claws, this ferocious, ancient Pok\u00e9mon rips apart prey and sucks their body fluids."
       }
     },
-    "categories": { "de": "Schaltier", "en": "Shellfish Pok\u00e9mon" }
+    "categories": { "de": "Schaltier", "en": "Shellfish" }
   },
   {
     "height_us": "5'11\"",
-    "weight_us": "130.1 lbs.",
+    "weight_us": "130.1lb",
     "weight_eu": "59.0 kg",
     "names": {
       "fr": "Pt\u00e9ra",
@@ -17217,11 +17211,11 @@
         "en": "This vicious Pok\u00e9mon is said to have flown in ancient skies while shrieking high-pitched cries."
       }
     },
-    "categories": { "de": "Fossil", "en": "Fossil Pok\u00e9mon" }
+    "categories": { "de": "Fossil", "en": "Fossil" }
   },
   {
     "height_us": "6'11\"",
-    "weight_us": "1014.1 lbs.",
+    "weight_us": "1014.1lb",
     "weight_eu": "460.0 kg",
     "names": {
       "fr": "Ronflex",
@@ -17345,11 +17339,11 @@
         "en": "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground."
       }
     },
-    "categories": { "de": "Tagtr\u00e4umer", "en": "Sleeping Pok\u00e9mon" }
+    "categories": { "de": "Tagtr\u00e4umer", "en": "Sleeping" }
   },
   {
     "height_us": "5'07\"",
-    "weight_us": "122.1 lbs.",
+    "weight_us": "122.1lb",
     "weight_eu": "55.4 kg",
     "names": {
       "fr": "Artikodin",
@@ -17457,11 +17451,11 @@
         "en": "One of the legendary bird Pok\u00e9mon, it chills moisture in the atmosphere to create snow while flying."
       }
     },
-    "categories": { "de": "Eis", "en": "Freeze Pok\u00e9mon" }
+    "categories": { "de": "Eis", "en": "Freeze" }
   },
   {
     "height_us": "5'03\"",
-    "weight_us": "116.0 lbs.",
+    "weight_us": "116.0lb",
     "weight_eu": "52.6 kg",
     "names": {
       "fr": "\u00c9lecthor",
@@ -17569,11 +17563,11 @@
         "en": "This legendary bird Pok\u00e9mon is said to appear only when a thundercloud parts into two halves."
       }
     },
-    "categories": { "de": "Elektro", "en": "Electric Pok\u00e9mon" }
+    "categories": { "de": "Elektro", "en": "Electric" }
   },
   {
     "height_us": "6'07\"",
-    "weight_us": "132.3 lbs.",
+    "weight_us": "132.3lb",
     "weight_eu": "60.0 kg",
     "names": {
       "fr": "Sulfura",
@@ -17681,11 +17675,11 @@
         "en": "This legendary bird Pok\u00e9mon is said to bring early spring to the wintry lands it visits."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame Pok\u00e9mon" }
+    "categories": { "de": "Flamme", "en": "Flame" }
   },
   {
     "height_us": "5'11\"",
-    "weight_us": "7.3 lbs.",
+    "weight_us": "7.3lb",
     "weight_eu": "3.3 kg",
     "names": {
       "fr": "Minidraco",
@@ -17809,11 +17803,11 @@
         "en": "This Pok\u00e9mon is full of life energy. It continually sheds its skin and grows steadily larger."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon Pok\u00e9mon" }
+    "categories": { "de": "Drache", "en": "Dragon" }
   },
   {
     "height_us": "13'01\"",
-    "weight_us": "36.4 lbs.",
+    "weight_us": "36.4lb",
     "weight_eu": "16.5 kg",
     "names": {
       "fr": "Draco",
@@ -17937,11 +17931,11 @@
         "en": "Its crystalline orbs appear to give this Pok\u00e9mon the power to freely control the weather."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon Pok\u00e9mon" }
+    "categories": { "de": "Drache", "en": "Dragon" }
   },
   {
     "height_us": "7'03\"",
-    "weight_us": "463.0 lbs.",
+    "weight_us": "463.0lb",
     "weight_eu": "210.0 kg",
     "names": {
       "fr": "Dracolosse",
@@ -18065,11 +18059,11 @@
         "en": "This marine Pok\u00e9mon has an impressive build that lets it freely fly over raging seas without trouble."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon Pok\u00e9mon" }
+    "categories": { "de": "Drache", "en": "Dragon" }
   },
   {
     "height_us": "6'07\"",
-    "weight_us": "269.0 lbs.",
+    "weight_us": "269.0lb",
     "weight_eu": "122.0 kg",
     "names": { "fr": "Mewtwo", "de": "Mewtu", "en": "Mewtwo", "it": "Mewtwo" },
     "height_eu": "2.0 m",
@@ -18172,11 +18166,11 @@
         "en": "It usually remains motionless to conserve energy, so that it may unleash its full power in battle."
       }
     },
-    "categories": { "de": "Genmutant", "en": "Genetic Pok\u00e9mon" }
+    "categories": { "de": "Genmutant", "en": "Genetic" }
   },
   {
     "height_us": "1'04\"",
-    "weight_us": "8.8 lbs.",
+    "weight_us": "8.8lb",
     "weight_eu": "4.0 kg",
     "names": { "fr": "Mew", "de": "Mew", "en": "Mew", "it": "Mew" },
     "height_eu": "0.4 m",
@@ -18279,6 +18273,6 @@
         "en": "Its DNA is said to contain the genetic codes of all Pok\u00e9mon, so it can use all kinds of techniques."
       }
     },
-    "categories": { "de": "Neue Art", "en": "New Species Pok\u00e9mon" }
+    "categories": { "de": "Neue Art", "en": "New Species" }
   }
 ]
