@@ -29,6 +29,11 @@ const ListItem = ({ pokemon, selected, setSelection, navigation }) => {
           />
         )}
         <View style={styles.pokemonName}>
+          <Image
+            style={styles.pokeball}
+            resizeMode="contain"
+            source={require("../../../../../data/sprites/red-blue/pokeball.png")}
+          />
           <PokemonText>{pokemon.names.en}</PokemonText>
         </View>
       </View>
@@ -38,7 +43,9 @@ const ListItem = ({ pokemon, selected, setSelection, navigation }) => {
 
 const styles = StyleSheet.create({
   pokemonName: {
-    paddingLeft: "27%"
+    paddingLeft: "22%",
+    flexDirection: "row",
+    alignItems: "baseline"
   },
   id: {
     paddingLeft: "8%"
@@ -51,6 +58,10 @@ const styles = StyleSheet.create({
   selector: {
     height: 22,
     position: "absolute"
+  },
+  pokeball: {
+    height: 16,
+    width: 16
   }
 });
 
