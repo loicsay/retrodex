@@ -35,9 +35,12 @@ const BackButton = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   backButton: {
-    paddingLeft: "4%",
+    position: "absolute",
+    bottom: "26%",
+    paddingLeft: "6%",
     flexDirection: "row",
-    alignItems: "baseline"
+    alignItems: "baseline",
+    backgroundColor: "rgb(245, 245, 245)",
   },
   selector: {
     height: 16

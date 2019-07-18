@@ -11,7 +11,7 @@ const Data = ({ uppercase = true, children }) => (
 
 const styles = StyleSheet.create({
   data: {
-    marginTop: 16
+    marginTop: "8%"
   }
 });
 

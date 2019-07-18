@@ -1,7 +1,9 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native";
+import { View, Image, StyleSheet, Dimensions } from "react-native";
 import PokemonText from "../../../PokemonText";
 import Data from "./Data";
+
+const deviceWidth = Dimensions.get("window").width;
 
 const Infos = ({ imageSource, pokemon }) => {
   // Transform the national id with 3 numbers
@@ -15,7 +17,7 @@ const Infos = ({ imageSource, pokemon }) => {
           <Image
             style={styles.number}
             source={require("../../../../../data/sprites/red-blue/number.png")}
-            resizeMode="contain"
+            resizeMode="cover"
           />
           <PokemonText>{pokemonId}</PokemonText>
         </View>
@@ -32,9 +34,11 @@ const Infos = ({ imageSource, pokemon }) => {
 
 const styles = StyleSheet.create({
   infosContainer: {
-    flexDirection: "row"
+    flexDirection: "row",
+    justifyContent: "space-around"
   },
   pokemonImage: {
+    flex: 1,
     paddingLeft: 8,
     alignItems: "center"
   },
@@ -45,13 +49,14 @@ const styles = StyleSheet.create({
   number: {
     width: 32,
     height: 13,
-    marginRight: 6,
+    marginRight: 6
   },
   image: {
-    width: 150,
-    height: 150
+    height: deviceWidth / 2.5,
+    width: deviceWidth / 2.5
   },
   pokemonData: {
+    flex: 1.2,
     paddingLeft: "4%",
     justifyContent: "flex-end"
   }

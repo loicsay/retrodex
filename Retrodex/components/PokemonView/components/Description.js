@@ -12,7 +12,7 @@ const Description = ({ description }) => (
 
 const styles = StyleSheet.create({
   description: {
-    height: "70%",
+    height: "100%",
     marginTop: "4%",
     padding: "4%",
     borderStyle: "solid",

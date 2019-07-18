@@ -18,8 +18,8 @@ const PokemonView = ({ navigation }) => {
           pokemon={pokemon}
         />
         <Description description={pokemon.pokedex_entries.Blue.en} />
-        <BackButton navigation={navigation} />
       </View>
+      <BackButton navigation={navigation} />
     </Layout>
   );
 };

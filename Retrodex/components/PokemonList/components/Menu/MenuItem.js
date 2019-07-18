@@ -11,8 +11,8 @@ const MenuItem = ({ label, children }) => (
 
 const styles = StyleSheet.create({
   menuItem: {
-    paddingLeft: 26,
-    marginBottom: 14
+    paddingLeft: "24%",
+    marginBottom: "8%"
   }
 });
 
