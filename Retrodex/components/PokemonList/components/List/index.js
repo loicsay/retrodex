@@ -1,7 +1,11 @@
 import React from "react";
 import { ScrollView, View, StyleSheet } from "react-native";
+import Sound from "react-native-sound";
+
 import PokemonText from "../../../PokemonText";
 import ListItem from "./ListItem";
+
+const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
 const List = ({ pokemons, selection, setSelection, navigation }) => (
   <View style={styles.list}>
@@ -17,6 +21,7 @@ const List = ({ pokemons, selection, setSelection, navigation }) => (
             selected={selection === pokemon.national_id}
             setSelection={setSelection}
             navigation={navigation}
+            selectSound={selectSound}
           />
         ))}
       </View>

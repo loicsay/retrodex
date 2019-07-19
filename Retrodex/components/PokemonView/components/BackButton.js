@@ -13,8 +13,8 @@ const BackButton = ({ navigation }) => {
   const handleOnPressOut = () => setPressIn(false);
 
   const imageSource = pressIn
-    ? require("../../../../data/sprites/red-blue/selector-white.png")
-    : require("../../../../data/sprites/red-blue/selector.png");
+    ? require("../../../../data/red-blue/sprites/selector-white.png")
+    : require("../../../../data/red-blue/sprites/selector.png");
 
   return (
     <TouchableOpacity
@@ -36,8 +36,8 @@ const BackButton = ({ navigation }) => {
 const styles = StyleSheet.create({
   backButton: {
     position: "absolute",
-    bottom: "26%",
-    paddingLeft: "6%",
+    bottom: "22%",
+    padding: "4%",
     flexDirection: "row",
     alignItems: "baseline",
     backgroundColor: "rgb(245, 245, 245)",

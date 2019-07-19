@@ -79,6 +79,19 @@ project.ext.react = [
     entryFile: "index.js"
 ]
 
+def getPassword(String currentUser, String keyChain) {
+   def stdout = new ByteArrayOutputStream()
+   def stderr = new ByteArrayOutputStream()
+   exec {
+       commandLine 'security', '-q', 'find-generic-password', '-a', currentUser, '-s', keyChain, '-w'
+       standardOutput = stdout
+       errorOutput = stderr
+       ignoreExitValue true
+   }
+   //noinspection GroovyAssignabilityCheck
+      stdout.toString().trim()
+}
+
 apply from: "../../node_modules/react-native/react.gradle"
 
 /**
@@ -105,6 +118,8 @@ def enableProguardInReleaseBuilds = false
  */
 def useIntlJsc = false
 
+def pass = getPassword("loic.say@gmail.com","android_keystore")
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
@@ -119,6 +134,16 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword pass
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword pass
+            }
+        }
     }
     splits {
         abi {
@@ -146,6 +171,7 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release

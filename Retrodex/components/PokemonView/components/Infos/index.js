@@ -16,7 +16,7 @@ const Infos = ({ imageSource, pokemon }) => {
         <View style={styles.pokemonNumber}>
           <Image
             style={styles.number}
-            source={require("../../../../../data/sprites/red-blue/number.png")}
+            source={require("../../../../../data/red-blue/sprites/number.png")}
             resizeMode="cover"
           />
           <PokemonText>{pokemonId}</PokemonText>

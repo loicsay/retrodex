@@ -3,10 +3,15 @@ import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 import PokemonText from "../../../PokemonText";
 
-const ListItem = ({ pokemon, selected, setSelection, navigation }) => {
-  const handleOnPressIn = () => setSelection(pokemon.national_id);
+const ListItem = ({ pokemon, selectSound, selected, setSelection, navigation }) => {
+  const handleOnPressIn = () => {
+    setSelection(pokemon.national_id);
+  };
 
-  const handleOnPress = () => navigation.navigate("PokemonView", { pokemon });
+  const handleOnPress = () => {
+    selectSound.play();
+    navigation.navigate("PokemonView", { pokemon });
+  };
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
@@ -25,14 +30,14 @@ const ListItem = ({ pokemon, selected, setSelection, navigation }) => {
           <Image
             style={styles.selector}
             resizeMode="contain"
-            source={require("../../../../../data/sprites/red-blue/selector.png")}
+            source={require("../../../../../data/red-blue/sprites/selector.png")}
           />
         )}
         <View style={styles.pokemonName}>
           <Image
             style={styles.pokeball}
             resizeMode="contain"
-            source={require("../../../../../data/sprites/red-blue/pokeball.png")}
+            source={require("../../../../../data/red-blue/sprites/pokeball.png")}
           />
           <PokemonText>{pokemon.names.en}</PokemonText>
         </View>
