@@ -6,23 +6,14 @@ import Menu from "./components/Menu";
 import pokemons from "../../../data/pokemons.json";
 import Layout from "../Layout";
 
-const PokemonList = ({ navigation }) => {
-  const [selection, setSelection] = useState(1);
-
-  return (
-    <Layout>
-      <View style={styles.listContainer}>
-        <List
-          pokemons={pokemons}
-          selection={selection}
-          setSelection={setSelection}
-          navigation={navigation}
-        />
-        <Menu />
-      </View>
-    </Layout>
-  );
-};
+const PokemonList = ({ navigation }) => (
+  <Layout>
+    <View style={styles.listContainer}>
+      <List pokemons={pokemons} navigation={navigation} />
+      <Menu />
+    </View>
+  </Layout>
+);
 
 PokemonList.navigationOptions = {
   headerStyle: {

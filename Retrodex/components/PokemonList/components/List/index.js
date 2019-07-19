@@ -1,40 +1,61 @@
-import React from "react";
-import { ScrollView, View, StyleSheet } from "react-native";
+import React, { useState, useEffect } from "react";
+import { FlatList, View, StyleSheet } from "react-native";
 import Sound from "react-native-sound";
 
 import PokemonText from "../../../PokemonText";
 import ListItem from "./ListItem";
 
-const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
+const selectSound = new Sound("select.wav", Sound.MAIN_BUNDLE);
 
-const List = ({ pokemons, selection, setSelection, navigation }) => (
-  <View style={styles.list}>
-    <View style={styles.title}>
-      <PokemonText>CONTENTS</PokemonText>
-    </View>
-    <ScrollView>
-      <View style={styles.listContainer}>
-        {pokemons.map(pokemon => (
-          <ListItem
-            key={pokemon.national_id}
-            pokemon={pokemon}
-            selected={selection === pokemon.national_id}
-            setSelection={setSelection}
-            navigation={navigation}
-            selectSound={selectSound}
-          />
-        ))}
+const List = ({ pokemons, navigation }) => {
+  const [selection, setSelection] = useState(new Map());
+
+  useEffect(() => {
+    onPressItem(1);
+  }, []);
+
+  const keyExtractor = (item, index) => index.toString();
+
+  const onPressItem = id => {
+    const selection = new Map(selection);
+    selection.set(id, !selection.get(id));
+    setSelection(selection);
+  };
+
+  const renderItem = ({ item }) => (
+    <ListItem
+      key={item.national_id}
+      pokemon={item}
+      selected={Boolean(selection.get(item.national_id))}
+      onPressItem={onPressItem}
+      selectSound={selectSound}
+      navigation={navigation}
+    />
+  );
+
+  return (
+    <View style={styles.list}>
+      <View style={styles.title}>
+        <PokemonText>CONTENTS</PokemonText>
       </View>
-    </ScrollView>
-  </View>
-);
+      <FlatList
+        style={styles.listContainer}
+        data={pokemons}
+        extraData={{ selection }}
+        keyExtractor={keyExtractor}
+        renderItem={renderItem}
+        ListFooterComponent={<View style={{ margin: "14%" }} />}
+      />
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   list: {
     flex: 2.6
   },
   listContainer: {
-    paddingBottom: 90
+    paddingBottom: 200
   },
   title: {
     paddingLeft: "8%"

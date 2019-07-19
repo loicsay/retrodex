@@ -3,9 +3,15 @@ import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 import PokemonText from "../../../PokemonText";
 
-const ListItem = ({ pokemon, selectSound, selected, setSelection, navigation }) => {
+const ListItem = ({
+  pokemon,
+  selectSound,
+  selected,
+  onPressItem,
+  navigation
+}) => {
   const handleOnPressIn = () => {
-    setSelection(pokemon.national_id);
+    onPressItem(pokemon.national_id);
   };
 
   const handleOnPress = () => {
@@ -70,4 +76,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ListItem;
+const selectedIsEqual = (prevProps, nextProps) =>
+  prevProps.selected === nextProps.selected;
+
+export default React.memo(ListItem, selectedIsEqual);
