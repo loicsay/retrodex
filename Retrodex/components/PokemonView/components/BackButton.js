@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import { Image, TouchableOpacity, StyleSheet } from "react-native";
+import { TouchableOpacity, StyleSheet } from "react-native";
 
 import PokemonText from "../../PokemonText";
+import Selector from "../../Selector";
 
-const BackButton = ({ navigation }) => {
-  const [pressIn, setPressIn] = useState(false);
+const BackButton = ({ selectSound, navigation }) => {
+  const [pressed, setPressed] = useState(false);
 
-  const handleOnPress = () => navigation.goBack();
+  const handleOnPress = () => {
+    selectSound.play();
+    navigation.goBack();
+  };
 
-  const handleOnPressIn = () => setPressIn(true);
+  const handleOnPressIn = () => setPressed(true);
 
-  const handleOnPressOut = () => setPressIn(false);
-
-  const imageSource = pressIn
-    ? require("../../../../data/red-blue/sprites/selector-white.png")
-    : require("../../../../data/red-blue/sprites/selector.png");
+  const handleOnPressOut = () => setPressed(false);
 
   return (
     <TouchableOpacity
@@ -23,11 +23,7 @@ const BackButton = ({ navigation }) => {
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
     >
-      <Image
-        style={styles.selector}
-        resizeMode="contain"
-        source={imageSource}
-      />
+      <Selector style={styles.selector} pressed={pressed} />
       <PokemonText>Back</PokemonText>
     </TouchableOpacity>
   );
@@ -40,7 +36,7 @@ const styles = StyleSheet.create({
     padding: "4%",
     flexDirection: "row",
     alignItems: "baseline",
-    backgroundColor: "rgb(245, 245, 245)",
+    backgroundColor: "rgb(245, 245, 245)"
   },
   selector: {
     height: 16

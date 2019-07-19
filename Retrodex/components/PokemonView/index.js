@@ -9,6 +9,7 @@ import { imagesSources } from "./utils";
 
 const PokemonView = ({ navigation }) => {
   const pokemon = navigation.getParam("pokemon");
+  const selectSound = navigation.getParam("selectSound");
 
   return (
     <Layout>
@@ -19,7 +20,7 @@ const PokemonView = ({ navigation }) => {
         />
         <Description description={pokemon.pokedex_entries.Blue.en} />
       </View>
-      <BackButton navigation={navigation} />
+      <BackButton navigation={navigation} selectSound={selectSound} />
     </Layout>
   );
 };

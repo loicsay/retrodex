@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 import PokemonText from "../../../PokemonText";
+import Selector from "../../../Selector";
 
 const ListItem = ({
   pokemon,
@@ -10,13 +11,18 @@ const ListItem = ({
   onPressItem,
   navigation
 }) => {
+  const [pressed, setPressed] = useState(false);
+
   const handleOnPressIn = () => {
+    setPressed(true);
     onPressItem(pokemon.national_id);
   };
 
+  const handleOnPressOut = () => setPressed(false);
+
   const handleOnPress = () => {
     selectSound.play();
-    navigation.navigate("PokemonView", { pokemon });
+    navigation.navigate("PokemonView", { pokemon, selectSound });
   };
 
   // Transform the national id with 3 numbers
@@ -26,19 +32,14 @@ const ListItem = ({
     <TouchableOpacity
       style={styles.listContainer}
       onPressIn={handleOnPressIn}
+      onPressOut={handleOnPressOut}
       onPress={handleOnPress}
     >
       <View style={styles.id}>
         <PokemonText>{pokemonId}</PokemonText>
       </View>
       <View style={styles.rowContainer}>
-        {selected && (
-          <Image
-            style={styles.selector}
-            resizeMode="contain"
-            source={require("../../../../../data/red-blue/sprites/selector.png")}
-          />
-        )}
+        {selected && <Selector style={styles.selector} pressed={pressed} />}
         <View style={styles.pokemonName}>
           <Image
             style={styles.pokeball}
