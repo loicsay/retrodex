@@ -5,13 +5,13 @@ import MenuItem from "./MenuItem";
 const Menu = () => (
   <View style={styles.menuContainer}>
     <View style={styles.menuSection}>
-      <MenuItem label="SEEN">151</MenuItem>
-      <MenuItem label="OWN">151</MenuItem>
+      <MenuItem label="VUS">151</MenuItem>
+      <MenuItem label="PRIS">151</MenuItem>
     </View>
     <View style={styles.menuSection}>
-      <MenuItem label="DATA" />
-      <MenuItem label="CRY" />
-      <MenuItem label="AREA" />
+      <MenuItem label="INFO" />
+      <MenuItem label="CRI" />
+      <MenuItem label="ZONE" />
     </View>
     <View style={styles.menuSection}>
       <MenuItem label="LANG" />

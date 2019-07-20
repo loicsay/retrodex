@@ -32,7 +32,7 @@ const PokemonView = ({ navigation }) => {
           imageSource={imagesSources[pokemon.national_id]}
           pokemon={pokemon}
         />
-        <Description description={pokemon.pokedex_entries.Blue.en} />
+        <Description description={pokemon.pokedex_entries.Blue.fr} />
       </View>
       <BackButton navigation={navigation} selectSound={selectSound} />
     </Layout>

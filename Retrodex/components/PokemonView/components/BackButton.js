@@ -24,7 +24,7 @@ const BackButton = ({ selectSound, navigation }) => {
       onPressOut={handleOnPressOut}
     >
       <Selector style={styles.selector} pressed={pressed} />
-      <PokemonText>Back</PokemonText>
+      <PokemonText>Retour</PokemonText>
     </TouchableOpacity>
   );
 };

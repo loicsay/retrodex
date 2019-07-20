@@ -46,7 +46,7 @@ const ListItem = ({
             resizeMode="contain"
             source={require("../../../../../data/red-blue/sprites/pokeball.png")}
           />
-          <PokemonText>{pokemon.names.en}</PokemonText>
+          <PokemonText>{pokemon.names.fr}</PokemonText>
         </View>
       </View>
     </TouchableOpacity>

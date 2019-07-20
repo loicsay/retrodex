@@ -37,7 +37,7 @@ const List = ({ pokemons, navigation }) => {
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText>CONTENTS</PokemonText>
+        <PokemonText>SOMMAIRE</PokemonText>
       </View>
       <FlatList
         style={styles.listContainer}
