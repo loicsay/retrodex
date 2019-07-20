@@ -6,6 +6,7 @@ import PokemonText from "../../../PokemonText";
 import ListItem from "./ListItem";
 
 const selectSound = new Sound("select.wav", Sound.MAIN_BUNDLE);
+selectSound.setVolume(0.6);
 
 const List = ({ pokemons, navigation }) => {
   const [selection, setSelection] = useState(new Map());

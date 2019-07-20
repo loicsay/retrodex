@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { View } from "react-native";
+import Sound from "react-native-sound";
 
 import Layout from "../Layout";
 import Infos from "./components/Infos";
@@ -10,6 +11,19 @@ import { imagesSources } from "./utils";
 const PokemonView = ({ navigation }) => {
   const pokemon = navigation.getParam("pokemon");
   const selectSound = navigation.getParam("selectSound");
+
+  useEffect(() => {
+    const pokemonCry = new Sound(
+      `cry${pokemon.national_id}.wav`,
+      Sound.MAIN_BUNDLE
+    );
+    setTimeout(() => {
+      pokemonCry.play();
+    }, 400);
+    return () => {
+      pokemonCry.release();
+    };
+  }, []);
 
   return (
     <Layout>

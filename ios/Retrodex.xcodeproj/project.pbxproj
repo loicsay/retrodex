@@ -20,6 +20,157 @@
 		3A9CBC70099232CAE940E020 /* libPods-Retrodex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */; };
 		63904C83EA4647D5D20B9C29 /* libPods-RetrodexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */; };
 		92A0330322E18FEC00F7D32D /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92A0330222E18FEC00F7D32D /* select.wav */; };
+		92E710D222E2B1FB006B1E52 /* cry134.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103B22E2B1E4006B1E52 /* cry134.wav */; };
+		92E710D322E2B1FB006B1E52 /* cry149.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103C22E2B1E4006B1E52 /* cry149.wav */; };
+		92E710D422E2B1FB006B1E52 /* cry27.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103D22E2B1E4006B1E52 /* cry27.wav */; };
+		92E710D522E2B1FB006B1E52 /* cry129.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103E22E2B1E4006B1E52 /* cry129.wav */; };
+		92E710D622E2B1FB006B1E52 /* cry106.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103F22E2B1E4006B1E52 /* cry106.wav */; };
+		92E710D722E2B1FB006B1E52 /* cry93.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104022E2B1E4006B1E52 /* cry93.wav */; };
+		92E710D822E2B1FB006B1E52 /* cry45.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104122E2B1E5006B1E52 /* cry45.wav */; };
+		92E710D922E2B1FB006B1E52 /* cry141.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104222E2B1E5006B1E52 /* cry141.wav */; };
+		92E710DA22E2B1FB006B1E52 /* cry144.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104322E2B1E5006B1E52 /* cry144.wav */; };
+		92E710DB22E2B1FB006B1E52 /* cry8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104422E2B1E5006B1E52 /* cry8.wav */; };
+		92E710DC22E2B1FB006B1E52 /* cry11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104522E2B1E5006B1E52 /* cry11.wav */; };
+		92E710DD22E2B1FB006B1E52 /* cry146.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104622E2B1E5006B1E52 /* cry146.wav */; };
+		92E710DE22E2B1FB006B1E52 /* cry126.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104722E2B1E5006B1E52 /* cry126.wav */; };
+		92E710DF22E2B1FB006B1E52 /* cry30.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104822E2B1E5006B1E52 /* cry30.wav */; };
+		92E710E022E2B1FB006B1E52 /* cry104.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104922E2B1E5006B1E52 /* cry104.wav */; };
+		92E710E122E2B1FB006B1E52 /* cry114.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104A22E2B1E5006B1E52 /* cry114.wav */; };
+		92E710E222E2B1FB006B1E52 /* cry128.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104B22E2B1E5006B1E52 /* cry128.wav */; };
+		92E710E322E2B1FB006B1E52 /* cry13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104C22E2B1E6006B1E52 /* cry13.wav */; };
+		92E710E422E2B1FB006B1E52 /* cry66.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104D22E2B1E6006B1E52 /* cry66.wav */; };
+		92E710E522E2B1FB006B1E52 /* cry113.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104E22E2B1E6006B1E52 /* cry113.wav */; };
+		92E710E622E2B1FB006B1E52 /* cry23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7104F22E2B1E6006B1E52 /* cry23.wav */; };
+		92E710E722E2B1FB006B1E52 /* cry138.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105022E2B1E6006B1E52 /* cry138.wav */; };
+		92E710E822E2B1FB006B1E52 /* cry55.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105122E2B1E6006B1E52 /* cry55.wav */; };
+		92E710E922E2B1FB006B1E52 /* cry124.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105222E2B1E6006B1E52 /* cry124.wav */; };
+		92E710EA22E2B1FB006B1E52 /* cry109.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105322E2B1E6006B1E52 /* cry109.wav */; };
+		92E710EB22E2B1FB006B1E52 /* cry88.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105422E2B1E6006B1E52 /* cry88.wav */; };
+		92E710EC22E2B1FB006B1E52 /* cry140.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105522E2B1E7006B1E52 /* cry140.wav */; };
+		92E710ED22E2B1FB006B1E52 /* cry151.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105622E2B1E7006B1E52 /* cry151.wav */; };
+		92E710EE22E2B1FB006B1E52 /* cry137.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105722E2B1E7006B1E52 /* cry137.wav */; };
+		92E710EF22E2B1FB006B1E52 /* cry91.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105822E2B1E7006B1E52 /* cry91.wav */; };
+		92E710F022E2B1FB006B1E52 /* cry19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105922E2B1E7006B1E52 /* cry19.wav */; };
+		92E710F122E2B1FB006B1E52 /* cry70.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105A22E2B1E7006B1E52 /* cry70.wav */; };
+		92E710F222E2B1FB006B1E52 /* cry68.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105B22E2B1E7006B1E52 /* cry68.wav */; };
+		92E710F322E2B1FB006B1E52 /* cry50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105C22E2B1E7006B1E52 /* cry50.wav */; };
+		92E710F422E2B1FB006B1E52 /* cry9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105D22E2B1E8006B1E52 /* cry9.wav */; };
+		92E710F522E2B1FB006B1E52 /* cry96.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105E22E2B1E8006B1E52 /* cry96.wav */; };
+		92E710F622E2B1FB006B1E52 /* cry72.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7105F22E2B1E8006B1E52 /* cry72.wav */; };
+		92E710F722E2B1FB006B1E52 /* cry97.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106022E2B1E8006B1E52 /* cry97.wav */; };
+		92E710F822E2B1FB006B1E52 /* cry111.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106122E2B1E8006B1E52 /* cry111.wav */; };
+		92E710F922E2B1FB006B1E52 /* cry116.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106222E2B1E8006B1E52 /* cry116.wav */; };
+		92E710FA22E2B1FB006B1E52 /* cry147.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106322E2B1E9006B1E52 /* cry147.wav */; };
+		92E710FB22E2B1FB006B1E52 /* cry107.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106422E2B1E9006B1E52 /* cry107.wav */; };
+		92E710FC22E2B1FB006B1E52 /* cry80.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106522E2B1E9006B1E52 /* cry80.wav */; };
+		92E710FD22E2B1FB006B1E52 /* cry37.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106622E2B1E9006B1E52 /* cry37.wav */; };
+		92E710FE22E2B1FB006B1E52 /* cry44.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106722E2B1E9006B1E52 /* cry44.wav */; };
+		92E710FF22E2B1FB006B1E52 /* cry101.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106822E2B1E9006B1E52 /* cry101.wav */; };
+		92E7110022E2B1FB006B1E52 /* cry18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106922E2B1E9006B1E52 /* cry18.wav */; };
+		92E7110122E2B1FB006B1E52 /* cry103.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106A22E2B1E9006B1E52 /* cry103.wav */; };
+		92E7110222E2B1FB006B1E52 /* cry133.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106B22E2B1EA006B1E52 /* cry133.wav */; };
+		92E7110322E2B1FB006B1E52 /* cry143.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106C22E2B1EA006B1E52 /* cry143.wav */; };
+		92E7110422E2B1FB006B1E52 /* cry78.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106D22E2B1EA006B1E52 /* cry78.wav */; };
+		92E7110522E2B1FB006B1E52 /* cry15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106E22E2B1EA006B1E52 /* cry15.wav */; };
+		92E7110622E2B1FB006B1E52 /* cry67.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7106F22E2B1EA006B1E52 /* cry67.wav */; };
+		92E7110722E2B1FB006B1E52 /* cry14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107022E2B1EA006B1E52 /* cry14.wav */; };
+		92E7110822E2B1FB006B1E52 /* cry5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107122E2B1EA006B1E52 /* cry5.wav */; };
+		92E7110922E2B1FB006B1E52 /* cry29.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107222E2B1EB006B1E52 /* cry29.wav */; };
+		92E7110A22E2B1FB006B1E52 /* cry40.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107322E2B1EB006B1E52 /* cry40.wav */; };
+		92E7110B22E2B1FB006B1E52 /* cry135.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107422E2B1EB006B1E52 /* cry135.wav */; };
+		92E7110C22E2B1FB006B1E52 /* cry71.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107522E2B1EB006B1E52 /* cry71.wav */; };
+		92E7110D22E2B1FB006B1E52 /* cry142.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107622E2B1EB006B1E52 /* cry142.wav */; };
+		92E7110E22E2B1FB006B1E52 /* cry69.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107722E2B1EB006B1E52 /* cry69.wav */; };
+		92E7110F22E2B1FB006B1E52 /* cry1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107822E2B1EB006B1E52 /* cry1.wav */; };
+		92E7111022E2B1FB006B1E52 /* cry127.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107922E2B1EB006B1E52 /* cry127.wav */; };
+		92E7111122E2B1FB006B1E52 /* cry75.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107A22E2B1EC006B1E52 /* cry75.wav */; };
+		92E7111222E2B1FB006B1E52 /* cry22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107B22E2B1EC006B1E52 /* cry22.wav */; };
+		92E7111322E2B1FB006B1E52 /* cry85.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107C22E2B1EC006B1E52 /* cry85.wav */; };
+		92E7111422E2B1FB006B1E52 /* cry51.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107D22E2B1EC006B1E52 /* cry51.wav */; };
+		92E7111522E2B1FB006B1E52 /* cry74.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107E22E2B1EC006B1E52 /* cry74.wav */; };
+		92E7111622E2B1FB006B1E52 /* cry16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7107F22E2B1EC006B1E52 /* cry16.wav */; };
+		92E7111722E2B1FB006B1E52 /* cry63.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108022E2B1EC006B1E52 /* cry63.wav */; };
+		92E7111822E2B1FB006B1E52 /* cry34.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108122E2B1ED006B1E52 /* cry34.wav */; };
+		92E7111922E2B1FB006B1E52 /* cry102.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108222E2B1ED006B1E52 /* cry102.wav */; };
+		92E7111A22E2B1FB006B1E52 /* cry145.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108322E2B1ED006B1E52 /* cry145.wav */; };
+		92E7111B22E2B1FB006B1E52 /* cry31.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108422E2B1ED006B1E52 /* cry31.wav */; };
+		92E7111C22E2B1FB006B1E52 /* cry46.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108522E2B1ED006B1E52 /* cry46.wav */; };
+		92E7111D22E2B1FB006B1E52 /* cry79.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108622E2B1ED006B1E52 /* cry79.wav */; };
+		92E7111E22E2B1FB006B1E52 /* cry48.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108722E2B1ED006B1E52 /* cry48.wav */; };
+		92E7111F22E2B1FB006B1E52 /* cry42.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108822E2B1EE006B1E52 /* cry42.wav */; };
+		92E7112022E2B1FB006B1E52 /* cry7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108922E2B1EE006B1E52 /* cry7.wav */; };
+		92E7112122E2B1FB006B1E52 /* cry3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108A22E2B1EE006B1E52 /* cry3.wav */; };
+		92E7112222E2B1FB006B1E52 /* cry94.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108B22E2B1EE006B1E52 /* cry94.wav */; };
+		92E7112322E2B1FB006B1E52 /* cry21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108C22E2B1EE006B1E52 /* cry21.wav */; };
+		92E7112422E2B1FB006B1E52 /* cry132.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108D22E2B1EE006B1E52 /* cry132.wav */; };
+		92E7112522E2B1FB006B1E52 /* cry98.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108E22E2B1EE006B1E52 /* cry98.wav */; };
+		92E7112622E2B1FB006B1E52 /* cry86.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7108F22E2B1EE006B1E52 /* cry86.wav */; };
+		92E7112722E2B1FB006B1E52 /* cry56.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109022E2B1EF006B1E52 /* cry56.wav */; };
+		92E7112822E2B1FB006B1E52 /* cry122.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109122E2B1EF006B1E52 /* cry122.wav */; };
+		92E7112922E2B1FB006B1E52 /* cry131.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109222E2B1EF006B1E52 /* cry131.wav */; };
+		92E7112A22E2B1FB006B1E52 /* cry62.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109322E2B1EF006B1E52 /* cry62.wav */; };
+		92E7112B22E2B1FB006B1E52 /* cry148.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109422E2B1EF006B1E52 /* cry148.wav */; };
+		92E7112C22E2B1FB006B1E52 /* cry139.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109522E2B1EF006B1E52 /* cry139.wav */; };
+		92E7112D22E2B1FB006B1E52 /* cry20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109622E2B1EF006B1E52 /* cry20.wav */; };
+		92E7112E22E2B1FB006B1E52 /* cry130.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109722E2B1F0006B1E52 /* cry130.wav */; };
+		92E7112F22E2B1FB006B1E52 /* cry58.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109822E2B1F0006B1E52 /* cry58.wav */; };
+		92E7113022E2B1FB006B1E52 /* cry49.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109922E2B1F0006B1E52 /* cry49.wav */; };
+		92E7113122E2B1FB006B1E52 /* cry115.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109A22E2B1F1006B1E52 /* cry115.wav */; };
+		92E7113222E2B1FB006B1E52 /* cry84.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109B22E2B1F1006B1E52 /* cry84.wav */; };
+		92E7113322E2B1FB006B1E52 /* cry36.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109C22E2B1F1006B1E52 /* cry36.wav */; };
+		92E7113422E2B1FB006B1E52 /* cry57.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109D22E2B1F1006B1E52 /* cry57.wav */; };
+		92E7113522E2B1FB006B1E52 /* cry123.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109E22E2B1F1006B1E52 /* cry123.wav */; };
+		92E7113622E2B1FB006B1E52 /* cry100.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7109F22E2B1F2006B1E52 /* cry100.wav */; };
+		92E7113722E2B1FB006B1E52 /* cry121.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A022E2B1F2006B1E52 /* cry121.wav */; };
+		92E7113822E2B1FB006B1E52 /* cry92.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A122E2B1F2006B1E52 /* cry92.wav */; };
+		92E7113922E2B1FB006B1E52 /* cry43.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A222E2B1F2006B1E52 /* cry43.wav */; };
+		92E7113A22E2B1FB006B1E52 /* cry81.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A322E2B1F2006B1E52 /* cry81.wav */; };
+		92E7113B22E2B1FB006B1E52 /* cry136.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A422E2B1F3006B1E52 /* cry136.wav */; };
+		92E7113C22E2B1FB006B1E52 /* cry73.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A522E2B1F3006B1E52 /* cry73.wav */; };
+		92E7113D22E2B1FB006B1E52 /* cry99.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A622E2B1F3006B1E52 /* cry99.wav */; };
+		92E7113E22E2B1FB006B1E52 /* cry35.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A722E2B1F3006B1E52 /* cry35.wav */; };
+		92E7113F22E2B1FB006B1E52 /* cry110.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A822E2B1F4006B1E52 /* cry110.wav */; };
+		92E7114022E2B1FB006B1E52 /* cry119.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710A922E2B1F4006B1E52 /* cry119.wav */; };
+		92E7114122E2B1FB006B1E52 /* cry53.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AA22E2B1F4006B1E52 /* cry53.wav */; };
+		92E7114222E2B1FB006B1E52 /* cry95.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AB22E2B1F4006B1E52 /* cry95.wav */; };
+		92E7114322E2B1FB006B1E52 /* cry90.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AC22E2B1F4006B1E52 /* cry90.wav */; };
+		92E7114422E2B1FB006B1E52 /* cry54.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AD22E2B1F5006B1E52 /* cry54.wav */; };
+		92E7114522E2B1FB006B1E52 /* cry89.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AE22E2B1F5006B1E52 /* cry89.wav */; };
+		92E7114622E2B1FB006B1E52 /* cry2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710AF22E2B1F5006B1E52 /* cry2.wav */; };
+		92E7114722E2B1FB006B1E52 /* cry117.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B022E2B1F5006B1E52 /* cry117.wav */; };
+		92E7114822E2B1FB006B1E52 /* cry24.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B122E2B1F5006B1E52 /* cry24.wav */; };
+		92E7114922E2B1FB006B1E52 /* cry52.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B222E2B1F5006B1E52 /* cry52.wav */; };
+		92E7114A22E2B1FB006B1E52 /* cry59.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B322E2B1F5006B1E52 /* cry59.wav */; };
+		92E7114B22E2B1FB006B1E52 /* cry10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B422E2B1F6006B1E52 /* cry10.wav */; };
+		92E7114C22E2B1FB006B1E52 /* cry17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B522E2B1F6006B1E52 /* cry17.wav */; };
+		92E7114D22E2B1FB006B1E52 /* cry41.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B622E2B1F6006B1E52 /* cry41.wav */; };
+		92E7114E22E2B1FB006B1E52 /* cry87.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B722E2B1F6006B1E52 /* cry87.wav */; };
+		92E7114F22E2B1FB006B1E52 /* cry6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B822E2B1F6006B1E52 /* cry6.wav */; };
+		92E7115022E2B1FB006B1E52 /* cry125.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710B922E2B1F6006B1E52 /* cry125.wav */; };
+		92E7115122E2B1FB006B1E52 /* cry76.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BA22E2B1F7006B1E52 /* cry76.wav */; };
+		92E7115222E2B1FB006B1E52 /* cry118.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BB22E2B1F7006B1E52 /* cry118.wav */; };
+		92E7115322E2B1FB006B1E52 /* cry25.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BC22E2B1F7006B1E52 /* cry25.wav */; };
+		92E7115422E2B1FB006B1E52 /* cry39.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BD22E2B1F7006B1E52 /* cry39.wav */; };
+		92E7115522E2B1FB006B1E52 /* cry12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BE22E2B1F7006B1E52 /* cry12.wav */; };
+		92E7115622E2B1FB006B1E52 /* cry32.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710BF22E2B1F7006B1E52 /* cry32.wav */; };
+		92E7115722E2B1FB006B1E52 /* cry38.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C022E2B1F7006B1E52 /* cry38.wav */; };
+		92E7115822E2B1FB006B1E52 /* cry77.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C122E2B1F8006B1E52 /* cry77.wav */; };
+		92E7115922E2B1FB006B1E52 /* cry33.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C222E2B1F8006B1E52 /* cry33.wav */; };
+		92E7115A22E2B1FB006B1E52 /* cry83.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C322E2B1F8006B1E52 /* cry83.wav */; };
+		92E7115B22E2B1FB006B1E52 /* cry47.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C422E2B1F8006B1E52 /* cry47.wav */; };
+		92E7115C22E2B1FB006B1E52 /* cry65.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C522E2B1F8006B1E52 /* cry65.wav */; };
+		92E7115D22E2B1FB006B1E52 /* cry108.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C622E2B1F8006B1E52 /* cry108.wav */; };
+		92E7115E22E2B1FB006B1E52 /* cry112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C722E2B1F9006B1E52 /* cry112.wav */; };
+		92E7115F22E2B1FB006B1E52 /* cry64.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C822E2B1F9006B1E52 /* cry64.wav */; };
+		92E7116022E2B1FB006B1E52 /* cry150.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710C922E2B1F9006B1E52 /* cry150.wav */; };
+		92E7116122E2B1FB006B1E52 /* cry26.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CA22E2B1F9006B1E52 /* cry26.wav */; };
+		92E7116222E2B1FB006B1E52 /* cry60.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CB22E2B1FA006B1E52 /* cry60.wav */; };
+		92E7116322E2B1FB006B1E52 /* cry82.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CC22E2B1FA006B1E52 /* cry82.wav */; };
+		92E7116422E2B1FB006B1E52 /* cry120.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CD22E2B1FA006B1E52 /* cry120.wav */; };
+		92E7116522E2B1FB006B1E52 /* cry4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CE22E2B1FA006B1E52 /* cry4.wav */; };
+		92E7116622E2B1FB006B1E52 /* cry61.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710CF22E2B1FA006B1E52 /* cry61.wav */; };
+		92E7116722E2B1FB006B1E52 /* cry105.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710D022E2B1FB006B1E52 /* cry105.wav */; };
+		92E7116822E2B1FB006B1E52 /* cry28.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E710D122E2B1FB006B1E52 /* cry28.wav */; };
 		A711CC3C47428859221EB679 /* libPods-Retrodex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F71C4C0591688EC9067F26C /* libPods-Retrodex-tvOSTests.a */; };
 		FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6AD52016730453E9A6826F9 /* pokemon-font.otf */; };
 /* End PBXBuildFile section */
@@ -64,6 +215,157 @@
 		6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetrodexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED19FBEC886AB2E0DA7E6A4 /* Pods-RetrodexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetrodexTests.debug.xcconfig"; path = "Target Support Files/Pods-RetrodexTests/Pods-RetrodexTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92A0330222E18FEC00F7D32D /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = select.wav; path = "../data/red-blue/sounds/select.wav"; sourceTree = "<group>"; };
+		92E7103B22E2B1E4006B1E52 /* cry134.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry134.wav; path = "../data/red-blue/sounds/cry134.wav"; sourceTree = "<group>"; };
+		92E7103C22E2B1E4006B1E52 /* cry149.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry149.wav; path = "../data/red-blue/sounds/cry149.wav"; sourceTree = "<group>"; };
+		92E7103D22E2B1E4006B1E52 /* cry27.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry27.wav; path = "../data/red-blue/sounds/cry27.wav"; sourceTree = "<group>"; };
+		92E7103E22E2B1E4006B1E52 /* cry129.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry129.wav; path = "../data/red-blue/sounds/cry129.wav"; sourceTree = "<group>"; };
+		92E7103F22E2B1E4006B1E52 /* cry106.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry106.wav; path = "../data/red-blue/sounds/cry106.wav"; sourceTree = "<group>"; };
+		92E7104022E2B1E4006B1E52 /* cry93.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry93.wav; path = "../data/red-blue/sounds/cry93.wav"; sourceTree = "<group>"; };
+		92E7104122E2B1E5006B1E52 /* cry45.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry45.wav; path = "../data/red-blue/sounds/cry45.wav"; sourceTree = "<group>"; };
+		92E7104222E2B1E5006B1E52 /* cry141.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry141.wav; path = "../data/red-blue/sounds/cry141.wav"; sourceTree = "<group>"; };
+		92E7104322E2B1E5006B1E52 /* cry144.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry144.wav; path = "../data/red-blue/sounds/cry144.wav"; sourceTree = "<group>"; };
+		92E7104422E2B1E5006B1E52 /* cry8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry8.wav; path = "../data/red-blue/sounds/cry8.wav"; sourceTree = "<group>"; };
+		92E7104522E2B1E5006B1E52 /* cry11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry11.wav; path = "../data/red-blue/sounds/cry11.wav"; sourceTree = "<group>"; };
+		92E7104622E2B1E5006B1E52 /* cry146.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry146.wav; path = "../data/red-blue/sounds/cry146.wav"; sourceTree = "<group>"; };
+		92E7104722E2B1E5006B1E52 /* cry126.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry126.wav; path = "../data/red-blue/sounds/cry126.wav"; sourceTree = "<group>"; };
+		92E7104822E2B1E5006B1E52 /* cry30.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry30.wav; path = "../data/red-blue/sounds/cry30.wav"; sourceTree = "<group>"; };
+		92E7104922E2B1E5006B1E52 /* cry104.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry104.wav; path = "../data/red-blue/sounds/cry104.wav"; sourceTree = "<group>"; };
+		92E7104A22E2B1E5006B1E52 /* cry114.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry114.wav; path = "../data/red-blue/sounds/cry114.wav"; sourceTree = "<group>"; };
+		92E7104B22E2B1E5006B1E52 /* cry128.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry128.wav; path = "../data/red-blue/sounds/cry128.wav"; sourceTree = "<group>"; };
+		92E7104C22E2B1E6006B1E52 /* cry13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry13.wav; path = "../data/red-blue/sounds/cry13.wav"; sourceTree = "<group>"; };
+		92E7104D22E2B1E6006B1E52 /* cry66.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry66.wav; path = "../data/red-blue/sounds/cry66.wav"; sourceTree = "<group>"; };
+		92E7104E22E2B1E6006B1E52 /* cry113.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry113.wav; path = "../data/red-blue/sounds/cry113.wav"; sourceTree = "<group>"; };
+		92E7104F22E2B1E6006B1E52 /* cry23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry23.wav; path = "../data/red-blue/sounds/cry23.wav"; sourceTree = "<group>"; };
+		92E7105022E2B1E6006B1E52 /* cry138.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry138.wav; path = "../data/red-blue/sounds/cry138.wav"; sourceTree = "<group>"; };
+		92E7105122E2B1E6006B1E52 /* cry55.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry55.wav; path = "../data/red-blue/sounds/cry55.wav"; sourceTree = "<group>"; };
+		92E7105222E2B1E6006B1E52 /* cry124.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry124.wav; path = "../data/red-blue/sounds/cry124.wav"; sourceTree = "<group>"; };
+		92E7105322E2B1E6006B1E52 /* cry109.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry109.wav; path = "../data/red-blue/sounds/cry109.wav"; sourceTree = "<group>"; };
+		92E7105422E2B1E6006B1E52 /* cry88.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry88.wav; path = "../data/red-blue/sounds/cry88.wav"; sourceTree = "<group>"; };
+		92E7105522E2B1E7006B1E52 /* cry140.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry140.wav; path = "../data/red-blue/sounds/cry140.wav"; sourceTree = "<group>"; };
+		92E7105622E2B1E7006B1E52 /* cry151.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry151.wav; path = "../data/red-blue/sounds/cry151.wav"; sourceTree = "<group>"; };
+		92E7105722E2B1E7006B1E52 /* cry137.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry137.wav; path = "../data/red-blue/sounds/cry137.wav"; sourceTree = "<group>"; };
+		92E7105822E2B1E7006B1E52 /* cry91.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry91.wav; path = "../data/red-blue/sounds/cry91.wav"; sourceTree = "<group>"; };
+		92E7105922E2B1E7006B1E52 /* cry19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry19.wav; path = "../data/red-blue/sounds/cry19.wav"; sourceTree = "<group>"; };
+		92E7105A22E2B1E7006B1E52 /* cry70.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry70.wav; path = "../data/red-blue/sounds/cry70.wav"; sourceTree = "<group>"; };
+		92E7105B22E2B1E7006B1E52 /* cry68.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry68.wav; path = "../data/red-blue/sounds/cry68.wav"; sourceTree = "<group>"; };
+		92E7105C22E2B1E7006B1E52 /* cry50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry50.wav; path = "../data/red-blue/sounds/cry50.wav"; sourceTree = "<group>"; };
+		92E7105D22E2B1E8006B1E52 /* cry9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry9.wav; path = "../data/red-blue/sounds/cry9.wav"; sourceTree = "<group>"; };
+		92E7105E22E2B1E8006B1E52 /* cry96.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry96.wav; path = "../data/red-blue/sounds/cry96.wav"; sourceTree = "<group>"; };
+		92E7105F22E2B1E8006B1E52 /* cry72.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry72.wav; path = "../data/red-blue/sounds/cry72.wav"; sourceTree = "<group>"; };
+		92E7106022E2B1E8006B1E52 /* cry97.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry97.wav; path = "../data/red-blue/sounds/cry97.wav"; sourceTree = "<group>"; };
+		92E7106122E2B1E8006B1E52 /* cry111.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry111.wav; path = "../data/red-blue/sounds/cry111.wav"; sourceTree = "<group>"; };
+		92E7106222E2B1E8006B1E52 /* cry116.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry116.wav; path = "../data/red-blue/sounds/cry116.wav"; sourceTree = "<group>"; };
+		92E7106322E2B1E9006B1E52 /* cry147.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry147.wav; path = "../data/red-blue/sounds/cry147.wav"; sourceTree = "<group>"; };
+		92E7106422E2B1E9006B1E52 /* cry107.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry107.wav; path = "../data/red-blue/sounds/cry107.wav"; sourceTree = "<group>"; };
+		92E7106522E2B1E9006B1E52 /* cry80.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry80.wav; path = "../data/red-blue/sounds/cry80.wav"; sourceTree = "<group>"; };
+		92E7106622E2B1E9006B1E52 /* cry37.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry37.wav; path = "../data/red-blue/sounds/cry37.wav"; sourceTree = "<group>"; };
+		92E7106722E2B1E9006B1E52 /* cry44.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry44.wav; path = "../data/red-blue/sounds/cry44.wav"; sourceTree = "<group>"; };
+		92E7106822E2B1E9006B1E52 /* cry101.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry101.wav; path = "../data/red-blue/sounds/cry101.wav"; sourceTree = "<group>"; };
+		92E7106922E2B1E9006B1E52 /* cry18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry18.wav; path = "../data/red-blue/sounds/cry18.wav"; sourceTree = "<group>"; };
+		92E7106A22E2B1E9006B1E52 /* cry103.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry103.wav; path = "../data/red-blue/sounds/cry103.wav"; sourceTree = "<group>"; };
+		92E7106B22E2B1EA006B1E52 /* cry133.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry133.wav; path = "../data/red-blue/sounds/cry133.wav"; sourceTree = "<group>"; };
+		92E7106C22E2B1EA006B1E52 /* cry143.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry143.wav; path = "../data/red-blue/sounds/cry143.wav"; sourceTree = "<group>"; };
+		92E7106D22E2B1EA006B1E52 /* cry78.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry78.wav; path = "../data/red-blue/sounds/cry78.wav"; sourceTree = "<group>"; };
+		92E7106E22E2B1EA006B1E52 /* cry15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry15.wav; path = "../data/red-blue/sounds/cry15.wav"; sourceTree = "<group>"; };
+		92E7106F22E2B1EA006B1E52 /* cry67.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry67.wav; path = "../data/red-blue/sounds/cry67.wav"; sourceTree = "<group>"; };
+		92E7107022E2B1EA006B1E52 /* cry14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry14.wav; path = "../data/red-blue/sounds/cry14.wav"; sourceTree = "<group>"; };
+		92E7107122E2B1EA006B1E52 /* cry5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry5.wav; path = "../data/red-blue/sounds/cry5.wav"; sourceTree = "<group>"; };
+		92E7107222E2B1EB006B1E52 /* cry29.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry29.wav; path = "../data/red-blue/sounds/cry29.wav"; sourceTree = "<group>"; };
+		92E7107322E2B1EB006B1E52 /* cry40.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry40.wav; path = "../data/red-blue/sounds/cry40.wav"; sourceTree = "<group>"; };
+		92E7107422E2B1EB006B1E52 /* cry135.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry135.wav; path = "../data/red-blue/sounds/cry135.wav"; sourceTree = "<group>"; };
+		92E7107522E2B1EB006B1E52 /* cry71.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry71.wav; path = "../data/red-blue/sounds/cry71.wav"; sourceTree = "<group>"; };
+		92E7107622E2B1EB006B1E52 /* cry142.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry142.wav; path = "../data/red-blue/sounds/cry142.wav"; sourceTree = "<group>"; };
+		92E7107722E2B1EB006B1E52 /* cry69.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry69.wav; path = "../data/red-blue/sounds/cry69.wav"; sourceTree = "<group>"; };
+		92E7107822E2B1EB006B1E52 /* cry1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry1.wav; path = "../data/red-blue/sounds/cry1.wav"; sourceTree = "<group>"; };
+		92E7107922E2B1EB006B1E52 /* cry127.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry127.wav; path = "../data/red-blue/sounds/cry127.wav"; sourceTree = "<group>"; };
+		92E7107A22E2B1EC006B1E52 /* cry75.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry75.wav; path = "../data/red-blue/sounds/cry75.wav"; sourceTree = "<group>"; };
+		92E7107B22E2B1EC006B1E52 /* cry22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry22.wav; path = "../data/red-blue/sounds/cry22.wav"; sourceTree = "<group>"; };
+		92E7107C22E2B1EC006B1E52 /* cry85.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry85.wav; path = "../data/red-blue/sounds/cry85.wav"; sourceTree = "<group>"; };
+		92E7107D22E2B1EC006B1E52 /* cry51.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry51.wav; path = "../data/red-blue/sounds/cry51.wav"; sourceTree = "<group>"; };
+		92E7107E22E2B1EC006B1E52 /* cry74.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry74.wav; path = "../data/red-blue/sounds/cry74.wav"; sourceTree = "<group>"; };
+		92E7107F22E2B1EC006B1E52 /* cry16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry16.wav; path = "../data/red-blue/sounds/cry16.wav"; sourceTree = "<group>"; };
+		92E7108022E2B1EC006B1E52 /* cry63.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry63.wav; path = "../data/red-blue/sounds/cry63.wav"; sourceTree = "<group>"; };
+		92E7108122E2B1ED006B1E52 /* cry34.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry34.wav; path = "../data/red-blue/sounds/cry34.wav"; sourceTree = "<group>"; };
+		92E7108222E2B1ED006B1E52 /* cry102.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry102.wav; path = "../data/red-blue/sounds/cry102.wav"; sourceTree = "<group>"; };
+		92E7108322E2B1ED006B1E52 /* cry145.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry145.wav; path = "../data/red-blue/sounds/cry145.wav"; sourceTree = "<group>"; };
+		92E7108422E2B1ED006B1E52 /* cry31.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry31.wav; path = "../data/red-blue/sounds/cry31.wav"; sourceTree = "<group>"; };
+		92E7108522E2B1ED006B1E52 /* cry46.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry46.wav; path = "../data/red-blue/sounds/cry46.wav"; sourceTree = "<group>"; };
+		92E7108622E2B1ED006B1E52 /* cry79.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry79.wav; path = "../data/red-blue/sounds/cry79.wav"; sourceTree = "<group>"; };
+		92E7108722E2B1ED006B1E52 /* cry48.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry48.wav; path = "../data/red-blue/sounds/cry48.wav"; sourceTree = "<group>"; };
+		92E7108822E2B1EE006B1E52 /* cry42.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry42.wav; path = "../data/red-blue/sounds/cry42.wav"; sourceTree = "<group>"; };
+		92E7108922E2B1EE006B1E52 /* cry7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry7.wav; path = "../data/red-blue/sounds/cry7.wav"; sourceTree = "<group>"; };
+		92E7108A22E2B1EE006B1E52 /* cry3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry3.wav; path = "../data/red-blue/sounds/cry3.wav"; sourceTree = "<group>"; };
+		92E7108B22E2B1EE006B1E52 /* cry94.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry94.wav; path = "../data/red-blue/sounds/cry94.wav"; sourceTree = "<group>"; };
+		92E7108C22E2B1EE006B1E52 /* cry21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry21.wav; path = "../data/red-blue/sounds/cry21.wav"; sourceTree = "<group>"; };
+		92E7108D22E2B1EE006B1E52 /* cry132.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry132.wav; path = "../data/red-blue/sounds/cry132.wav"; sourceTree = "<group>"; };
+		92E7108E22E2B1EE006B1E52 /* cry98.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry98.wav; path = "../data/red-blue/sounds/cry98.wav"; sourceTree = "<group>"; };
+		92E7108F22E2B1EE006B1E52 /* cry86.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry86.wav; path = "../data/red-blue/sounds/cry86.wav"; sourceTree = "<group>"; };
+		92E7109022E2B1EF006B1E52 /* cry56.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry56.wav; path = "../data/red-blue/sounds/cry56.wav"; sourceTree = "<group>"; };
+		92E7109122E2B1EF006B1E52 /* cry122.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry122.wav; path = "../data/red-blue/sounds/cry122.wav"; sourceTree = "<group>"; };
+		92E7109222E2B1EF006B1E52 /* cry131.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry131.wav; path = "../data/red-blue/sounds/cry131.wav"; sourceTree = "<group>"; };
+		92E7109322E2B1EF006B1E52 /* cry62.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry62.wav; path = "../data/red-blue/sounds/cry62.wav"; sourceTree = "<group>"; };
+		92E7109422E2B1EF006B1E52 /* cry148.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry148.wav; path = "../data/red-blue/sounds/cry148.wav"; sourceTree = "<group>"; };
+		92E7109522E2B1EF006B1E52 /* cry139.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry139.wav; path = "../data/red-blue/sounds/cry139.wav"; sourceTree = "<group>"; };
+		92E7109622E2B1EF006B1E52 /* cry20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry20.wav; path = "../data/red-blue/sounds/cry20.wav"; sourceTree = "<group>"; };
+		92E7109722E2B1F0006B1E52 /* cry130.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry130.wav; path = "../data/red-blue/sounds/cry130.wav"; sourceTree = "<group>"; };
+		92E7109822E2B1F0006B1E52 /* cry58.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry58.wav; path = "../data/red-blue/sounds/cry58.wav"; sourceTree = "<group>"; };
+		92E7109922E2B1F0006B1E52 /* cry49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry49.wav; path = "../data/red-blue/sounds/cry49.wav"; sourceTree = "<group>"; };
+		92E7109A22E2B1F1006B1E52 /* cry115.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry115.wav; path = "../data/red-blue/sounds/cry115.wav"; sourceTree = "<group>"; };
+		92E7109B22E2B1F1006B1E52 /* cry84.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry84.wav; path = "../data/red-blue/sounds/cry84.wav"; sourceTree = "<group>"; };
+		92E7109C22E2B1F1006B1E52 /* cry36.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry36.wav; path = "../data/red-blue/sounds/cry36.wav"; sourceTree = "<group>"; };
+		92E7109D22E2B1F1006B1E52 /* cry57.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry57.wav; path = "../data/red-blue/sounds/cry57.wav"; sourceTree = "<group>"; };
+		92E7109E22E2B1F1006B1E52 /* cry123.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry123.wav; path = "../data/red-blue/sounds/cry123.wav"; sourceTree = "<group>"; };
+		92E7109F22E2B1F2006B1E52 /* cry100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry100.wav; path = "../data/red-blue/sounds/cry100.wav"; sourceTree = "<group>"; };
+		92E710A022E2B1F2006B1E52 /* cry121.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry121.wav; path = "../data/red-blue/sounds/cry121.wav"; sourceTree = "<group>"; };
+		92E710A122E2B1F2006B1E52 /* cry92.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry92.wav; path = "../data/red-blue/sounds/cry92.wav"; sourceTree = "<group>"; };
+		92E710A222E2B1F2006B1E52 /* cry43.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry43.wav; path = "../data/red-blue/sounds/cry43.wav"; sourceTree = "<group>"; };
+		92E710A322E2B1F2006B1E52 /* cry81.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry81.wav; path = "../data/red-blue/sounds/cry81.wav"; sourceTree = "<group>"; };
+		92E710A422E2B1F3006B1E52 /* cry136.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry136.wav; path = "../data/red-blue/sounds/cry136.wav"; sourceTree = "<group>"; };
+		92E710A522E2B1F3006B1E52 /* cry73.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry73.wav; path = "../data/red-blue/sounds/cry73.wav"; sourceTree = "<group>"; };
+		92E710A622E2B1F3006B1E52 /* cry99.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry99.wav; path = "../data/red-blue/sounds/cry99.wav"; sourceTree = "<group>"; };
+		92E710A722E2B1F3006B1E52 /* cry35.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry35.wav; path = "../data/red-blue/sounds/cry35.wav"; sourceTree = "<group>"; };
+		92E710A822E2B1F4006B1E52 /* cry110.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry110.wav; path = "../data/red-blue/sounds/cry110.wav"; sourceTree = "<group>"; };
+		92E710A922E2B1F4006B1E52 /* cry119.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry119.wav; path = "../data/red-blue/sounds/cry119.wav"; sourceTree = "<group>"; };
+		92E710AA22E2B1F4006B1E52 /* cry53.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry53.wav; path = "../data/red-blue/sounds/cry53.wav"; sourceTree = "<group>"; };
+		92E710AB22E2B1F4006B1E52 /* cry95.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry95.wav; path = "../data/red-blue/sounds/cry95.wav"; sourceTree = "<group>"; };
+		92E710AC22E2B1F4006B1E52 /* cry90.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry90.wav; path = "../data/red-blue/sounds/cry90.wav"; sourceTree = "<group>"; };
+		92E710AD22E2B1F5006B1E52 /* cry54.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry54.wav; path = "../data/red-blue/sounds/cry54.wav"; sourceTree = "<group>"; };
+		92E710AE22E2B1F5006B1E52 /* cry89.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry89.wav; path = "../data/red-blue/sounds/cry89.wav"; sourceTree = "<group>"; };
+		92E710AF22E2B1F5006B1E52 /* cry2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry2.wav; path = "../data/red-blue/sounds/cry2.wav"; sourceTree = "<group>"; };
+		92E710B022E2B1F5006B1E52 /* cry117.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry117.wav; path = "../data/red-blue/sounds/cry117.wav"; sourceTree = "<group>"; };
+		92E710B122E2B1F5006B1E52 /* cry24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry24.wav; path = "../data/red-blue/sounds/cry24.wav"; sourceTree = "<group>"; };
+		92E710B222E2B1F5006B1E52 /* cry52.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry52.wav; path = "../data/red-blue/sounds/cry52.wav"; sourceTree = "<group>"; };
+		92E710B322E2B1F5006B1E52 /* cry59.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry59.wav; path = "../data/red-blue/sounds/cry59.wav"; sourceTree = "<group>"; };
+		92E710B422E2B1F6006B1E52 /* cry10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry10.wav; path = "../data/red-blue/sounds/cry10.wav"; sourceTree = "<group>"; };
+		92E710B522E2B1F6006B1E52 /* cry17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry17.wav; path = "../data/red-blue/sounds/cry17.wav"; sourceTree = "<group>"; };
+		92E710B622E2B1F6006B1E52 /* cry41.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry41.wav; path = "../data/red-blue/sounds/cry41.wav"; sourceTree = "<group>"; };
+		92E710B722E2B1F6006B1E52 /* cry87.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry87.wav; path = "../data/red-blue/sounds/cry87.wav"; sourceTree = "<group>"; };
+		92E710B822E2B1F6006B1E52 /* cry6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry6.wav; path = "../data/red-blue/sounds/cry6.wav"; sourceTree = "<group>"; };
+		92E710B922E2B1F6006B1E52 /* cry125.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry125.wav; path = "../data/red-blue/sounds/cry125.wav"; sourceTree = "<group>"; };
+		92E710BA22E2B1F7006B1E52 /* cry76.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry76.wav; path = "../data/red-blue/sounds/cry76.wav"; sourceTree = "<group>"; };
+		92E710BB22E2B1F7006B1E52 /* cry118.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry118.wav; path = "../data/red-blue/sounds/cry118.wav"; sourceTree = "<group>"; };
+		92E710BC22E2B1F7006B1E52 /* cry25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry25.wav; path = "../data/red-blue/sounds/cry25.wav"; sourceTree = "<group>"; };
+		92E710BD22E2B1F7006B1E52 /* cry39.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry39.wav; path = "../data/red-blue/sounds/cry39.wav"; sourceTree = "<group>"; };
+		92E710BE22E2B1F7006B1E52 /* cry12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry12.wav; path = "../data/red-blue/sounds/cry12.wav"; sourceTree = "<group>"; };
+		92E710BF22E2B1F7006B1E52 /* cry32.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry32.wav; path = "../data/red-blue/sounds/cry32.wav"; sourceTree = "<group>"; };
+		92E710C022E2B1F7006B1E52 /* cry38.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry38.wav; path = "../data/red-blue/sounds/cry38.wav"; sourceTree = "<group>"; };
+		92E710C122E2B1F8006B1E52 /* cry77.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry77.wav; path = "../data/red-blue/sounds/cry77.wav"; sourceTree = "<group>"; };
+		92E710C222E2B1F8006B1E52 /* cry33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry33.wav; path = "../data/red-blue/sounds/cry33.wav"; sourceTree = "<group>"; };
+		92E710C322E2B1F8006B1E52 /* cry83.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry83.wav; path = "../data/red-blue/sounds/cry83.wav"; sourceTree = "<group>"; };
+		92E710C422E2B1F8006B1E52 /* cry47.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry47.wav; path = "../data/red-blue/sounds/cry47.wav"; sourceTree = "<group>"; };
+		92E710C522E2B1F8006B1E52 /* cry65.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry65.wav; path = "../data/red-blue/sounds/cry65.wav"; sourceTree = "<group>"; };
+		92E710C622E2B1F8006B1E52 /* cry108.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry108.wav; path = "../data/red-blue/sounds/cry108.wav"; sourceTree = "<group>"; };
+		92E710C722E2B1F9006B1E52 /* cry112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry112.wav; path = "../data/red-blue/sounds/cry112.wav"; sourceTree = "<group>"; };
+		92E710C822E2B1F9006B1E52 /* cry64.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry64.wav; path = "../data/red-blue/sounds/cry64.wav"; sourceTree = "<group>"; };
+		92E710C922E2B1F9006B1E52 /* cry150.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry150.wav; path = "../data/red-blue/sounds/cry150.wav"; sourceTree = "<group>"; };
+		92E710CA22E2B1F9006B1E52 /* cry26.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry26.wav; path = "../data/red-blue/sounds/cry26.wav"; sourceTree = "<group>"; };
+		92E710CB22E2B1FA006B1E52 /* cry60.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry60.wav; path = "../data/red-blue/sounds/cry60.wav"; sourceTree = "<group>"; };
+		92E710CC22E2B1FA006B1E52 /* cry82.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry82.wav; path = "../data/red-blue/sounds/cry82.wav"; sourceTree = "<group>"; };
+		92E710CD22E2B1FA006B1E52 /* cry120.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry120.wav; path = "../data/red-blue/sounds/cry120.wav"; sourceTree = "<group>"; };
+		92E710CE22E2B1FA006B1E52 /* cry4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry4.wav; path = "../data/red-blue/sounds/cry4.wav"; sourceTree = "<group>"; };
+		92E710CF22E2B1FA006B1E52 /* cry61.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry61.wav; path = "../data/red-blue/sounds/cry61.wav"; sourceTree = "<group>"; };
+		92E710D022E2B1FB006B1E52 /* cry105.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry105.wav; path = "../data/red-blue/sounds/cry105.wav"; sourceTree = "<group>"; };
+		92E710D122E2B1FB006B1E52 /* cry28.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry28.wav; path = "../data/red-blue/sounds/cry28.wav"; sourceTree = "<group>"; };
 		979F7038508FC9821BCE0A4D /* Pods-Retrodex-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOS/Pods-Retrodex-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A2B29BC93AB8FB42F1791569 /* Pods-Retrodex-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOSTests/Pods-Retrodex-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6E9B94B999B2A1DAE3D0ADC /* libPods-Retrodex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +431,157 @@
 		13B07FAE1A68108700A75B9A /* Retrodex */ = {
 			isa = PBXGroup;
 			children = (
+				92E7107822E2B1EB006B1E52 /* cry1.wav */,
+				92E710AF22E2B1F5006B1E52 /* cry2.wav */,
+				92E7108A22E2B1EE006B1E52 /* cry3.wav */,
+				92E710CE22E2B1FA006B1E52 /* cry4.wav */,
+				92E7107122E2B1EA006B1E52 /* cry5.wav */,
+				92E710B822E2B1F6006B1E52 /* cry6.wav */,
+				92E7108922E2B1EE006B1E52 /* cry7.wav */,
+				92E7104422E2B1E5006B1E52 /* cry8.wav */,
+				92E7105D22E2B1E8006B1E52 /* cry9.wav */,
+				92E710B422E2B1F6006B1E52 /* cry10.wav */,
+				92E7104522E2B1E5006B1E52 /* cry11.wav */,
+				92E710BE22E2B1F7006B1E52 /* cry12.wav */,
+				92E7104C22E2B1E6006B1E52 /* cry13.wav */,
+				92E7107022E2B1EA006B1E52 /* cry14.wav */,
+				92E7106E22E2B1EA006B1E52 /* cry15.wav */,
+				92E7107F22E2B1EC006B1E52 /* cry16.wav */,
+				92E710B522E2B1F6006B1E52 /* cry17.wav */,
+				92E7106922E2B1E9006B1E52 /* cry18.wav */,
+				92E7105922E2B1E7006B1E52 /* cry19.wav */,
+				92E7109622E2B1EF006B1E52 /* cry20.wav */,
+				92E7108C22E2B1EE006B1E52 /* cry21.wav */,
+				92E7107B22E2B1EC006B1E52 /* cry22.wav */,
+				92E7104F22E2B1E6006B1E52 /* cry23.wav */,
+				92E710B122E2B1F5006B1E52 /* cry24.wav */,
+				92E710BC22E2B1F7006B1E52 /* cry25.wav */,
+				92E710CA22E2B1F9006B1E52 /* cry26.wav */,
+				92E7103D22E2B1E4006B1E52 /* cry27.wav */,
+				92E710D122E2B1FB006B1E52 /* cry28.wav */,
+				92E7107222E2B1EB006B1E52 /* cry29.wav */,
+				92E7104822E2B1E5006B1E52 /* cry30.wav */,
+				92E7108422E2B1ED006B1E52 /* cry31.wav */,
+				92E710BF22E2B1F7006B1E52 /* cry32.wav */,
+				92E710C222E2B1F8006B1E52 /* cry33.wav */,
+				92E7108122E2B1ED006B1E52 /* cry34.wav */,
+				92E710A722E2B1F3006B1E52 /* cry35.wav */,
+				92E7109C22E2B1F1006B1E52 /* cry36.wav */,
+				92E7106622E2B1E9006B1E52 /* cry37.wav */,
+				92E710C022E2B1F7006B1E52 /* cry38.wav */,
+				92E710BD22E2B1F7006B1E52 /* cry39.wav */,
+				92E7107322E2B1EB006B1E52 /* cry40.wav */,
+				92E710B622E2B1F6006B1E52 /* cry41.wav */,
+				92E7108822E2B1EE006B1E52 /* cry42.wav */,
+				92E710A222E2B1F2006B1E52 /* cry43.wav */,
+				92E7106722E2B1E9006B1E52 /* cry44.wav */,
+				92E7104122E2B1E5006B1E52 /* cry45.wav */,
+				92E7108522E2B1ED006B1E52 /* cry46.wav */,
+				92E710C422E2B1F8006B1E52 /* cry47.wav */,
+				92E7108722E2B1ED006B1E52 /* cry48.wav */,
+				92E7109922E2B1F0006B1E52 /* cry49.wav */,
+				92E7105C22E2B1E7006B1E52 /* cry50.wav */,
+				92E7107D22E2B1EC006B1E52 /* cry51.wav */,
+				92E710B222E2B1F5006B1E52 /* cry52.wav */,
+				92E710AA22E2B1F4006B1E52 /* cry53.wav */,
+				92E710AD22E2B1F5006B1E52 /* cry54.wav */,
+				92E7105122E2B1E6006B1E52 /* cry55.wav */,
+				92E7109022E2B1EF006B1E52 /* cry56.wav */,
+				92E7109D22E2B1F1006B1E52 /* cry57.wav */,
+				92E7109822E2B1F0006B1E52 /* cry58.wav */,
+				92E710B322E2B1F5006B1E52 /* cry59.wav */,
+				92E710CB22E2B1FA006B1E52 /* cry60.wav */,
+				92E710CF22E2B1FA006B1E52 /* cry61.wav */,
+				92E7109322E2B1EF006B1E52 /* cry62.wav */,
+				92E7108022E2B1EC006B1E52 /* cry63.wav */,
+				92E710C822E2B1F9006B1E52 /* cry64.wav */,
+				92E710C522E2B1F8006B1E52 /* cry65.wav */,
+				92E7104D22E2B1E6006B1E52 /* cry66.wav */,
+				92E7106F22E2B1EA006B1E52 /* cry67.wav */,
+				92E7105B22E2B1E7006B1E52 /* cry68.wav */,
+				92E7107722E2B1EB006B1E52 /* cry69.wav */,
+				92E7105A22E2B1E7006B1E52 /* cry70.wav */,
+				92E7107522E2B1EB006B1E52 /* cry71.wav */,
+				92E7105F22E2B1E8006B1E52 /* cry72.wav */,
+				92E710A522E2B1F3006B1E52 /* cry73.wav */,
+				92E7107E22E2B1EC006B1E52 /* cry74.wav */,
+				92E7107A22E2B1EC006B1E52 /* cry75.wav */,
+				92E710BA22E2B1F7006B1E52 /* cry76.wav */,
+				92E710C122E2B1F8006B1E52 /* cry77.wav */,
+				92E7106D22E2B1EA006B1E52 /* cry78.wav */,
+				92E7108622E2B1ED006B1E52 /* cry79.wav */,
+				92E7106522E2B1E9006B1E52 /* cry80.wav */,
+				92E710A322E2B1F2006B1E52 /* cry81.wav */,
+				92E710CC22E2B1FA006B1E52 /* cry82.wav */,
+				92E710C322E2B1F8006B1E52 /* cry83.wav */,
+				92E7109B22E2B1F1006B1E52 /* cry84.wav */,
+				92E7107C22E2B1EC006B1E52 /* cry85.wav */,
+				92E7108F22E2B1EE006B1E52 /* cry86.wav */,
+				92E710B722E2B1F6006B1E52 /* cry87.wav */,
+				92E7105422E2B1E6006B1E52 /* cry88.wav */,
+				92E710AE22E2B1F5006B1E52 /* cry89.wav */,
+				92E710AC22E2B1F4006B1E52 /* cry90.wav */,
+				92E7105822E2B1E7006B1E52 /* cry91.wav */,
+				92E710A122E2B1F2006B1E52 /* cry92.wav */,
+				92E7104022E2B1E4006B1E52 /* cry93.wav */,
+				92E7108B22E2B1EE006B1E52 /* cry94.wav */,
+				92E710AB22E2B1F4006B1E52 /* cry95.wav */,
+				92E7105E22E2B1E8006B1E52 /* cry96.wav */,
+				92E7106022E2B1E8006B1E52 /* cry97.wav */,
+				92E7108E22E2B1EE006B1E52 /* cry98.wav */,
+				92E710A622E2B1F3006B1E52 /* cry99.wav */,
+				92E7109F22E2B1F2006B1E52 /* cry100.wav */,
+				92E7106822E2B1E9006B1E52 /* cry101.wav */,
+				92E7108222E2B1ED006B1E52 /* cry102.wav */,
+				92E7106A22E2B1E9006B1E52 /* cry103.wav */,
+				92E7104922E2B1E5006B1E52 /* cry104.wav */,
+				92E710D022E2B1FB006B1E52 /* cry105.wav */,
+				92E7103F22E2B1E4006B1E52 /* cry106.wav */,
+				92E7106422E2B1E9006B1E52 /* cry107.wav */,
+				92E710C622E2B1F8006B1E52 /* cry108.wav */,
+				92E7105322E2B1E6006B1E52 /* cry109.wav */,
+				92E710A822E2B1F4006B1E52 /* cry110.wav */,
+				92E7106122E2B1E8006B1E52 /* cry111.wav */,
+				92E710C722E2B1F9006B1E52 /* cry112.wav */,
+				92E7104E22E2B1E6006B1E52 /* cry113.wav */,
+				92E7104A22E2B1E5006B1E52 /* cry114.wav */,
+				92E7109A22E2B1F1006B1E52 /* cry115.wav */,
+				92E7106222E2B1E8006B1E52 /* cry116.wav */,
+				92E710B022E2B1F5006B1E52 /* cry117.wav */,
+				92E710BB22E2B1F7006B1E52 /* cry118.wav */,
+				92E710A922E2B1F4006B1E52 /* cry119.wav */,
+				92E710CD22E2B1FA006B1E52 /* cry120.wav */,
+				92E710A022E2B1F2006B1E52 /* cry121.wav */,
+				92E7109122E2B1EF006B1E52 /* cry122.wav */,
+				92E7109E22E2B1F1006B1E52 /* cry123.wav */,
+				92E7105222E2B1E6006B1E52 /* cry124.wav */,
+				92E710B922E2B1F6006B1E52 /* cry125.wav */,
+				92E7104722E2B1E5006B1E52 /* cry126.wav */,
+				92E7107922E2B1EB006B1E52 /* cry127.wav */,
+				92E7104B22E2B1E5006B1E52 /* cry128.wav */,
+				92E7103E22E2B1E4006B1E52 /* cry129.wav */,
+				92E7109722E2B1F0006B1E52 /* cry130.wav */,
+				92E7109222E2B1EF006B1E52 /* cry131.wav */,
+				92E7108D22E2B1EE006B1E52 /* cry132.wav */,
+				92E7106B22E2B1EA006B1E52 /* cry133.wav */,
+				92E7103B22E2B1E4006B1E52 /* cry134.wav */,
+				92E7107422E2B1EB006B1E52 /* cry135.wav */,
+				92E710A422E2B1F3006B1E52 /* cry136.wav */,
+				92E7105722E2B1E7006B1E52 /* cry137.wav */,
+				92E7105022E2B1E6006B1E52 /* cry138.wav */,
+				92E7109522E2B1EF006B1E52 /* cry139.wav */,
+				92E7105522E2B1E7006B1E52 /* cry140.wav */,
+				92E7104222E2B1E5006B1E52 /* cry141.wav */,
+				92E7107622E2B1EB006B1E52 /* cry142.wav */,
+				92E7106C22E2B1EA006B1E52 /* cry143.wav */,
+				92E7104322E2B1E5006B1E52 /* cry144.wav */,
+				92E7108322E2B1ED006B1E52 /* cry145.wav */,
+				92E7104622E2B1E5006B1E52 /* cry146.wav */,
+				92E7106322E2B1E9006B1E52 /* cry147.wav */,
+				92E7109422E2B1EF006B1E52 /* cry148.wav */,
+				92E7103C22E2B1E4006B1E52 /* cry149.wav */,
+				92E710C922E2B1F9006B1E52 /* cry150.wav */,
+				92E7105622E2B1E7006B1E52 /* cry151.wav */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -350,10 +803,161 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E7115122E2B1FB006B1E52 /* cry76.wav in Resources */,
+				92E7112C22E2B1FB006B1E52 /* cry139.wav in Resources */,
+				92E7111322E2B1FB006B1E52 /* cry85.wav in Resources */,
+				92E710FF22E2B1FB006B1E52 /* cry101.wav in Resources */,
+				92E7110B22E2B1FB006B1E52 /* cry135.wav in Resources */,
+				92E7111B22E2B1FB006B1E52 /* cry31.wav in Resources */,
+				92E7114022E2B1FB006B1E52 /* cry119.wav in Resources */,
+				92E7112622E2B1FB006B1E52 /* cry86.wav in Resources */,
+				92E7112922E2B1FB006B1E52 /* cry131.wav in Resources */,
+				92E710FA22E2B1FB006B1E52 /* cry147.wav in Resources */,
+				92E7115B22E2B1FB006B1E52 /* cry47.wav in Resources */,
+				92E710F222E2B1FB006B1E52 /* cry68.wav in Resources */,
+				92E7113C22E2B1FB006B1E52 /* cry73.wav in Resources */,
+				92E7115D22E2B1FB006B1E52 /* cry108.wav in Resources */,
+				92E7116822E2B1FB006B1E52 /* cry28.wav in Resources */,
+				92E7115222E2B1FB006B1E52 /* cry118.wav in Resources */,
+				92E7111C22E2B1FB006B1E52 /* cry46.wav in Resources */,
+				92E7114C22E2B1FB006B1E52 /* cry17.wav in Resources */,
+				92E7114522E2B1FB006B1E52 /* cry89.wav in Resources */,
+				92E7116622E2B1FB006B1E52 /* cry61.wav in Resources */,
+				92E7112222E2B1FB006B1E52 /* cry94.wav in Resources */,
+				92E710E822E2B1FB006B1E52 /* cry55.wav in Resources */,
+				92E710E222E2B1FB006B1E52 /* cry128.wav in Resources */,
+				92E7116322E2B1FB006B1E52 /* cry82.wav in Resources */,
+				92E710F022E2B1FB006B1E52 /* cry19.wav in Resources */,
+				92E7110022E2B1FB006B1E52 /* cry18.wav in Resources */,
+				92E7115F22E2B1FB006B1E52 /* cry64.wav in Resources */,
+				92E710EA22E2B1FB006B1E52 /* cry109.wav in Resources */,
+				92E7110F22E2B1FB006B1E52 /* cry1.wav in Resources */,
+				92E710E522E2B1FB006B1E52 /* cry113.wav in Resources */,
+				92E7114822E2B1FB006B1E52 /* cry24.wav in Resources */,
+				92E7111122E2B1FB006B1E52 /* cry75.wav in Resources */,
+				92E7116222E2B1FB006B1E52 /* cry60.wav in Resources */,
+				92E7114422E2B1FB006B1E52 /* cry54.wav in Resources */,
+				92E7115422E2B1FB006B1E52 /* cry39.wav in Resources */,
+				92E7115E22E2B1FB006B1E52 /* cry112.wav in Resources */,
+				92E7113222E2B1FB006B1E52 /* cry84.wav in Resources */,
+				92E7115922E2B1FB006B1E52 /* cry33.wav in Resources */,
+				92E7114322E2B1FB006B1E52 /* cry90.wav in Resources */,
+				92E7116022E2B1FB006B1E52 /* cry150.wav in Resources */,
+				92E7114722E2B1FB006B1E52 /* cry117.wav in Resources */,
+				92E7110422E2B1FB006B1E52 /* cry78.wav in Resources */,
+				92E7113F22E2B1FB006B1E52 /* cry110.wav in Resources */,
+				92E7114E22E2B1FB006B1E52 /* cry87.wav in Resources */,
+				92E7112722E2B1FB006B1E52 /* cry56.wav in Resources */,
+				92E7112D22E2B1FB006B1E52 /* cry20.wav in Resources */,
+				92E710DF22E2B1FB006B1E52 /* cry30.wav in Resources */,
+				92E710E022E2B1FB006B1E52 /* cry104.wav in Resources */,
+				92E710EC22E2B1FB006B1E52 /* cry140.wav in Resources */,
+				92E7110122E2B1FB006B1E52 /* cry103.wav in Resources */,
+				92E7116422E2B1FB006B1E52 /* cry120.wav in Resources */,
+				92E7110222E2B1FB006B1E52 /* cry133.wav in Resources */,
+				92E7114B22E2B1FB006B1E52 /* cry10.wav in Resources */,
+				92E7112122E2B1FB006B1E52 /* cry3.wav in Resources */,
+				92E710F722E2B1FB006B1E52 /* cry97.wav in Resources */,
+				92E7111422E2B1FB006B1E52 /* cry51.wav in Resources */,
+				92E7115622E2B1FB006B1E52 /* cry32.wav in Resources */,
+				92E7115822E2B1FB006B1E52 /* cry77.wav in Resources */,
+				92E7111F22E2B1FB006B1E52 /* cry42.wav in Resources */,
+				92E7111A22E2B1FB006B1E52 /* cry145.wav in Resources */,
+				92E710E622E2B1FB006B1E52 /* cry23.wav in Resources */,
+				92E7110C22E2B1FB006B1E52 /* cry71.wav in Resources */,
+				92E7111622E2B1FB006B1E52 /* cry16.wav in Resources */,
+				92E7111E22E2B1FB006B1E52 /* cry48.wav in Resources */,
+				92E7116122E2B1FB006B1E52 /* cry26.wav in Resources */,
+				92E7110322E2B1FB006B1E52 /* cry143.wav in Resources */,
+				92E7113E22E2B1FB006B1E52 /* cry35.wav in Resources */,
+				92E7115722E2B1FB006B1E52 /* cry38.wav in Resources */,
+				92E710F322E2B1FB006B1E52 /* cry50.wav in Resources */,
+				92E7114122E2B1FB006B1E52 /* cry53.wav in Resources */,
+				92E710DA22E2B1FB006B1E52 /* cry144.wav in Resources */,
+				92E710F822E2B1FB006B1E52 /* cry111.wav in Resources */,
+				92E710D522E2B1FB006B1E52 /* cry129.wav in Resources */,
+				92E710EB22E2B1FB006B1E52 /* cry88.wav in Resources */,
+				92E7111722E2B1FB006B1E52 /* cry63.wav in Resources */,
+				92E7114D22E2B1FB006B1E52 /* cry41.wav in Resources */,
+				92E710ED22E2B1FB006B1E52 /* cry151.wav in Resources */,
+				92E7112822E2B1FB006B1E52 /* cry122.wav in Resources */,
+				92E710D222E2B1FB006B1E52 /* cry134.wav in Resources */,
+				92E710DC22E2B1FB006B1E52 /* cry11.wav in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				92E710F522E2B1FB006B1E52 /* cry96.wav in Resources */,
+				92E7110822E2B1FB006B1E52 /* cry5.wav in Resources */,
+				92E7115A22E2B1FB006B1E52 /* cry83.wav in Resources */,
+				92E710E922E2B1FB006B1E52 /* cry124.wav in Resources */,
+				92E7114622E2B1FB006B1E52 /* cry2.wav in Resources */,
+				92E710E722E2B1FB006B1E52 /* cry138.wav in Resources */,
+				92E710FB22E2B1FB006B1E52 /* cry107.wav in Resources */,
+				92E7116522E2B1FB006B1E52 /* cry4.wav in Resources */,
+				92E7113922E2B1FB006B1E52 /* cry43.wav in Resources */,
+				92E710F122E2B1FB006B1E52 /* cry70.wav in Resources */,
+				92E7116722E2B1FB006B1E52 /* cry105.wav in Resources */,
+				92E710D622E2B1FB006B1E52 /* cry106.wav in Resources */,
+				92E710FC22E2B1FB006B1E52 /* cry80.wav in Resources */,
+				92E710D422E2B1FB006B1E52 /* cry27.wav in Resources */,
+				92E710DB22E2B1FB006B1E52 /* cry8.wav in Resources */,
+				92E7113A22E2B1FB006B1E52 /* cry81.wav in Resources */,
+				92E7113822E2B1FB006B1E52 /* cry92.wav in Resources */,
+				92E7112522E2B1FB006B1E52 /* cry98.wav in Resources */,
+				92E7115322E2B1FB006B1E52 /* cry25.wav in Resources */,
+				92E7113622E2B1FB006B1E52 /* cry100.wav in Resources */,
+				92E710EE22E2B1FB006B1E52 /* cry137.wav in Resources */,
+				92E7114F22E2B1FB006B1E52 /* cry6.wav in Resources */,
+				92E7111222E2B1FB006B1E52 /* cry22.wav in Resources */,
+				92E710E122E2B1FB006B1E52 /* cry114.wav in Resources */,
+				92E7110722E2B1FB006B1E52 /* cry14.wav in Resources */,
+				92E7110E22E2B1FB006B1E52 /* cry69.wav in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				92E7112B22E2B1FB006B1E52 /* cry148.wav in Resources */,
+				92E7111922E2B1FB006B1E52 /* cry102.wav in Resources */,
+				92E7110D22E2B1FB006B1E52 /* cry142.wav in Resources */,
+				92E7112E22E2B1FB006B1E52 /* cry130.wav in Resources */,
+				92E7112322E2B1FB006B1E52 /* cry21.wav in Resources */,
+				92E7115022E2B1FB006B1E52 /* cry125.wav in Resources */,
+				92E7111022E2B1FB006B1E52 /* cry127.wav in Resources */,
+				92E710D922E2B1FB006B1E52 /* cry141.wav in Resources */,
+				92E7110922E2B1FB006B1E52 /* cry29.wav in Resources */,
+				92E7113522E2B1FB006B1E52 /* cry123.wav in Resources */,
 				92A0330322E18FEC00F7D32D /* select.wav in Resources */,
+				92E7113B22E2B1FB006B1E52 /* cry136.wav in Resources */,
+				92E7111522E2B1FB006B1E52 /* cry74.wav in Resources */,
+				92E7113122E2B1FB006B1E52 /* cry115.wav in Resources */,
+				92E710F922E2B1FB006B1E52 /* cry116.wav in Resources */,
+				92E710E422E2B1FB006B1E52 /* cry66.wav in Resources */,
+				92E7113422E2B1FB006B1E52 /* cry57.wav in Resources */,
+				92E7114A22E2B1FB006B1E52 /* cry59.wav in Resources */,
+				92E7112022E2B1FB006B1E52 /* cry7.wav in Resources */,
+				92E710F422E2B1FB006B1E52 /* cry9.wav in Resources */,
+				92E710F622E2B1FB006B1E52 /* cry72.wav in Resources */,
+				92E710D322E2B1FB006B1E52 /* cry149.wav in Resources */,
+				92E7113022E2B1FB006B1E52 /* cry49.wav in Resources */,
+				92E710D822E2B1FB006B1E52 /* cry45.wav in Resources */,
+				92E7112A22E2B1FB006B1E52 /* cry62.wav in Resources */,
+				92E7111D22E2B1FB006B1E52 /* cry79.wav in Resources */,
+				92E7114222E2B1FB006B1E52 /* cry95.wav in Resources */,
+				92E710FE22E2B1FB006B1E52 /* cry44.wav in Resources */,
+				92E7110A22E2B1FB006B1E52 /* cry40.wav in Resources */,
+				92E7112F22E2B1FB006B1E52 /* cry58.wav in Resources */,
+				92E7113322E2B1FB006B1E52 /* cry36.wav in Resources */,
+				92E7114922E2B1FB006B1E52 /* cry52.wav in Resources */,
+				92E7110622E2B1FB006B1E52 /* cry67.wav in Resources */,
+				92E710E322E2B1FB006B1E52 /* cry13.wav in Resources */,
+				92E7113D22E2B1FB006B1E52 /* cry99.wav in Resources */,
+				92E7113722E2B1FB006B1E52 /* cry121.wav in Resources */,
+				92E7115522E2B1FB006B1E52 /* cry12.wav in Resources */,
+				92E7110522E2B1FB006B1E52 /* cry15.wav in Resources */,
 				FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */,
+				92E710DE22E2B1FB006B1E52 /* cry126.wav in Resources */,
+				92E710D722E2B1FB006B1E52 /* cry93.wav in Resources */,
+				92E7112422E2B1FB006B1E52 /* cry132.wav in Resources */,
+				92E710FD22E2B1FB006B1E52 /* cry37.wav in Resources */,
+				92E7115C22E2B1FB006B1E52 /* cry65.wav in Resources */,
+				92E7111822E2B1FB006B1E52 /* cry34.wav in Resources */,
+				92E710DD22E2B1FB006B1E52 /* cry146.wav in Resources */,
+				92E710EF22E2B1FB006B1E52 /* cry91.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
