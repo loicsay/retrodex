@@ -24,7 +24,7 @@ const Infos = ({ imageSource, pokemon }) => {
       </View>
       <View style={styles.pokemonData}>
         <Data>{pokemon.names.fr}</Data>
-        <Data>{pokemon.categories.en}</Data>
+        <Data>{pokemon.categories.fr}</Data>
         <Data uppercase={false}>{`TAI ${pokemon.height_eu}`}</Data>
         <Data uppercase={false}>{`PDS ${pokemon.weight_eu}`}</Data>
       </View>

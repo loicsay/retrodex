@@ -28,7 +28,7 @@
         "fr": "Il a une \u00e9trange graine plant\u00e9e sur son dos. Elle grandit avec lui depuis sa naissance."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed" }
+    "categories": { "de": "Samen", "en": "Seed", "fr": "Graine" }
   },
   {
     "height_us": "3'03\"",
@@ -59,7 +59,7 @@
         "fr": "Son bulbe dorsal devient si gros qu'il ne peut plus tenir sur ses membres post\u00e9rieurs."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed" }
+    "categories": { "de": "Samen", "en": "Seed", "fr": "Graine" }
   },
   {
     "height_us": "6'07\"",
@@ -90,7 +90,7 @@
         "fr": "Sa plante m\u00fbrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleill\u00e9s."
       }
     },
-    "categories": { "de": "Samen", "en": "Seed" }
+    "categories": { "de": "Samen", "en": "Seed", "fr": "Graine" }
   },
   {
     "height_us": "2'00\"",
@@ -121,7 +121,7 @@
         "fr": "Il pr\u00e9f\u00e8re les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue."
       }
     },
-    "categories": { "de": "Echse", "en": "Lizard" }
+    "categories": { "de": "Echse", "en": "Lizard", "fr": "L\u00e9zard" }
   },
   {
     "height_us": "3'07\"",
@@ -152,7 +152,7 @@
         "fr": "En agitant sa queue, il peut \u00e9lever le niveau de la temp\u00e9rature \u00e0 un degr\u00e9 incroyable."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame" }
+    "categories": { "de": "Flamme", "en": "Flame", "fr": "Flamme" }
   },
   {
     "height_us": "5'07\"",
@@ -183,7 +183,7 @@
         "fr": "Il peut fondre la roche de son souffle br\u00fblant. Il est souvent la cause de nombreux incendies."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame" }
+    "categories": { "de": "Flamme", "en": "Flame", "fr": "Flamme" }
   },
   {
     "height_us": "1'08\"",
@@ -214,7 +214,11 @@
         "fr": "Son dos durcit avec l'\u00e2ge et devient une super carapace. Il peut cracher des jets d'\u00e9cume."
       }
     },
-    "categories": { "de": "Minikr\u00f6te", "en": "Tiny Turtle" }
+    "categories": {
+      "de": "Minikr\u00f6te",
+      "en": "Tiny Turtle",
+      "fr": "Minitortue"
+    }
   },
   {
     "height_us": "3'03\"",
@@ -245,7 +249,7 @@
         "fr": "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails."
       }
     },
-    "categories": { "de": "Kr\u00f6te", "en": "Turtle" }
+    "categories": { "de": "Kr\u00f6te", "en": "Turtle", "fr": "Tortue" }
   },
   {
     "height_us": "5'03\"",
@@ -276,7 +280,7 @@
         "fr": "Un Pok\u00e9mon brutal arm\u00e9 de canons hydrauliques. Ses puissants jets d'eau sont d\u00e9vastateurs."
       }
     },
-    "categories": { "de": "Panzertier", "en": "Shellfish" }
+    "categories": { "de": "Panzertier", "en": "Shellfish", "fr": "Carapace" }
   },
   {
     "height_us": "1'00\"",
@@ -307,7 +311,7 @@
         "fr": "Ses petites pattes sont \u00e9quip\u00e9es de ventouses, lui permettant de grimper aux murs."
       }
     },
-    "categories": { "de": "Wurm", "en": "Worm" }
+    "categories": { "de": "Wurm", "en": "Worm", "fr": "Ver" }
   },
   {
     "height_us": "2'04\"",
@@ -338,7 +342,7 @@
         "fr": "Il est vuln\u00e9rable aux attaques tant que sa carapace fragile expose son corps tendre et mou."
       }
     },
-    "categories": { "de": "Kokon", "en": "Cocoon" }
+    "categories": { "de": "Kokon", "en": "Cocoon", "fr": "Cocon" }
   },
   {
     "height_us": "3'07\"",
@@ -369,7 +373,7 @@
         "fr": "En combat, il bat des ailes tr\u00e8s rapidement pour projeter des poudres toxiques sur ses ennemis."
       }
     },
-    "categories": { "de": "Falter", "en": "Butterfly" }
+    "categories": { "de": "Falter", "en": "Butterfly", "fr": "Papillon" }
   },
   {
     "height_us": "1'00\"",
@@ -400,7 +404,7 @@
         "fr": "Il se nourrit de feuilles dans les for\u00eats. L'aiguillon sur son front est empoisonn\u00e9."
       }
     },
-    "categories": { "de": "Raupe", "en": "Hairy Bug" }
+    "categories": { "de": "Raupe", "en": "Hairy Bug", "fr": "Insectopic" }
   },
   {
     "height_us": "2'00\"",
@@ -431,7 +435,7 @@
         "fr": "Incapable de se d\u00e9placer de lui-m\u00eame, il se d\u00e9fend en durcissant sa carapace."
       }
     },
-    "categories": { "de": "Kokon", "en": "Cocoon" }
+    "categories": { "de": "Kokon", "en": "Cocoon", "fr": "Cocon" }
   },
   {
     "height_us": "3'03\"",
@@ -462,7 +466,11 @@
         "fr": "Il vole \u00e0 tr\u00e8s grande vitesse. Il se bat avec les dards empoisonn\u00e9s de ses bras."
       }
     },
-    "categories": { "de": "Giftbiene", "en": "Poison Bee" }
+    "categories": {
+      "de": "Giftbiene",
+      "en": "Poison Bee",
+      "fr": "Gu\u00eapoison"
+    }
   },
   {
     "height_us": "1'00\"",
@@ -493,7 +501,7 @@
         "fr": "Il pr\u00e9f\u00e8re les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue."
       }
     },
-    "categories": { "de": "Kleinvogel", "en": "Tiny Bird" }
+    "categories": { "de": "Kleinvogel", "en": "Tiny Bird", "fr": "Minoiseau" }
   },
   {
     "height_us": "3'07\"",
@@ -524,7 +532,7 @@
         "fr": "Il prot\u00e8ge son territoire avec ardeur et repousse \u00e0 coups de bec tout intrus."
       }
     },
-    "categories": { "de": "Vogel", "en": "Bird" }
+    "categories": { "de": "Vogel", "en": "Bird", "fr": "Oiseau" }
   },
   {
     "height_us": "4'11\"",
@@ -555,7 +563,7 @@
         "fr": "Il chasse en survolant la surface de l'eau et en plongeant pour attraper des proies faciles."
       }
     },
-    "categories": { "de": "Vogel", "en": "Bird" }
+    "categories": { "de": "Vogel", "en": "Bird", "fr": "Oiseau" }
   },
   {
     "height_us": "1'00\"",
@@ -586,7 +594,11 @@
         "fr": "Sa morsure est tr\u00e8s puissante. Petit et rapide, on en voit un peu partout."
       }
     },
-    "categories": { "de": "Maus (Ratte vor der 2. Gen.)", "en": "Mouse" }
+    "categories": {
+      "de": "Maus (Ratte vor der 2. Gen.)",
+      "en": "Mouse",
+      "fr": "Souris"
+    }
   },
   {
     "height_us": "2'04\"",
@@ -617,7 +629,11 @@
         "fr": "Si ses moustaches sont coup\u00e9es, il perd le sens de l'\u00e9quilibre et devient moins rapide."
       }
     },
-    "categories": { "de": "Maus (Ratte vor der 2. Gen.)", "en": "Mouse" }
+    "categories": {
+      "de": "Maus (Ratte vor der 2. Gen.)",
+      "en": "Mouse",
+      "fr": "Souris"
+    }
   },
   {
     "height_us": "1'00\"",
@@ -648,7 +664,7 @@
         "fr": "Il chasse les insectes dans les hautes herbes. Ses petites ailes lui permettent de voler tr\u00e8s vite."
       }
     },
-    "categories": { "de": "Kleinvogel", "en": "Tiny Bird" }
+    "categories": { "de": "Kleinvogel", "en": "Tiny Bird", "fr": "Minoiseau" }
   },
   {
     "height_us": "3'11\"",
@@ -679,7 +695,7 @@
         "fr": "Ses ailes g\u00e9antes lui permettent de planer si longtemps qu'il ne se pose que tr\u00e8s rarement."
       }
     },
-    "categories": { "de": "Pickvogel", "en": "Beak" }
+    "categories": { "de": "Pickvogel", "en": "Beak", "fr": "Bec-Oiseau" }
   },
   {
     "height_us": "6'07\"",
@@ -705,7 +721,7 @@
         "fr": "Il se d\u00e9place en silence pour d\u00e9vorer des oeufs de Roucool ou de Piafabec."
       }
     },
-    "categories": { "de": "Schlange", "en": "Snake" }
+    "categories": { "de": "Schlange", "en": "Snake", "fr": "Serpent" }
   },
   {
     "height_us": "11'06\"",
@@ -731,7 +747,7 @@
         "fr": "Les motifs f\u00e9roces peints sur son corps changent selon son environnement."
       }
     },
-    "categories": { "de": "Kobra", "en": "Cobra" }
+    "categories": { "de": "Kobra", "en": "Cobra", "fr": "Cobra" }
   },
   {
     "height_us": "1'04\"",
@@ -762,7 +778,7 @@
         "fr": "Quand plusieurs de ces Pok\u00e9mon se r\u00e9unissent, ils provoquent de gigantesques orages."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse" }
+    "categories": { "de": "Maus", "en": "Mouse", "fr": "Souris" }
   },
   {
     "height_us": "2'07\"",
@@ -788,7 +804,7 @@
         "fr": "Il doit garder sa queue en contact ave le sol pour \u00e9viter toute \u00e9lectrocution."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse" }
+    "categories": { "de": "Maus", "en": "Mouse", "fr": "Souris" }
   },
   {
     "height_us": "2'00\"",
@@ -819,7 +835,7 @@
         "fr": "Il s'enterre dans les r\u00e9gions arides et d\u00e9sertiques. Il \u00e9merge seulement pour chasser."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse" }
+    "categories": { "de": "Maus", "en": "Mouse", "fr": "Souris" }
   },
   {
     "height_us": "3'03\"",
@@ -850,7 +866,7 @@
         "fr": "Il se roule en boule h\u00e9riss\u00e9e de piques s'il est menac\u00e9. Il peut ainsi s'enfuir ou attaquer."
       }
     },
-    "categories": { "de": "Maus", "en": "Mouse" }
+    "categories": { "de": "Maus", "en": "Mouse", "fr": "Souris" }
   },
   {
     "height_us": "1'04\"",
@@ -881,7 +897,11 @@
         "fr": "Ce Pok\u00e9mon est h\u00e9riss\u00e9 de dards empoisonn\u00e9s. Les femelles ont des dards plus petits."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
+    "categories": {
+      "de": "Giftdorn",
+      "en": "Poison Pin",
+      "fr": "V\u00e9n\u00e9pic"
+    }
   },
   {
     "height_us": "2'07\"",
@@ -912,7 +932,11 @@
         "fr": "La corne de la femelle grandit lentement. Elle pr\u00e9f\u00e8re attaquer avec ses griffes et sa gueule."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
+    "categories": {
+      "de": "Giftdorn",
+      "en": "Poison Pin",
+      "fr": "V\u00e9n\u00e9pic"
+    }
   },
   {
     "height_us": "4'03\"",
@@ -943,7 +967,7 @@
         "fr": "Ses \u00e9cailles tr\u00e8s r\u00e9sistantes et son corps massif sont des armes d\u00e9vastatrices."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill" }
+    "categories": { "de": "Bohrer", "en": "Drill", "fr": "Perceur" }
   },
   {
     "height_us": "1'08\"",
@@ -974,7 +998,11 @@
         "fr": "Son ou\u00efe tr\u00e8s fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
+    "categories": {
+      "de": "Giftdorn",
+      "en": "Poison Pin",
+      "fr": "V\u00e9n\u00e9pic"
+    }
   },
   {
     "height_us": "2'11\"",
@@ -1005,7 +1033,11 @@
         "fr": "Tr\u00e8s agressif, il est prompt \u00e0 r\u00e9pondre \u00e0 la violence. La corne sur sa t\u00eate est venimeuse."
       }
     },
-    "categories": { "de": "Giftdorn", "en": "Poison Pin" }
+    "categories": {
+      "de": "Giftdorn",
+      "en": "Poison Pin",
+      "fr": "V\u00e9n\u00e9pic"
+    }
   },
   {
     "height_us": "4'07\"",
@@ -1036,7 +1068,7 @@
         "fr": "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill" }
+    "categories": { "de": "Bohrer", "en": "Drill", "fr": "Perceur" }
   },
   {
     "height_us": "2'00\"",
@@ -1067,7 +1099,7 @@
         "fr": "Tr\u00e8s recherch\u00e9 pour son aura, il est tr\u00e8s rare et ne vit que dans des endroits pr\u00e9cis."
       }
     },
-    "categories": { "de": "Fee", "en": "Fairy" }
+    "categories": { "de": "Fee", "en": "Fairy", "fr": "F\u00e9e" }
   },
   {
     "height_us": "4'03\"",
@@ -1098,7 +1130,7 @@
         "fr": "Une sorte de petite f\u00e9e tr\u00e8s rare. Il se cache en apercevant un \u00eatre humain."
       }
     },
-    "categories": { "de": "Fee", "en": "Fairy" }
+    "categories": { "de": "Fee", "en": "Fairy", "fr": "F\u00e9e" }
   },
   {
     "height_us": "2'00\"",
@@ -1124,7 +1156,7 @@
         "fr": "Il n'a qu'une seule queue \u00e0 la naissance. Sa queue se divise \u00e0 la pointe au fil des ans."
       }
     },
-    "categories": { "de": "Fuchs", "en": "Fox" }
+    "categories": { "de": "Fuchs", "en": "Fox", "fr": "Renard" }
   },
   {
     "height_us": "3'07\"",
@@ -1155,7 +1187,7 @@
         "fr": "Tr\u00e8s intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans."
       }
     },
-    "categories": { "de": "Fuchs", "en": "Fox" }
+    "categories": { "de": "Fuchs", "en": "Fox", "fr": "Renard" }
   },
   {
     "height_us": "1'08\"",
@@ -1186,7 +1218,7 @@
         "fr": "Quand ses yeux s'illuminent, il chante une myst\u00e9rieuse berceuse."
       }
     },
-    "categories": { "de": "Ballon", "en": "Balloon" }
+    "categories": { "de": "Ballon", "en": "Balloon", "fr": "Bouboule" }
   },
   {
     "height_us": "3'03\"",
@@ -1217,7 +1249,7 @@
         "fr": "En cas de danger, il gonfle d'air son corps doux et potel\u00e9 dans des proportions gigantesques."
       }
     },
-    "categories": { "de": "Ballon", "en": "Balloon" }
+    "categories": { "de": "Ballon", "en": "Balloon", "fr": "Bouboule" }
   },
   {
     "height_us": "2'07\"",
@@ -1248,7 +1280,7 @@
         "fr": "Se d\u00e9place en colonie dans les endroits sombres. Il s'oriente gr\u00e2ce aux ultrasons."
       }
     },
-    "categories": { "de": "Fledermaus", "en": "Bat" }
+    "categories": { "de": "Fledermaus", "en": "Bat", "fr": "Chovsouris" }
   },
   {
     "height_us": "5'03\"",
@@ -1279,7 +1311,7 @@
         "fr": "Une fois son adversaire mordu, il absorbera son \u00e9nergie m\u00eame s'il devient trop gros pour voler."
       }
     },
-    "categories": { "de": "Fledermaus", "en": "Bat" }
+    "categories": { "de": "Fledermaus", "en": "Bat", "fr": "Chovsouris" }
   },
   {
     "height_us": "1'08\"",
@@ -1310,7 +1342,7 @@
         "fr": "Pendant la journ\u00e9e, il se cache sous terre. Il s'aventure la nuit pour planter des graines."
       }
     },
-    "categories": { "de": "Unkraut", "en": "Weed" }
+    "categories": { "de": "Unkraut", "en": "Weed", "fr": "Racine" }
   },
   {
     "height_us": "2'07\"",
@@ -1336,7 +1368,7 @@
         "fr": "Le liquide qui s'\u00e9coule de sa bouche est comestible. Il sert \u00e0 app\u00e2ter sa proie."
       }
     },
-    "categories": { "de": "Unkraut", "en": "Weed" }
+    "categories": { "de": "Unkraut", "en": "Weed", "fr": "Racine" }
   },
   {
     "height_us": "3'11\"",
@@ -1367,7 +1399,7 @@
         "fr": "Plus ses p\u00e9tales sont grands, plus ils contiennent de pollen toxique."
       }
     },
-    "categories": { "de": "Blume", "en": "Flower" }
+    "categories": { "de": "Blume", "en": "Flower", "fr": "Fleur" }
   },
   {
     "height_us": "1'00\"",
@@ -1393,7 +1425,7 @@
         "fr": "Les champignons sur son dos se nourrissent des nutriments de leur h\u00f4te insecto\u00efde."
       }
     },
-    "categories": { "de": "Pilz", "en": "Mushroom" }
+    "categories": { "de": "Pilz", "en": "Mushroom", "fr": "Champignon" }
   },
   {
     "height_us": "3'03\"",
@@ -1424,7 +1456,7 @@
         "fr": "Une symbiose entre un parasite et un insecte. Le champignon a pris le contr\u00f4le de son h\u00f4te."
       }
     },
-    "categories": { "de": "Pilz", "en": "Mushroom" }
+    "categories": { "de": "Pilz", "en": "Mushroom", "fr": "Champignon" }
   },
   {
     "height_us": "3'03\"",
@@ -1455,7 +1487,7 @@
         "fr": "Il vit \u00e0 l'ombre des grands arbres o\u00f9 il mange des insectes. Il est attir\u00e9 par la lumi\u00e8re."
       }
     },
-    "categories": { "de": "Insekt", "en": "Insect" }
+    "categories": { "de": "Insekt", "en": "Insect", "fr": "Vermine" }
   },
   {
     "height_us": "4'11\"",
@@ -1486,7 +1518,7 @@
         "fr": "Les motifs ocre de ses ailes changent en fonction de son type de poison."
       }
     },
-    "categories": { "de": "Giftmotte", "en": "Poison Moth" }
+    "categories": { "de": "Giftmotte", "en": "Poison Moth", "fr": "Papipoison" }
   },
   {
     "height_us": "0'08\"",
@@ -1517,7 +1549,7 @@
         "fr": "Il vit \u00e0 un m\u00e8tre sous la terre et se nourrit de racines. Il appara\u00eet rarement \u00e0 la surface."
       }
     },
-    "categories": { "de": "Maulwurf", "en": "Mole" }
+    "categories": { "de": "Maulwurf", "en": "Mole", "fr": "Taupe" }
   },
   {
     "height_us": "2'04\"",
@@ -1548,7 +1580,7 @@
         "fr": "Un groupe de Taupiqueur. Il cr\u00e9e des s\u00e9ismes en creusant \u00e0 plus de 100 km de profondeur."
       }
     },
-    "categories": { "de": "Maulwurf", "en": "Mole" }
+    "categories": { "de": "Maulwurf", "en": "Mole", "fr": "Taupe" }
   },
   {
     "height_us": "1'04\"",
@@ -1574,7 +1606,7 @@
         "fr": "Il adore les pi\u00e8ces de monnaie. Il hante les rues \u00e0 la recherche de pi\u00e8ces oubli\u00e9es par les passants."
       }
     },
-    "categories": { "de": "Katze", "en": "Scratch Cat" }
+    "categories": { "de": "Katze", "en": "Scratch Cat", "fr": "Chad\u00e9gout" }
   },
   {
     "height_us": "3'03\"",
@@ -1605,7 +1637,7 @@
         "fr": "Tr\u00e8s appr\u00e9ci\u00e9 pour sa fourrure, il est difficile \u00e0 apprivoiser en raison de son caract\u00e8re r\u00e9tif."
       }
     },
-    "categories": { "de": "Rassekatze", "en": "Classy Cat" }
+    "categories": { "de": "Rassekatze", "en": "Classy Cat", "fr": "Chadeville" }
   },
   {
     "height_us": "2'07\"",
@@ -1636,7 +1668,7 @@
         "fr": "Il distrait ses ennemis avec des grimaces d\u00e9biles et les attaque ensuite avec ses pouvoirs psy."
       }
     },
-    "categories": { "de": "Ente", "en": "Duck" }
+    "categories": { "de": "Ente", "en": "Duck", "fr": "Canard" }
   },
   {
     "height_us": "5'07\"",
@@ -1667,7 +1699,7 @@
         "fr": "Il nage avec \u00e9l\u00e9gance le long des c\u00f4tes. Il est souvent confondu avec le monstre japonais : Kappa."
       }
     },
-    "categories": { "de": "Ente", "en": "Duck" }
+    "categories": { "de": "Ente", "en": "Duck", "fr": "Canard" }
   },
   {
     "height_us": "1'08\"",
@@ -1698,7 +1730,11 @@
         "fr": "Il se met en col\u00e8re tr\u00e8s vite. Calme et furieux, son humeur change d'une seconde \u00e0 l'autre."
       }
     },
-    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey" }
+    "categories": {
+      "de": "Schwein / Affe",
+      "en": "Pig Monkey",
+      "fr": "Porsinge"
+    }
   },
   {
     "height_us": "3'03\"",
@@ -1729,7 +1765,11 @@
         "fr": "Agressif et teigneux, il poursuit son gibier jusqu'\u00e0 \u00e9puisement complet."
       }
     },
-    "categories": { "de": "Schwein / Affe", "en": "Pig Monkey" }
+    "categories": {
+      "de": "Schwein / Affe",
+      "en": "Pig Monkey",
+      "fr": "Porsinge"
+    }
   },
   {
     "height_us": "2'04\"",
@@ -1760,7 +1800,7 @@
         "fr": "Pour prot\u00e9ger son territoire, il aboie et mord jusqu'\u00e0 ce que les intrus s'enfuient."
       }
     },
-    "categories": { "de": "Hund", "en": "Puppy" }
+    "categories": { "de": "Hund", "en": "Puppy", "fr": "Chiot" }
   },
   {
     "height_us": "6'03\"",
@@ -1791,7 +1831,11 @@
         "fr": "Un Pok\u00e9mon tr\u00e8s recherch\u00e9 pour sa gr\u00e2ce l\u00e9gendaire. Son pas \u00e9l\u00e9gant semble glisser sur le vent."
       }
     },
-    "categories": { "de": "Legend\u00e4r", "en": "Legendary" }
+    "categories": {
+      "de": "Legend\u00e4r",
+      "en": "Legendary",
+      "fr": "L\u00e9gendaire"
+    }
   },
   {
     "height_us": "2'00\"",
@@ -1822,7 +1866,7 @@
         "fr": "Il court mal avec ses petites pattes. Il pr\u00e9f\u00e8re nager que de se tenir debout."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole", "fr": "T\u00eatard" }
   },
   {
     "height_us": "3'03\"",
@@ -1853,7 +1897,7 @@
         "fr": "Amphibie, il peut vivre \u00e0 l'air libre mais il doit rester mouill\u00e9 pour survivre."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole", "fr": "T\u00eatard" }
   },
   {
     "height_us": "4'03\"",
@@ -1884,7 +1928,7 @@
         "fr": "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique."
       }
     },
-    "categories": { "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": { "de": "Kaulquappe", "en": "Tadpole", "fr": "T\u00eatard" }
   },
   {
     "height_us": "2'11\"",
@@ -1910,7 +1954,7 @@
         "fr": "Son don de t\u00e9l\u00e9pathie lui permet de sentir le danger et de se t\u00e9l\u00e9porter en un lieu s\u00fbr."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi" }
+    "categories": { "de": "Psi", "en": "Psi", "fr": "Psy" }
   },
   {
     "height_us": "4'03\"",
@@ -1941,7 +1985,7 @@
         "fr": "Son corps \u00e9met des ondes alpha provoquant des migraines \u00e0 ceux qui se trouvent \u00e0 proximit\u00e9."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi" }
+    "categories": { "de": "Psi", "en": "Psi", "fr": "Psy" }
   },
   {
     "height_us": "4'11\"",
@@ -1972,7 +2016,7 @@
         "fr": "Son super cerveau peut effectuer des op\u00e9rations \u00e0 la vitesse d'un ordinateur. Il a un Q.I. de 5000."
       }
     },
-    "categories": { "de": "Psi", "en": "Psi" }
+    "categories": { "de": "Psi", "en": "Psi", "fr": "Psy" }
   },
   {
     "height_us": "2'07\"",
@@ -2003,7 +2047,7 @@
         "fr": "Il adore la musculation. Il pratique les arts martiaux pour devenir encore plus fort."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower", "fr": "Colosse" }
   },
   {
     "height_us": "4'11\"",
@@ -2034,7 +2078,7 @@
         "fr": "Son corps est si puissant qu'il lui faut une ceinture de force pour \u00e9quilibrer ses mouvements."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower", "fr": "Colosse" }
   },
   {
     "height_us": "5'03\"",
@@ -2065,7 +2109,7 @@
         "fr": "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'\u00e0 l'horizon."
       }
     },
-    "categories": { "de": "Kraftprotz", "en": "Superpower" }
+    "categories": { "de": "Kraftprotz", "en": "Superpower", "fr": "Colosse" }
   },
   {
     "height_us": "2'04\"",
@@ -2096,7 +2140,7 @@
         "fr": "Un Pok\u00e9mon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches."
       }
     },
-    "categories": { "de": "Blume", "en": "Flower" }
+    "categories": { "de": "Blume", "en": "Flower", "fr": "Fleur" }
   },
   {
     "height_us": "3'03\"",
@@ -2127,7 +2171,7 @@
         "fr": "Il crache de la poudre toxique pour immobiliser sa proie et il l'ach\u00e8ve avec de l'acide."
       }
     },
-    "categories": { "de": "Fliegentod", "en": "Flycatcher" }
+    "categories": { "de": "Fliegentod", "en": "Flycatcher", "fr": "Carnivore" }
   },
   {
     "height_us": "5'07\"",
@@ -2160,7 +2204,8 @@
     },
     "categories": {
       "de": "Fliegentod (Fliegentot vor der 5. Gen.)",
-      "en": "Flycatcher"
+      "en": "Flycatcher",
+      "fr": "Carnivore"
     }
   },
   {
@@ -2192,7 +2237,7 @@
         "fr": "Flottant au bord des c\u00f4tes, les p\u00eacheurs se font souvent arroser d'acide quand ils en accrochent un."
       }
     },
-    "categories": { "de": "Qualle", "en": "Jellyfish" }
+    "categories": { "de": "Qualle", "en": "Jellyfish", "fr": "Mollusque" }
   },
   {
     "height_us": "5'03\"",
@@ -2223,7 +2268,7 @@
         "fr": "Ses tentacules sont r\u00e9tract\u00e9s au repos. En situation de chasse, ils s'allongent."
       }
     },
-    "categories": { "de": "Qualle", "en": "Jellyfish" }
+    "categories": { "de": "Qualle", "en": "Jellyfish", "fr": "Mollusque" }
   },
   {
     "height_us": "1'04\"",
@@ -2254,7 +2299,7 @@
         "fr": "Il vit dans les plaines ou les montagnes. On le confond souvent avec un petit caillou."
       }
     },
-    "categories": { "de": "Gestein", "en": "Rock" }
+    "categories": { "de": "Gestein", "en": "Rock", "fr": "Roche" }
   },
   {
     "height_us": "3'03\"",
@@ -2285,7 +2330,7 @@
         "fr": "Pour se d\u00e9placer il d\u00e9gringole le long des pentes. Il pulv\u00e9rise tout obstacle sur son passage."
       }
     },
-    "categories": { "de": "Gestein", "en": "Rock" }
+    "categories": { "de": "Gestein", "en": "Rock", "fr": "Roche" }
   },
   {
     "height_us": "4'07\"",
@@ -2311,7 +2356,7 @@
         "fr": "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
       }
     },
-    "categories": { "de": "Urgestein", "en": "Megaton" }
+    "categories": { "de": "Urgestein", "en": "Megaton", "fr": "Titanesque" }
   },
   {
     "height_us": "3'03\"",
@@ -2337,7 +2382,7 @@
         "fr": "Ses sabots sont plus r\u00e9sistants que le diamant. Il peut aplatir n'importe quoi en le pi\u00e9tinant."
       }
     },
-    "categories": { "de": "Feuerpferd", "en": "Fire Horse" }
+    "categories": { "de": "Feuerpferd", "en": "Fire Horse", "fr": "Cheval Feu" }
   },
   {
     "height_us": "5'07\"",
@@ -2368,7 +2413,7 @@
         "fr": "Dot\u00e9 d'un esprit de comp\u00e9tition, il poursuit toute cr\u00e9ature rapide pour la course."
       }
     },
-    "categories": { "de": "Feuerpferd", "en": "Fire Horse" }
+    "categories": { "de": "Feuerpferd", "en": "Fire Horse", "fr": "Cheval Feu" }
   },
   {
     "height_us": "3'11\"",
@@ -2399,7 +2444,7 @@
         "fr": "Tr\u00e8s lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque."
       }
     },
-    "categories": { "de": "Schnarcher", "en": "Dopey" }
+    "categories": { "de": "Schnarcher", "en": "Dopey", "fr": "Cr\u00e9tin" }
   },
   {
     "height_us": "5'03\"",
@@ -2430,7 +2475,7 @@
         "fr": "Le Kokiyas accroch\u00e9 \u00e0 la queue du Ramoloss se nourrit des restes de son h\u00f4te."
       }
     },
-    "categories": { "de": "Symbiose", "en": "Hermit Crab" }
+    "categories": { "de": "Symbiose", "en": "Hermit Crab", "fr": "Symbiose" }
   },
   {
     "height_us": "1'00\"",
@@ -2461,7 +2506,7 @@
         "fr": "Il contr\u00f4le la gravit\u00e9 pour pouvoir voler. Il attaque avec des cages-\u00e9clair."
       }
     },
-    "categories": { "de": "Magnet", "en": "Magnet" }
+    "categories": { "de": "Magnet", "en": "Magnet", "fr": "Magn\u00e9tique" }
   },
   {
     "height_us": "3'03\"",
@@ -2492,7 +2537,7 @@
         "fr": "Constitu\u00e9 de Magneti reli\u00e9s les uns aux autres, il appara\u00eet lorsque le soleil brille."
       }
     },
-    "categories": { "de": "Magnet", "en": "Magnet" }
+    "categories": { "de": "Magnet", "en": "Magnet", "fr": "Magn\u00e9tique" }
   },
   {
     "height_us": "2'07\"",
@@ -2523,7 +2568,7 @@
         "fr": "Il utilise l'oignon qu'il a dans la bouche comme une \u00e9p\u00e9e d'acier."
       }
     },
-    "categories": { "de": "Wildente", "en": "Wild Duck" }
+    "categories": { "de": "Wildente", "en": "Wild Duck", "fr": "Canard Fou" }
   },
   {
     "height_us": "4'07\"",
@@ -2549,7 +2594,7 @@
         "fr": "Cette oiseau vole tr\u00e8s mal mais court tr\u00e8s vite. Il laisse de gigantesque empreintes de pas."
       }
     },
-    "categories": { "de": "Duovogel", "en": "Twin Bird" }
+    "categories": { "de": "Duovogel", "en": "Twin Bird", "fr": "Duoiseau" }
   },
   {
     "height_us": "5'11\"",
@@ -2575,7 +2620,7 @@
         "fr": "Il \u00e9labore des plans complexes avec ses trois cerveaux. Une de ces t\u00eates reste toujours \u00e9veill\u00e9e."
       }
     },
-    "categories": { "de": "Trivogel", "en": "Triple Bird" }
+    "categories": { "de": "Trivogel", "en": "Triple Bird", "fr": "Trioiseau" }
   },
   {
     "height_us": "3'07\"",
@@ -2601,7 +2646,7 @@
         "fr": "La corne sur son front est tr\u00e8s r\u00e9sistante. Elle lui sert \u00e0 percer des blocs de glace."
       }
     },
-    "categories": { "de": "Seehund", "en": "Sea Lion" }
+    "categories": { "de": "Seehund", "en": "Sea Lion", "fr": "Otarie" }
   },
   {
     "height_us": "5'07\"",
@@ -2632,7 +2677,7 @@
         "fr": "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glac\u00e9e \u00e0 plus de 8 noeuds."
       }
     },
-    "categories": { "de": "Seehund", "en": "Sea Lion" }
+    "categories": { "de": "Seehund", "en": "Sea Lion", "fr": "Otarie" }
   },
   {
     "height_us": "2'11\"",
@@ -2663,7 +2708,7 @@
         "fr": "Vivant dans des tas d'ordures, il se nourrit des d\u00e9chets polluants rejet\u00e9s par les usines."
       }
     },
-    "categories": { "de": "Schlamm", "en": "Sludge" }
+    "categories": { "de": "Schlamm", "en": "Sludge", "fr": "D\u00e9gueu" }
   },
   {
     "height_us": "3'11\"",
@@ -2689,7 +2734,7 @@
         "fr": "Il est recouvert d'une \u00e9paisse couche toxique. Il laisse une trace empoisonn\u00e9e derri\u00e8re lui."
       }
     },
-    "categories": { "de": "Schlamm", "en": "Sludge" }
+    "categories": { "de": "Schlamm", "en": "Sludge", "fr": "D\u00e9gueu" }
   },
   {
     "height_us": "1'00\"",
@@ -2720,7 +2765,7 @@
         "fr": "Prot\u00e9g\u00e9 par une carapace tr\u00e8s r\u00e9sistante, il est vuln\u00e9rable quand celle-ci s'ouvre."
       }
     },
-    "categories": { "de": "Muschel", "en": "Bivalve" }
+    "categories": { "de": "Muschel", "en": "Bivalve", "fr": "Bivalve" }
   },
   {
     "height_us": "4'11\"",
@@ -2751,7 +2796,7 @@
         "fr": "Une fois menac\u00e9, il envoie de rapides vol\u00e9es de dards. Sa partie interne est inconnue."
       }
     },
-    "categories": { "de": "Muschel", "en": "Bivalve" }
+    "categories": { "de": "Muschel", "en": "Bivalve", "fr": "Bivalve" }
   },
   {
     "height_us": "4'03\"",
@@ -2782,7 +2827,7 @@
         "fr": "Ce Pok\u00e9mon gazeux plonge ses victimes dans un profond sommeil sans qu'elles ne s'en aper\u00e7oivent."
       }
     },
-    "categories": { "de": "Gas", "en": "Gas" }
+    "categories": { "de": "Gas", "en": "Gas", "fr": "Gaz" }
   },
   {
     "height_us": "5'03\"",
@@ -2813,7 +2858,7 @@
         "fr": "Il peut se glisser \u00e0 travers les murs comme une cr\u00e9ature d'une autre dimension."
       }
     },
-    "categories": { "de": "Gas", "en": "Gas" }
+    "categories": { "de": "Gas", "en": "Gas", "fr": "Gaz" }
   },
   {
     "height_us": "4'11\"",
@@ -2844,7 +2889,7 @@
         "fr": "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
       }
     },
-    "categories": { "de": "Schatten", "en": "Shadow" }
+    "categories": { "de": "Schatten", "en": "Shadow", "fr": "Ombre" }
   },
   {
     "height_us": "28'10\"",
@@ -2870,7 +2915,7 @@
         "fr": "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire."
       }
     },
-    "categories": { "de": "Felsnatter", "en": "Rock Snake" }
+    "categories": { "de": "Felsnatter", "en": "Rock Snake", "fr": "Serpenroc" }
   },
   {
     "height_us": "3'03\"",
@@ -2901,7 +2946,7 @@
         "fr": "Il endort ses ennemis et d\u00e9vore leurs songes. En mangeant de mauvais r\u00eaves, il devient malade."
       }
     },
-    "categories": { "de": "Hypnose", "en": "Hypnosis" }
+    "categories": { "de": "Hypnose", "en": "Hypnosis", "fr": "Hypnose" }
   },
   {
     "height_us": "5'03\"",
@@ -2927,7 +2972,7 @@
         "fr": "En fixant son adversaire, il l'assaille avec les attaques psy d'hypnose et de choc mental."
       }
     },
-    "categories": { "de": "Hypnose", "en": "Hypnosis" }
+    "categories": { "de": "Hypnose", "en": "Hypnosis", "fr": "Hypnose" }
   },
   {
     "height_us": "1'04\"",
@@ -2953,7 +2998,7 @@
         "fr": "Ses pinces sont des armes tr\u00e8s puissantes. Elles lui servent aussi \u00e0 garder son \u00e9quilibre."
       }
     },
-    "categories": { "de": "Krabbe", "en": "River Crab" }
+    "categories": { "de": "Krabbe", "en": "River Crab", "fr": "Doux Crabe" }
   },
   {
     "height_us": "4'03\"",
@@ -2984,7 +3029,7 @@
         "fr": "Son \u00e9norme pince peut d\u00e9ployer une pression de 1000kg. Mais elle est tr\u00e8s encombrante."
       }
     },
-    "categories": { "de": "Kneifer", "en": "Pincer" }
+    "categories": { "de": "Kneifer", "en": "Pincer", "fr": "Pince" }
   },
   {
     "height_us": "1'08\"",
@@ -3015,7 +3060,7 @@
         "fr": "Vivant dans les centrales, ce Pok\u00e9mon survolt\u00e9 est souvent confondu avec une Pok\u00e9Ball."
       }
     },
-    "categories": { "de": "Ball", "en": "Ball" }
+    "categories": { "de": "Ball", "en": "Ball", "fr": "Balle" }
   },
   {
     "height_us": "3'11\"",
@@ -3046,7 +3091,7 @@
         "fr": "Il emmagasine des quantit\u00e9s \u00e9normes de courants \u00e9lectriques sous pression pouvant exploser."
       }
     },
-    "categories": { "de": "Ball", "en": "Ball" }
+    "categories": { "de": "Ball", "en": "Ball", "fr": "Balle" }
   },
   {
     "height_us": "1'04\"",
@@ -3077,7 +3122,7 @@
         "fr": "Souvent pris pour des oeufs, il attaquent en groupe comme un essaim."
       }
     },
-    "categories": { "de": "Ei", "en": "Egg" }
+    "categories": { "de": "Ei", "en": "Egg", "fr": "\u0153uf" }
   },
   {
     "height_us": "6'07\"",
@@ -3108,7 +3153,7 @@
         "fr": "On raconte que si une de ses t\u00eates se d\u00e9tache, elle se transforme en un Noeunoeuf."
       }
     },
-    "categories": { "de": "Palmfrucht", "en": "Coconut" }
+    "categories": { "de": "Palmfrucht", "en": "Coconut", "fr": "Fruitpalme" }
   },
   {
     "height_us": "1'04\"",
@@ -3139,7 +3184,7 @@
         "fr": "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pok\u00e9mon."
       }
     },
-    "categories": { "de": "Einsam", "en": "Lonely" }
+    "categories": { "de": "Einsam", "en": "Lonely", "fr": "Solitaire" }
   },
   {
     "height_us": "3'03\"",
@@ -3170,7 +3215,7 @@
         "fr": "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie."
       }
     },
-    "categories": { "de": "Knochenfan", "en": "Bone Keeper" }
+    "categories": { "de": "Knochenfan", "en": "Bone Keeper", "fr": "Gard'Os" }
   },
   {
     "height_us": "4'11\"",
@@ -3201,7 +3246,7 @@
         "fr": "S'il est press\u00e9, ses jambes s'allongent progressivement. Il court alors tr\u00e8s rapidement."
       }
     },
-    "categories": { "de": "Kicker", "en": "Kicking" }
+    "categories": { "de": "Kicker", "en": "Kicking", "fr": "Latteur" }
   },
   {
     "height_us": "4'07\"",
@@ -3232,7 +3277,7 @@
         "fr": "Il distribue des s\u00e9ries de coups de poing rapides comme l'\u00e9clair, invisibles \u00e0 l'oeil nu."
       }
     },
-    "categories": { "de": "Puncher", "en": "Punching" }
+    "categories": { "de": "Puncher", "en": "Punching", "fr": "Puncheur" }
   },
   {
     "height_us": "3'11\"",
@@ -3263,7 +3308,7 @@
         "fr": "Il peut projeter sa langue comme un cam\u00e9l\u00e9on. Tout contact avec elle provoque une irritation."
       }
     },
-    "categories": { "de": "Schlecker", "en": "Licking" }
+    "categories": { "de": "Schlecker", "en": "Licking", "fr": "L\u00e9cheur" }
   },
   {
     "height_us": "2'00\"",
@@ -3294,7 +3339,7 @@
         "fr": "Son corps, constitu\u00e9 de gaz toxiques et instables, peut exploser soudainement."
       }
     },
-    "categories": { "de": "Giftwolke", "en": "Poison Gas" }
+    "categories": { "de": "Giftwolke", "en": "Poison Gas", "fr": "Gaz Mortel" }
   },
   {
     "height_us": "3'11\"",
@@ -3325,7 +3370,7 @@
         "fr": "Deux Smogo peuvent se combiner en un Smogogo en m\u00e9langeant leurs gaz."
       }
     },
-    "categories": { "de": "Giftwolke", "en": "Poison Gas" }
+    "categories": { "de": "Giftwolke", "en": "Poison Gas", "fr": "Gaz Mortel" }
   },
   {
     "height_us": "3'03\"",
@@ -3356,7 +3401,7 @@
         "fr": "Avec une ossature 1000 fois plus r\u00e9sistante que celle de l'homme, ses charges sont d\u00e9vastatrices."
       }
     },
-    "categories": { "de": "Stachler", "en": "Spikes" }
+    "categories": { "de": "Stachler", "en": "Spikes", "fr": "Piquant" }
   },
   {
     "height_us": "6'03\"",
@@ -3387,7 +3432,7 @@
         "fr": "Son \u00e9piderme tr\u00e8s \u00e9pais lui permet de survivre dans un environnement de plus de 3600 degr\u00e9s."
       }
     },
-    "categories": { "de": "Bohrer", "en": "Drill" }
+    "categories": { "de": "Bohrer", "en": "Drill", "fr": "Perceur" }
   },
   {
     "height_us": "3'07\"",
@@ -3418,7 +3463,7 @@
         "fr": "Un Pok\u00e9mon rare et difficile \u00e0 capturer qui porte chance et bien-\u00eatre \u00e0 son possesseur."
       }
     },
-    "categories": { "de": "Ei", "en": "Egg" }
+    "categories": { "de": "Ei", "en": "Egg", "fr": "\u0152uf" }
   },
   {
     "height_us": "3'03\"",
@@ -3449,7 +3494,7 @@
         "fr": "Son corps est recouvert de lianes similaires \u00e0 des algues. Elles bougent quand il marche."
       }
     },
-    "categories": { "de": "Ranke", "en": "Vine" }
+    "categories": { "de": "Ranke", "en": "Vine", "fr": "Vigne" }
   },
   {
     "height_us": "7'03\"",
@@ -3480,7 +3525,7 @@
         "fr": "Son enfant ne quitte la poche ventrale protectrice qu'\u00e0 l'\u00e2ge de trois ans."
       }
     },
-    "categories": { "de": "Muttertier", "en": "Parent" }
+    "categories": { "de": "Muttertier", "en": "Parent", "fr": "Maternel" }
   },
   {
     "height_us": "1'04\"",
@@ -3511,7 +3556,7 @@
         "fr": "Il peut nager \u00e0 l'envers en agitant ses petites nageoires pectorales."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon" }
+    "categories": { "de": "Drache", "en": "Dragon", "fr": "Dragon" }
   },
   {
     "height_us": "3'11\"",
@@ -3542,7 +3587,7 @@
         "fr": "Il peut nager \u00e0 l'envers en agitant ses petites nageoires pectorales."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon" }
+    "categories": { "de": "Drache", "en": "Dragon", "fr": "Dragon" }
   },
   {
     "height_us": "2'00\"",
@@ -3573,7 +3618,7 @@
         "fr": "Tr\u00e8s lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque."
       }
     },
-    "categories": { "de": "Goldfisch", "en": "Goldfish" }
+    "categories": { "de": "Goldfisch", "en": "Goldfish", "fr": "Poisson" }
   },
   {
     "height_us": "4'03\"",
@@ -3604,7 +3649,7 @@
         "fr": "Pendant la saison des amours, on peut le voir nager pr\u00e8s des rivi\u00e8res ou des lacs."
       }
     },
-    "categories": { "de": "Goldfisch", "en": "Goldfish" }
+    "categories": { "de": "Goldfisch", "en": "Goldfish", "fr": "Poisson" }
   },
   {
     "height_us": "2'07\"",
@@ -3630,7 +3675,7 @@
         "fr": "Un Pok\u00e9mon bien curieux qui peut r\u00e9g\u00e9n\u00e9rer ses appendices sectionn\u00e9s lors d'un combat."
       }
     },
-    "categories": { "de": "Sternform", "en": "Star Shape" }
+    "categories": { "de": "Sternform", "en": "Star Shape", "fr": "\u00c9toile" }
   },
   {
     "height_us": "3'07\"",
@@ -3661,7 +3706,11 @@
         "fr": "Son coeur brille des couleurs de l'arc en ciel. On raconte que c'est une pierre pr\u00e9cieuse."
       }
     },
-    "categories": { "de": "Mysteri\u00f6s", "en": "Mysterious" }
+    "categories": {
+      "de": "Mysteri\u00f6s",
+      "en": "Mysterious",
+      "fr": "Myst\u00e9rieux"
+    }
   },
   {
     "height_us": "4'03\"",
@@ -3692,7 +3741,11 @@
         "fr": "D\u00e9rangez-le pendant qu'il mime et il se battra en distribuant des vol\u00e9es de claques."
       }
     },
-    "categories": { "de": "Sperre", "en": "Barrier" }
+    "categories": {
+      "de": "Sperre",
+      "en": "Barrier",
+      "fr": "V\\u00e9n\\u00e9pic"
+    }
   },
   {
     "height_us": "4'11\"",
@@ -3723,7 +3776,7 @@
         "fr": "Rapide et agile comme un ninja, il se d\u00e9place si vite qu'il cr\u00e9e l'illusion d'\u00eatre en groupe."
       }
     },
-    "categories": { "de": "Mantis", "en": "Mantis" }
+    "categories": { "de": "Mantis", "en": "Mantis", "fr": "Mante" }
   },
   {
     "height_us": "4'07\"",
@@ -3749,7 +3802,11 @@
         "fr": "Il ondule ses hanches en marchant et entra\u00eene les gens dans des danses fr\u00e9n\u00e9tiques."
       }
     },
-    "categories": { "de": "Humanotyp", "en": "Human Shape" }
+    "categories": {
+      "de": "Humanotyp",
+      "en": "Human Shape",
+      "fr": "Humano\u00efde"
+    }
   },
   {
     "height_us": "3'07\"",
@@ -3780,7 +3837,7 @@
         "fr": "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville."
       }
     },
-    "categories": { "de": "Elektro", "en": "Electric" }
+    "categories": { "de": "Elektro", "en": "Electric", "fr": "\u00c9lectrique" }
   },
   {
     "height_us": "4'03\"",
@@ -3806,7 +3863,7 @@
         "fr": "Son corps fusion br\u00fble d'une flamme orang\u00e9e, le rendant invisible dans le feu."
       }
     },
-    "categories": { "de": "Brenner", "en": "Spitfire" }
+    "categories": { "de": "Brenner", "en": "Spitfire", "fr": "Crache-Feu" }
   },
   {
     "height_us": "4'11\"",
@@ -3837,7 +3894,11 @@
         "fr": "Quand il ne peut pas \u00e9craser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
       }
     },
-    "categories": { "de": "Kneifk\u00e4fer", "en": "Stag Beetle" }
+    "categories": {
+      "de": "Kneifk\u00e4fer",
+      "en": "Stag Beetle",
+      "fr": "Scarab\u00e9e"
+    }
   },
   {
     "height_us": "4'07\"",
@@ -3863,7 +3924,7 @@
         "fr": "Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue."
       }
     },
-    "categories": { "de": "Wildbulle", "en": "Wild Bull" }
+    "categories": { "de": "Wildbulle", "en": "Wild Bull", "fr": "Buffle" }
   },
   {
     "height_us": "2'11\"",
@@ -3894,7 +3955,7 @@
         "fr": "Autrefois, il \u00e9tait beaucoup plus puissant que cette cr\u00e9ature minablement faible."
       }
     },
-    "categories": { "de": "Fisch", "en": "Fish" }
+    "categories": { "de": "Fisch", "en": "Fish", "fr": "Poisson" }
   },
   {
     "height_us": "21'04\"",
@@ -3925,7 +3986,7 @@
         "fr": "Gigantesque et mal\u00e9fique, il est capable de raser une ville dans un acc\u00e8s de rage terrifiante."
       }
     },
-    "categories": { "de": "Grausam", "en": "Atrocious" }
+    "categories": { "de": "Grausam", "en": "Atrocious", "fr": "Terrifiant" }
   },
   {
     "height_us": "8'02\"",
@@ -3956,7 +4017,7 @@
         "fr": "Ce Pok\u00e9mon en voie d'extinction peut transporter des passagers sur son dos par-del\u00e0 les oc\u00e9ans."
       }
     },
-    "categories": { "de": "Transport", "en": "Transport" }
+    "categories": { "de": "Transport", "en": "Transport", "fr": "Transport" }
   },
   {
     "height_us": "1'00\"",
@@ -3987,7 +4048,7 @@
         "fr": "Il est capable de copier le code g\u00e9n\u00e9tique d'un ennemi pour se transformer en son double."
       }
     },
-    "categories": { "de": "Transform", "en": "Transform" }
+    "categories": { "de": "Transform", "en": "Transform", "fr": "Morphing" }
   },
   {
     "height_us": "1'00\"",
@@ -4018,7 +4079,11 @@
         "fr": "Sa g\u00e9n\u00e9tique particuli\u00e8re lui permet d'\u00e9voluer s'il est expos\u00e9 aux radiations d'une pierre."
       }
     },
-    "categories": { "de": "Evolution", "en": "Evolution" }
+    "categories": {
+      "de": "Evolution",
+      "en": "Evolution",
+      "fr": "\u00c9volutif"
+    }
   },
   {
     "height_us": "3'03\"",
@@ -4049,7 +4114,7 @@
         "fr": "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sir\u00e8ne."
       }
     },
-    "categories": { "de": "Blubblase", "en": "Bubble Jet" }
+    "categories": { "de": "Blubblase", "en": "Bubble Jet", "fr": "Bulleur" }
   },
   {
     "height_us": "2'07\"",
@@ -4080,7 +4145,7 @@
         "fr": "Il se charge d'\u00e9lectricit\u00e9 statique pour envoyer des d\u00e9charges de 10 000 Volts."
       }
     },
-    "categories": { "de": "Blitz", "en": "Lightning" }
+    "categories": { "de": "Blitz", "en": "Lightning", "fr": "Orage" }
   },
   {
     "height_us": "2'11\"",
@@ -4111,7 +4176,7 @@
         "fr": "Il peut accumuler suffisamment de chaleur pour atteindre des temp\u00e9ratures de 1600 degr\u00e9s."
       }
     },
-    "categories": { "de": "Feuer", "en": "Flame" }
+    "categories": { "de": "Feuer", "en": "Flame", "fr": "Flamme" }
   },
   {
     "height_us": "2'07\"",
@@ -4143,7 +4208,7 @@
         "fr": "Un Pok\u00e9mon fait de programmes d'algorithmes. Il peut survivre en milieu virtuel."
       }
     },
-    "categories": { "de": "Virtuell", "en": "Virtual" }
+    "categories": { "de": "Virtuell", "en": "Virtual", "fr": "Virtuel" }
   },
   {
     "height_us": "1'04\"",
@@ -4174,7 +4239,7 @@
         "fr": "Disparu depuis longtemps, il peut \u00eatre r\u00e9anim\u00e9 g\u00e9n\u00e9tiquement \u00e0 partir d'anciens fossiles."
       }
     },
-    "categories": { "de": "Spirale", "en": "Spiral" }
+    "categories": { "de": "Spirale", "en": "Spiral", "fr": "Spirale" }
   },
   {
     "height_us": "3'03\"",
@@ -4205,7 +4270,7 @@
         "fr": "Un Pok\u00e9mon pr\u00e9historique qui disparut quand sa coquille devint trop lourde \u00e0 d\u00e9placer."
       }
     },
-    "categories": { "de": "Spirale", "en": "Spiral" }
+    "categories": { "de": "Spirale", "en": "Spiral", "fr": "Spirale" }
   },
   {
     "height_us": "1'08\"",
@@ -4231,7 +4296,7 @@
         "fr": "Un Pok\u00e9mon reconstitu\u00e9 \u00e0 partir d'un fossile trouv\u00e9 dans un site pr\u00e9historique."
       }
     },
-    "categories": { "de": "Schaltier", "en": "Shellfish" }
+    "categories": { "de": "Schaltier", "en": "Shellfish", "fr": "Carapace" }
   },
   {
     "height_us": "4'03\"",
@@ -4262,7 +4327,7 @@
         "fr": "Sa forme \u00e9lanc\u00e9e lui permet de nager rapidement. Il lac\u00e8re sa proie avant d'en absorber la vie."
       }
     },
-    "categories": { "de": "Schaltier", "en": "Shellfish" }
+    "categories": { "de": "Schaltier", "en": "Shellfish", "fr": "Carapace" }
   },
   {
     "height_us": "5'11\"",
@@ -4293,7 +4358,7 @@
         "fr": "Un Pok\u00e9mon pr\u00e9historique qui attaque son ennemi \u00e0 la gorge avec ses crocs ac\u00e9r\u00e9s."
       }
     },
-    "categories": { "de": "Fossil", "en": "Fossil" }
+    "categories": { "de": "Fossil", "en": "Fossil", "fr": "Fossile" }
   },
   {
     "height_us": "6'11\"",
@@ -4324,7 +4389,11 @@
         "fr": "Tr\u00e8s paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fain\u00e9ant."
       }
     },
-    "categories": { "de": "Tagtr\u00e4umer", "en": "Sleeping" }
+    "categories": {
+      "de": "Tagtr\u00e4umer",
+      "en": "Sleeping",
+      "fr": "Pionceur"
+    }
   },
   {
     "height_us": "5'07\"",
@@ -4355,7 +4424,7 @@
         "fr": "Le l\u00e9gendaire oiseau des glaces. On dit qu'il appara\u00eet aux gens perdus dans les sommets."
       }
     },
-    "categories": { "de": "Eis", "en": "Freeze" }
+    "categories": { "de": "Eis", "en": "Freeze", "fr": "Glaciaire" }
   },
   {
     "height_us": "5'03\"",
@@ -4386,7 +4455,7 @@
         "fr": "L'oiseau l\u00e9gendaire de la foudre. Il surgit hors des nuages en lan\u00e7ant d'\u00e9normes \u00e9clairs."
       }
     },
-    "categories": { "de": "Elektro", "en": "Electric" }
+    "categories": { "de": "Elektro", "en": "Electric", "fr": "\u00c9lectrique" }
   },
   {
     "height_us": "6'07\"",
@@ -4417,7 +4486,7 @@
         "fr": "Le l\u00e9gendaire oiseau du feu. Une pluie de flammes surgit \u00e0 chaque battement de ses ailes."
       }
     },
-    "categories": { "de": "Flamme", "en": "Flame" }
+    "categories": { "de": "Flamme", "en": "Flame", "fr": "Flamme" }
   },
   {
     "height_us": "5'11\"",
@@ -4448,7 +4517,7 @@
         "fr": "Longtemps consid\u00e9r\u00e9 comme l\u00e9gendaire, une colonie fut d\u00e9couverte dans les oc\u00e9ans."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon" }
+    "categories": { "de": "Drache", "en": "Dragon", "fr": "Dragon" }
   },
   {
     "height_us": "13'01\"",
@@ -4479,7 +4548,7 @@
         "fr": "Un Pok\u00e9mon l\u00e9gendaire plein de charme. Il peut contr\u00f4ler les variations climatiques."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon" }
+    "categories": { "de": "Drache", "en": "Dragon", "fr": "Dragon" }
   },
   {
     "height_us": "7'03\"",
@@ -4510,7 +4579,7 @@
         "fr": "Un Pok\u00e9mon marin extr\u00eamement rare. On dit qu'il est aussi intelligent que l'homme."
       }
     },
-    "categories": { "de": "Drache", "en": "Dragon" }
+    "categories": { "de": "Drache", "en": "Dragon", "fr": "Dragon" }
   },
   {
     "height_us": "6'07\"",
@@ -4536,7 +4605,11 @@
         "fr": "Il est le fruit de nombreuses exp\u00e9riences g\u00e9n\u00e9tiques horribles et malsaines."
       }
     },
-    "categories": { "de": "Genmutant", "en": "Genetic" }
+    "categories": {
+      "de": "Genmutant",
+      "en": "Genetic",
+      "fr": "G\u00e9n\u00e9tique"
+    }
   },
   {
     "height_us": "1'04\"",
@@ -4562,6 +4635,6 @@
         "fr": "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu."
       }
     },
-    "categories": { "de": "Neue Art", "en": "New Species" }
+    "categories": { "de": "Neue Art", "en": "New Species", "fr": "Nouveau" }
   }
 ]
