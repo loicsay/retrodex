@@ -4,8 +4,8 @@ import PokemonText from "../../../PokemonText";
 
 const MenuItem = ({ label, children }) => (
   <View style={styles.menuItem}>
-    <PokemonText>{label}</PokemonText>
-    {children && <PokemonText>{children}</PokemonText>}
+    <PokemonText uppercase>{label}</PokemonText>
+    {children && <PokemonText uppercase>{children}</PokemonText>}
   </View>
 );
 

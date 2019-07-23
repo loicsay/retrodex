@@ -23,10 +23,10 @@ const Infos = ({ imageSource, pokemon }) => {
         </View>
       </View>
       <View style={styles.pokemonData}>
-        <Data>{pokemon.names.fr}</Data>
-        <Data>{pokemon.categories.fr}</Data>
-        <Data uppercase={false}>{`TAI ${pokemon.height_eu}`}</Data>
-        <Data uppercase={false}>{`PDS ${pokemon.weight_eu}`}</Data>
+        <Data uppercase label={pokemon.names.fr} />
+        <Data uppercase label={pokemon.categories.fr} />
+        <Data uppercase label="TAI">{pokemon.height_eu}</Data>
+        <Data uppercase label="PDS">{pokemon.weight_eu}</Data>
       </View>
     </View>
   );
@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
   },
   pokemonData: {
     flex: 1.2,
-    paddingLeft: "4%",
+    paddingLeft: "2%",
+    paddingRight: "4%",
     justifyContent: "flex-end"
   }
 });

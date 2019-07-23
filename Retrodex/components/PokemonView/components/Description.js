@@ -5,7 +5,7 @@ import PokemonText from "../../PokemonText";
 const Description = ({ description }) => (
   <ScrollView style={styles.description}>
     <Text style={styles.text}>
-      <PokemonText uppercase={false}>{description}</PokemonText>
+      <PokemonText>{description}</PokemonText>
     </Text>
   </ScrollView>
 );

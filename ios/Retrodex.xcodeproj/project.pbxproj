@@ -19,7 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* RetrodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RetrodexTests.m */; };
 		3A9CBC70099232CAE940E020 /* libPods-Retrodex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */; };
 		63904C83EA4647D5D20B9C29 /* libPods-RetrodexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */; };
-		92A0330322E18FEC00F7D32D /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92A0330222E18FEC00F7D32D /* select.wav */; };
+		92B99CD722E726F400B3D07C /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92B99CD622E726F400B3D07C /* select.wav */; };
 		92E710D222E2B1FB006B1E52 /* cry134.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103B22E2B1E4006B1E52 /* cry134.wav */; };
 		92E710D322E2B1FB006B1E52 /* cry149.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103C22E2B1E4006B1E52 /* cry149.wav */; };
 		92E710D422E2B1FB006B1E52 /* cry27.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92E7103D22E2B1E4006B1E52 /* cry27.wav */; };
@@ -214,7 +214,7 @@
 		6A31554BD829C7C14B986202 /* Pods-Retrodex-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOSTests/Pods-Retrodex-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetrodexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED19FBEC886AB2E0DA7E6A4 /* Pods-RetrodexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetrodexTests.debug.xcconfig"; path = "Target Support Files/Pods-RetrodexTests/Pods-RetrodexTests.debug.xcconfig"; sourceTree = "<group>"; };
-		92A0330222E18FEC00F7D32D /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = select.wav; path = "../data/red-blue/sounds/select.wav"; sourceTree = "<group>"; };
+		92B99CD622E726F400B3D07C /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = select.wav; path = "../data/red-blue/sounds/select.wav"; sourceTree = "<group>"; };
 		92E7103B22E2B1E4006B1E52 /* cry134.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry134.wav; path = "../data/red-blue/sounds/cry134.wav"; sourceTree = "<group>"; };
 		92E7103C22E2B1E4006B1E52 /* cry149.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry149.wav; path = "../data/red-blue/sounds/cry149.wav"; sourceTree = "<group>"; };
 		92E7103D22E2B1E4006B1E52 /* cry27.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry27.wav; path = "../data/red-blue/sounds/cry27.wav"; sourceTree = "<group>"; };
@@ -431,6 +431,7 @@
 		13B07FAE1A68108700A75B9A /* Retrodex */ = {
 			isa = PBXGroup;
 			children = (
+				92B99CD622E726F400B3D07C /* select.wav */,
 				92E7107822E2B1EB006B1E52 /* cry1.wav */,
 				92E710AF22E2B1F5006B1E52 /* cry2.wav */,
 				92E7108A22E2B1EE006B1E52 /* cry3.wav */,
@@ -631,7 +632,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				92A0330222E18FEC00F7D32D /* select.wav */,
 				13B07FAE1A68108700A75B9A /* Retrodex */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RetrodexTests */,
@@ -807,6 +807,7 @@
 				92E7112C22E2B1FB006B1E52 /* cry139.wav in Resources */,
 				92E7111322E2B1FB006B1E52 /* cry85.wav in Resources */,
 				92E710FF22E2B1FB006B1E52 /* cry101.wav in Resources */,
+				92B99CD722E726F400B3D07C /* select.wav in Resources */,
 				92E7110B22E2B1FB006B1E52 /* cry135.wav in Resources */,
 				92E7111B22E2B1FB006B1E52 /* cry31.wav in Resources */,
 				92E7114022E2B1FB006B1E52 /* cry119.wav in Resources */,
@@ -921,7 +922,6 @@
 				92E710D922E2B1FB006B1E52 /* cry141.wav in Resources */,
 				92E7110922E2B1FB006B1E52 /* cry29.wav in Resources */,
 				92E7113522E2B1FB006B1E52 /* cry123.wav in Resources */,
-				92A0330322E18FEC00F7D32D /* select.wav in Resources */,
 				92E7113B22E2B1FB006B1E52 /* cry136.wav in Resources */,
 				92E7111522E2B1FB006B1E52 /* cry74.wav in Resources */,
 				92E7113122E2B1FB006B1E52 /* cry115.wav in Resources */,

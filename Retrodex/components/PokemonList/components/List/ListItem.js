@@ -36,7 +36,7 @@ const ListItem = ({
       onPress={handleOnPress}
     >
       <View style={styles.id}>
-        <PokemonText>{pokemonId}</PokemonText>
+        <PokemonText uppercase>{pokemonId}</PokemonText>
       </View>
       <View style={styles.rowContainer}>
         {selected && <Selector style={styles.selector} pressed={pressed} />}
@@ -46,7 +46,7 @@ const ListItem = ({
             resizeMode="contain"
             source={require("../../../../../data/red-blue/sprites/pokeball.png")}
           />
-          <PokemonText>{pokemon.names.fr}</PokemonText>
+          <PokemonText uppercase>{pokemon.names.fr}</PokemonText>
         </View>
       </View>
     </TouchableOpacity>
