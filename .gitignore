@@ -60,3 +60,6 @@ buck-out/
 
 # Raw unfiltered data
 /data/raw
+
+# DS_Store
+.DS_Store

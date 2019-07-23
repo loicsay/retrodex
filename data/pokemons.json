@@ -9,7 +9,7 @@
       "en": "Bulbasaur",
       "it": "Bulbasaur"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 1,
     "pokedex_entries": {
       "Blue": {
@@ -40,7 +40,7 @@
       "en": "Ivysaur",
       "it": "Ivysaur"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 2,
     "pokedex_entries": {
       "Blue": {
@@ -71,7 +71,7 @@
       "en": "Venusaur",
       "it": "Venusaur"
     },
-    "height_eu": "2.0 m",
+    "height_eu": "2.0m",
     "national_id": 3,
     "pokedex_entries": {
       "Blue": {
@@ -102,7 +102,7 @@
       "en": "Charmander",
       "it": "Charmander"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 4,
     "pokedex_entries": {
       "Blue": {
@@ -133,7 +133,7 @@
       "en": "Charmeleon",
       "it": "Charmeleon"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 5,
     "pokedex_entries": {
       "Blue": {
@@ -164,7 +164,7 @@
       "en": "Charizard",
       "it": "Charizard"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 6,
     "pokedex_entries": {
       "Blue": {
@@ -195,7 +195,7 @@
       "en": "Squirtle",
       "it": "Squirtle"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 7,
     "pokedex_entries": {
       "Blue": {
@@ -230,7 +230,7 @@
       "en": "Wartortle",
       "it": "Wartortle"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 8,
     "pokedex_entries": {
       "Blue": {
@@ -261,7 +261,7 @@
       "en": "Blastoise",
       "it": "Blastoise"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 9,
     "pokedex_entries": {
       "Blue": {
@@ -292,7 +292,7 @@
       "en": "Caterpie",
       "it": "Caterpie"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 10,
     "pokedex_entries": {
       "Blue": {
@@ -323,7 +323,7 @@
       "en": "Metapod",
       "it": "Metapod"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 11,
     "pokedex_entries": {
       "Blue": {
@@ -354,7 +354,7 @@
       "en": "Butterfree",
       "it": "Butterfree"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 12,
     "pokedex_entries": {
       "Blue": {
@@ -385,7 +385,7 @@
       "en": "Weedle",
       "it": "Weedle"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 13,
     "pokedex_entries": {
       "Blue": {
@@ -416,7 +416,7 @@
       "en": "Kakuna",
       "it": "Kakuna"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 14,
     "pokedex_entries": {
       "Blue": {
@@ -447,7 +447,7 @@
       "en": "Beedrill",
       "it": "Beedrill"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 15,
     "pokedex_entries": {
       "Blue": {
@@ -482,7 +482,7 @@
       "en": "Pidgey",
       "it": "Pidgey"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 16,
     "pokedex_entries": {
       "Blue": {
@@ -513,7 +513,7 @@
       "en": "Pidgeotto",
       "it": "Pidgeotto"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 17,
     "pokedex_entries": {
       "Blue": {
@@ -544,7 +544,7 @@
       "en": "Pidgeot",
       "it": "Pidgeot"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 18,
     "pokedex_entries": {
       "Blue": {
@@ -575,7 +575,7 @@
       "en": "Rattata",
       "it": "Rattata"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 19,
     "pokedex_entries": {
       "Blue": {
@@ -610,7 +610,7 @@
       "en": "Raticate",
       "it": "Raticate"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 20,
     "pokedex_entries": {
       "Blue": {
@@ -645,7 +645,7 @@
       "en": "Spearow",
       "it": "Spearow"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 21,
     "pokedex_entries": {
       "Blue": {
@@ -676,7 +676,7 @@
       "en": "Fearow",
       "it": "Fearow"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 22,
     "pokedex_entries": {
       "Blue": {
@@ -702,7 +702,7 @@
     "weight_us": "15.2lb",
     "weight_eu": "6.9kg",
     "names": { "fr": "Abo", "de": "Rettan", "en": "Ekans", "it": "Ekans" },
-    "height_eu": "2.0 m",
+    "height_eu": "2.0m",
     "national_id": 23,
     "pokedex_entries": {
       "Blue": {
@@ -728,7 +728,7 @@
     "weight_us": "143.3lb",
     "weight_eu": "65.0kg",
     "names": { "fr": "Arbok", "de": "Arbok", "en": "Arbok", "it": "Arbok" },
-    "height_eu": "3.5 m",
+    "height_eu": "3.5m",
     "national_id": 24,
     "pokedex_entries": {
       "Blue": {
@@ -759,7 +759,7 @@
       "en": "Pikachu",
       "it": "Pikachu"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 25,
     "pokedex_entries": {
       "Blue": {
@@ -785,7 +785,7 @@
     "weight_us": "66.1lb",
     "weight_eu": "30.0kg",
     "names": { "fr": "Raichu", "de": "Raichu", "en": "Raichu", "it": "Raichu" },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 26,
     "pokedex_entries": {
       "Blue": {
@@ -816,7 +816,7 @@
       "en": "Sandshrew",
       "it": "Sandshrew"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 27,
     "pokedex_entries": {
       "Blue": {
@@ -847,7 +847,7 @@
       "en": "Sandslash",
       "it": "Sandslash"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 28,
     "pokedex_entries": {
       "Blue": {
@@ -878,7 +878,7 @@
       "en": "Nidoran\u2640",
       "it": "Nidoran\u2640"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 29,
     "pokedex_entries": {
       "Blue": {
@@ -913,7 +913,7 @@
       "en": "Nidorina",
       "it": "Nidorina"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 30,
     "pokedex_entries": {
       "Blue": {
@@ -948,7 +948,7 @@
       "en": "Nidoqueen",
       "it": "Nidoqueen"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 31,
     "pokedex_entries": {
       "Blue": {
@@ -979,7 +979,7 @@
       "en": "Nidoran\u2642",
       "it": "Nidoran\u2642"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 32,
     "pokedex_entries": {
       "Blue": {
@@ -1014,7 +1014,7 @@
       "en": "Nidorino",
       "it": "Nidorino"
     },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 33,
     "pokedex_entries": {
       "Blue": {
@@ -1049,7 +1049,7 @@
       "en": "Nidoking",
       "it": "Nidoking"
     },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 34,
     "pokedex_entries": {
       "Blue": {
@@ -1080,7 +1080,7 @@
       "en": "Clefairy",
       "it": "Clefairy"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 35,
     "pokedex_entries": {
       "Blue": {
@@ -1111,7 +1111,7 @@
       "en": "Clefable",
       "it": "Clefable"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 36,
     "pokedex_entries": {
       "Blue": {
@@ -1137,7 +1137,7 @@
     "weight_us": "21.8lb",
     "weight_eu": "9.9kg",
     "names": { "fr": "Goupix", "de": "Vulpix", "en": "Vulpix", "it": "Vulpix" },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 37,
     "pokedex_entries": {
       "Blue": {
@@ -1168,7 +1168,7 @@
       "en": "Ninetales",
       "it": "Ninetales"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 38,
     "pokedex_entries": {
       "Blue": {
@@ -1199,7 +1199,7 @@
       "en": "Jigglypuff",
       "it": "Jigglypuff"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 39,
     "pokedex_entries": {
       "Blue": {
@@ -1230,7 +1230,7 @@
       "en": "Wigglytuff",
       "it": "Wigglytuff"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 40,
     "pokedex_entries": {
       "Blue": {
@@ -1261,7 +1261,7 @@
       "en": "Zubat",
       "it": "Zubat"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 41,
     "pokedex_entries": {
       "Blue": {
@@ -1292,7 +1292,7 @@
       "en": "Golbat",
       "it": "Golbat"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 42,
     "pokedex_entries": {
       "Blue": {
@@ -1323,7 +1323,7 @@
       "en": "Oddish",
       "it": "Oddish"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 43,
     "pokedex_entries": {
       "Blue": {
@@ -1349,7 +1349,7 @@
     "weight_us": "19.0lb",
     "weight_eu": "8.6kg",
     "names": { "fr": "Ortide", "de": "Duflor", "en": "Gloom", "it": "Gloom" },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 44,
     "pokedex_entries": {
       "Blue": {
@@ -1380,7 +1380,7 @@
       "en": "Vileplume",
       "it": "Vileplume"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 45,
     "pokedex_entries": {
       "Blue": {
@@ -1406,7 +1406,7 @@
     "weight_us": "11.9lb",
     "weight_eu": "5.4kg",
     "names": { "fr": "Paras", "de": "Paras", "en": "Paras", "it": "Paras" },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 46,
     "pokedex_entries": {
       "Blue": {
@@ -1437,7 +1437,7 @@
       "en": "Parasect",
       "it": "Parasect"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 47,
     "pokedex_entries": {
       "Blue": {
@@ -1468,7 +1468,7 @@
       "en": "Venonat",
       "it": "Venonat"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 48,
     "pokedex_entries": {
       "Blue": {
@@ -1499,7 +1499,7 @@
       "en": "Venomoth",
       "it": "Venomoth"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 49,
     "pokedex_entries": {
       "Blue": {
@@ -1530,7 +1530,7 @@
       "en": "Diglett",
       "it": "Diglett"
     },
-    "height_eu": "0.2 m",
+    "height_eu": "0.2m",
     "national_id": 50,
     "pokedex_entries": {
       "Blue": {
@@ -1561,7 +1561,7 @@
       "en": "Dugtrio",
       "it": "Dugtrio"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 51,
     "pokedex_entries": {
       "Blue": {
@@ -1587,7 +1587,7 @@
     "weight_us": "9.3lb",
     "weight_eu": "4.2kg",
     "names": { "fr": "Miaouss", "de": "Mauzi", "en": "Meowth", "it": "Meowth" },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 52,
     "pokedex_entries": {
       "Blue": {
@@ -1618,7 +1618,7 @@
       "en": "Persian",
       "it": "Persian"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 53,
     "pokedex_entries": {
       "Blue": {
@@ -1649,7 +1649,7 @@
       "en": "Psyduck",
       "it": "Psyduck"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 54,
     "pokedex_entries": {
       "Blue": {
@@ -1680,7 +1680,7 @@
       "en": "Golduck",
       "it": "Golduck"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 55,
     "pokedex_entries": {
       "Blue": {
@@ -1711,7 +1711,7 @@
       "en": "Mankey",
       "it": "Mankey"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 56,
     "pokedex_entries": {
       "Blue": {
@@ -1746,7 +1746,7 @@
       "en": "Primeape",
       "it": "Primeape"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 57,
     "pokedex_entries": {
       "Blue": {
@@ -1781,7 +1781,7 @@
       "en": "Growlithe",
       "it": "Growlithe"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 58,
     "pokedex_entries": {
       "Blue": {
@@ -1812,7 +1812,7 @@
       "en": "Arcanine",
       "it": "Arcanine"
     },
-    "height_eu": "1.9 m",
+    "height_eu": "1.9m",
     "national_id": 59,
     "pokedex_entries": {
       "Blue": {
@@ -1847,7 +1847,7 @@
       "en": "Poliwag",
       "it": "Poliwag"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 60,
     "pokedex_entries": {
       "Blue": {
@@ -1878,7 +1878,7 @@
       "en": "Poliwhirl",
       "it": "Poliwhirl"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 61,
     "pokedex_entries": {
       "Blue": {
@@ -1909,7 +1909,7 @@
       "en": "Poliwrath",
       "it": "Poliwrath"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 62,
     "pokedex_entries": {
       "Blue": {
@@ -1935,7 +1935,7 @@
     "weight_us": "43.0lb",
     "weight_eu": "19.5kg",
     "names": { "fr": "Abra", "de": "Abra", "en": "Abra", "it": "Abra" },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 63,
     "pokedex_entries": {
       "Blue": {
@@ -1966,7 +1966,7 @@
       "en": "Kadabra",
       "it": "Kadabra"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 64,
     "pokedex_entries": {
       "Blue": {
@@ -1997,7 +1997,7 @@
       "en": "Alakazam",
       "it": "Alakazam"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 65,
     "pokedex_entries": {
       "Blue": {
@@ -2028,7 +2028,7 @@
       "en": "Machop",
       "it": "Machop"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 66,
     "pokedex_entries": {
       "Blue": {
@@ -2059,7 +2059,7 @@
       "en": "Machoke",
       "it": "Machoke"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 67,
     "pokedex_entries": {
       "Blue": {
@@ -2090,7 +2090,7 @@
       "en": "Machamp",
       "it": "Machamp"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 68,
     "pokedex_entries": {
       "Blue": {
@@ -2121,7 +2121,7 @@
       "en": "Bellsprout",
       "it": "Bellsprout"
     },
-    "height_eu": "0.7 m",
+    "height_eu": "0.7m",
     "national_id": 69,
     "pokedex_entries": {
       "Blue": {
@@ -2152,7 +2152,7 @@
       "en": "Weepinbell",
       "it": "Weepinbell"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 70,
     "pokedex_entries": {
       "Blue": {
@@ -2183,7 +2183,7 @@
       "en": "Victreebel",
       "it": "Victreebel"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 71,
     "pokedex_entries": {
       "Blue": {
@@ -2218,7 +2218,7 @@
       "en": "Tentacool",
       "it": "Tentacool"
     },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 72,
     "pokedex_entries": {
       "Blue": {
@@ -2249,7 +2249,7 @@
       "en": "Tentacruel",
       "it": "Tentacruel"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 73,
     "pokedex_entries": {
       "Blue": {
@@ -2280,7 +2280,7 @@
       "en": "Geodude",
       "it": "Geodude"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 74,
     "pokedex_entries": {
       "Blue": {
@@ -2311,7 +2311,7 @@
       "en": "Graveler",
       "it": "Graveler"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 75,
     "pokedex_entries": {
       "Blue": {
@@ -2337,7 +2337,7 @@
     "weight_us": "661.4lb",
     "weight_eu": "300.0kg",
     "names": { "fr": "Grolem", "de": "Geowaz", "en": "Golem", "it": "Golem" },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 76,
     "pokedex_entries": {
       "Blue": {
@@ -2363,7 +2363,7 @@
     "weight_us": "66.1lb",
     "weight_eu": "30.0kg",
     "names": { "fr": "Ponyta", "de": "Ponita", "en": "Ponyta", "it": "Ponyta" },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 77,
     "pokedex_entries": {
       "Blue": {
@@ -2394,7 +2394,7 @@
       "en": "Rapidash",
       "it": "Rapidash"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 78,
     "pokedex_entries": {
       "Blue": {
@@ -2425,7 +2425,7 @@
       "en": "Slowpoke",
       "it": "Slowpoke"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 79,
     "pokedex_entries": {
       "Blue": {
@@ -2456,7 +2456,7 @@
       "en": "Slowbro",
       "it": "Slowbro"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 80,
     "pokedex_entries": {
       "Blue": {
@@ -2487,7 +2487,7 @@
       "en": "Magnemite",
       "it": "Magnemite"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 81,
     "pokedex_entries": {
       "Blue": {
@@ -2518,7 +2518,7 @@
       "en": "Magneton",
       "it": "Magneton"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 82,
     "pokedex_entries": {
       "Blue": {
@@ -2549,7 +2549,7 @@
       "en": "Farfetch'd",
       "it": "Farfetch'd"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 83,
     "pokedex_entries": {
       "Blue": {
@@ -2575,7 +2575,7 @@
     "weight_us": "86.4lb",
     "weight_eu": "39.2kg",
     "names": { "fr": "Doduo", "de": "Dodu", "en": "Doduo", "it": "Doduo" },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 84,
     "pokedex_entries": {
       "Blue": {
@@ -2601,7 +2601,7 @@
     "weight_us": "187.8lb",
     "weight_eu": "85.2kg",
     "names": { "fr": "Dodrio", "de": "Dodri", "en": "Dodrio", "it": "Dodrio" },
-    "height_eu": "1.8 m",
+    "height_eu": "1.8m",
     "national_id": 85,
     "pokedex_entries": {
       "Blue": {
@@ -2627,7 +2627,7 @@
     "weight_us": "198.4lb",
     "weight_eu": "90.0kg",
     "names": { "fr": "Otaria", "de": "Jurob", "en": "Seel", "it": "Seel" },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 86,
     "pokedex_entries": {
       "Blue": {
@@ -2658,7 +2658,7 @@
       "en": "Dewgong",
       "it": "Dewgong"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 87,
     "pokedex_entries": {
       "Blue": {
@@ -2689,7 +2689,7 @@
       "en": "Grimer",
       "it": "Grimer"
     },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 88,
     "pokedex_entries": {
       "Blue": {
@@ -2715,7 +2715,7 @@
     "weight_us": "66.1lb",
     "weight_eu": "30.0kg",
     "names": { "fr": "Grotadmorv", "de": "Sleimok", "en": "Muk", "it": "Muk" },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 89,
     "pokedex_entries": {
       "Blue": {
@@ -2746,7 +2746,7 @@
       "en": "Shellder",
       "it": "Shellder"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 90,
     "pokedex_entries": {
       "Blue": {
@@ -2777,7 +2777,7 @@
       "en": "Cloyster",
       "it": "Cloyster"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 91,
     "pokedex_entries": {
       "Blue": {
@@ -2808,7 +2808,7 @@
       "en": "Gastly",
       "it": "Gastly"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 92,
     "pokedex_entries": {
       "Blue": {
@@ -2839,7 +2839,7 @@
       "en": "Haunter",
       "it": "Haunter"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 93,
     "pokedex_entries": {
       "Blue": {
@@ -2870,7 +2870,7 @@
       "en": "Gengar",
       "it": "Gengar"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 94,
     "pokedex_entries": {
       "Blue": {
@@ -2896,7 +2896,7 @@
     "weight_us": "463.0lb",
     "weight_eu": "210.0kg",
     "names": { "fr": "Onix", "de": "Onix", "en": "Onix", "it": "Onix" },
-    "height_eu": "8.8 m",
+    "height_eu": "8.8m",
     "national_id": 95,
     "pokedex_entries": {
       "Blue": {
@@ -2927,7 +2927,7 @@
       "en": "Drowzee",
       "it": "Drowzee"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 96,
     "pokedex_entries": {
       "Blue": {
@@ -2953,7 +2953,7 @@
     "weight_us": "166.7lb",
     "weight_eu": "75.6kg",
     "names": { "fr": "Hypnomade", "de": "Hypno", "en": "Hypno", "it": "Hypno" },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 97,
     "pokedex_entries": {
       "Blue": {
@@ -2979,7 +2979,7 @@
     "weight_us": "14.3lb",
     "weight_eu": "6.5kg",
     "names": { "fr": "Krabby", "de": "Krabby", "en": "Krabby", "it": "Krabby" },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 98,
     "pokedex_entries": {
       "Blue": {
@@ -3010,7 +3010,7 @@
       "en": "Kingler",
       "it": "Kingler"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 99,
     "pokedex_entries": {
       "Blue": {
@@ -3041,7 +3041,7 @@
       "en": "Voltorb",
       "it": "Voltorb"
     },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 100,
     "pokedex_entries": {
       "Blue": {
@@ -3072,7 +3072,7 @@
       "en": "Electrode",
       "it": "Electrode"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 101,
     "pokedex_entries": {
       "Blue": {
@@ -3103,7 +3103,7 @@
       "en": "Exeggcute",
       "it": "Exeggcute"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 102,
     "pokedex_entries": {
       "Blue": {
@@ -3134,7 +3134,7 @@
       "en": "Exeggutor",
       "it": "Exeggutor"
     },
-    "height_eu": "2.0 m",
+    "height_eu": "2.0m",
     "national_id": 103,
     "pokedex_entries": {
       "Blue": {
@@ -3165,7 +3165,7 @@
       "en": "Cubone",
       "it": "Cubone"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 104,
     "pokedex_entries": {
       "Blue": {
@@ -3196,7 +3196,7 @@
       "en": "Marowak",
       "it": "Marowak"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 105,
     "pokedex_entries": {
       "Blue": {
@@ -3227,7 +3227,7 @@
       "en": "Hitmonlee",
       "it": "Hitmonlee"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 106,
     "pokedex_entries": {
       "Blue": {
@@ -3258,7 +3258,7 @@
       "en": "Hitmonchan",
       "it": "Hitmonchan"
     },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 107,
     "pokedex_entries": {
       "Blue": {
@@ -3289,7 +3289,7 @@
       "en": "Lickitung",
       "it": "Lickitung"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 108,
     "pokedex_entries": {
       "Blue": {
@@ -3320,7 +3320,7 @@
       "en": "Koffing",
       "it": "Koffing"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 109,
     "pokedex_entries": {
       "Blue": {
@@ -3351,7 +3351,7 @@
       "en": "Weezing",
       "it": "Weezing"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 110,
     "pokedex_entries": {
       "Blue": {
@@ -3382,7 +3382,7 @@
       "en": "Rhyhorn",
       "it": "Rhyhorn"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 111,
     "pokedex_entries": {
       "Blue": {
@@ -3413,7 +3413,7 @@
       "en": "Rhydon",
       "it": "Rhydon"
     },
-    "height_eu": "1.9 m",
+    "height_eu": "1.9m",
     "national_id": 112,
     "pokedex_entries": {
       "Blue": {
@@ -3444,7 +3444,7 @@
       "en": "Chansey",
       "it": "Chansey"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 113,
     "pokedex_entries": {
       "Blue": {
@@ -3475,7 +3475,7 @@
       "en": "Tangela",
       "it": "Tangela"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 114,
     "pokedex_entries": {
       "Blue": {
@@ -3506,7 +3506,7 @@
       "en": "Kangaskhan",
       "it": "Kangaskhan"
     },
-    "height_eu": "2.2 m",
+    "height_eu": "2.2m",
     "national_id": 115,
     "pokedex_entries": {
       "Blue": {
@@ -3537,7 +3537,7 @@
       "en": "Horsea",
       "it": "Horsea"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 116,
     "pokedex_entries": {
       "Blue": {
@@ -3568,7 +3568,7 @@
       "en": "Seadra",
       "it": "Seadra"
     },
-    "height_eu": "1.2 m",
+    "height_eu": "1.2m",
     "national_id": 117,
     "pokedex_entries": {
       "Blue": {
@@ -3599,7 +3599,7 @@
       "en": "Goldeen",
       "it": "Goldeen"
     },
-    "height_eu": "0.6 m",
+    "height_eu": "0.6m",
     "national_id": 118,
     "pokedex_entries": {
       "Blue": {
@@ -3630,7 +3630,7 @@
       "en": "Seaking",
       "it": "Seaking"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 119,
     "pokedex_entries": {
       "Blue": {
@@ -3656,7 +3656,7 @@
     "weight_us": "76.1lb",
     "weight_eu": "34.5kg",
     "names": { "fr": "Stari", "de": "Sterndu", "en": "Staryu", "it": "Staryu" },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 120,
     "pokedex_entries": {
       "Blue": {
@@ -3687,7 +3687,7 @@
       "en": "Starmie",
       "it": "Starmie"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 121,
     "pokedex_entries": {
       "Blue": {
@@ -3722,7 +3722,7 @@
       "en": "Mr. Mime",
       "it": "Mr. Mime"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 122,
     "pokedex_entries": {
       "Blue": {
@@ -3757,7 +3757,7 @@
       "en": "Scyther",
       "it": "Scyther"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 123,
     "pokedex_entries": {
       "Blue": {
@@ -3783,7 +3783,7 @@
     "weight_us": "89.5lb",
     "weight_eu": "40.6kg",
     "names": { "fr": "Lippoutou", "de": "Rossana", "en": "Jynx", "it": "Jynx" },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 124,
     "pokedex_entries": {
       "Blue": {
@@ -3818,7 +3818,7 @@
       "en": "Electabuzz",
       "it": "Electabuzz"
     },
-    "height_eu": "1.1 m",
+    "height_eu": "1.1m",
     "national_id": 125,
     "pokedex_entries": {
       "Blue": {
@@ -3844,7 +3844,7 @@
     "weight_us": "98.1lb",
     "weight_eu": "44.5kg",
     "names": { "fr": "Magmar", "de": "Magmar", "en": "Magmar", "it": "Magmar" },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 126,
     "pokedex_entries": {
       "Blue": {
@@ -3875,7 +3875,7 @@
       "en": "Pinsir",
       "it": "Pinsir"
     },
-    "height_eu": "1.5 m",
+    "height_eu": "1.5m",
     "national_id": 127,
     "pokedex_entries": {
       "Blue": {
@@ -3905,7 +3905,7 @@
     "weight_us": "194.9lb",
     "weight_eu": "88.4kg",
     "names": { "fr": "Tauros", "de": "Tauros", "en": "Tauros", "it": "Tauros" },
-    "height_eu": "1.4 m",
+    "height_eu": "1.4m",
     "national_id": 128,
     "pokedex_entries": {
       "Blue": {
@@ -3936,7 +3936,7 @@
       "en": "Magikarp",
       "it": "Magikarp"
     },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 129,
     "pokedex_entries": {
       "Blue": {
@@ -3967,7 +3967,7 @@
       "en": "Gyarados",
       "it": "Gyarados"
     },
-    "height_eu": "6.5 m",
+    "height_eu": "6.5m",
     "national_id": 130,
     "pokedex_entries": {
       "Blue": {
@@ -3998,7 +3998,7 @@
       "en": "Lapras",
       "it": "Lapras"
     },
-    "height_eu": "2.5 m",
+    "height_eu": "2.5m",
     "national_id": 131,
     "pokedex_entries": {
       "Blue": {
@@ -4029,7 +4029,7 @@
       "en": "Ditto",
       "it": "Ditto"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 132,
     "pokedex_entries": {
       "Blue": {
@@ -4060,7 +4060,7 @@
       "en": "Eevee",
       "it": "Eevee"
     },
-    "height_eu": "0.3 m",
+    "height_eu": "0.3m",
     "national_id": 133,
     "pokedex_entries": {
       "Blue": {
@@ -4095,7 +4095,7 @@
       "en": "Vaporeon",
       "it": "Vaporeon"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 134,
     "pokedex_entries": {
       "Blue": {
@@ -4126,7 +4126,7 @@
       "en": "Jolteon",
       "it": "Jolteon"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 135,
     "pokedex_entries": {
       "Blue": {
@@ -4157,7 +4157,7 @@
       "en": "Flareon",
       "it": "Flareon"
     },
-    "height_eu": "0.9 m",
+    "height_eu": "0.9m",
     "national_id": 136,
     "pokedex_entries": {
       "Blue": {
@@ -4189,7 +4189,7 @@
       "it": "Porygon",
       "gr": "\u03a0\u03bf\u03c1\u03c5\u03b3\u03c9\u03bd"
     },
-    "height_eu": "0.8 m",
+    "height_eu": "0.8m",
     "national_id": 137,
     "pokedex_entries": {
       "Blue": {
@@ -4220,7 +4220,7 @@
       "en": "Omanyte",
       "it": "Omanyte"
     },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 138,
     "pokedex_entries": {
       "Blue": {
@@ -4251,7 +4251,7 @@
       "en": "Omastar",
       "it": "Omanstar"
     },
-    "height_eu": "1.0 m",
+    "height_eu": "1.0m",
     "national_id": 139,
     "pokedex_entries": {
       "Blue": {
@@ -4277,7 +4277,7 @@
     "weight_us": "25.4lb",
     "weight_eu": "11.5kg",
     "names": { "fr": "Kabuto", "de": "Kabuto", "en": "Kabuto", "it": "Kabuto" },
-    "height_eu": "0.5 m",
+    "height_eu": "0.5m",
     "national_id": 140,
     "pokedex_entries": {
       "Blue": {
@@ -4308,7 +4308,7 @@
       "en": "Kabutops",
       "it": "Kabutops"
     },
-    "height_eu": "1.3 m",
+    "height_eu": "1.3m",
     "national_id": 141,
     "pokedex_entries": {
       "Blue": {
@@ -4339,7 +4339,7 @@
       "en": "Aerodactyl",
       "it": "Aerodactyl"
     },
-    "height_eu": "1.8 m",
+    "height_eu": "1.8m",
     "national_id": 142,
     "pokedex_entries": {
       "Blue": {
@@ -4370,7 +4370,7 @@
       "en": "Snorlax",
       "it": "Snorlax"
     },
-    "height_eu": "2.1 m",
+    "height_eu": "2.1m",
     "national_id": 143,
     "pokedex_entries": {
       "Blue": {
@@ -4405,7 +4405,7 @@
       "en": "Articuno",
       "it": "Articuno"
     },
-    "height_eu": "1.7 m",
+    "height_eu": "1.7m",
     "national_id": 144,
     "pokedex_entries": {
       "Blue": {
@@ -4436,7 +4436,7 @@
       "en": "Zapdos",
       "it": "Zapdos"
     },
-    "height_eu": "1.6 m",
+    "height_eu": "1.6m",
     "national_id": 145,
     "pokedex_entries": {
       "Blue": {
@@ -4467,7 +4467,7 @@
       "en": "Moltres",
       "it": "Moltres"
     },
-    "height_eu": "2.0 m",
+    "height_eu": "2.0m",
     "national_id": 146,
     "pokedex_entries": {
       "Blue": {
@@ -4498,7 +4498,7 @@
       "en": "Dratini",
       "it": "Dratini"
     },
-    "height_eu": "1.8 m",
+    "height_eu": "1.8m",
     "national_id": 147,
     "pokedex_entries": {
       "Blue": {
@@ -4529,7 +4529,7 @@
       "en": "Dragonair",
       "it": "Dragonair"
     },
-    "height_eu": "4.0 m",
+    "height_eu": "4.0m",
     "national_id": 148,
     "pokedex_entries": {
       "Blue": {
@@ -4560,7 +4560,7 @@
       "en": "Dragonite",
       "it": "Dragonite"
     },
-    "height_eu": "2.2 m",
+    "height_eu": "2.2m",
     "national_id": 149,
     "pokedex_entries": {
       "Blue": {
@@ -4586,7 +4586,7 @@
     "weight_us": "269.0lb",
     "weight_eu": "122.0kg",
     "names": { "fr": "Mewtwo", "de": "Mewtu", "en": "Mewtwo", "it": "Mewtwo" },
-    "height_eu": "2.0 m",
+    "height_eu": "2.0m",
     "national_id": 150,
     "pokedex_entries": {
       "Blue": {
@@ -4616,7 +4616,7 @@
     "weight_us": "8.8lb",
     "weight_eu": "4.0kg",
     "names": { "fr": "Mew", "de": "Mew", "en": "Mew", "it": "Mew" },
-    "height_eu": "0.4 m",
+    "height_eu": "0.4m",
     "national_id": 151,
     "pokedex_entries": {
       "Blue": {

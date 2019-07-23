@@ -3,8 +3,8 @@ import { Text, StyleSheet, Dimensions } from "react-native";
 
 const deviceWidth = Dimensions.get("window").width;
 
-const PokemonText = ({ uppercase = true, children }) => (
-  <Text style={uppercase ? styles.pokemonTextUppercase : styles.pokemonText}>
+const PokemonText = ({ uppercase = false, children }) => (
+  <Text style={[styles.pokemonText, uppercase && styles.uppercase]}>
     {children}
   </Text>
 );
@@ -12,11 +12,9 @@ const PokemonText = ({ uppercase = true, children }) => (
 const styles = StyleSheet.create({
   pokemonText: {
     fontFamily: "pokemon-font",
-    fontSize: deviceWidth > 320 ? 18 : 15,
+    fontSize: deviceWidth > 320 ? 18 : 15
   },
-  pokemonTextUppercase: {
-    fontFamily: "pokemon-font",
-    fontSize: deviceWidth > 320 ? 18 : 15,
+  uppercase: {
     textTransform: "uppercase"
   }
 });

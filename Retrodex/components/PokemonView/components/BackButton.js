@@ -24,7 +24,7 @@ const BackButton = ({ selectSound, navigation }) => {
       onPressOut={handleOnPressOut}
     >
       <Selector style={styles.selector} pressed={pressed} />
-      <PokemonText>Retour</PokemonText>
+      <PokemonText uppercase>Retour</PokemonText>
     </TouchableOpacity>
   );
 };
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   backButton: {
     position: "absolute",
     bottom: "22%",
-    padding: "4%",
+    padding: "8%",
     flexDirection: "row",
     alignItems: "baseline",
     backgroundColor: "rgb(245, 245, 245)"
