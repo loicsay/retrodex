@@ -44,6 +44,7 @@ const List = ({ pokemons, navigation }) => {
         extraData={{ selection }}
         keyExtractor={keyExtractor}
         renderItem={renderItem}
+        showsVerticalScrollIndicator={false}
         ListFooterComponent={<View style={{ margin: "14%" }} />}
       />
     </View>

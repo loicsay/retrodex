@@ -1,23 +1,25 @@
 import React from "react";
 import { Text, ScrollView, StyleSheet } from "react-native";
 import PokemonText from "../../PokemonText";
+import PokemonSeparator from "../../PokemonSeparator";
 
 const Description = ({ description }) => (
-  <ScrollView style={styles.description}>
-    <Text style={styles.text}>
-      <PokemonText>{description}</PokemonText>
-    </Text>
-  </ScrollView>
+  <>
+    <PokemonSeparator horizontal />
+    <ScrollView style={styles.description}>
+      <Text style={styles.text}>
+        <PokemonText>{description}</PokemonText>
+      </Text>
+    </ScrollView>
+  </>
 );
 
 const styles = StyleSheet.create({
   description: {
     height: "100%",
-    marginTop: "4%",
-    padding: "4%",
-    borderStyle: "solid",
-    borderTopWidth: 6,
-    borderTopColor: "black"
+    paddingTop: "2%",
+    paddingLeft: "4%",
+    paddingRight: "4%"
   },
   text: {
     lineHeight: 40

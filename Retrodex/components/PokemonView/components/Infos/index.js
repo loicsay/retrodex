@@ -25,8 +25,12 @@ const Infos = ({ imageSource, pokemon }) => {
       <View style={styles.pokemonData}>
         <Data uppercase label={pokemon.names.fr} />
         <Data uppercase label={pokemon.categories.fr} />
-        <Data uppercase label="TAI">{pokemon.height_eu}</Data>
-        <Data uppercase label="PDS">{pokemon.weight_eu}</Data>
+        <Data uppercase label="TAI">
+          {pokemon.height_eu}
+        </Data>
+        <Data uppercase label="PDS">
+          {pokemon.weight_eu}
+        </Data>
       </View>
     </View>
   );
@@ -35,7 +39,9 @@ const Infos = ({ imageSource, pokemon }) => {
 const styles = StyleSheet.create({
   infosContainer: {
     flexDirection: "row",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
+    alignItems: "flex-end",
+    paddingBottom: "1%"
   },
   pokemonImage: {
     flex: 1,
