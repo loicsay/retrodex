@@ -1,9 +1,11 @@
+import React from "react";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
+import { UserSettingsProvider } from "./context/UserSettingsContext";
 import PokemonList from "./components/PokemonList";
 import PokemonView from "./components/PokemonView";
 
-const Retrodex = createStackNavigator({
+const RootStack = createStackNavigator({
   PokemonList: {
     screen: PokemonList
   },
@@ -12,4 +14,12 @@ const Retrodex = createStackNavigator({
   }
 });
 
-export default createAppContainer(Retrodex);
+const Navigation = createAppContainer(RootStack);
+
+const Retrodex = () => (
+  <UserSettingsProvider>
+    <Navigation />
+  </UserSettingsProvider>
+);
+
+export default Retrodex;

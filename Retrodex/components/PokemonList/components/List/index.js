@@ -1,14 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { FlatList, View, StyleSheet } from "react-native";
 import Sound from "react-native-sound";
 
+import { UserSettingsContext } from "../../../../context/UserSettingsContext";
 import PokemonText from "../../../PokemonText";
 import ListItem from "./ListItem";
+import text from "../../../../text.json";
 
 let selectSound = new Sound("select.wav", Sound.MAIN_BUNDLE);
 
 const List = ({ pokemons, navigation }) => {
   const [selection, setSelection] = useState(new Map());
+  const [state] = useContext(UserSettingsContext);
 
   useEffect(() => {
     onPressItem(1);
@@ -36,7 +39,7 @@ const List = ({ pokemons, navigation }) => {
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText uppercase>sommaire</PokemonText>
+        <PokemonText uppercase>{text.summary[state.language]}</PokemonText>
       </View>
       <FlatList
         style={styles.listContainer}

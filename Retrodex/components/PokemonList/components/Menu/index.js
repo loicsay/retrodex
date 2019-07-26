@@ -1,28 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import { View, StyleSheet } from "react-native";
+
+import { UserSettingsContext } from "../../../../context/UserSettingsContext";
 import MenuItem from "./MenuItem";
 import PokemonSeparator from "../../../PokemonSeparator";
+import text from "../../../../text.json";
 
-const Menu = () => (
-  <>
-    <PokemonSeparator />
-    <View style={styles.menuContainer}>
-      <View style={styles.menuSection}>
-        <MenuItem label="VUS">151</MenuItem>
-        <MenuItem label="PRIS">151</MenuItem>
+const Menu = () => {
+  const [state] = useContext(UserSettingsContext);
+  const { language } = state;
+
+  return (
+    <>
+      <PokemonSeparator />
+      <View style={styles.menuContainer}>
+        <View style={styles.menuSection}>
+          <MenuItem label={text.seen[language]}>151</MenuItem>
+          <MenuItem label={text.own[language]}>151</MenuItem>
+        </View>
+        <View style={styles.menuSection}>
+          <MenuItem label={text.data[language]} />
+          <MenuItem label={text.cry[language]} />
+          <MenuItem label={text.area[language]} />
+        </View>
+        <View style={styles.menuSection}>
+          <MenuItem label={text.language[language]} />
+          <MenuItem label={text.version[language]} />
+        </View>
       </View>
-      <View style={styles.menuSection}>
-        <MenuItem label="INFO" />
-        <MenuItem label="CRI" />
-        <MenuItem label="ZONE" />
-      </View>
-      <View style={styles.menuSection}>
-        <MenuItem label="LANG" />
-        <MenuItem label="VER" />
-      </View>
-    </View>
-  </>
-);
+    </>
+  );
+};
 
 const styles = StyleSheet.create({
   menuContainer: {

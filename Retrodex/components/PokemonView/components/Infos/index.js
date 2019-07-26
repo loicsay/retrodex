@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { View, Image, StyleSheet, Dimensions } from "react-native";
+
+import { UserSettingsContext } from "../../../../context/UserSettingsContext";
 import PokemonText from "../../../PokemonText";
 import Data from "./Data";
+import text from "../../../../text.json";
 
 const deviceWidth = Dimensions.get("window").width;
 
 const Infos = ({ imageSource, pokemon }) => {
+  const [state] = useContext(UserSettingsContext);
+  const { language } = state;
+
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
 
@@ -23,12 +29,12 @@ const Infos = ({ imageSource, pokemon }) => {
         </View>
       </View>
       <View style={styles.pokemonData}>
-        <Data uppercase label={pokemon.names.fr} />
-        <Data uppercase label={pokemon.categories.fr} />
-        <Data uppercase label="TAI">
+        <Data uppercase label={pokemon.names[language]} />
+        <Data uppercase label={pokemon.categories[language]} />
+        <Data uppercase label={text.height[language]}>
           {pokemon.height_eu}
         </Data>
-        <Data uppercase label="PDS">
+        <Data uppercase label={text.weight[language]}>
           {pokemon.weight_eu}
         </Data>
       </View>

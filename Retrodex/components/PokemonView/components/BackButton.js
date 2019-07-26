@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { TouchableOpacity, StyleSheet } from "react-native";
 
+import { UserSettingsContext } from "../../../context/UserSettingsContext";
 import PokemonText from "../../PokemonText";
 import Selector from "../../Selector";
+import text from "../../../text.json";
 
 const BackButton = ({ selectSound, navigation }) => {
   const [pressed, setPressed] = useState(false);
+  const [state] = useContext(UserSettingsContext);
 
   const handleOnPress = () => {
     selectSound.play();
@@ -24,7 +27,7 @@ const BackButton = ({ selectSound, navigation }) => {
       onPressOut={handleOnPressOut}
     >
       <Selector style={styles.selector} pressed={pressed} />
-      <PokemonText uppercase>Retour</PokemonText>
+      <PokemonText uppercase>{text.back[state.language]}</PokemonText>
     </TouchableOpacity>
   );
 };

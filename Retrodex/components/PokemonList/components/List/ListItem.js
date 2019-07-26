@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
+import { UserSettingsContext } from "../../../../context/UserSettingsContext";
 import PokemonText from "../../../PokemonText";
 import Selector from "../../../Selector";
 
@@ -12,6 +13,7 @@ const ListItem = ({
   navigation
 }) => {
   const [pressed, setPressed] = useState(false);
+  const [state] = useContext(UserSettingsContext);
 
   const handleOnPressIn = () => {
     setPressed(true);
@@ -46,7 +48,7 @@ const ListItem = ({
             resizeMode="contain"
             source={require("../../../../../data/red-blue/sprites/pokeball.png")}
           />
-          <PokemonText uppercase>{pokemon.names.fr}</PokemonText>
+          <PokemonText uppercase>{pokemon.names[state.language]}</PokemonText>
         </View>
       </View>
     </TouchableOpacity>
