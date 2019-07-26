@@ -39,7 +39,7 @@ const List = ({ pokemons, navigation }) => {
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText uppercase>{text.summary[state.language]}</PokemonText>
+        <PokemonText uppercase>{text.contents[state.language]}</PokemonText>
       </View>
       <FlatList
         style={styles.listContainer}
