@@ -46,7 +46,7 @@ const ListItem = ({
           <Image
             style={styles.pokeball}
             resizeMode="contain"
-            source={require("../../../../../data/red-blue/sprites/pokeball.png")}
+            source={require("../../../../../data/red-blue-yellow/sprites/pokeball.png")}
           />
           <PokemonText uppercase>{pokemon.names[state.language]}</PokemonText>
         </View>

@@ -7,7 +7,7 @@ import Layout from "../Layout";
 import Infos from "./components/Infos";
 import Description from "./components/Description";
 import BackButton from "./components/BackButton";
-import { imagesSources } from "./utils";
+import getImageSource from "./utils";
 
 const PokemonView = ({ navigation }) => {
   const [state] = useContext(UserSettingsContext);
@@ -34,11 +34,11 @@ const PokemonView = ({ navigation }) => {
     <Layout>
       <View>
         <Infos
-          imageSource={imagesSources[pokemon.national_id]}
+          imageSource={getImageSource("red-blue", pokemon.national_id)}
           pokemon={pokemon}
         />
         <Description
-          description={pokemon.pokedex_entries.Blue[state.language]}
+          description={pokemon.pokedex_entries["red-blue"][state.language]}
         />
       </View>
       <BackButton navigation={navigation} selectSound={selectSound} />

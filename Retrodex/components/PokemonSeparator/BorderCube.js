@@ -3,8 +3,8 @@ import { Image, StyleSheet } from "react-native";
 
 const BorderCube = ({ horizontal }) => {
   const imgSource = horizontal
-    ? require("../../../data/red-blue/sprites/border-cube-horizontal.png")
-    : require("../../../data/red-blue/sprites/border-cube.png");
+    ? require("../../../data/red-blue-yellow/sprites/border-cube-horizontal.png")
+    : require("../../../data/red-blue-yellow/sprites/border-cube.png");
 
   return (
     <Image
