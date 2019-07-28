@@ -9,8 +9,7 @@ import text from "../../../../text.json";
 const deviceWidth = Dimensions.get("window").width;
 
 const Infos = ({ imageSource, pokemon }) => {
-  const [state] = useContext(UserSettingsContext);
-  const { language } = state;
+  const { language } = useContext(UserSettingsContext);
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);

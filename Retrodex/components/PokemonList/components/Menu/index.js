@@ -2,31 +2,26 @@ import React, { useContext } from "react";
 import { View, StyleSheet } from "react-native";
 
 import { UserSettingsContext } from "../../../../context/UserSettingsContext";
-import MenuItem from "./MenuItem";
+import ViewMenu from "./ViewMenu";
+import ActionMenu from "./ActionMenu";
+import SettingsMenu from "./SettingsMenu";
 import PokemonSeparator from "../../../PokemonSeparator";
-import text from "../../../../text.json";
 
-const Menu = () => {
-  const [state] = useContext(UserSettingsContext);
-  const { language } = state;
+const Menu = ({ currentAction, setAction }) => {
+  const { language } = useContext(UserSettingsContext);
 
   return (
     <>
       <PokemonSeparator />
       <View style={styles.menuContainer}>
-        <View style={styles.menuSection}>
-          <MenuItem label={text.seen[language]}>151</MenuItem>
-          <MenuItem label={text.own[language]}>151</MenuItem>
-        </View>
-        <View style={styles.menuSection}>
-          <MenuItem label={text.data[language]} />
-          <MenuItem label={text.cry[language]} />
-          <MenuItem label={text.area[language]} />
-        </View>
-        <View style={styles.menuSection}>
-          <MenuItem label={text.language[language]} />
-          <MenuItem label={text.version[language]} />
-        </View>
+        <ViewMenu style={styles.menu} language={language} />
+        <ActionMenu
+          style={styles.menu}
+          language={language}
+          currentAction={currentAction}
+          setAction={setAction}
+        />
+        <SettingsMenu style={styles.menu} language={language} />
       </View>
     </>
   );
@@ -36,7 +31,7 @@ const styles = StyleSheet.create({
   menuContainer: {
     flex: 1
   },
-  menuSection: {
+  menu: {
     marginTop: 28,
     paddingBottom: 16,
     borderStyle: "solid",

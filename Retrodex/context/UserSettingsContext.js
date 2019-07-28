@@ -1,19 +1,48 @@
 import React, { useState, useEffect } from "react";
+import AsyncStorage from "@react-native-community/async-storage";
 
-import { getDeviceLanguage } from "./utils";
+import {
+  defaultState,
+  getAlreadyLaunched,
+  initUserSettingsStorage,
+  getUserSettingsStorage
+} from "./utils";
 
 const UserSettingsContext = React.createContext([{}, () => {}]);
 
 const UserSettingsProvider = ({ children }) => {
-  const [state, setState] = useState({ language: "en" });
+  const [state, setState] = useState(defaultState);
 
   useEffect(() => {
-    const deviceLanguage = getDeviceLanguage();
-    setState(state => ({ ...state, language: deviceLanguage }));
+    initContextState();
   }, []);
 
+  const initContextState = async () => {
+    const alreadyLaunched = await getAlreadyLaunched();
+
+    if (alreadyLaunched) {
+      setState(await getUserSettingsStorage());
+    } else {
+      initUserSettingsStorage();
+    }
+  };
+
+  const setLanguage = language => {
+    setState({ ...state, language });
+    AsyncStorage.setItem("language", language);
+  };
+
+  const setVersion = version => {
+    setState({ ...state, version });
+    AsyncStorage.setItem("version", version);
+  };
+
+  const { language, version } = state;
+
   return (
-    <UserSettingsContext.Provider value={[state, setState]}>
+    <UserSettingsContext.Provider
+      value={{ language, setLanguage, version, setVersion }}
+    >
       {children}
     </UserSettingsContext.Provider>
   );

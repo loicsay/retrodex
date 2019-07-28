@@ -9,18 +9,19 @@ import text from "../../../../text.json";
 
 let selectSound = new Sound("select.wav", Sound.MAIN_BUNDLE);
 
-const List = ({ pokemons, navigation }) => {
+const List = ({ pokemons, navigation, action }) => {
   const [selection, setSelection] = useState(new Map());
-  const [state] = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   useEffect(() => {
-    onPressItem(1);
+    setSelector(1);
   }, []);
 
   const keyExtractor = (item, index) => index.toString();
 
-  const onPressItem = id => {
+  const setSelector = id => {
     const selection = new Map(selection);
+
     selection.set(id, !selection.get(id));
     setSelection(selection);
   };
@@ -29,8 +30,9 @@ const List = ({ pokemons, navigation }) => {
     <ListItem
       key={item.national_id}
       pokemon={item}
+      action={action}
       selected={Boolean(selection.get(item.national_id))}
-      onPressItem={onPressItem}
+      setSelector={setSelector}
       selectSound={selectSound}
       navigation={navigation}
     />
@@ -39,7 +41,7 @@ const List = ({ pokemons, navigation }) => {
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText uppercase>{text.contents[state.language]}</PokemonText>
+        <PokemonText uppercase>{text.contents[language]}</PokemonText>
       </View>
       <FlatList
         style={styles.listContainer}

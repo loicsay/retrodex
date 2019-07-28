@@ -7,24 +7,34 @@ import Selector from "../../../Selector";
 
 const ListItem = ({
   pokemon,
+  action,
   selectSound,
   selected,
-  onPressItem,
+  setSelector,
   navigation
 }) => {
   const [pressed, setPressed] = useState(false);
-  const [state] = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   const handleOnPressIn = () => {
     setPressed(true);
-    onPressItem(pokemon.national_id);
+    setSelector(pokemon.national_id);
   };
 
   const handleOnPressOut = () => setPressed(false);
 
   const handleOnPress = () => {
     selectSound.play();
-    navigation.navigate("PokemonView", { pokemon, selectSound });
+
+    switch (action) {
+      case "data":
+        navigation.navigate("PokemonView", { pokemon, selectSound });
+      case "cry":
+        break;
+      case "area":
+        break;
+      default:
+    }
   };
 
   // Transform the national id with 3 numbers
@@ -48,7 +58,7 @@ const ListItem = ({
             resizeMode="contain"
             source={require("../../../../../data/red-blue-yellow/sprites/pokeball.png")}
           />
-          <PokemonText uppercase>{pokemon.names[state.language]}</PokemonText>
+          <PokemonText uppercase>{pokemon.names[language]}</PokemonText>
         </View>
       </View>
     </TouchableOpacity>
@@ -70,8 +80,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   selector: {
-    height: 22,
-    position: "absolute"
+    height: 22
   },
   pokeball: {
     height: 16,
@@ -80,6 +89,7 @@ const styles = StyleSheet.create({
 });
 
 const selectedIsEqual = (prevProps, nextProps) =>
-  prevProps.selected === nextProps.selected;
+  prevProps.selected === nextProps.selected &&
+  prevProps.action === nextProps.action;
 
 export default React.memo(ListItem, selectedIsEqual);

@@ -10,7 +10,7 @@ import BackButton from "./components/BackButton";
 import getImageSource from "./utils";
 
 const PokemonView = ({ navigation }) => {
-  const [state] = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   const pokemon = navigation.getParam("pokemon");
   const selectSound = navigation.getParam("selectSound");
@@ -38,7 +38,7 @@ const PokemonView = ({ navigation }) => {
           pokemon={pokemon}
         />
         <Description
-          description={pokemon.pokedex_entries["red-blue"][state.language]}
+          description={pokemon.pokedex_entries["red-blue"][language]}
         />
       </View>
       <BackButton navigation={navigation} selectSound={selectSound} />

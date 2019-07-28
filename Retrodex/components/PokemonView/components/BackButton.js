@@ -8,7 +8,7 @@ import text from "../../../text.json";
 
 const BackButton = ({ selectSound, navigation }) => {
   const [pressed, setPressed] = useState(false);
-  const [state] = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   const handleOnPress = () => {
     selectSound.play();
@@ -27,7 +27,7 @@ const BackButton = ({ selectSound, navigation }) => {
       onPressOut={handleOnPressOut}
     >
       <Selector style={styles.selector} pressed={pressed} />
-      <PokemonText uppercase>{text.back[state.language]}</PokemonText>
+      <PokemonText uppercase>{text.back[language]}</PokemonText>
     </TouchableOpacity>
   );
 };
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     backgroundColor: "rgb(245, 245, 245)"
   },
   selector: {
+    position: "relative",
     height: 16
   }
 });
