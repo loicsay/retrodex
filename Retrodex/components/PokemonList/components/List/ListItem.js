@@ -40,6 +40,8 @@ const ListItem = ({
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
 
+  console.log("rendered");
+
   return (
     <TouchableOpacity
       style={styles.listContainer}
@@ -88,8 +90,16 @@ const styles = StyleSheet.create({
   }
 });
 
-const selectedIsEqual = (prevProps, nextProps) =>
-  prevProps.selected === nextProps.selected &&
-  prevProps.action === nextProps.action;
+const listItemIsEqual = (prevProps, nextProps) => {
+  if (nextProps.selected) {
+    if (prevProps.selected === nextProps.selected) {
+      return prevProps.action === nextProps.action;
+    } else {
+      return false;
+    }
+  } else {
+    return prevProps.selected === nextProps.selected;
+  }
+};
 
-export default React.memo(ListItem, selectedIsEqual);
+export default React.memo(ListItem, listItemIsEqual);
