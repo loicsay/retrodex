@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
+import Sound from "react-native-sound";
 
 import { UserSettingsContext } from "../../../../context/UserSettingsContext";
 import PokemonText from "../../../PokemonText";
@@ -29,7 +30,17 @@ const ListItem = ({
     switch (action) {
       case "data":
         navigation.navigate("PokemonView", { pokemon, selectSound });
+        break;
       case "cry":
+        const pokemonCry = new Sound(
+          `cry${pokemon.national_id}.wav`,
+          Sound.MAIN_BUNDLE,
+          () => {
+            setTimeout(() => {
+              pokemonCry.play();
+            }, 100);
+          }
+        );
         break;
       case "area":
         break;
@@ -40,8 +51,6 @@ const ListItem = ({
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
 
-  console.log("rendered");
-
   return (
     <TouchableOpacity
       style={styles.listContainer}
@@ -49,7 +58,7 @@ const ListItem = ({
       onPressOut={handleOnPressOut}
       onPress={handleOnPress}
     >
-      <View style={styles.id}>
+      <View style={styles.pokemonId}>
         <PokemonText uppercase>{pokemonId}</PokemonText>
       </View>
       <View style={styles.rowContainer}>
@@ -73,7 +82,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "baseline"
   },
-  id: {
+  pokemonId: {
     paddingLeft: "8%"
   },
   rowContainer: {
@@ -92,11 +101,9 @@ const styles = StyleSheet.create({
 
 const listItemIsEqual = (prevProps, nextProps) => {
   if (nextProps.selected) {
-    if (prevProps.selected === nextProps.selected) {
-      return prevProps.action === nextProps.action;
-    } else {
-      return false;
-    }
+    prevProps.selected === nextProps.selected
+      ? prevProps.action === nextProps.action
+      : false;
   } else {
     return prevProps.selected === nextProps.selected;
   }

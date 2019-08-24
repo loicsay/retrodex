@@ -6,7 +6,7 @@ import BorderCube from "./BorderCube";
 const deviceHeight = Dimensions.get("window").height;
 const cubeHeight = 44;
 const nbOfCubes = deviceHeight / cubeHeight - 2;
-// Remove 2 because of space on top and bottom
+// Removing 2 cubes because of space on top and bottom
 
 const PokemonSeparator = ({ horizontal = false }) => {
   const renderHorizontalBorderCubes = () => {

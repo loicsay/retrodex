@@ -18,12 +18,13 @@ const PokemonView = ({ navigation }) => {
   useEffect(() => {
     const pokemonCry = new Sound(
       `cry${pokemon.national_id}.wav`,
-      Sound.MAIN_BUNDLE
+      Sound.MAIN_BUNDLE,
+      () => {
+        setTimeout(() => {
+          pokemonCry.play();
+        }, 200);
+      }
     );
-
-    setTimeout(() => {
-      pokemonCry.play();
-    }, 400);
 
     return () => {
       pokemonCry.release();
