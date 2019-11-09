@@ -5,7 +5,7 @@ const supportedLanguage = { fr: true, en: true };
 
 const getDeviceLanguage = () => {
   let deviceLanguage = (Platform.OS === "ios"
-    ? NativeModules.SettingsManager.settings.AppleLocale
+    ? NativeModules.SettingsManager.settings.NSLanguages[0]
     : NativeModules.I18nManager.localeIdentifier
   ).substring(0, 2); // Get only language, not location
 
