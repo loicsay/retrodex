@@ -1,17 +1,17 @@
-import React from "react";
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import React from 'react';
+import {createStackNavigator, createAppContainer} from 'react-navigation';
 
-import { UserSettingsProvider } from "./context/UserSettingsContext";
-import PokemonList from "./components/PokemonList";
-import PokemonView from "./components/PokemonView";
+import {UserSettingsProvider} from './context/UserSettings';
+import PokemonList from './components/PokemonList';
+import PokemonView from './components/PokemonView';
 
 const RootStack = createStackNavigator({
   PokemonList: {
-    screen: PokemonList
+    screen: PokemonList,
   },
   PokemonView: {
-    screen: PokemonView
-  }
+    screen: PokemonView,
+  },
 });
 
 const Navigation = createAppContainer(RootStack);

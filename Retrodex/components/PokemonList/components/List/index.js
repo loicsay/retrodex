@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { FlatList, View, StyleSheet } from "react-native";
 import Sound from "react-native-sound";
 
-import { UserSettingsContext } from "../../../../context/UserSettingsContext";
+import { UserSettingsContext } from "../../../../context/UserSettings";
 import PokemonText from "../../../PokemonText";
 import ListItem from "./ListItem";
 import text from "../../../../text.json";

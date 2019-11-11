@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { View, Image, StyleSheet, Dimensions } from "react-native";
 
-import { UserSettingsContext } from "../../../../context/UserSettingsContext";
+import { UserSettingsContext } from "../../../../context/UserSettings";
 import PokemonText from "../../../PokemonText";
 import Data from "./Data";
 import text from "../../../../text.json";

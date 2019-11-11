@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
-import { View, StyleSheet } from "react-native";
+import React, {useContext} from 'react';
+import {View, StyleSheet} from 'react-native';
 
-import { UserSettingsContext } from "../../../../context/UserSettingsContext";
-import ViewMenu from "./ViewMenu";
-import ActionMenu from "./ActionMenu";
-import SettingsMenu from "./SettingsMenu";
-import PokemonSeparator from "../../../PokemonSeparator";
+import {UserSettingsContext} from '../../../../context/UserSettings';
+import ViewMenu from './ViewMenu';
+import ActionMenu from './ActionMenu';
+import SettingsMenu from './SettingsMenu';
+import PokemonSeparator from '../../../PokemonSeparator';
 
-const Menu = ({ currentAction, setAction }) => {
-  const { language } = useContext(UserSettingsContext);
+const Menu = ({currentAction, setAction}) => {
+  const {language} = useContext(UserSettingsContext);
 
   return (
     <>
@@ -29,15 +29,15 @@ const Menu = ({ currentAction, setAction }) => {
 
 const styles = StyleSheet.create({
   menuContainer: {
-    flex: 1
+    flex: 1,
   },
   menu: {
     marginTop: 28,
     paddingBottom: 16,
-    borderStyle: "solid",
+    borderStyle: 'solid',
     borderBottomWidth: 5,
-    borderBottomColor: "black"
-  }
+    borderBottomColor: 'black',
+  },
 });
 
 export default Menu;

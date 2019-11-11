@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from "react";
 import { View } from "react-native";
 import Sound from "react-native-sound";
 
-import { UserSettingsContext } from "../../context/UserSettingsContext";
+import { UserSettingsContext } from "../../context/UserSettings";
 import Layout from "../Layout";
 import Infos from "./components/Infos";
 import Description from "./components/Description";

@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
 import Sound from "react-native-sound";
 
-import { UserSettingsContext } from "../../../../context/UserSettingsContext";
+import { UserSettingsContext } from "../../../../context/UserSettings";
 import PokemonText from "../../../PokemonText";
 import Selector from "../../../Selector";
 
