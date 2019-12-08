@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { View, StyleSheet } from "react-native";
+import React, {useState} from 'react';
+import {View, StyleSheet} from 'react-native';
 
-import List from "./components/List";
-import Menu from "./components/Menu";
-import pokemons from "../../../data/pokemons.json";
-import Layout from "../Layout";
+import List from './components/List';
+import Menu from './components/Menu';
+import pokemons from '../../../data/pokemons.json';
+import Layout from '../Layout';
 
-const PokemonList = ({ navigation }) => {
-  const [action, setAction] = useState("data");
+const PokemonList = ({navigation}) => {
+  const [action, setAction] = useState('data');
 
   return (
     <Layout>
@@ -21,15 +21,15 @@ const PokemonList = ({ navigation }) => {
 
 PokemonList.navigationOptions = {
   headerStyle: {
-    display: "none"
-  }
+    display: 'none',
+  },
 };
 
 const styles = StyleSheet.create({
   listContainer: {
-    flexDirection: "row",
-    minHeight: "100%"
-  }
+    flexDirection: 'row',
+    minHeight: '100%',
+  },
 });
 
 export default PokemonList;

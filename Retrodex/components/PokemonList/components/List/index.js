@@ -1,17 +1,19 @@
-import React, { useState, useEffect, useContext } from "react";
-import { FlatList, View, StyleSheet } from "react-native";
-import Sound from "react-native-sound";
+import React, {useState, useEffect, useContext} from 'react';
+import {FlatList, View, StyleSheet} from 'react-native';
+import Sound from 'react-native-sound';
 
-import { UserSettingsContext } from "../../../../context/UserSettings";
-import PokemonText from "../../../PokemonText";
-import ListItem from "./ListItem";
-import text from "../../../../text.json";
+import text from '../../../../text.json';
+import {UserSettingsContext} from '../../../../context/UserSettings';
+import PokemonText from '../../../PokemonText';
+import ListItem from './ListItem';
+import {PokedexStatusContext} from '../../../../context/PokedexStatus/index.js';
 
-let selectSound = new Sound("select.wav", Sound.MAIN_BUNDLE);
+let selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
-const List = ({ pokemons, navigation, action }) => {
+const List = ({pokemons, navigation, action}) => {
   const [selection, setSelection] = useState(new Map());
-  const { language } = useContext(UserSettingsContext);
+  const {language} = useContext(UserSettingsContext);
+  const {catched} = useContext(PokedexStatusContext);
 
   useEffect(() => {
     setSelector(1);
@@ -26,10 +28,11 @@ const List = ({ pokemons, navigation, action }) => {
     setSelection(selection);
   };
 
-  const renderItem = ({ item }) => (
+  const renderItem = ({item}) => (
     <ListItem
       key={item.national_id}
       pokemon={item}
+      catched={catched[item.national_id]}
       action={action}
       selected={Boolean(selection.get(item.national_id))}
       setSelector={setSelector}
@@ -46,11 +49,11 @@ const List = ({ pokemons, navigation, action }) => {
       <FlatList
         style={styles.listContainer}
         data={pokemons}
-        extraData={{ selection }}
+        extraData={{selection}}
         keyExtractor={keyExtractor}
         renderItem={renderItem}
         showsVerticalScrollIndicator={false}
-        ListFooterComponent={<View style={{ margin: "14%" }} />}
+        ListFooterComponent={<View style={{margin: '14%'}} />}
       />
     </View>
   );
@@ -58,14 +61,14 @@ const List = ({ pokemons, navigation, action }) => {
 
 const styles = StyleSheet.create({
   list: {
-    flex: 2.6
+    flex: 2.6,
   },
   listContainer: {
-    paddingBottom: 200
+    paddingBottom: 200,
   },
   title: {
-    paddingLeft: "8%"
-  }
+    paddingLeft: '8%',
+  },
 });
 
 export default List;

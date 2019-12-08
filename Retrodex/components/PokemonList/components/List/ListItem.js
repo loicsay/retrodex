@@ -1,10 +1,12 @@
-import React, { useState, useContext } from "react";
-import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
-import Sound from "react-native-sound";
+import React, {useState, useContext} from 'react';
+import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import Sound from 'react-native-sound';
 
-import { UserSettingsContext } from "../../../../context/UserSettings";
-import PokemonText from "../../../PokemonText";
-import Selector from "../../../Selector";
+import {UserSettingsContext} from '../../../../context/UserSettings';
+import PokemonText from '../../../PokemonText';
+import Selector from '../../../Selector';
+
+const soundDelay = 100; // in ms
 
 const ListItem = ({
   pokemon,
@@ -12,10 +14,11 @@ const ListItem = ({
   selectSound,
   selected,
   setSelector,
-  navigation
+  navigation,
+  catched,
 }) => {
   const [pressed, setPressed] = useState(false);
-  const { language } = useContext(UserSettingsContext);
+  const {language} = useContext(UserSettingsContext);
 
   const handleOnPressIn = () => {
     setPressed(true);
@@ -28,21 +31,21 @@ const ListItem = ({
     selectSound.play();
 
     switch (action) {
-      case "data":
-        navigation.navigate("PokemonView", { pokemon, selectSound });
+      case 'data':
+        navigation.navigate('PokemonView', {pokemon, selectSound});
         break;
-      case "cry":
+      case 'cry':
         const pokemonCry = new Sound(
           `cry${pokemon.national_id}.wav`,
           Sound.MAIN_BUNDLE,
           () => {
             setTimeout(() => {
               pokemonCry.play();
-            }, 100);
-          }
+            }, soundDelay);
+          },
         );
         break;
-      case "area":
+      case 'area':
         break;
       default:
     }
@@ -56,8 +59,7 @@ const ListItem = ({
       style={styles.listContainer}
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
-      onPress={handleOnPress}
-    >
+      onPress={handleOnPress}>
       <View style={styles.pokemonId}>
         <PokemonText uppercase>{pokemonId}</PokemonText>
       </View>
@@ -65,9 +67,9 @@ const ListItem = ({
         {selected && <Selector style={styles.selector} pressed={pressed} />}
         <View style={styles.pokemonName}>
           <Image
-            style={styles.pokeball}
+            style={[styles.pokeball, catched ? undefined : styles.transparent]}
             resizeMode="contain"
-            source={require("../../../../../data/red-blue-yellow/sprites/pokeball.png")}
+            source={require('../../../../../data/red-blue-yellow/sprites/pokeball.png')}
           />
           <PokemonText uppercase>{pokemon.names[language]}</PokemonText>
         </View>
@@ -78,34 +80,41 @@ const ListItem = ({
 
 const styles = StyleSheet.create({
   pokemonName: {
-    paddingLeft: "22%",
-    flexDirection: "row",
-    alignItems: "baseline"
+    paddingLeft: '22%',
+    flexDirection: 'row',
+    alignItems: 'baseline',
   },
   pokemonId: {
-    paddingLeft: "8%"
+    paddingLeft: '8%',
   },
   rowContainer: {
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   selector: {
-    height: 22
+    height: 22,
   },
   pokeball: {
     height: 16,
-    width: 16
-  }
+    width: 16,
+  },
+  transparent: {
+    opacity: 0,
+  },
 });
 
 const listItemIsEqual = (prevProps, nextProps) => {
-  if (nextProps.selected) {
-    prevProps.selected === nextProps.selected
-      ? prevProps.action === nextProps.action
-      : false;
+  if (prevProps.catched === nextProps.catched) {
+    if (nextProps.selected) {
+      prevProps.selected === nextProps.selected
+        ? prevProps.action === nextProps.action
+        : false;
+    } else {
+      return prevProps.selected === nextProps.selected;
+    }
   } else {
-    return prevProps.selected === nextProps.selected;
+    return false;
   }
 };
 

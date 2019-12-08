@@ -1,19 +1,21 @@
-import React, { useEffect, useContext } from "react";
-import { View } from "react-native";
-import Sound from "react-native-sound";
+import React, {useEffect, useContext} from 'react';
+import {View} from 'react-native';
+import Sound from 'react-native-sound';
 
-import { UserSettingsContext } from "../../context/UserSettings";
-import Layout from "../Layout";
-import Infos from "./components/Infos";
-import Description from "./components/Description";
-import BackButton from "./components/BackButton";
-import getImageSource from "./utils";
+import {UserSettingsContext} from '../../context/UserSettings';
+import {PokedexStatusContext} from '../../context/PokedexStatus';
+import Layout from '../Layout';
+import Infos from './components/Infos';
+import Description from './components/Description';
+import BackButton from './components/BackButton';
+import getImageSource from './utils';
 
-const PokemonView = ({ navigation }) => {
-  const { language } = useContext(UserSettingsContext);
+const PokemonView = ({navigation}) => {
+  const {language} = useContext(UserSettingsContext);
+  const {setCatchedPokemon} = useContext(PokedexStatusContext);
 
-  const pokemon = navigation.getParam("pokemon");
-  const selectSound = navigation.getParam("selectSound");
+  const pokemon = navigation.getParam('pokemon');
+  const selectSound = navigation.getParam('selectSound');
 
   useEffect(() => {
     const pokemonCry = new Sound(
@@ -23,8 +25,9 @@ const PokemonView = ({ navigation }) => {
         setTimeout(() => {
           pokemonCry.play();
         }, 200);
-      }
+      },
     );
+    setCatchedPokemon(pokemon.national_id);
 
     return () => {
       pokemonCry.release();
@@ -35,11 +38,11 @@ const PokemonView = ({ navigation }) => {
     <Layout>
       <View>
         <Infos
-          imageSource={getImageSource("red-blue", pokemon.national_id)}
+          imageSource={getImageSource('red-blue', pokemon.national_id)}
           pokemon={pokemon}
         />
         <Description
-          description={pokemon.pokedex_entries["red-blue"][language]}
+          description={pokemon.pokedex_entries['red-blue'][language]}
         />
       </View>
       <BackButton navigation={navigation} selectSound={selectSound} />
@@ -49,8 +52,8 @@ const PokemonView = ({ navigation }) => {
 
 PokemonView.navigationOptions = {
   headerStyle: {
-    display: "none"
-  }
+    display: 'none',
+  },
 };
 
 export default PokemonView;

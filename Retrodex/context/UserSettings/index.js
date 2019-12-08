@@ -14,23 +14,23 @@ const UserSettingsProvider = ({children}) => {
   const [state, setState] = useState(defaultState);
 
   useEffect(() => {
-    initContextState();
-  }, []);
+    const initContextState = async () => {
+      const alreadyLaunched = await getAlreadyLaunched();
 
-  const initContextState = async () => {
-    const alreadyLaunched = await getAlreadyLaunched();
-
-    if (alreadyLaunched) {
-      try {
-        const userSettingsStorage = await getUserSettingsStorage();
-        setState(userSettingsStorage);
-      } catch (e) {
+      if (alreadyLaunched) {
+        try {
+          const userSettingsStorage = await getUserSettingsStorage();
+          setState(userSettingsStorage);
+        } catch (e) {
+          initUserSettingsStorage();
+        }
+      } else {
         initUserSettingsStorage();
       }
-    } else {
-      initUserSettingsStorage();
-    }
-  };
+    };
+
+    initContextState();
+  }, []);
 
   const setLanguage = language => {
     setState({...state, language});
@@ -42,11 +42,8 @@ const UserSettingsProvider = ({children}) => {
     AsyncStorage.setItem('version', version);
   };
 
-  const {language, version} = state;
-
   return (
-    <UserSettingsContext.Provider
-      value={{language, setLanguage, version, setVersion}}>
+    <UserSettingsContext.Provider value={{...state, setLanguage, setVersion}}>
       {children}
     </UserSettingsContext.Provider>
   );

@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
+import AsyncStorage from '@react-native-community/async-storage';
 
 import {UserSettingsProvider} from './context/UserSettings';
+import {PokedexStatusProvider} from './context/PokedexStatus';
+
 import PokemonList from './components/PokemonList';
 import PokemonView from './components/PokemonView';
 
@@ -16,10 +19,14 @@ const RootStack = createStackNavigator({
 
 const Navigation = createAppContainer(RootStack);
 
-const Retrodex = () => (
-  <UserSettingsProvider>
-    <Navigation />
-  </UserSettingsProvider>
-);
+const Retrodex = () => {
+  return (
+    <UserSettingsProvider>
+      <PokedexStatusProvider>
+        <Navigation />
+      </PokedexStatusProvider>
+    </UserSettingsProvider>
+  );
+};
 
 export default Retrodex;
