@@ -7,7 +7,12 @@ import PokemonView from './components/PokemonView';
 import {PokedexStatusProvider} from './context/PokedexStatus';
 import {UserSettingsProvider} from './context/UserSettings';
 
-const Stack = createStackNavigator();
+export type RootStackParamList = {
+  PokemonList: undefined;
+  PokemonView: undefined;
+};
+
+const Stack = createStackNavigator<RootStackParamList>();
 
 const Retrodex = () => {
   return (

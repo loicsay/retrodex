@@ -1,5 +1,6 @@
-import React, {useState, useContext} from 'react';
-import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {useNavigation} from '@react-navigation/core';
+import React, {useContext, useState} from 'react';
+import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import Sound from 'react-native-sound';
 
 import {UserSettingsContext} from '../../../../context/UserSettings';
@@ -14,11 +15,12 @@ const ListItem = ({
   selectSound,
   selected,
   setSelector,
-  navigation,
   catched,
 }) => {
   const [pressed, setPressed] = useState(false);
   const {language} = useContext(UserSettingsContext);
+
+  const navigation = useNavigation();
 
   const handleOnPressIn = () => {
     setPressed(true);
