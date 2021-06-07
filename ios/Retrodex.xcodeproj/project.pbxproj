@@ -3,176 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RetrodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RetrodexTests.m */; };
-		040853E7AD56387EA83C1223 /* libPods-Retrodex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9B94B999B2A1DAE3D0ADC /* libPods-Retrodex.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* RetrodexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RetrodexTests.m */; };
-		3A9CBC70099232CAE940E020 /* libPods-Retrodex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */; };
-		63904C83EA4647D5D20B9C29 /* libPods-RetrodexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */; };
-		927EFA7322EC0CCD0092FDC6 /* cry95.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9DB22EC0CBF0092FDC6 /* cry95.wav */; };
-		927EFA7422EC0CCD0092FDC6 /* cry109.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9DC22EC0CBF0092FDC6 /* cry109.wav */; };
-		927EFA7522EC0CCD0092FDC6 /* cry126.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9DD22EC0CBF0092FDC6 /* cry126.wav */; };
-		927EFA7622EC0CCD0092FDC6 /* cry66.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9DE22EC0CBF0092FDC6 /* cry66.wav */; };
-		927EFA7722EC0CCD0092FDC6 /* cry133.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9DF22EC0CBF0092FDC6 /* cry133.wav */; };
-		927EFA7822EC0CCD0092FDC6 /* cry45.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E022EC0CBF0092FDC6 /* cry45.wav */; };
-		927EFA7922EC0CCD0092FDC6 /* cry1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E122EC0CBF0092FDC6 /* cry1.wav */; };
-		927EFA7A22EC0CCD0092FDC6 /* cry64.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E222EC0CBF0092FDC6 /* cry64.wav */; };
-		927EFA7B22EC0CCD0092FDC6 /* cry13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E322EC0CBF0092FDC6 /* cry13.wav */; };
-		927EFA7C22EC0CCD0092FDC6 /* cry130.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E422EC0CBF0092FDC6 /* cry130.wav */; };
-		927EFA7D22EC0CCD0092FDC6 /* cry31.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E522EC0CBF0092FDC6 /* cry31.wav */; };
-		927EFA7E22EC0CCD0092FDC6 /* cry12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E622EC0CBF0092FDC6 /* cry12.wav */; };
-		927EFA7F22EC0CCD0092FDC6 /* cry85.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E722EC0CBF0092FDC6 /* cry85.wav */; };
-		927EFA8022EC0CCD0092FDC6 /* cry48.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E822EC0CBF0092FDC6 /* cry48.wav */; };
-		927EFA8122EC0CCD0092FDC6 /* cry37.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9E922EC0CC00092FDC6 /* cry37.wav */; };
-		927EFA8222EC0CCD0092FDC6 /* cry18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9EA22EC0CC00092FDC6 /* cry18.wav */; };
-		927EFA8322EC0CCD0092FDC6 /* cry16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9EB22EC0CC00092FDC6 /* cry16.wav */; };
-		927EFA8422EC0CCD0092FDC6 /* cry131.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9EC22EC0CC00092FDC6 /* cry131.wav */; };
-		927EFA8522EC0CCD0092FDC6 /* cry54.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9ED22EC0CC00092FDC6 /* cry54.wav */; };
-		927EFA8622EC0CCD0092FDC6 /* cry82.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9EE22EC0CC00092FDC6 /* cry82.wav */; };
-		927EFA8722EC0CCD0092FDC6 /* cry107.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9EF22EC0CC00092FDC6 /* cry107.wav */; };
-		927EFA8822EC0CCD0092FDC6 /* cry26.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F022EC0CC00092FDC6 /* cry26.wav */; };
-		927EFA8922EC0CCD0092FDC6 /* cry140.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F122EC0CC00092FDC6 /* cry140.wav */; };
-		927EFA8A22EC0CCD0092FDC6 /* cry38.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F222EC0CC00092FDC6 /* cry38.wav */; };
-		927EFA8B22EC0CCD0092FDC6 /* cry137.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F322EC0CC00092FDC6 /* cry137.wav */; };
-		927EFA8C22EC0CCD0092FDC6 /* cry3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F422EC0CC00092FDC6 /* cry3.wav */; };
-		927EFA8D22EC0CCD0092FDC6 /* cry44.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F522EC0CC00092FDC6 /* cry44.wav */; };
-		927EFA8E22EC0CCD0092FDC6 /* cry41.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F622EC0CC00092FDC6 /* cry41.wav */; };
-		927EFA8F22EC0CCD0092FDC6 /* cry90.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F722EC0CC10092FDC6 /* cry90.wav */; };
-		927EFA9022EC0CCD0092FDC6 /* cry33.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F822EC0CC10092FDC6 /* cry33.wav */; };
-		927EFA9122EC0CCD0092FDC6 /* cry145.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9F922EC0CC10092FDC6 /* cry145.wav */; };
-		927EFA9222EC0CCD0092FDC6 /* cry123.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FA22EC0CC10092FDC6 /* cry123.wav */; };
-		927EFA9322EC0CCD0092FDC6 /* cry144.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FB22EC0CC10092FDC6 /* cry144.wav */; };
-		927EFA9422EC0CCD0092FDC6 /* cry94.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FC22EC0CC10092FDC6 /* cry94.wav */; };
-		927EFA9522EC0CCD0092FDC6 /* cry67.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FD22EC0CC10092FDC6 /* cry67.wav */; };
-		927EFA9622EC0CCD0092FDC6 /* cry93.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FE22EC0CC10092FDC6 /* cry93.wav */; };
-		927EFA9722EC0CCD0092FDC6 /* cry127.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EF9FF22EC0CC10092FDC6 /* cry127.wav */; };
-		927EFA9822EC0CCD0092FDC6 /* cry138.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0022EC0CC10092FDC6 /* cry138.wav */; };
-		927EFA9922EC0CCD0092FDC6 /* cry56.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0122EC0CC10092FDC6 /* cry56.wav */; };
-		927EFA9A22EC0CCD0092FDC6 /* cry42.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0222EC0CC20092FDC6 /* cry42.wav */; };
-		927EFA9B22EC0CCD0092FDC6 /* cry63.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0322EC0CC20092FDC6 /* cry63.wav */; };
-		927EFA9C22EC0CCD0092FDC6 /* cry35.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0422EC0CC20092FDC6 /* cry35.wav */; };
-		927EFA9D22EC0CCD0092FDC6 /* cry17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0522EC0CC20092FDC6 /* cry17.wav */; };
-		927EFA9E22EC0CCD0092FDC6 /* cry10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0622EC0CC20092FDC6 /* cry10.wav */; };
-		927EFA9F22EC0CCD0092FDC6 /* cry72.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0722EC0CC20092FDC6 /* cry72.wav */; };
-		927EFAA022EC0CCD0092FDC6 /* cry73.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0822EC0CC20092FDC6 /* cry73.wav */; };
-		927EFAA122EC0CCD0092FDC6 /* cry97.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0922EC0CC20092FDC6 /* cry97.wav */; };
-		927EFAA222EC0CCD0092FDC6 /* cry143.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0A22EC0CC20092FDC6 /* cry143.wav */; };
-		927EFAA322EC0CCD0092FDC6 /* cry69.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0B22EC0CC20092FDC6 /* cry69.wav */; };
-		927EFAA422EC0CCD0092FDC6 /* cry147.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0C22EC0CC20092FDC6 /* cry147.wav */; };
-		927EFAA522EC0CCD0092FDC6 /* cry24.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0D22EC0CC30092FDC6 /* cry24.wav */; };
-		927EFAA622EC0CCD0092FDC6 /* cry118.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0E22EC0CC30092FDC6 /* cry118.wav */; };
-		927EFAA722EC0CCD0092FDC6 /* cry43.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA0F22EC0CC30092FDC6 /* cry43.wav */; };
-		927EFAA822EC0CCD0092FDC6 /* cry47.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1022EC0CC30092FDC6 /* cry47.wav */; };
-		927EFAA922EC0CCD0092FDC6 /* cry6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1122EC0CC30092FDC6 /* cry6.wav */; };
-		927EFAAA22EC0CCD0092FDC6 /* cry60.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1222EC0CC30092FDC6 /* cry60.wav */; };
-		927EFAAB22EC0CCD0092FDC6 /* cry119.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1322EC0CC30092FDC6 /* cry119.wav */; };
-		927EFAAC22EC0CCD0092FDC6 /* cry58.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1422EC0CC30092FDC6 /* cry58.wav */; };
-		927EFAAD22EC0CCD0092FDC6 /* cry122.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1522EC0CC30092FDC6 /* cry122.wav */; };
-		927EFAAE22EC0CCD0092FDC6 /* cry139.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1622EC0CC30092FDC6 /* cry139.wav */; };
-		927EFAAF22EC0CCD0092FDC6 /* cry150.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1722EC0CC30092FDC6 /* cry150.wav */; };
-		927EFAB022EC0CCD0092FDC6 /* cry71.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1822EC0CC40092FDC6 /* cry71.wav */; };
-		927EFAB122EC0CCD0092FDC6 /* cry25.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1922EC0CC40092FDC6 /* cry25.wav */; };
-		927EFAB222EC0CCD0092FDC6 /* cry32.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1A22EC0CC40092FDC6 /* cry32.wav */; };
-		927EFAB322EC0CCD0092FDC6 /* cry111.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1B22EC0CC40092FDC6 /* cry111.wav */; };
-		927EFAB422EC0CCD0092FDC6 /* cry102.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1C22EC0CC40092FDC6 /* cry102.wav */; };
-		927EFAB522EC0CCD0092FDC6 /* cry149.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1D22EC0CC40092FDC6 /* cry149.wav */; };
-		927EFAB622EC0CCD0092FDC6 /* cry129.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1E22EC0CC40092FDC6 /* cry129.wav */; };
-		927EFAB722EC0CCD0092FDC6 /* cry84.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA1F22EC0CC40092FDC6 /* cry84.wav */; };
-		927EFAB822EC0CCD0092FDC6 /* cry116.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2022EC0CC40092FDC6 /* cry116.wav */; };
-		927EFAB922EC0CCD0092FDC6 /* cry23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2122EC0CC40092FDC6 /* cry23.wav */; };
-		927EFABA22EC0CCD0092FDC6 /* cry55.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2222EC0CC50092FDC6 /* cry55.wav */; };
-		927EFABB22EC0CCD0092FDC6 /* cry76.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2322EC0CC50092FDC6 /* cry76.wav */; };
-		927EFABC22EC0CCD0092FDC6 /* cry40.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2422EC0CC50092FDC6 /* cry40.wav */; };
-		927EFABD22EC0CCD0092FDC6 /* cry128.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2522EC0CC50092FDC6 /* cry128.wav */; };
-		927EFABE22EC0CCD0092FDC6 /* cry148.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2622EC0CC50092FDC6 /* cry148.wav */; };
-		927EFABF22EC0CCD0092FDC6 /* cry46.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2722EC0CC50092FDC6 /* cry46.wav */; };
-		927EFAC022EC0CCD0092FDC6 /* cry101.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2822EC0CC50092FDC6 /* cry101.wav */; };
-		927EFAC122EC0CCD0092FDC6 /* cry146.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2922EC0CC50092FDC6 /* cry146.wav */; };
-		927EFAC222EC0CCD0092FDC6 /* cry88.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2A22EC0CC50092FDC6 /* cry88.wav */; };
-		927EFAC322EC0CCD0092FDC6 /* cry5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2B22EC0CC50092FDC6 /* cry5.wav */; };
-		927EFAC422EC0CCD0092FDC6 /* cry75.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2C22EC0CC60092FDC6 /* cry75.wav */; };
-		927EFAC522EC0CCD0092FDC6 /* cry108.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2D22EC0CC60092FDC6 /* cry108.wav */; };
-		927EFAC622EC0CCD0092FDC6 /* cry27.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2E22EC0CC60092FDC6 /* cry27.wav */; };
-		927EFAC722EC0CCD0092FDC6 /* cry89.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA2F22EC0CC60092FDC6 /* cry89.wav */; };
-		927EFAC822EC0CCD0092FDC6 /* cry74.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3022EC0CC60092FDC6 /* cry74.wav */; };
-		927EFAC922EC0CCD0092FDC6 /* cry115.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3122EC0CC60092FDC6 /* cry115.wav */; };
-		927EFACA22EC0CCD0092FDC6 /* cry132.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3222EC0CC60092FDC6 /* cry132.wav */; };
-		927EFACB22EC0CCD0092FDC6 /* cry92.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3322EC0CC60092FDC6 /* cry92.wav */; };
-		927EFACC22EC0CCD0092FDC6 /* cry65.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3422EC0CC60092FDC6 /* cry65.wav */; };
-		927EFACD22EC0CCD0092FDC6 /* cry19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3522EC0CC60092FDC6 /* cry19.wav */; };
-		927EFACE22EC0CCD0092FDC6 /* cry112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3622EC0CC60092FDC6 /* cry112.wav */; };
-		927EFACF22EC0CCD0092FDC6 /* cry117.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3722EC0CC70092FDC6 /* cry117.wav */; };
-		927EFAD022EC0CCD0092FDC6 /* cry20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3822EC0CC70092FDC6 /* cry20.wav */; };
-		927EFAD122EC0CCD0092FDC6 /* cry87.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3922EC0CC70092FDC6 /* cry87.wav */; };
-		927EFAD222EC0CCD0092FDC6 /* cry136.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3A22EC0CC70092FDC6 /* cry136.wav */; };
-		927EFAD322EC0CCD0092FDC6 /* cry79.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3B22EC0CC70092FDC6 /* cry79.wav */; };
-		927EFAD422EC0CCD0092FDC6 /* cry142.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3C22EC0CC70092FDC6 /* cry142.wav */; };
-		927EFAD522EC0CCD0092FDC6 /* cry22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3D22EC0CC70092FDC6 /* cry22.wav */; };
-		927EFAD622EC0CCD0092FDC6 /* cry99.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3E22EC0CC70092FDC6 /* cry99.wav */; };
-		927EFAD722EC0CCD0092FDC6 /* cry125.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA3F22EC0CC70092FDC6 /* cry125.wav */; };
-		927EFAD822EC0CCD0092FDC6 /* cry7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4022EC0CC70092FDC6 /* cry7.wav */; };
-		927EFAD922EC0CCD0092FDC6 /* cry98.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4122EC0CC80092FDC6 /* cry98.wav */; };
-		927EFADA22EC0CCD0092FDC6 /* cry28.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4222EC0CC80092FDC6 /* cry28.wav */; };
-		927EFADB22EC0CCD0092FDC6 /* cry91.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4322EC0CC80092FDC6 /* cry91.wav */; };
-		927EFADC22EC0CCD0092FDC6 /* cry80.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4422EC0CC80092FDC6 /* cry80.wav */; };
-		927EFADD22EC0CCD0092FDC6 /* cry124.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4522EC0CC80092FDC6 /* cry124.wav */; };
-		927EFADE22EC0CCD0092FDC6 /* cry114.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4622EC0CC80092FDC6 /* cry114.wav */; };
-		927EFADF22EC0CCD0092FDC6 /* cry29.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4722EC0CC80092FDC6 /* cry29.wav */; };
-		927EFAE022EC0CCD0092FDC6 /* cry120.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4822EC0CC80092FDC6 /* cry120.wav */; };
-		927EFAE122EC0CCD0092FDC6 /* cry141.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4922EC0CC80092FDC6 /* cry141.wav */; };
-		927EFAE222EC0CCD0092FDC6 /* cry2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4A22EC0CC80092FDC6 /* cry2.wav */; };
-		927EFAE322EC0CCD0092FDC6 /* cry70.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4B22EC0CC80092FDC6 /* cry70.wav */; };
-		927EFAE422EC0CCD0092FDC6 /* cry78.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4C22EC0CC90092FDC6 /* cry78.wav */; };
-		927EFAE522EC0CCD0092FDC6 /* cry83.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4D22EC0CC90092FDC6 /* cry83.wav */; };
-		927EFAE622EC0CCD0092FDC6 /* cry68.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4E22EC0CC90092FDC6 /* cry68.wav */; };
-		927EFAE722EC0CCD0092FDC6 /* cry59.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA4F22EC0CC90092FDC6 /* cry59.wav */; };
-		927EFAE822EC0CCD0092FDC6 /* cry104.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5022EC0CC90092FDC6 /* cry104.wav */; };
-		927EFAE922EC0CCD0092FDC6 /* cry135.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5122EC0CC90092FDC6 /* cry135.wav */; };
-		927EFAEA22EC0CCD0092FDC6 /* cry57.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5222EC0CC90092FDC6 /* cry57.wav */; };
-		927EFAEB22EC0CCD0092FDC6 /* cry8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5322EC0CC90092FDC6 /* cry8.wav */; };
-		927EFAEC22EC0CCD0092FDC6 /* cry15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5422EC0CC90092FDC6 /* cry15.wav */; };
-		927EFAED22EC0CCD0092FDC6 /* cry81.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5522EC0CCA0092FDC6 /* cry81.wav */; };
-		927EFAEE22EC0CCD0092FDC6 /* cry50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5622EC0CCA0092FDC6 /* cry50.wav */; };
-		927EFAEF22EC0CCD0092FDC6 /* cry105.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5722EC0CCA0092FDC6 /* cry105.wav */; };
-		927EFAF022EC0CCD0092FDC6 /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5822EC0CCA0092FDC6 /* select.wav */; };
-		927EFAF122EC0CCD0092FDC6 /* cry49.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5922EC0CCA0092FDC6 /* cry49.wav */; };
-		927EFAF222EC0CCD0092FDC6 /* cry30.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5A22EC0CCA0092FDC6 /* cry30.wav */; };
-		927EFAF322EC0CCD0092FDC6 /* cry4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5B22EC0CCA0092FDC6 /* cry4.wav */; };
-		927EFAF422EC0CCD0092FDC6 /* cry151.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5C22EC0CCA0092FDC6 /* cry151.wav */; };
-		927EFAF522EC0CCD0092FDC6 /* cry77.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5D22EC0CCA0092FDC6 /* cry77.wav */; };
-		927EFAF622EC0CCD0092FDC6 /* cry51.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5E22EC0CCA0092FDC6 /* cry51.wav */; };
-		927EFAF722EC0CCD0092FDC6 /* cry86.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA5F22EC0CCB0092FDC6 /* cry86.wav */; };
-		927EFAF822EC0CCD0092FDC6 /* cry34.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6022EC0CCB0092FDC6 /* cry34.wav */; };
-		927EFAF922EC0CCD0092FDC6 /* cry39.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6122EC0CCB0092FDC6 /* cry39.wav */; };
-		927EFAFA22EC0CCD0092FDC6 /* cry11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6222EC0CCB0092FDC6 /* cry11.wav */; };
-		927EFAFB22EC0CCD0092FDC6 /* cry121.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6322EC0CCB0092FDC6 /* cry121.wav */; };
-		927EFAFC22EC0CCD0092FDC6 /* cry61.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6422EC0CCB0092FDC6 /* cry61.wav */; };
-		927EFAFD22EC0CCD0092FDC6 /* cry96.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6522EC0CCB0092FDC6 /* cry96.wav */; };
-		927EFAFE22EC0CCD0092FDC6 /* cry110.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6622EC0CCB0092FDC6 /* cry110.wav */; };
-		927EFAFF22EC0CCD0092FDC6 /* cry62.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6722EC0CCB0092FDC6 /* cry62.wav */; };
-		927EFB0022EC0CCD0092FDC6 /* cry113.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6822EC0CCB0092FDC6 /* cry113.wav */; };
-		927EFB0122EC0CCD0092FDC6 /* cry134.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6922EC0CCC0092FDC6 /* cry134.wav */; };
-		927EFB0222EC0CCD0092FDC6 /* cry100.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6A22EC0CCC0092FDC6 /* cry100.wav */; };
-		927EFB0322EC0CCD0092FDC6 /* cry9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6B22EC0CCC0092FDC6 /* cry9.wav */; };
-		927EFB0422EC0CCD0092FDC6 /* cry36.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6C22EC0CCC0092FDC6 /* cry36.wav */; };
-		927EFB0522EC0CCD0092FDC6 /* cry14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6D22EC0CCC0092FDC6 /* cry14.wav */; };
-		927EFB0622EC0CCD0092FDC6 /* cry106.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6E22EC0CCC0092FDC6 /* cry106.wav */; };
-		927EFB0722EC0CCD0092FDC6 /* cry21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA6F22EC0CCC0092FDC6 /* cry21.wav */; };
-		927EFB0822EC0CCD0092FDC6 /* cry52.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA7022EC0CCC0092FDC6 /* cry52.wav */; };
-		927EFB0922EC0CCD0092FDC6 /* cry103.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA7122EC0CCC0092FDC6 /* cry103.wav */; };
-		927EFB0A22EC0CCD0092FDC6 /* cry53.wav in Resources */ = {isa = PBXBuildFile; fileRef = 927EFA7222EC0CCC0092FDC6 /* cry53.wav */; };
-		A711CC3C47428859221EB679 /* libPods-Retrodex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F71C4C0591688EC9067F26C /* libPods-Retrodex-tvOSTests.a */; };
-		FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6AD52016730453E9A6826F9 /* pokemon-font.otf */; };
+		802903B05BB61FCB6E23C207 /* libPods-Retrodex-RetrodexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 610B0DA303EC3DDAEBCE6755 /* libPods-Retrodex-RetrodexTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92543331266A750A008AC9DA /* pokemon-font.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92543330266A750A008AC9DA /* pokemon-font.otf */; };
+		A9F75D2A82C03C6F8411548C /* libPods-Retrodex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3394B88516D6B846FC2615C5 /* libPods-Retrodex.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,196 +25,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = Retrodex;
 		};
-		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Retrodex-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* RetrodexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetrodexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RetrodexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetrodexTests.m; sourceTree = "<group>"; };
-		132C7ED753C34D0BA3ABD528 /* Pods-Retrodex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex.release.xcconfig"; path = "Target Support Files/Pods-Retrodex/Pods-Retrodex.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Retrodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retrodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Retrodex/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Retrodex/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Retrodex/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Retrodex/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Retrodex/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Retrodex-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrodex-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Retrodex-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retrodex-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32ED70E89D825FD38C4FCD56 /* Pods-Retrodex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex/Pods-Retrodex.debug.xcconfig"; sourceTree = "<group>"; };
-		3ADD7AF094BB5DB939CC4182 /* Pods-Retrodex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOS/Pods-Retrodex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		3B96EDB86DF637414F92133B /* Pods-RetrodexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetrodexTests.release.xcconfig"; path = "Target Support Files/Pods-RetrodexTests/Pods-RetrodexTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F71C4C0591688EC9067F26C /* libPods-Retrodex-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A31554BD829C7C14B986202 /* Pods-Retrodex-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOSTests/Pods-Retrodex-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetrodexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED19FBEC886AB2E0DA7E6A4 /* Pods-RetrodexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetrodexTests.debug.xcconfig"; path = "Target Support Files/Pods-RetrodexTests/Pods-RetrodexTests.debug.xcconfig"; sourceTree = "<group>"; };
-		927EF9DB22EC0CBF0092FDC6 /* cry95.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry95.wav; path = "../data/red-blue-yellow/sounds/cry95.wav"; sourceTree = "<group>"; };
-		927EF9DC22EC0CBF0092FDC6 /* cry109.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry109.wav; path = "../data/red-blue-yellow/sounds/cry109.wav"; sourceTree = "<group>"; };
-		927EF9DD22EC0CBF0092FDC6 /* cry126.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry126.wav; path = "../data/red-blue-yellow/sounds/cry126.wav"; sourceTree = "<group>"; };
-		927EF9DE22EC0CBF0092FDC6 /* cry66.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry66.wav; path = "../data/red-blue-yellow/sounds/cry66.wav"; sourceTree = "<group>"; };
-		927EF9DF22EC0CBF0092FDC6 /* cry133.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry133.wav; path = "../data/red-blue-yellow/sounds/cry133.wav"; sourceTree = "<group>"; };
-		927EF9E022EC0CBF0092FDC6 /* cry45.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry45.wav; path = "../data/red-blue-yellow/sounds/cry45.wav"; sourceTree = "<group>"; };
-		927EF9E122EC0CBF0092FDC6 /* cry1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry1.wav; path = "../data/red-blue-yellow/sounds/cry1.wav"; sourceTree = "<group>"; };
-		927EF9E222EC0CBF0092FDC6 /* cry64.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry64.wav; path = "../data/red-blue-yellow/sounds/cry64.wav"; sourceTree = "<group>"; };
-		927EF9E322EC0CBF0092FDC6 /* cry13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry13.wav; path = "../data/red-blue-yellow/sounds/cry13.wav"; sourceTree = "<group>"; };
-		927EF9E422EC0CBF0092FDC6 /* cry130.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry130.wav; path = "../data/red-blue-yellow/sounds/cry130.wav"; sourceTree = "<group>"; };
-		927EF9E522EC0CBF0092FDC6 /* cry31.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry31.wav; path = "../data/red-blue-yellow/sounds/cry31.wav"; sourceTree = "<group>"; };
-		927EF9E622EC0CBF0092FDC6 /* cry12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry12.wav; path = "../data/red-blue-yellow/sounds/cry12.wav"; sourceTree = "<group>"; };
-		927EF9E722EC0CBF0092FDC6 /* cry85.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry85.wav; path = "../data/red-blue-yellow/sounds/cry85.wav"; sourceTree = "<group>"; };
-		927EF9E822EC0CBF0092FDC6 /* cry48.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry48.wav; path = "../data/red-blue-yellow/sounds/cry48.wav"; sourceTree = "<group>"; };
-		927EF9E922EC0CC00092FDC6 /* cry37.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry37.wav; path = "../data/red-blue-yellow/sounds/cry37.wav"; sourceTree = "<group>"; };
-		927EF9EA22EC0CC00092FDC6 /* cry18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry18.wav; path = "../data/red-blue-yellow/sounds/cry18.wav"; sourceTree = "<group>"; };
-		927EF9EB22EC0CC00092FDC6 /* cry16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry16.wav; path = "../data/red-blue-yellow/sounds/cry16.wav"; sourceTree = "<group>"; };
-		927EF9EC22EC0CC00092FDC6 /* cry131.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry131.wav; path = "../data/red-blue-yellow/sounds/cry131.wav"; sourceTree = "<group>"; };
-		927EF9ED22EC0CC00092FDC6 /* cry54.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry54.wav; path = "../data/red-blue-yellow/sounds/cry54.wav"; sourceTree = "<group>"; };
-		927EF9EE22EC0CC00092FDC6 /* cry82.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry82.wav; path = "../data/red-blue-yellow/sounds/cry82.wav"; sourceTree = "<group>"; };
-		927EF9EF22EC0CC00092FDC6 /* cry107.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry107.wav; path = "../data/red-blue-yellow/sounds/cry107.wav"; sourceTree = "<group>"; };
-		927EF9F022EC0CC00092FDC6 /* cry26.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry26.wav; path = "../data/red-blue-yellow/sounds/cry26.wav"; sourceTree = "<group>"; };
-		927EF9F122EC0CC00092FDC6 /* cry140.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry140.wav; path = "../data/red-blue-yellow/sounds/cry140.wav"; sourceTree = "<group>"; };
-		927EF9F222EC0CC00092FDC6 /* cry38.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry38.wav; path = "../data/red-blue-yellow/sounds/cry38.wav"; sourceTree = "<group>"; };
-		927EF9F322EC0CC00092FDC6 /* cry137.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry137.wav; path = "../data/red-blue-yellow/sounds/cry137.wav"; sourceTree = "<group>"; };
-		927EF9F422EC0CC00092FDC6 /* cry3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry3.wav; path = "../data/red-blue-yellow/sounds/cry3.wav"; sourceTree = "<group>"; };
-		927EF9F522EC0CC00092FDC6 /* cry44.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry44.wav; path = "../data/red-blue-yellow/sounds/cry44.wav"; sourceTree = "<group>"; };
-		927EF9F622EC0CC00092FDC6 /* cry41.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry41.wav; path = "../data/red-blue-yellow/sounds/cry41.wav"; sourceTree = "<group>"; };
-		927EF9F722EC0CC10092FDC6 /* cry90.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry90.wav; path = "../data/red-blue-yellow/sounds/cry90.wav"; sourceTree = "<group>"; };
-		927EF9F822EC0CC10092FDC6 /* cry33.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry33.wav; path = "../data/red-blue-yellow/sounds/cry33.wav"; sourceTree = "<group>"; };
-		927EF9F922EC0CC10092FDC6 /* cry145.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry145.wav; path = "../data/red-blue-yellow/sounds/cry145.wav"; sourceTree = "<group>"; };
-		927EF9FA22EC0CC10092FDC6 /* cry123.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry123.wav; path = "../data/red-blue-yellow/sounds/cry123.wav"; sourceTree = "<group>"; };
-		927EF9FB22EC0CC10092FDC6 /* cry144.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry144.wav; path = "../data/red-blue-yellow/sounds/cry144.wav"; sourceTree = "<group>"; };
-		927EF9FC22EC0CC10092FDC6 /* cry94.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry94.wav; path = "../data/red-blue-yellow/sounds/cry94.wav"; sourceTree = "<group>"; };
-		927EF9FD22EC0CC10092FDC6 /* cry67.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry67.wav; path = "../data/red-blue-yellow/sounds/cry67.wav"; sourceTree = "<group>"; };
-		927EF9FE22EC0CC10092FDC6 /* cry93.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry93.wav; path = "../data/red-blue-yellow/sounds/cry93.wav"; sourceTree = "<group>"; };
-		927EF9FF22EC0CC10092FDC6 /* cry127.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry127.wav; path = "../data/red-blue-yellow/sounds/cry127.wav"; sourceTree = "<group>"; };
-		927EFA0022EC0CC10092FDC6 /* cry138.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry138.wav; path = "../data/red-blue-yellow/sounds/cry138.wav"; sourceTree = "<group>"; };
-		927EFA0122EC0CC10092FDC6 /* cry56.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry56.wav; path = "../data/red-blue-yellow/sounds/cry56.wav"; sourceTree = "<group>"; };
-		927EFA0222EC0CC20092FDC6 /* cry42.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry42.wav; path = "../data/red-blue-yellow/sounds/cry42.wav"; sourceTree = "<group>"; };
-		927EFA0322EC0CC20092FDC6 /* cry63.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry63.wav; path = "../data/red-blue-yellow/sounds/cry63.wav"; sourceTree = "<group>"; };
-		927EFA0422EC0CC20092FDC6 /* cry35.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry35.wav; path = "../data/red-blue-yellow/sounds/cry35.wav"; sourceTree = "<group>"; };
-		927EFA0522EC0CC20092FDC6 /* cry17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry17.wav; path = "../data/red-blue-yellow/sounds/cry17.wav"; sourceTree = "<group>"; };
-		927EFA0622EC0CC20092FDC6 /* cry10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry10.wav; path = "../data/red-blue-yellow/sounds/cry10.wav"; sourceTree = "<group>"; };
-		927EFA0722EC0CC20092FDC6 /* cry72.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry72.wav; path = "../data/red-blue-yellow/sounds/cry72.wav"; sourceTree = "<group>"; };
-		927EFA0822EC0CC20092FDC6 /* cry73.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry73.wav; path = "../data/red-blue-yellow/sounds/cry73.wav"; sourceTree = "<group>"; };
-		927EFA0922EC0CC20092FDC6 /* cry97.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry97.wav; path = "../data/red-blue-yellow/sounds/cry97.wav"; sourceTree = "<group>"; };
-		927EFA0A22EC0CC20092FDC6 /* cry143.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry143.wav; path = "../data/red-blue-yellow/sounds/cry143.wav"; sourceTree = "<group>"; };
-		927EFA0B22EC0CC20092FDC6 /* cry69.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry69.wav; path = "../data/red-blue-yellow/sounds/cry69.wav"; sourceTree = "<group>"; };
-		927EFA0C22EC0CC20092FDC6 /* cry147.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry147.wav; path = "../data/red-blue-yellow/sounds/cry147.wav"; sourceTree = "<group>"; };
-		927EFA0D22EC0CC30092FDC6 /* cry24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry24.wav; path = "../data/red-blue-yellow/sounds/cry24.wav"; sourceTree = "<group>"; };
-		927EFA0E22EC0CC30092FDC6 /* cry118.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry118.wav; path = "../data/red-blue-yellow/sounds/cry118.wav"; sourceTree = "<group>"; };
-		927EFA0F22EC0CC30092FDC6 /* cry43.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry43.wav; path = "../data/red-blue-yellow/sounds/cry43.wav"; sourceTree = "<group>"; };
-		927EFA1022EC0CC30092FDC6 /* cry47.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry47.wav; path = "../data/red-blue-yellow/sounds/cry47.wav"; sourceTree = "<group>"; };
-		927EFA1122EC0CC30092FDC6 /* cry6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry6.wav; path = "../data/red-blue-yellow/sounds/cry6.wav"; sourceTree = "<group>"; };
-		927EFA1222EC0CC30092FDC6 /* cry60.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry60.wav; path = "../data/red-blue-yellow/sounds/cry60.wav"; sourceTree = "<group>"; };
-		927EFA1322EC0CC30092FDC6 /* cry119.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry119.wav; path = "../data/red-blue-yellow/sounds/cry119.wav"; sourceTree = "<group>"; };
-		927EFA1422EC0CC30092FDC6 /* cry58.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry58.wav; path = "../data/red-blue-yellow/sounds/cry58.wav"; sourceTree = "<group>"; };
-		927EFA1522EC0CC30092FDC6 /* cry122.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry122.wav; path = "../data/red-blue-yellow/sounds/cry122.wav"; sourceTree = "<group>"; };
-		927EFA1622EC0CC30092FDC6 /* cry139.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry139.wav; path = "../data/red-blue-yellow/sounds/cry139.wav"; sourceTree = "<group>"; };
-		927EFA1722EC0CC30092FDC6 /* cry150.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry150.wav; path = "../data/red-blue-yellow/sounds/cry150.wav"; sourceTree = "<group>"; };
-		927EFA1822EC0CC40092FDC6 /* cry71.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry71.wav; path = "../data/red-blue-yellow/sounds/cry71.wav"; sourceTree = "<group>"; };
-		927EFA1922EC0CC40092FDC6 /* cry25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry25.wav; path = "../data/red-blue-yellow/sounds/cry25.wav"; sourceTree = "<group>"; };
-		927EFA1A22EC0CC40092FDC6 /* cry32.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry32.wav; path = "../data/red-blue-yellow/sounds/cry32.wav"; sourceTree = "<group>"; };
-		927EFA1B22EC0CC40092FDC6 /* cry111.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry111.wav; path = "../data/red-blue-yellow/sounds/cry111.wav"; sourceTree = "<group>"; };
-		927EFA1C22EC0CC40092FDC6 /* cry102.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry102.wav; path = "../data/red-blue-yellow/sounds/cry102.wav"; sourceTree = "<group>"; };
-		927EFA1D22EC0CC40092FDC6 /* cry149.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry149.wav; path = "../data/red-blue-yellow/sounds/cry149.wav"; sourceTree = "<group>"; };
-		927EFA1E22EC0CC40092FDC6 /* cry129.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry129.wav; path = "../data/red-blue-yellow/sounds/cry129.wav"; sourceTree = "<group>"; };
-		927EFA1F22EC0CC40092FDC6 /* cry84.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry84.wav; path = "../data/red-blue-yellow/sounds/cry84.wav"; sourceTree = "<group>"; };
-		927EFA2022EC0CC40092FDC6 /* cry116.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry116.wav; path = "../data/red-blue-yellow/sounds/cry116.wav"; sourceTree = "<group>"; };
-		927EFA2122EC0CC40092FDC6 /* cry23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry23.wav; path = "../data/red-blue-yellow/sounds/cry23.wav"; sourceTree = "<group>"; };
-		927EFA2222EC0CC50092FDC6 /* cry55.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry55.wav; path = "../data/red-blue-yellow/sounds/cry55.wav"; sourceTree = "<group>"; };
-		927EFA2322EC0CC50092FDC6 /* cry76.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry76.wav; path = "../data/red-blue-yellow/sounds/cry76.wav"; sourceTree = "<group>"; };
-		927EFA2422EC0CC50092FDC6 /* cry40.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry40.wav; path = "../data/red-blue-yellow/sounds/cry40.wav"; sourceTree = "<group>"; };
-		927EFA2522EC0CC50092FDC6 /* cry128.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry128.wav; path = "../data/red-blue-yellow/sounds/cry128.wav"; sourceTree = "<group>"; };
-		927EFA2622EC0CC50092FDC6 /* cry148.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry148.wav; path = "../data/red-blue-yellow/sounds/cry148.wav"; sourceTree = "<group>"; };
-		927EFA2722EC0CC50092FDC6 /* cry46.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry46.wav; path = "../data/red-blue-yellow/sounds/cry46.wav"; sourceTree = "<group>"; };
-		927EFA2822EC0CC50092FDC6 /* cry101.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry101.wav; path = "../data/red-blue-yellow/sounds/cry101.wav"; sourceTree = "<group>"; };
-		927EFA2922EC0CC50092FDC6 /* cry146.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry146.wav; path = "../data/red-blue-yellow/sounds/cry146.wav"; sourceTree = "<group>"; };
-		927EFA2A22EC0CC50092FDC6 /* cry88.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry88.wav; path = "../data/red-blue-yellow/sounds/cry88.wav"; sourceTree = "<group>"; };
-		927EFA2B22EC0CC50092FDC6 /* cry5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry5.wav; path = "../data/red-blue-yellow/sounds/cry5.wav"; sourceTree = "<group>"; };
-		927EFA2C22EC0CC60092FDC6 /* cry75.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry75.wav; path = "../data/red-blue-yellow/sounds/cry75.wav"; sourceTree = "<group>"; };
-		927EFA2D22EC0CC60092FDC6 /* cry108.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry108.wav; path = "../data/red-blue-yellow/sounds/cry108.wav"; sourceTree = "<group>"; };
-		927EFA2E22EC0CC60092FDC6 /* cry27.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry27.wav; path = "../data/red-blue-yellow/sounds/cry27.wav"; sourceTree = "<group>"; };
-		927EFA2F22EC0CC60092FDC6 /* cry89.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry89.wav; path = "../data/red-blue-yellow/sounds/cry89.wav"; sourceTree = "<group>"; };
-		927EFA3022EC0CC60092FDC6 /* cry74.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry74.wav; path = "../data/red-blue-yellow/sounds/cry74.wav"; sourceTree = "<group>"; };
-		927EFA3122EC0CC60092FDC6 /* cry115.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry115.wav; path = "../data/red-blue-yellow/sounds/cry115.wav"; sourceTree = "<group>"; };
-		927EFA3222EC0CC60092FDC6 /* cry132.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry132.wav; path = "../data/red-blue-yellow/sounds/cry132.wav"; sourceTree = "<group>"; };
-		927EFA3322EC0CC60092FDC6 /* cry92.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry92.wav; path = "../data/red-blue-yellow/sounds/cry92.wav"; sourceTree = "<group>"; };
-		927EFA3422EC0CC60092FDC6 /* cry65.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry65.wav; path = "../data/red-blue-yellow/sounds/cry65.wav"; sourceTree = "<group>"; };
-		927EFA3522EC0CC60092FDC6 /* cry19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry19.wav; path = "../data/red-blue-yellow/sounds/cry19.wav"; sourceTree = "<group>"; };
-		927EFA3622EC0CC60092FDC6 /* cry112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry112.wav; path = "../data/red-blue-yellow/sounds/cry112.wav"; sourceTree = "<group>"; };
-		927EFA3722EC0CC70092FDC6 /* cry117.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry117.wav; path = "../data/red-blue-yellow/sounds/cry117.wav"; sourceTree = "<group>"; };
-		927EFA3822EC0CC70092FDC6 /* cry20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry20.wav; path = "../data/red-blue-yellow/sounds/cry20.wav"; sourceTree = "<group>"; };
-		927EFA3922EC0CC70092FDC6 /* cry87.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry87.wav; path = "../data/red-blue-yellow/sounds/cry87.wav"; sourceTree = "<group>"; };
-		927EFA3A22EC0CC70092FDC6 /* cry136.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry136.wav; path = "../data/red-blue-yellow/sounds/cry136.wav"; sourceTree = "<group>"; };
-		927EFA3B22EC0CC70092FDC6 /* cry79.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry79.wav; path = "../data/red-blue-yellow/sounds/cry79.wav"; sourceTree = "<group>"; };
-		927EFA3C22EC0CC70092FDC6 /* cry142.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry142.wav; path = "../data/red-blue-yellow/sounds/cry142.wav"; sourceTree = "<group>"; };
-		927EFA3D22EC0CC70092FDC6 /* cry22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry22.wav; path = "../data/red-blue-yellow/sounds/cry22.wav"; sourceTree = "<group>"; };
-		927EFA3E22EC0CC70092FDC6 /* cry99.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry99.wav; path = "../data/red-blue-yellow/sounds/cry99.wav"; sourceTree = "<group>"; };
-		927EFA3F22EC0CC70092FDC6 /* cry125.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry125.wav; path = "../data/red-blue-yellow/sounds/cry125.wav"; sourceTree = "<group>"; };
-		927EFA4022EC0CC70092FDC6 /* cry7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry7.wav; path = "../data/red-blue-yellow/sounds/cry7.wav"; sourceTree = "<group>"; };
-		927EFA4122EC0CC80092FDC6 /* cry98.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry98.wav; path = "../data/red-blue-yellow/sounds/cry98.wav"; sourceTree = "<group>"; };
-		927EFA4222EC0CC80092FDC6 /* cry28.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry28.wav; path = "../data/red-blue-yellow/sounds/cry28.wav"; sourceTree = "<group>"; };
-		927EFA4322EC0CC80092FDC6 /* cry91.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry91.wav; path = "../data/red-blue-yellow/sounds/cry91.wav"; sourceTree = "<group>"; };
-		927EFA4422EC0CC80092FDC6 /* cry80.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry80.wav; path = "../data/red-blue-yellow/sounds/cry80.wav"; sourceTree = "<group>"; };
-		927EFA4522EC0CC80092FDC6 /* cry124.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry124.wav; path = "../data/red-blue-yellow/sounds/cry124.wav"; sourceTree = "<group>"; };
-		927EFA4622EC0CC80092FDC6 /* cry114.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry114.wav; path = "../data/red-blue-yellow/sounds/cry114.wav"; sourceTree = "<group>"; };
-		927EFA4722EC0CC80092FDC6 /* cry29.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry29.wav; path = "../data/red-blue-yellow/sounds/cry29.wav"; sourceTree = "<group>"; };
-		927EFA4822EC0CC80092FDC6 /* cry120.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry120.wav; path = "../data/red-blue-yellow/sounds/cry120.wav"; sourceTree = "<group>"; };
-		927EFA4922EC0CC80092FDC6 /* cry141.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry141.wav; path = "../data/red-blue-yellow/sounds/cry141.wav"; sourceTree = "<group>"; };
-		927EFA4A22EC0CC80092FDC6 /* cry2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry2.wav; path = "../data/red-blue-yellow/sounds/cry2.wav"; sourceTree = "<group>"; };
-		927EFA4B22EC0CC80092FDC6 /* cry70.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry70.wav; path = "../data/red-blue-yellow/sounds/cry70.wav"; sourceTree = "<group>"; };
-		927EFA4C22EC0CC90092FDC6 /* cry78.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry78.wav; path = "../data/red-blue-yellow/sounds/cry78.wav"; sourceTree = "<group>"; };
-		927EFA4D22EC0CC90092FDC6 /* cry83.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry83.wav; path = "../data/red-blue-yellow/sounds/cry83.wav"; sourceTree = "<group>"; };
-		927EFA4E22EC0CC90092FDC6 /* cry68.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry68.wav; path = "../data/red-blue-yellow/sounds/cry68.wav"; sourceTree = "<group>"; };
-		927EFA4F22EC0CC90092FDC6 /* cry59.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry59.wav; path = "../data/red-blue-yellow/sounds/cry59.wav"; sourceTree = "<group>"; };
-		927EFA5022EC0CC90092FDC6 /* cry104.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry104.wav; path = "../data/red-blue-yellow/sounds/cry104.wav"; sourceTree = "<group>"; };
-		927EFA5122EC0CC90092FDC6 /* cry135.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry135.wav; path = "../data/red-blue-yellow/sounds/cry135.wav"; sourceTree = "<group>"; };
-		927EFA5222EC0CC90092FDC6 /* cry57.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry57.wav; path = "../data/red-blue-yellow/sounds/cry57.wav"; sourceTree = "<group>"; };
-		927EFA5322EC0CC90092FDC6 /* cry8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry8.wav; path = "../data/red-blue-yellow/sounds/cry8.wav"; sourceTree = "<group>"; };
-		927EFA5422EC0CC90092FDC6 /* cry15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry15.wav; path = "../data/red-blue-yellow/sounds/cry15.wav"; sourceTree = "<group>"; };
-		927EFA5522EC0CCA0092FDC6 /* cry81.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry81.wav; path = "../data/red-blue-yellow/sounds/cry81.wav"; sourceTree = "<group>"; };
-		927EFA5622EC0CCA0092FDC6 /* cry50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry50.wav; path = "../data/red-blue-yellow/sounds/cry50.wav"; sourceTree = "<group>"; };
-		927EFA5722EC0CCA0092FDC6 /* cry105.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry105.wav; path = "../data/red-blue-yellow/sounds/cry105.wav"; sourceTree = "<group>"; };
-		927EFA5822EC0CCA0092FDC6 /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = select.wav; path = "../data/red-blue-yellow/sounds/select.wav"; sourceTree = "<group>"; };
-		927EFA5922EC0CCA0092FDC6 /* cry49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry49.wav; path = "../data/red-blue-yellow/sounds/cry49.wav"; sourceTree = "<group>"; };
-		927EFA5A22EC0CCA0092FDC6 /* cry30.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry30.wav; path = "../data/red-blue-yellow/sounds/cry30.wav"; sourceTree = "<group>"; };
-		927EFA5B22EC0CCA0092FDC6 /* cry4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry4.wav; path = "../data/red-blue-yellow/sounds/cry4.wav"; sourceTree = "<group>"; };
-		927EFA5C22EC0CCA0092FDC6 /* cry151.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry151.wav; path = "../data/red-blue-yellow/sounds/cry151.wav"; sourceTree = "<group>"; };
-		927EFA5D22EC0CCA0092FDC6 /* cry77.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry77.wav; path = "../data/red-blue-yellow/sounds/cry77.wav"; sourceTree = "<group>"; };
-		927EFA5E22EC0CCA0092FDC6 /* cry51.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry51.wav; path = "../data/red-blue-yellow/sounds/cry51.wav"; sourceTree = "<group>"; };
-		927EFA5F22EC0CCB0092FDC6 /* cry86.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry86.wav; path = "../data/red-blue-yellow/sounds/cry86.wav"; sourceTree = "<group>"; };
-		927EFA6022EC0CCB0092FDC6 /* cry34.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry34.wav; path = "../data/red-blue-yellow/sounds/cry34.wav"; sourceTree = "<group>"; };
-		927EFA6122EC0CCB0092FDC6 /* cry39.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry39.wav; path = "../data/red-blue-yellow/sounds/cry39.wav"; sourceTree = "<group>"; };
-		927EFA6222EC0CCB0092FDC6 /* cry11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry11.wav; path = "../data/red-blue-yellow/sounds/cry11.wav"; sourceTree = "<group>"; };
-		927EFA6322EC0CCB0092FDC6 /* cry121.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry121.wav; path = "../data/red-blue-yellow/sounds/cry121.wav"; sourceTree = "<group>"; };
-		927EFA6422EC0CCB0092FDC6 /* cry61.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry61.wav; path = "../data/red-blue-yellow/sounds/cry61.wav"; sourceTree = "<group>"; };
-		927EFA6522EC0CCB0092FDC6 /* cry96.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry96.wav; path = "../data/red-blue-yellow/sounds/cry96.wav"; sourceTree = "<group>"; };
-		927EFA6622EC0CCB0092FDC6 /* cry110.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry110.wav; path = "../data/red-blue-yellow/sounds/cry110.wav"; sourceTree = "<group>"; };
-		927EFA6722EC0CCB0092FDC6 /* cry62.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry62.wav; path = "../data/red-blue-yellow/sounds/cry62.wav"; sourceTree = "<group>"; };
-		927EFA6822EC0CCB0092FDC6 /* cry113.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry113.wav; path = "../data/red-blue-yellow/sounds/cry113.wav"; sourceTree = "<group>"; };
-		927EFA6922EC0CCC0092FDC6 /* cry134.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry134.wav; path = "../data/red-blue-yellow/sounds/cry134.wav"; sourceTree = "<group>"; };
-		927EFA6A22EC0CCC0092FDC6 /* cry100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry100.wav; path = "../data/red-blue-yellow/sounds/cry100.wav"; sourceTree = "<group>"; };
-		927EFA6B22EC0CCC0092FDC6 /* cry9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry9.wav; path = "../data/red-blue-yellow/sounds/cry9.wav"; sourceTree = "<group>"; };
-		927EFA6C22EC0CCC0092FDC6 /* cry36.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry36.wav; path = "../data/red-blue-yellow/sounds/cry36.wav"; sourceTree = "<group>"; };
-		927EFA6D22EC0CCC0092FDC6 /* cry14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry14.wav; path = "../data/red-blue-yellow/sounds/cry14.wav"; sourceTree = "<group>"; };
-		927EFA6E22EC0CCC0092FDC6 /* cry106.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry106.wav; path = "../data/red-blue-yellow/sounds/cry106.wav"; sourceTree = "<group>"; };
-		927EFA6F22EC0CCC0092FDC6 /* cry21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry21.wav; path = "../data/red-blue-yellow/sounds/cry21.wav"; sourceTree = "<group>"; };
-		927EFA7022EC0CCC0092FDC6 /* cry52.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry52.wav; path = "../data/red-blue-yellow/sounds/cry52.wav"; sourceTree = "<group>"; };
-		927EFA7122EC0CCC0092FDC6 /* cry103.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry103.wav; path = "../data/red-blue-yellow/sounds/cry103.wav"; sourceTree = "<group>"; };
-		927EFA7222EC0CCC0092FDC6 /* cry53.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry53.wav; path = "../data/red-blue-yellow/sounds/cry53.wav"; sourceTree = "<group>"; };
-		979F7038508FC9821BCE0A4D /* Pods-Retrodex-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOS/Pods-Retrodex-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A2B29BC93AB8FB42F1791569 /* Pods-Retrodex-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Retrodex-tvOSTests/Pods-Retrodex-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A6E9B94B999B2A1DAE3D0ADC /* libPods-Retrodex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6AD52016730453E9A6826F9 /* pokemon-font.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "pokemon-font.otf"; path = "../assets/fonts/pokemon-font.otf"; sourceTree = "<group>"; };
-		D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3394B88516D6B846FC2615C5 /* libPods-Retrodex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44997CEC439BF706B342CFD4 /* Pods-Retrodex-RetrodexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-RetrodexTests.release.xcconfig"; path = "Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests.release.xcconfig"; sourceTree = "<group>"; };
+		479717819FBD222921C8A6ED /* Pods-Retrodex-RetrodexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex-RetrodexTests.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		610B0DA303EC3DDAEBCE6755 /* libPods-Retrodex-RetrodexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Retrodex-RetrodexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Retrodex/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92543330266A750A008AC9DA /* pokemon-font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pokemon-font.otf"; path = "../App/assets/fonts/pokemon-font.otf"; sourceTree = "<group>"; };
+		C7B18DFBAC044EB6AB4AD36E /* pokemon-font.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "pokemon-font.otf"; path = "../App/assets/pokemon-font.otf"; sourceTree = "<group>"; };
+		E332BCC4C97B59DAB7C98C99 /* Pods-Retrodex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex.release.xcconfig"; path = "Target Support Files/Pods-Retrodex/Pods-Retrodex.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F30C77F87C0A3D2084417973 /* Pods-Retrodex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retrodex.debug.xcconfig"; path = "Target Support Files/Pods-Retrodex/Pods-Retrodex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63904C83EA4647D5D20B9C29 /* libPods-RetrodexTests.a in Frameworks */,
+				802903B05BB61FCB6E23C207 /* libPods-Retrodex-RetrodexTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,23 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040853E7AD56387EA83C1223 /* libPods-Retrodex.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A9CBC70099232CAE940E020 /* libPods-Retrodex-tvOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A711CC3C47428859221EB679 /* libPods-Retrodex-tvOSTests.a in Frameworks */,
+				A9F75D2A82C03C6F8411548C /* libPods-Retrodex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,198 +86,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		023BCEDF07E34776897771F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7B18DFBAC044EB6AB4AD36E /* pokemon-font.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Retrodex */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				927EF9E122EC0CBF0092FDC6 /* cry1.wav */,
-				927EFA4A22EC0CC80092FDC6 /* cry2.wav */,
-				927EF9F422EC0CC00092FDC6 /* cry3.wav */,
-				927EFA5B22EC0CCA0092FDC6 /* cry4.wav */,
-				927EFA2B22EC0CC50092FDC6 /* cry5.wav */,
-				927EFA1122EC0CC30092FDC6 /* cry6.wav */,
-				927EFA4022EC0CC70092FDC6 /* cry7.wav */,
-				927EFA5322EC0CC90092FDC6 /* cry8.wav */,
-				927EFA6B22EC0CCC0092FDC6 /* cry9.wav */,
-				927EFA0622EC0CC20092FDC6 /* cry10.wav */,
-				927EFA6222EC0CCB0092FDC6 /* cry11.wav */,
-				927EF9E622EC0CBF0092FDC6 /* cry12.wav */,
-				927EF9E322EC0CBF0092FDC6 /* cry13.wav */,
-				927EFA6D22EC0CCC0092FDC6 /* cry14.wav */,
-				927EFA5422EC0CC90092FDC6 /* cry15.wav */,
-				927EF9EB22EC0CC00092FDC6 /* cry16.wav */,
-				927EFA0522EC0CC20092FDC6 /* cry17.wav */,
-				927EF9EA22EC0CC00092FDC6 /* cry18.wav */,
-				927EFA3522EC0CC60092FDC6 /* cry19.wav */,
-				927EFA3822EC0CC70092FDC6 /* cry20.wav */,
-				927EFA6F22EC0CCC0092FDC6 /* cry21.wav */,
-				927EFA3D22EC0CC70092FDC6 /* cry22.wav */,
-				927EFA2122EC0CC40092FDC6 /* cry23.wav */,
-				927EFA0D22EC0CC30092FDC6 /* cry24.wav */,
-				927EFA1922EC0CC40092FDC6 /* cry25.wav */,
-				927EF9F022EC0CC00092FDC6 /* cry26.wav */,
-				927EFA2E22EC0CC60092FDC6 /* cry27.wav */,
-				927EFA4222EC0CC80092FDC6 /* cry28.wav */,
-				927EFA4722EC0CC80092FDC6 /* cry29.wav */,
-				927EFA5A22EC0CCA0092FDC6 /* cry30.wav */,
-				927EF9E522EC0CBF0092FDC6 /* cry31.wav */,
-				927EFA1A22EC0CC40092FDC6 /* cry32.wav */,
-				927EF9F822EC0CC10092FDC6 /* cry33.wav */,
-				927EFA6022EC0CCB0092FDC6 /* cry34.wav */,
-				927EFA0422EC0CC20092FDC6 /* cry35.wav */,
-				927EFA6C22EC0CCC0092FDC6 /* cry36.wav */,
-				927EF9E922EC0CC00092FDC6 /* cry37.wav */,
-				927EF9F222EC0CC00092FDC6 /* cry38.wav */,
-				927EFA6122EC0CCB0092FDC6 /* cry39.wav */,
-				927EFA2422EC0CC50092FDC6 /* cry40.wav */,
-				927EF9F622EC0CC00092FDC6 /* cry41.wav */,
-				927EFA0222EC0CC20092FDC6 /* cry42.wav */,
-				927EFA0F22EC0CC30092FDC6 /* cry43.wav */,
-				927EF9F522EC0CC00092FDC6 /* cry44.wav */,
-				927EF9E022EC0CBF0092FDC6 /* cry45.wav */,
-				927EFA2722EC0CC50092FDC6 /* cry46.wav */,
-				927EFA1022EC0CC30092FDC6 /* cry47.wav */,
-				927EF9E822EC0CBF0092FDC6 /* cry48.wav */,
-				927EFA5922EC0CCA0092FDC6 /* cry49.wav */,
-				927EFA5622EC0CCA0092FDC6 /* cry50.wav */,
-				927EFA5E22EC0CCA0092FDC6 /* cry51.wav */,
-				927EFA7022EC0CCC0092FDC6 /* cry52.wav */,
-				927EFA7222EC0CCC0092FDC6 /* cry53.wav */,
-				927EF9ED22EC0CC00092FDC6 /* cry54.wav */,
-				927EFA2222EC0CC50092FDC6 /* cry55.wav */,
-				927EFA0122EC0CC10092FDC6 /* cry56.wav */,
-				927EFA5222EC0CC90092FDC6 /* cry57.wav */,
-				927EFA1422EC0CC30092FDC6 /* cry58.wav */,
-				927EFA4F22EC0CC90092FDC6 /* cry59.wav */,
-				927EFA1222EC0CC30092FDC6 /* cry60.wav */,
-				927EFA6422EC0CCB0092FDC6 /* cry61.wav */,
-				927EFA6722EC0CCB0092FDC6 /* cry62.wav */,
-				927EFA0322EC0CC20092FDC6 /* cry63.wav */,
-				927EF9E222EC0CBF0092FDC6 /* cry64.wav */,
-				927EFA3422EC0CC60092FDC6 /* cry65.wav */,
-				927EF9DE22EC0CBF0092FDC6 /* cry66.wav */,
-				927EF9FD22EC0CC10092FDC6 /* cry67.wav */,
-				927EFA4E22EC0CC90092FDC6 /* cry68.wav */,
-				927EFA0B22EC0CC20092FDC6 /* cry69.wav */,
-				927EFA4B22EC0CC80092FDC6 /* cry70.wav */,
-				927EFA1822EC0CC40092FDC6 /* cry71.wav */,
-				927EFA0722EC0CC20092FDC6 /* cry72.wav */,
-				927EFA0822EC0CC20092FDC6 /* cry73.wav */,
-				927EFA3022EC0CC60092FDC6 /* cry74.wav */,
-				927EFA2C22EC0CC60092FDC6 /* cry75.wav */,
-				927EFA2322EC0CC50092FDC6 /* cry76.wav */,
-				927EFA5D22EC0CCA0092FDC6 /* cry77.wav */,
-				927EFA4C22EC0CC90092FDC6 /* cry78.wav */,
-				927EFA3B22EC0CC70092FDC6 /* cry79.wav */,
-				927EFA4422EC0CC80092FDC6 /* cry80.wav */,
-				927EFA5522EC0CCA0092FDC6 /* cry81.wav */,
-				927EF9EE22EC0CC00092FDC6 /* cry82.wav */,
-				927EFA4D22EC0CC90092FDC6 /* cry83.wav */,
-				927EFA1F22EC0CC40092FDC6 /* cry84.wav */,
-				927EF9E722EC0CBF0092FDC6 /* cry85.wav */,
-				927EFA5F22EC0CCB0092FDC6 /* cry86.wav */,
-				927EFA3922EC0CC70092FDC6 /* cry87.wav */,
-				927EFA2A22EC0CC50092FDC6 /* cry88.wav */,
-				927EFA2F22EC0CC60092FDC6 /* cry89.wav */,
-				927EF9F722EC0CC10092FDC6 /* cry90.wav */,
-				927EFA4322EC0CC80092FDC6 /* cry91.wav */,
-				927EFA3322EC0CC60092FDC6 /* cry92.wav */,
-				927EF9FE22EC0CC10092FDC6 /* cry93.wav */,
-				927EF9FC22EC0CC10092FDC6 /* cry94.wav */,
-				927EF9DB22EC0CBF0092FDC6 /* cry95.wav */,
-				927EFA6522EC0CCB0092FDC6 /* cry96.wav */,
-				927EFA0922EC0CC20092FDC6 /* cry97.wav */,
-				927EFA4122EC0CC80092FDC6 /* cry98.wav */,
-				927EFA3E22EC0CC70092FDC6 /* cry99.wav */,
-				927EFA6A22EC0CCC0092FDC6 /* cry100.wav */,
-				927EFA2822EC0CC50092FDC6 /* cry101.wav */,
-				927EFA1C22EC0CC40092FDC6 /* cry102.wav */,
-				927EFA7122EC0CCC0092FDC6 /* cry103.wav */,
-				927EFA5022EC0CC90092FDC6 /* cry104.wav */,
-				927EFA5722EC0CCA0092FDC6 /* cry105.wav */,
-				927EFA6E22EC0CCC0092FDC6 /* cry106.wav */,
-				927EF9EF22EC0CC00092FDC6 /* cry107.wav */,
-				927EFA2D22EC0CC60092FDC6 /* cry108.wav */,
-				927EF9DC22EC0CBF0092FDC6 /* cry109.wav */,
-				927EFA6622EC0CCB0092FDC6 /* cry110.wav */,
-				927EFA1B22EC0CC40092FDC6 /* cry111.wav */,
-				927EFA3622EC0CC60092FDC6 /* cry112.wav */,
-				927EFA6822EC0CCB0092FDC6 /* cry113.wav */,
-				927EFA4622EC0CC80092FDC6 /* cry114.wav */,
-				927EFA3122EC0CC60092FDC6 /* cry115.wav */,
-				927EFA2022EC0CC40092FDC6 /* cry116.wav */,
-				927EFA3722EC0CC70092FDC6 /* cry117.wav */,
-				927EFA0E22EC0CC30092FDC6 /* cry118.wav */,
-				927EFA1322EC0CC30092FDC6 /* cry119.wav */,
-				927EFA4822EC0CC80092FDC6 /* cry120.wav */,
-				927EFA6322EC0CCB0092FDC6 /* cry121.wav */,
-				927EFA1522EC0CC30092FDC6 /* cry122.wav */,
-				927EF9FA22EC0CC10092FDC6 /* cry123.wav */,
-				927EFA4522EC0CC80092FDC6 /* cry124.wav */,
-				927EFA3F22EC0CC70092FDC6 /* cry125.wav */,
-				927EF9DD22EC0CBF0092FDC6 /* cry126.wav */,
-				927EF9FF22EC0CC10092FDC6 /* cry127.wav */,
-				927EFA2522EC0CC50092FDC6 /* cry128.wav */,
-				927EFA1E22EC0CC40092FDC6 /* cry129.wav */,
-				927EF9E422EC0CBF0092FDC6 /* cry130.wav */,
-				927EF9EC22EC0CC00092FDC6 /* cry131.wav */,
-				927EFA3222EC0CC60092FDC6 /* cry132.wav */,
-				927EF9DF22EC0CBF0092FDC6 /* cry133.wav */,
-				927EFA6922EC0CCC0092FDC6 /* cry134.wav */,
-				927EFA5122EC0CC90092FDC6 /* cry135.wav */,
-				927EFA3A22EC0CC70092FDC6 /* cry136.wav */,
-				927EF9F322EC0CC00092FDC6 /* cry137.wav */,
-				927EFA0022EC0CC10092FDC6 /* cry138.wav */,
-				927EFA1622EC0CC30092FDC6 /* cry139.wav */,
-				927EF9F122EC0CC00092FDC6 /* cry140.wav */,
-				927EFA4922EC0CC80092FDC6 /* cry141.wav */,
-				927EFA3C22EC0CC70092FDC6 /* cry142.wav */,
-				927EFA0A22EC0CC20092FDC6 /* cry143.wav */,
-				927EF9FB22EC0CC10092FDC6 /* cry144.wav */,
-				927EF9F922EC0CC10092FDC6 /* cry145.wav */,
-				927EFA2922EC0CC50092FDC6 /* cry146.wav */,
-				927EFA0C22EC0CC20092FDC6 /* cry147.wav */,
-				927EFA2622EC0CC50092FDC6 /* cry148.wav */,
-				927EFA1D22EC0CC40092FDC6 /* cry149.wav */,
-				927EFA1722EC0CC30092FDC6 /* cry150.wav */,
-				927EFA5C22EC0CCA0092FDC6 /* cry151.wav */,
-				927EFA5822EC0CCA0092FDC6 /* select.wav */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Retrodex;
-			sourceTree = "<group>";
-		};
-		252D4470A255389CFD4A57D7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				32ED70E89D825FD38C4FCD56 /* Pods-Retrodex.debug.xcconfig */,
-				132C7ED753C34D0BA3ABD528 /* Pods-Retrodex.release.xcconfig */,
-				979F7038508FC9821BCE0A4D /* Pods-Retrodex-tvOS.debug.xcconfig */,
-				3ADD7AF094BB5DB939CC4182 /* Pods-Retrodex-tvOS.release.xcconfig */,
-				6A31554BD829C7C14B986202 /* Pods-Retrodex-tvOSTests.debug.xcconfig */,
-				A2B29BC93AB8FB42F1791569 /* Pods-Retrodex-tvOSTests.release.xcconfig */,
-				6ED19FBEC886AB2E0DA7E6A4 /* Pods-RetrodexTests.debug.xcconfig */,
-				3B96EDB86DF637414F92133B /* Pods-RetrodexTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A6E9B94B999B2A1DAE3D0ADC /* libPods-Retrodex.a */,
-				D5B9BD902211EA54B6F616D2 /* libPods-Retrodex-tvOS.a */,
-				5F71C4C0591688EC9067F26C /* libPods-Retrodex-tvOSTests.a */,
-				6B15737110AB3EB0D1659BDE /* libPods-RetrodexTests.a */,
+				3394B88516D6B846FC2615C5 /* libPods-Retrodex.a */,
+				610B0DA303EC3DDAEBCE6755 /* libPods-Retrodex-RetrodexTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		370E668735A24196A3CBC755 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30C77F87C0A3D2084417973 /* Pods-Retrodex.debug.xcconfig */,
+				E332BCC4C97B59DAB7C98C99 /* Pods-Retrodex.release.xcconfig */,
+				479717819FBD222921C8A6ED /* Pods-Retrodex-RetrodexTests.debug.xcconfig */,
+				44997CEC439BF706B342CFD4 /* Pods-Retrodex-RetrodexTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -632,13 +138,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				92543330266A750A008AC9DA /* pokemon-font.otf */,
 				13B07FAE1A68108700A75B9A /* Retrodex */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RetrodexTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				252D4470A255389CFD4A57D7 /* Pods */,
-				AC2AB6508C804F84B43D6A14 /* Resources */,
+				370E668735A24196A3CBC755 /* Pods */,
+				023BCEDF07E34776897771F6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -650,18 +157,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* Retrodex.app */,
 				00E356EE1AD99517003FC87E /* RetrodexTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Retrodex-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Retrodex-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AC2AB6508C804F84B43D6A14 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C6AD52016730453E9A6826F9 /* pokemon-font.otf */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -671,10 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RetrodexTests" */;
 			buildPhases = (
-				9F3D493F1CB6D384714A1FE1 /* [CP] Check Pods Manifest.lock */,
+				9940ED7A435D454E23D84961 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				79819D15BF1EAD2DDD41D53D /* [CP] Embed Pods Frameworks */,
+				A996E1A7FA7BE5D0C46B9BF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -690,12 +189,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Retrodex" */;
 			buildPhases = (
-				8A95B1FB04822FEF69C3AE68 /* [CP] Check Pods Manifest.lock */,
+				5568B6CF704D8FAE02C78B00 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D9A9B9785D4C39A884D03344 /* [CP] Embed Pods Frameworks */,
+				BCF5DDCFFE8561C4DB82074C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -706,75 +207,25 @@
 			productReference = 13B07F961A680F5B00A75B9A /* Retrodex.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Retrodex-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Retrodex-tvOS" */;
-			buildPhases = (
-				C72B1D335E29DE4CCA9DA268 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F122414F3F0027D42C /* Start Packager */,
-				2D02E4771E0B4A5D006451C7 /* Sources */,
-				2D02E4781E0B4A5D006451C7 /* Frameworks */,
-				2D02E4791E0B4A5D006451C7 /* Resources */,
-				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Retrodex-tvOS";
-			productName = "Retrodex-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Retrodex-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2D02E48F1E0B4A5D006451C7 /* Retrodex-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Retrodex-tvOSTests" */;
-			buildPhases = (
-				9BFADEF4BF4BEC7A04D2253A /* [CP] Check Pods Manifest.lock */,
-				2D02E48C1E0B4A5D006451C7 /* Sources */,
-				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
-				2D02E48E1E0B4A5D006451C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
-			);
-			name = "Retrodex-tvOSTests";
-			productName = "Retrodex-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Retrodex-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 3LBJ63T8PG;
-						ProvisioningStyle = Automatic;
-					};
-					2D02E47A1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					2D02E48F1E0B4A5D006451C7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Retrodex" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -788,8 +239,6 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* Retrodex */,
 				00E356ED1AD99517003FC87E /* RetrodexTests */,
-				2D02E47A1E0B4A5D006451C7 /* Retrodex-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Retrodex-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -806,176 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927EFAFB22EC0CCD0092FDC6 /* cry121.wav in Resources */,
-				927EFAFA22EC0CCD0092FDC6 /* cry11.wav in Resources */,
-				927EFAA622EC0CCD0092FDC6 /* cry118.wav in Resources */,
-				927EFAF022EC0CCD0092FDC6 /* select.wav in Resources */,
-				927EFAFD22EC0CCD0092FDC6 /* cry96.wav in Resources */,
-				927EFA9C22EC0CCD0092FDC6 /* cry35.wav in Resources */,
-				927EFAAC22EC0CCD0092FDC6 /* cry58.wav in Resources */,
-				927EFAA722EC0CCD0092FDC6 /* cry43.wav in Resources */,
-				927EFA8A22EC0CCD0092FDC6 /* cry38.wav in Resources */,
-				927EFAC922EC0CCD0092FDC6 /* cry115.wav in Resources */,
-				927EFAB822EC0CCD0092FDC6 /* cry116.wav in Resources */,
-				927EFAF222EC0CCD0092FDC6 /* cry30.wav in Resources */,
-				927EFB0522EC0CCD0092FDC6 /* cry14.wav in Resources */,
-				927EFAD322EC0CCD0092FDC6 /* cry79.wav in Resources */,
-				927EFA7F22EC0CCD0092FDC6 /* cry85.wav in Resources */,
-				927EFA7822EC0CCD0092FDC6 /* cry45.wav in Resources */,
-				927EFAD422EC0CCD0092FDC6 /* cry142.wav in Resources */,
-				927EFA8B22EC0CCD0092FDC6 /* cry137.wav in Resources */,
-				927EFAD922EC0CCD0092FDC6 /* cry98.wav in Resources */,
-				927EFACE22EC0CCD0092FDC6 /* cry112.wav in Resources */,
-				927EFA8622EC0CCD0092FDC6 /* cry82.wav in Resources */,
-				927EFA9222EC0CCD0092FDC6 /* cry123.wav in Resources */,
-				927EFAB522EC0CCD0092FDC6 /* cry149.wav in Resources */,
-				927EFA8422EC0CCD0092FDC6 /* cry131.wav in Resources */,
-				927EFAE822EC0CCD0092FDC6 /* cry104.wav in Resources */,
-				927EFABF22EC0CCD0092FDC6 /* cry46.wav in Resources */,
-				927EFA7422EC0CCD0092FDC6 /* cry109.wav in Resources */,
-				927EFB0822EC0CCD0092FDC6 /* cry52.wav in Resources */,
-				927EFAC322EC0CCD0092FDC6 /* cry5.wav in Resources */,
-				927EFAFF22EC0CCD0092FDC6 /* cry62.wav in Resources */,
-				927EFABE22EC0CCD0092FDC6 /* cry148.wav in Resources */,
-				927EFAFC22EC0CCD0092FDC6 /* cry61.wav in Resources */,
+				92543331266A750A008AC9DA /* pokemon-font.otf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				927EFAB422EC0CCD0092FDC6 /* cry102.wav in Resources */,
-				927EFAEC22EC0CCD0092FDC6 /* cry15.wav in Resources */,
-				927EFA8022EC0CCD0092FDC6 /* cry48.wav in Resources */,
-				927EFAC122EC0CCD0092FDC6 /* cry146.wav in Resources */,
-				927EFAF322EC0CCD0092FDC6 /* cry4.wav in Resources */,
-				927EFA9A22EC0CCD0092FDC6 /* cry42.wav in Resources */,
-				927EFAB322EC0CCD0092FDC6 /* cry111.wav in Resources */,
-				927EFA9F22EC0CCD0092FDC6 /* cry72.wav in Resources */,
-				927EFB0322EC0CCD0092FDC6 /* cry9.wav in Resources */,
-				927EFB0222EC0CCD0092FDC6 /* cry100.wav in Resources */,
-				927EFA9522EC0CCD0092FDC6 /* cry67.wav in Resources */,
-				927EFAE222EC0CCD0092FDC6 /* cry2.wav in Resources */,
-				927EFAE622EC0CCD0092FDC6 /* cry68.wav in Resources */,
-				927EFACB22EC0CCD0092FDC6 /* cry92.wav in Resources */,
-				927EFAD822EC0CCD0092FDC6 /* cry7.wav in Resources */,
-				927EFAAD22EC0CCD0092FDC6 /* cry122.wav in Resources */,
-				927EFAEA22EC0CCD0092FDC6 /* cry57.wav in Resources */,
-				927EFA7B22EC0CCD0092FDC6 /* cry13.wav in Resources */,
-				927EFA7622EC0CCD0092FDC6 /* cry66.wav in Resources */,
-				927EFAD622EC0CCD0092FDC6 /* cry99.wav in Resources */,
-				927EFA7722EC0CCD0092FDC6 /* cry133.wav in Resources */,
-				927EFA7E22EC0CCD0092FDC6 /* cry12.wav in Resources */,
-				927EFAD722EC0CCD0092FDC6 /* cry125.wav in Resources */,
-				927EFA8922EC0CCD0092FDC6 /* cry140.wav in Resources */,
-				927EFA8122EC0CCD0092FDC6 /* cry37.wav in Resources */,
-				927EFA8222EC0CCD0092FDC6 /* cry18.wav in Resources */,
-				927EFAF822EC0CCD0092FDC6 /* cry34.wav in Resources */,
-				927EFA9122EC0CCD0092FDC6 /* cry145.wav in Resources */,
-				927EFA9B22EC0CCD0092FDC6 /* cry63.wav in Resources */,
-				927EFA9822EC0CCD0092FDC6 /* cry138.wav in Resources */,
-				927EFADE22EC0CCD0092FDC6 /* cry114.wav in Resources */,
-				927EFA7C22EC0CCD0092FDC6 /* cry130.wav in Resources */,
-				927EFACD22EC0CCD0092FDC6 /* cry19.wav in Resources */,
-				927EFAC222EC0CCD0092FDC6 /* cry88.wav in Resources */,
-				927EFAED22EC0CCD0092FDC6 /* cry81.wav in Resources */,
-				927EFA7D22EC0CCD0092FDC6 /* cry31.wav in Resources */,
-				927EFA8522EC0CCD0092FDC6 /* cry54.wav in Resources */,
-				927EFAA522EC0CCD0092FDC6 /* cry24.wav in Resources */,
-				927EFACF22EC0CCD0092FDC6 /* cry117.wav in Resources */,
-				927EFAE422EC0CCD0092FDC6 /* cry78.wav in Resources */,
-				927EFB0422EC0CCD0092FDC6 /* cry36.wav in Resources */,
-				927EFA9322EC0CCD0092FDC6 /* cry144.wav in Resources */,
-				927EFAEE22EC0CCD0092FDC6 /* cry50.wav in Resources */,
-				927EFAE722EC0CCD0092FDC6 /* cry59.wav in Resources */,
-				927EFA8E22EC0CCD0092FDC6 /* cry41.wav in Resources */,
-				927EFB0922EC0CCD0092FDC6 /* cry103.wav in Resources */,
-				927EFAC522EC0CCD0092FDC6 /* cry108.wav in Resources */,
-				927EFAE522EC0CCD0092FDC6 /* cry83.wav in Resources */,
-				927EFADD22EC0CCD0092FDC6 /* cry124.wav in Resources */,
-				927EFAE922EC0CCD0092FDC6 /* cry135.wav in Resources */,
-				927EFA9622EC0CCD0092FDC6 /* cry93.wav in Resources */,
-				927EFA7922EC0CCD0092FDC6 /* cry1.wav in Resources */,
-				927EFAC422EC0CCD0092FDC6 /* cry75.wav in Resources */,
-				927EFB0622EC0CCD0092FDC6 /* cry106.wav in Resources */,
-				927EFAF922EC0CCD0092FDC6 /* cry39.wav in Resources */,
-				927EFB0722EC0CCD0092FDC6 /* cry21.wav in Resources */,
-				927EFAB922EC0CCD0092FDC6 /* cry23.wav in Resources */,
-				927EFA7322EC0CCD0092FDC6 /* cry95.wav in Resources */,
-				927EFA9D22EC0CCD0092FDC6 /* cry17.wav in Resources */,
-				927EFAA022EC0CCD0092FDC6 /* cry73.wav in Resources */,
-				927EFAD022EC0CCD0092FDC6 /* cry20.wav in Resources */,
-				927EFAE022EC0CCD0092FDC6 /* cry120.wav in Resources */,
-				927EFADA22EC0CCD0092FDC6 /* cry28.wav in Resources */,
-				927EFAF722EC0CCD0092FDC6 /* cry86.wav in Resources */,
-				927EFA8822EC0CCD0092FDC6 /* cry26.wav in Resources */,
-				927EFABA22EC0CCD0092FDC6 /* cry55.wav in Resources */,
-				927EFABC22EC0CCD0092FDC6 /* cry40.wav in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				927EFAD522EC0CCD0092FDC6 /* cry22.wav in Resources */,
-				927EFAC022EC0CCD0092FDC6 /* cry101.wav in Resources */,
-				927EFA7A22EC0CCD0092FDC6 /* cry64.wav in Resources */,
-				927EFABB22EC0CCD0092FDC6 /* cry76.wav in Resources */,
-				927EFAB122EC0CCD0092FDC6 /* cry25.wav in Resources */,
-				927EFAAF22EC0CCD0092FDC6 /* cry150.wav in Resources */,
-				927EFAE322EC0CCD0092FDC6 /* cry70.wav in Resources */,
-				927EFA9722EC0CCD0092FDC6 /* cry127.wav in Resources */,
-				927EFB0A22EC0CCD0092FDC6 /* cry53.wav in Resources */,
-				927EFA8722EC0CCD0092FDC6 /* cry107.wav in Resources */,
-				FEF0B612287845DAA0D26F5C /* pokemon-font.otf in Resources */,
-				927EFAD222EC0CCD0092FDC6 /* cry136.wav in Resources */,
-				927EFA9022EC0CCD0092FDC6 /* cry33.wav in Resources */,
-				927EFAA122EC0CCD0092FDC6 /* cry97.wav in Resources */,
-				927EFABD22EC0CCD0092FDC6 /* cry128.wav in Resources */,
-				927EFADB22EC0CCD0092FDC6 /* cry91.wav in Resources */,
-				927EFAA322EC0CCD0092FDC6 /* cry69.wav in Resources */,
-				927EFA8322EC0CCD0092FDC6 /* cry16.wav in Resources */,
-				927EFAC722EC0CCD0092FDC6 /* cry89.wav in Resources */,
-				927EFAA222EC0CCD0092FDC6 /* cry143.wav in Resources */,
-				927EFAA922EC0CCD0092FDC6 /* cry6.wav in Resources */,
-				927EFAB222EC0CCD0092FDC6 /* cry32.wav in Resources */,
-				927EFAD122EC0CCD0092FDC6 /* cry87.wav in Resources */,
-				927EFAA822EC0CCD0092FDC6 /* cry47.wav in Resources */,
-				927EFB0122EC0CCD0092FDC6 /* cry134.wav in Resources */,
-				927EFAF622EC0CCD0092FDC6 /* cry51.wav in Resources */,
-				927EFACC22EC0CCD0092FDC6 /* cry65.wav in Resources */,
-				927EFAEF22EC0CCD0092FDC6 /* cry105.wav in Resources */,
-				927EFAC822EC0CCD0092FDC6 /* cry74.wav in Resources */,
-				927EFADF22EC0CCD0092FDC6 /* cry29.wav in Resources */,
-				927EFA9922EC0CCD0092FDC6 /* cry56.wav in Resources */,
-				927EFAEB22EC0CCD0092FDC6 /* cry8.wav in Resources */,
-				927EFAF122EC0CCD0092FDC6 /* cry49.wav in Resources */,
-				927EFAA422EC0CCD0092FDC6 /* cry147.wav in Resources */,
-				927EFB0022EC0CCD0092FDC6 /* cry113.wav in Resources */,
-				927EFAAA22EC0CCD0092FDC6 /* cry60.wav in Resources */,
-				927EFA8F22EC0CCD0092FDC6 /* cry90.wav in Resources */,
-				927EFAF422EC0CCD0092FDC6 /* cry151.wav in Resources */,
-				927EFA8D22EC0CCD0092FDC6 /* cry44.wav in Resources */,
-				927EFADC22EC0CCD0092FDC6 /* cry80.wav in Resources */,
-				927EFAE122EC0CCD0092FDC6 /* cry141.wav in Resources */,
-				927EFAB722EC0CCD0092FDC6 /* cry84.wav in Resources */,
-				927EFAB022EC0CCD0092FDC6 /* cry71.wav in Resources */,
-				927EFAAE22EC0CCD0092FDC6 /* cry139.wav in Resources */,
-				927EFAAB22EC0CCD0092FDC6 /* cry119.wav in Resources */,
-				927EFA7522EC0CCD0092FDC6 /* cry126.wav in Resources */,
-				927EFACA22EC0CCD0092FDC6 /* cry132.wav in Resources */,
-				927EFAB622EC0CCD0092FDC6 /* cry129.wav in Resources */,
-				927EFAF522EC0CCD0092FDC6 /* cry77.wav in Resources */,
-				927EFA9422EC0CCD0092FDC6 /* cry94.wav in Resources */,
-				927EFAFE22EC0CCD0092FDC6 /* cry110.wav in Resources */,
-				927EFAC622EC0CCD0092FDC6 /* cry27.wav in Resources */,
-				927EFA9E22EC0CCD0092FDC6 /* cry10.wav in Resources */,
-				927EFA8C22EC0CCD0092FDC6 /* cry3.wav in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E4791E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,23 +276,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		8A95B1FB04822FEF69C3AE68 /* [CP] Check Pods Manifest.lock */ = {
+		5568B6CF704D8FAE02C78B00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1032,7 +300,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9BFADEF4BF4BEC7A04D2253A /* [CP] Check Pods Manifest.lock */ = {
+		79819D15BF1EAD2DDD41D53D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9940ED7A435D454E23D84961 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1047,77 +332,65 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Retrodex-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Retrodex-RetrodexTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F3D493F1CB6D384714A1FE1 /* [CP] Check Pods Manifest.lock */ = {
+		A996E1A7FA7BE5D0C46B9BF4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetrodexTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Retrodex-RetrodexTests/Pods-Retrodex-RetrodexTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C72B1D335E29DE4CCA9DA268 /* [CP] Check Pods Manifest.lock */ = {
+		BCF5DDCFFE8561C4DB82074C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Retrodex-tvOS-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A9B9785D4C39A884D03344 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Retrodex/Pods-Retrodex-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD10A7F122414F3F0027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1156,23 +429,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D02E4771E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DCD954D1E0B4F2C00145EB5 /* RetrodexTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1181,29 +437,12 @@
 			target = 13B07F861A680F5B00A75B9A /* Retrodex */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
-		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Retrodex-tvOS */;
-			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = Retrodex;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED19FBEC886AB2E0DA7E6A4 /* Pods-RetrodexTests.debug.xcconfig */;
+			baseConfigurationReference = 479717819FBD222921C8A6ED /* Pods-Retrodex-RetrodexTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1211,8 +450,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = RetrodexTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1226,13 +469,17 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B96EDB86DF637414F92133B /* Pods-RetrodexTests.release.xcconfig */;
+			baseConfigurationReference = 44997CEC439BF706B342CFD4 /* Pods-Retrodex-RetrodexTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RetrodexTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1246,16 +493,17 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32ED70E89D825FD38C4FCD56 /* Pods-Retrodex.debug.xcconfig */;
+			baseConfigurationReference = F30C77F87C0A3D2084417973 /* Pods-Retrodex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 3LBJ63T8PG;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Retrodex/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1263,22 +511,24 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Retrodex;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 132C7ED753C34D0BA3ABD528 /* Pods-Retrodex.release.xcconfig */;
+			baseConfigurationReference = E332BCC4C97B59DAB7C98C99 /* Pods-Retrodex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3LBJ63T8PG;
 				INFOPLIST_FILE = Retrodex/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1286,118 +536,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Retrodex;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Release;
-		};
-		2D02E4971E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 979F7038508FC9821BCE0A4D /* Pods-Retrodex-tvOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Retrodex-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Retrodex-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		2D02E4981E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ADD7AF094BB5DB939CC4182 /* Pods-Retrodex-tvOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Retrodex-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Retrodex-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Release;
-		};
-		2D02E4991E0B4A5E006451C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A31554BD829C7C14B986202 /* Pods-Retrodex-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Retrodex-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Retrodex-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retrodex-tvOS.app/Retrodex-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-			};
-			name = Debug;
-		};
-		2D02E49A1E0B4A5E006451C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2B29BC93AB8FB42F1791569 /* Pods-Retrodex-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Retrodex-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Retrodex-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retrodex-tvOS.app/Retrodex-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -1424,6 +564,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1433,6 +574,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1448,7 +590,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1478,6 +629,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1487,6 +639,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1495,7 +648,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1519,24 +681,6 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Retrodex-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4971E0B4A5E006451C7 /* Debug */,
-				2D02E4981E0B4A5E006451C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Retrodex-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02E4991E0B4A5E006451C7 /* Debug */,
-				2D02E49A1E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
