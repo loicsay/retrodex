@@ -1,12 +1,13 @@
-import React, {useState, useEffect, useContext} from 'react';
+import React, {useState, useEffect, useContext, FC} from 'react';
 import {FlatList, View, StyleSheet} from 'react-native';
 import Sound from 'react-native-sound';
 
 import text from '../../../../text';
+import {PokemonData} from '../../../../types/PokemonData';
 import {UserSettingsContext} from '../../../../context/UserSettings';
+import {PokedexStatusContext} from '../../../../context/PokedexStatus';
 import PokemonText from '../../../PokemonText';
 import ListItem from './ListItem';
-import {PokedexStatusContext} from '../../../../context/PokedexStatus/index.js';
 
 const styles = StyleSheet.create({
   list: {
@@ -22,7 +23,12 @@ const styles = StyleSheet.create({
 
 let selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
-const List = ({pokemons, action}) => {
+interface Props {
+  pokemons: PokemonData[];
+  action: 'data' | 'cry' | 'area';
+}
+
+const List: FC<Props> = ({pokemons, action}) => {
   const [selection, setSelection] = useState(new Map());
   const {language} = useContext(UserSettingsContext);
   const {catched} = useContext(PokedexStatusContext);
@@ -31,7 +37,7 @@ const List = ({pokemons, action}) => {
     setSelector(1);
   }, []);
 
-  const keyExtractor = (_: any, index: number) => index.toString();
+  const keyExtractor = (_item: PokemonData, index: number) => index.toString();
 
   const setSelector = (id: number) => {
     const updatedSelection = new Map(selection);
@@ -47,7 +53,7 @@ const List = ({pokemons, action}) => {
           {text.contents[language as 'en' | 'fr']}
         </PokemonText>
       </View>
-      <FlatList
+      <FlatList<PokemonData>
         style={styles.listContainer}
         data={pokemons}
         extraData={{selection}}

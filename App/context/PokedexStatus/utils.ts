@@ -1,7 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import {defaultState} from '../UserSettings/utils';
-
 export const defaultPokemonStatusStorage = {
   'red-blue': {
     catchCount: 0,

@@ -1,15 +1,51 @@
 import {useNavigation} from '@react-navigation/core';
-import React, {useContext, useState} from 'react';
+import React, {FC, useContext, useState} from 'react';
 import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import Sound from 'react-native-sound';
 
 import {UserSettingsContext} from '../../../../context/UserSettings';
+import {PokemonData} from '../../../../types/PokemonData';
 import PokemonText from '../../../PokemonText';
 import Selector from '../../../Selector';
 
-const soundDelay = 100; // in ms
+const styles = StyleSheet.create({
+  pokemonName: {
+    paddingLeft: '22%',
+    flexDirection: 'row',
+    alignItems: 'baseline',
+  },
+  pokemonId: {
+    paddingLeft: '8%',
+  },
+  rowContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  selector: {
+    height: 22,
+  },
+  pokeball: {
+    height: 16,
+    width: 16,
+  },
+  transparent: {
+    opacity: 0,
+  },
+});
 
-const ListItem = ({
+const SOUND_DELAY = 100; // in ms
+
+interface Props {
+  action: 'data' | 'cry' | 'area';
+  selected: boolean;
+  setSelector: (id: number) => void;
+  catched: 'true' | 'false';
+  pokemon: PokemonData;
+  selectSound: Sound;
+}
+
+const ListItem: FC<Props> = ({
   pokemon,
   action,
   selectSound,
@@ -43,7 +79,7 @@ const ListItem = ({
           () => {
             setTimeout(() => {
               pokemonCry.play();
-            }, soundDelay);
+            }, SOUND_DELAY);
           },
         );
         break;
@@ -58,7 +94,6 @@ const ListItem = ({
 
   return (
     <TouchableOpacity
-      style={styles.listContainer}
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
       onPress={handleOnPress}>
@@ -80,44 +115,23 @@ const ListItem = ({
   );
 };
 
-const styles = StyleSheet.create({
-  pokemonName: {
-    paddingLeft: '22%',
-    flexDirection: 'row',
-    alignItems: 'baseline',
-  },
-  pokemonId: {
-    paddingLeft: '8%',
-  },
-  rowContainer: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  selector: {
-    height: 22,
-  },
-  pokeball: {
-    height: 16,
-    width: 16,
-  },
-  transparent: {
-    opacity: 0,
-  },
-});
-
-const listItemIsEqual = (prevProps, nextProps) => {
-  if (prevProps.catched === nextProps.catched) {
-    if (nextProps.selected) {
-      prevProps.selected === nextProps.selected
-        ? prevProps.action === nextProps.action
-        : false;
-    } else {
-      return prevProps.selected === nextProps.selected;
-    }
-  } else {
+const listItemIsEqual = (
+  prevProps: Readonly<React.PropsWithChildren<Props>>,
+  nextProps: Readonly<React.PropsWithChildren<Props>>,
+) => {
+  if (prevProps.catched !== nextProps.catched) {
     return false;
   }
+
+  if (!nextProps.selected) {
+    return prevProps.selected === nextProps.selected;
+  }
+
+  if (prevProps.selected === nextProps.selected) {
+    return prevProps.action === nextProps.action;
+  }
+
+  return false;
 };
 
 export default React.memo(ListItem, listItemIsEqual);

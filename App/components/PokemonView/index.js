@@ -26,7 +26,6 @@ const PokemonView = ({route, navigation}) => {
       Sound.MAIN_BUNDLE,
       () => {
         setTimeout(() => {
-          console.log('play!');
           pokemonCry.play();
         }, 200);
       },

@@ -11,12 +11,12 @@ import {
 type State = {
   alreadyLaunched: boolean;
   language: 'en' | 'fr';
-  version: string;
+  version: 'yellow' | 'red-blue';
 };
 
 type Context = {
   setLanguage: (language: 'en' | 'fr') => void;
-  setVersion: (version: string) => void;
+  setVersion: (version: 'yellow' | 'red-blue') => void;
 } & State;
 
 const UserSettingsContext = React.createContext<Context>({
@@ -52,7 +52,7 @@ const UserSettingsProvider: FC = ({children}) => {
     AsyncStorage.setItem('language', language);
   };
 
-  const setVersion = (version: string) => {
+  const setVersion = (version: 'yellow' | 'red-blue') => {
     setState({...state, version});
     AsyncStorage.setItem('version', version);
   };

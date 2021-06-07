@@ -1,13 +1,32 @@
-import React, {useState, useEffect, useContext} from 'react';
+import React, {useState, useEffect, useContext, FC} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {UserSettingsContext} from '../UserSettings';
 import {defaultPokemonStatusStorage, getPokemonStatusStorage} from './utils';
 
-const PokedexStatusContext = React.createContext([{}, () => {}]);
+type VersionState = {
+  catchCount: number;
+  catched: {
+    [pokemonId: string]: 'true' | 'false';
+  };
+};
 
-const PokedexStatusProvider = ({children}) => {
-  const [state, setState] = useState(defaultPokemonStatusStorage);
+type State = {
+  'red-blue': VersionState;
+  yellow: VersionState;
+};
+
+type Context = {
+  setCatchedPokemon: (pokemonId: string) => Promise<void>;
+} & VersionState;
+
+const PokedexStatusContext = React.createContext<Context>({
+  ...defaultPokemonStatusStorage['red-blue'],
+  setCatchedPokemon: () => new Promise(() => {}),
+});
+
+const PokedexStatusProvider: FC = ({children}) => {
+  const [state, setState] = useState<State>(defaultPokemonStatusStorage);
   const {alreadyLaunched, version} = useContext(UserSettingsContext);
 
   useEffect(() => {
@@ -25,7 +44,7 @@ const PokedexStatusProvider = ({children}) => {
     initContextState();
   }, [alreadyLaunched]);
 
-  const setCatchedPokemon = async pokemonId => {
+  const setCatchedPokemon = async (pokemonId: string) => {
     const updatedCatched = {...state[version].catched, [pokemonId]: 'true'};
     const updatedVersion = {
       catched: updatedCatched,
@@ -40,26 +59,10 @@ const PokedexStatusProvider = ({children}) => {
     }
   };
 
-  const versionState = state[version];
-
-  if (!versionState) {
-    return (
-      <PokedexStatusContext.Provider
-        value={{
-          catchCount: 0,
-          catched: 0,
-          setCatchedPokemon,
-        }}>
-        {children}
-      </PokedexStatusContext.Provider>
-    );
-  }
-
   return (
     <PokedexStatusContext.Provider
       value={{
-        catchCount: state[version].catchCount,
-        catched: state[version].catched,
+        ...state[version],
         setCatchedPokemon,
       }}>
       {children}

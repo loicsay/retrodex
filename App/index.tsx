@@ -14,19 +14,17 @@ export type RootStackParamList = {
 
 const Stack = createStackNavigator<RootStackParamList>();
 
-const Retrodex = () => {
-  return (
-    <UserSettingsProvider>
-      <PokedexStatusProvider>
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="PokemonList" component={PokemonList} />
-            <Stack.Screen name="PokemonView" component={PokemonView} />
-          </Stack.Navigator>
-        </NavigationContainer>
-      </PokedexStatusProvider>
-    </UserSettingsProvider>
-  );
-};
+const Retrodex = () => (
+  <UserSettingsProvider>
+    <PokedexStatusProvider>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="PokemonList" component={PokemonList} />
+          <Stack.Screen name="PokemonView" component={PokemonView} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </PokedexStatusProvider>
+  </UserSettingsProvider>
+);
 
 export default Retrodex;

@@ -24,7 +24,7 @@ const getDeviceLanguage = () => {
 export const defaultState = {
   alreadyLaunched: false,
   language: getDeviceLanguage() as 'en' | 'fr',
-  version: 'red-blue',
+  version: 'red-blue' as const,
 };
 
 export const initUserSettingsStorage = () => {
@@ -42,7 +42,9 @@ export const getUserSettingsStorage = async () => ({
     (await AsyncStorage.getItem('alreadyLaunched')) === 'true',
   ),
   language: ((await AsyncStorage.getItem('language')) || 'en') as 'en' | 'fr',
-  version: (await AsyncStorage.getItem('version')) || '',
+  version: ((await AsyncStorage.getItem('version')) || 'red-blue') as
+    | 'red-blue'
+    | 'yellow',
 });
 
 export const getAlreadyLaunched = async () => {
