@@ -14,11 +14,17 @@ export const defaultPokemonStatusStorage = {
 };
 
 export const initPokemonStatusStorage = () => {
-  AsyncStorage.setItem('red-blue', JSON.stringify(defaultState['red-blue']));
-  AsyncStorage.setItem('yellow', JSON.stringify(defaultState['yellow']));
+  AsyncStorage.setItem(
+    'red-blue',
+    JSON.stringify(defaultPokemonStatusStorage['red-blue']),
+  );
+  AsyncStorage.setItem(
+    'yellow',
+    JSON.stringify(defaultPokemonStatusStorage['yellow']),
+  );
 };
 
 export const getPokemonStatusStorage = async () => ({
-  'red-blue': JSON.parse(await AsyncStorage.getItem('red-blue')),
-  yellow: JSON.parse(await AsyncStorage.getItem('yellow')),
+  'red-blue': JSON.parse((await AsyncStorage.getItem('red-blue')) || ''),
+  yellow: JSON.parse((await AsyncStorage.getItem('yellow')) || ''),
 });

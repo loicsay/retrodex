@@ -4,7 +4,7 @@ import {TouchableOpacity, StyleSheet} from 'react-native';
 import {UserSettingsContext} from '../../../context/UserSettings';
 import PokemonText from '../../PokemonText';
 import Selector from '../../Selector';
-import text from '../../../text.json';
+import text from '../../../text';
 
 const BackButton = ({selectSound, navigation}) => {
   const [pressed, setPressed] = useState(false);

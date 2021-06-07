@@ -16,12 +16,14 @@ const getDeviceLanguage = () => {
   ).substring(0, 2); // Get only language, not location
 
   // Fallback to english if language is not supported
-  return supportedLanguage[deviceLanguage] ? deviceLanguage : 'en';
+  return supportedLanguage[deviceLanguage as 'en' | 'fr']
+    ? deviceLanguage
+    : 'en';
 };
 
 export const defaultState = {
   alreadyLaunched: false,
-  language: getDeviceLanguage(),
+  language: getDeviceLanguage() as 'en' | 'fr',
   version: 'red-blue',
 };
 
@@ -32,15 +34,15 @@ export const initUserSettingsStorage = () => {
   AsyncStorage.setItem('language', language);
   AsyncStorage.setItem('version', version);
   // Initialize the status of the pokedex for PokedexStatus Context
-  initPokemonStatusStorage(defaultPokemonStatusStorage);
+  initPokemonStatusStorage();
 };
 
 export const getUserSettingsStorage = async () => ({
   alreadyLaunched: Boolean(
     (await AsyncStorage.getItem('alreadyLaunched')) === 'true',
   ),
-  language: await AsyncStorage.getItem('language'),
-  version: await AsyncStorage.getItem('version'),
+  language: ((await AsyncStorage.getItem('language')) || 'en') as 'en' | 'fr',
+  version: (await AsyncStorage.getItem('version')) || '',
 });
 
 export const getAlreadyLaunched = async () => {

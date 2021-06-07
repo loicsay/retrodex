@@ -2,7 +2,7 @@ import React, {useState, useEffect, useContext} from 'react';
 import {FlatList, View, StyleSheet} from 'react-native';
 import Sound from 'react-native-sound';
 
-import text from '../../../../text.json';
+import text from '../../../../text';
 import {UserSettingsContext} from '../../../../context/UserSettings';
 import PokemonText from '../../../PokemonText';
 import ListItem from './ListItem';
@@ -31,19 +31,21 @@ const List = ({pokemons, action}) => {
     setSelector(1);
   }, []);
 
-  const keyExtractor = (_, index) => index.toString();
+  const keyExtractor = (_: any, index: number) => index.toString();
 
-  const setSelector = (id) => {
-    const selection = new Map(selection);
+  const setSelector = (id: number) => {
+    const updatedSelection = new Map(selection);
 
-    selection.set(id, !selection.get(id));
-    setSelection(selection);
+    updatedSelection.set(id, !selection.get(id));
+    setSelection(updatedSelection);
   };
 
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText uppercase>{text.contents[language]}</PokemonText>
+        <PokemonText uppercase>
+          {text.contents[language as 'en' | 'fr']}
+        </PokemonText>
       </View>
       <FlatList
         style={styles.listContainer}

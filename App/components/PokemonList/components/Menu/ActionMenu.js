@@ -1,13 +1,13 @@
-import React from "react";
-import { View } from "react-native";
+import React from 'react';
+import {View} from 'react-native';
 
-import MenuItem from "./MenuItem";
-import text from "../../../../text.json";
+import MenuItem from './MenuItem';
+import text from '../../../../text';
 
-import { ACTION, DATA, CRY, AREA } from "../constants";
+import {ACTION, DATA, CRY, AREA} from '../constants';
 
-const ActionMenu = ({ style, language, currentAction, setAction }) => {
-  const handleOnPress = action => () => setAction(action);
+const ActionMenu = ({style, language, currentAction, setAction}) => {
+  const handleOnPress = (action) => () => setAction(action);
 
   return (
     <View style={style}>

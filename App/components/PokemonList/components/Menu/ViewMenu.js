@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {View} from 'react-native';
 
 import {PokedexStatusContext} from '../../../../context/PokedexStatus';
-import text from '../../../../text.json';
+import text from '../../../../text';
 import MenuItem from './MenuItem';
 
 import {VIEW} from '../constants';
