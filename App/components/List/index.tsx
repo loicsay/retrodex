@@ -2,11 +2,11 @@ import React, {useState, useEffect, useContext, FC} from 'react';
 import {FlatList, View, StyleSheet} from 'react-native';
 import Sound from 'react-native-sound';
 
-import text from '../../../../text';
-import {PokemonData} from '../../../../types/PokemonData';
-import {UserSettingsContext} from '../../../../context/UserSettings';
-import {PokedexStatusContext} from '../../../../context/PokedexStatus';
-import PokemonText from '../../../PokemonText';
+import text from '../../text';
+import {PokemonData} from '../../types/PokemonData';
+import {UserSettingsContext} from '../../context/UserSettings';
+import {PokedexStatusContext} from '../../context/PokedexStatus';
+import PokemonText from '../PokemonText';
 import ListItem from './ListItem';
 
 const styles = StyleSheet.create({
@@ -19,9 +19,12 @@ const styles = StyleSheet.create({
   title: {
     paddingLeft: '8%',
   },
+  footerPadding: {
+    margin: '14%',
+  },
 });
 
-let selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
+const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
 interface Props {
   pokemons: PokemonData[];
@@ -35,6 +38,7 @@ const List: FC<Props> = ({pokemons, action}) => {
 
   useEffect(() => {
     setSelector(1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const keyExtractor = (_item: PokemonData, index: number) => index.toString();
@@ -49,9 +53,7 @@ const List: FC<Props> = ({pokemons, action}) => {
   return (
     <View style={styles.list}>
       <View style={styles.title}>
-        <PokemonText uppercase>
-          {text.contents[language as 'en' | 'fr']}
-        </PokemonText>
+        <PokemonText uppercase>{text.contents[language]}</PokemonText>
       </View>
       <FlatList<PokemonData>
         style={styles.listContainer}
@@ -70,7 +72,7 @@ const List: FC<Props> = ({pokemons, action}) => {
           />
         )}
         showsVerticalScrollIndicator={false}
-        ListFooterComponent={<View style={{margin: '14%'}} />}
+        ListFooterComponent={<View style={styles.footerPadding} />}
       />
     </View>
   );

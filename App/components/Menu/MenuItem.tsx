@@ -1,16 +1,21 @@
-import React from "react";
-import { TouchableOpacity, View, StyleSheet } from "react-native";
+import React, {FC} from 'react';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
+import {ACTION, SETTINGS, VIEW} from '../constants';
+import PokemonText from '../PokemonText';
+import Selector from '../Selector';
 
-import PokemonText from "../../../PokemonText";
-import Selector from "../../../Selector";
+interface Props {
+  type: 'action' | 'settings' | 'view';
+  label: string;
+  onPress?: () => void;
+  selected?: boolean;
+}
 
-import { ACTION, SETTINGS, VIEW } from "../constants";
-
-const MenuItem = ({ handleOnPress, type, label, selected, children }) => {
+const MenuItem: FC<Props> = ({onPress, type, label, selected, children}) => {
   switch (type) {
     case ACTION:
       return (
-        <TouchableOpacity style={styles.menuItem} onPress={handleOnPress}>
+        <TouchableOpacity style={styles.menuItem} onPress={onPress}>
           {selected && <Selector style={styles.selector} />}
           <PokemonText uppercase>{label}</PokemonText>
         </TouchableOpacity>
@@ -36,13 +41,13 @@ const MenuItem = ({ handleOnPress, type, label, selected, children }) => {
 
 const styles = StyleSheet.create({
   menuItem: {
-    justifyContent: "flex-end",
-    paddingLeft: "24%",
-    marginBottom: "14%"
+    justifyContent: 'flex-end',
+    paddingLeft: '24%',
+    marginBottom: '14%',
   },
   selector: {
-    height: 18
-  }
+    height: 18,
+  },
 });
 
 export default MenuItem;

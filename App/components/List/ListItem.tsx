@@ -2,37 +2,10 @@ import {useNavigation} from '@react-navigation/core';
 import React, {FC, useContext, useState} from 'react';
 import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import Sound from 'react-native-sound';
-
-import {UserSettingsContext} from '../../../../context/UserSettings';
-import {PokemonData} from '../../../../types/PokemonData';
-import PokemonText from '../../../PokemonText';
-import Selector from '../../../Selector';
-
-const styles = StyleSheet.create({
-  pokemonName: {
-    paddingLeft: '22%',
-    flexDirection: 'row',
-    alignItems: 'baseline',
-  },
-  pokemonId: {
-    paddingLeft: '8%',
-  },
-  rowContainer: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  selector: {
-    height: 22,
-  },
-  pokeball: {
-    height: 16,
-    width: 16,
-  },
-  transparent: {
-    opacity: 0,
-  },
-});
+import {UserSettingsContext} from '../../context/UserSettings';
+import {PokemonData} from '../../types/PokemonData';
+import PokemonText from '../PokemonText';
+import Selector from '../Selector';
 
 const SOUND_DELAY = 100; // in ms
 
@@ -70,7 +43,7 @@ const ListItem: FC<Props> = ({
 
     switch (action) {
       case 'data':
-        navigation.navigate('PokemonView', {pokemon, selectSound});
+        navigation.navigate('PokemonDetails', {pokemon, selectSound});
         break;
       case 'cry':
         const pokemonCry = new Sound(
@@ -106,7 +79,7 @@ const ListItem: FC<Props> = ({
           <Image
             style={[styles.pokeball, catched ? undefined : styles.transparent]}
             resizeMode="contain"
-            source={require('../../../../../data/red-blue-yellow/sprites/pokeball.png')}
+            source={require('../../../data/red-blue-yellow/sprites/pokeball.png')}
           />
           <PokemonText uppercase>{pokemon.names[language]}</PokemonText>
         </View>
@@ -115,10 +88,33 @@ const ListItem: FC<Props> = ({
   );
 };
 
-const listItemIsEqual = (
-  prevProps: Readonly<React.PropsWithChildren<Props>>,
-  nextProps: Readonly<React.PropsWithChildren<Props>>,
-) => {
+const styles = StyleSheet.create({
+  pokemonName: {
+    paddingLeft: '22%',
+    flexDirection: 'row',
+    alignItems: 'baseline',
+  },
+  pokemonId: {
+    paddingLeft: '8%',
+  },
+  rowContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  selector: {
+    height: 22,
+  },
+  pokeball: {
+    height: 16,
+    width: 16,
+  },
+  transparent: {
+    opacity: 0,
+  },
+});
+
+const listItemIsEqual = (prevProps: Props, nextProps: Props) => {
   if (prevProps.catched !== nextProps.catched) {
     return false;
   }

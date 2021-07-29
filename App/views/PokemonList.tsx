@@ -1,12 +1,11 @@
-import React, {useState, FC} from 'react';
-import {View, StyleSheet} from 'react-native';
 import {RouteProp} from '@react-navigation/native';
-
-import pokemons from '../../../data/pokemons.json';
-import {RootStackParamList} from '../..';
-import Layout from '../Layout';
-import List from './components/List';
-import Menu from './components/Menu';
+import React, {FC, useState} from 'react';
+import {StyleSheet, View} from 'react-native';
+import {RootStackParamList} from '..';
+import pokemons from '../../data/pokemons.json';
+import Layout from '../components/Layout';
+import List from '../components/List';
+import Menu from '../components/Menu';
 
 type Props = RouteProp<RootStackParamList, 'PokemonList'>;
 

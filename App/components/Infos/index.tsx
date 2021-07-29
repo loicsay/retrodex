@@ -1,10 +1,16 @@
-import React, {useContext} from 'react';
-import {View, Image, StyleSheet, Dimensions} from 'react-native';
-
-import {UserSettingsContext} from '../../../../context/UserSettings';
-import PokemonText from '../../../PokemonText';
+import React, {FC, useContext} from 'react';
+import {
+  Dimensions,
+  Image,
+  ImageSourcePropType,
+  StyleSheet,
+  View,
+} from 'react-native';
+import {UserSettingsContext} from '../../context/UserSettings';
+import text from '../../text';
+import {PokemonData} from '../../types/PokemonData';
+import PokemonText from '../PokemonText';
 import Data from './Data';
-import text from '../../../../text';
 
 const deviceWidth = Dimensions.get('window').width;
 
@@ -41,7 +47,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const Infos = ({imageSource, pokemon}) => {
+interface Props {
+  imageSource: ImageSourcePropType;
+  pokemon: PokemonData;
+}
+
+const Infos: FC<Props> = ({imageSource, pokemon}) => {
   const {language} = useContext(UserSettingsContext);
 
   // Transform the national id with 3 numbers
@@ -54,7 +65,7 @@ const Infos = ({imageSource, pokemon}) => {
         <View style={styles.pokemonNumber}>
           <Image
             style={styles.number}
-            source={require('../../../../../data/red-blue-yellow/sprites/number.png')}
+            source={require('../../../data/red-blue-yellow/sprites/number.png')}
             resizeMode="cover"
           />
           <PokemonText>{pokemonId}</PokemonText>
