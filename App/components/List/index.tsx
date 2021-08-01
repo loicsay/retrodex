@@ -1,10 +1,10 @@
-import React, {FC, useContext, useEffect, useState} from 'react';
-import {FlatList, StyleSheet, View} from 'react-native';
+import React, { FC, useContext, useEffect, useState } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
 import pokemons from '../../../data/pokemons.json';
-import {PokedexStatusContext} from '../../context/PokedexStatus';
-import {UserSettingsContext} from '../../context/UserSettings';
+import { PokedexStatusContext } from '../../context/PokedexStatus';
+import { UserSettingsContext } from '../../context/UserSettings';
 import text from '../../text';
-import {PokemonData} from '../../types/PokemonData';
+import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
 import ListItem from './ListItem';
 
@@ -27,10 +27,10 @@ interface Props {
   action: 'data' | 'cry' | 'area';
 }
 
-const List: FC<Props> = ({action}) => {
+const List: FC<Props> = ({ action }) => {
   const [selection, setSelection] = useState(new Map());
-  const {language} = useContext(UserSettingsContext);
-  const {catched} = useContext(PokedexStatusContext);
+  const { language } = useContext(UserSettingsContext);
+  const { catched } = useContext(PokedexStatusContext);
 
   useEffect(() => {
     setSelector(1);
@@ -52,9 +52,9 @@ const List: FC<Props> = ({action}) => {
       <FlatList<PokemonData>
         style={styles.listContainer}
         data={pokemons}
-        extraData={{selection}}
+        extraData={{ selection }}
         keyExtractor={(item) => item.national_id.toString()}
-        renderItem={({item}) => (
+        renderItem={({ item }) => (
           <ListItem
             key={item.national_id}
             pokemon={item}

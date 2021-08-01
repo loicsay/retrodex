@@ -1,5 +1,5 @@
-import React, {Dispatch, FC, SetStateAction} from 'react';
-import {StyleSheet, View} from 'react-native';
+import React, { Dispatch, FC, SetStateAction } from 'react';
+import { StyleSheet, View } from 'react-native';
 import PokemonSeparator from '../PokemonSeparator';
 import ActionMenu from './ActionMenu';
 import SettingsMenu from './SettingsMenu';
@@ -10,7 +10,7 @@ interface Props {
   setAction: Dispatch<SetStateAction<'data' | 'cry'>>;
 }
 
-const Menu: FC<Props> = ({currentAction, setAction}) => (
+const Menu: FC<Props> = ({ currentAction, setAction }) => (
   <>
     <PokemonSeparator />
     <View style={styles.menuContainer}>

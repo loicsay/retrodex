@@ -1,5 +1,5 @@
-import React, {FC} from 'react';
-import {View, StyleSheet} from 'react-native';
+import React, { FC } from 'react';
+import { View, StyleSheet } from 'react-native';
 
 import PokemonText from '../PokemonText';
 
@@ -8,7 +8,7 @@ interface Props {
   label: string;
 }
 
-const Data: FC<Props> = ({uppercase, label, children}) => (
+const Data: FC<Props> = ({ uppercase, label, children }) => (
   <View style={styles.data}>
     <PokemonText uppercase={uppercase}>{label}</PokemonText>
     <PokemonText>{children}</PokemonText>

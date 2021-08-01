@@ -1,6 +1,6 @@
-import React, {FC} from 'react';
-import {StyleSheet, TouchableOpacity, View} from 'react-native';
-import {ACTION, SETTINGS, VIEW} from '../constants';
+import React, { FC } from 'react';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { ACTION, SETTINGS, VIEW } from '../constants';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
 
@@ -11,7 +11,7 @@ interface Props {
   selected?: boolean;
 }
 
-const MenuItem: FC<Props> = ({onPress, type, label, selected, children}) => {
+const MenuItem: FC<Props> = ({ onPress, type, label, selected, children }) => {
   switch (type) {
     case ACTION:
       return (

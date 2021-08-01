@@ -1,6 +1,6 @@
 import React from 'react';
-import {FC} from 'react';
-import {View, StyleSheet, Dimensions} from 'react-native';
+import { FC } from 'react';
+import { View, StyleSheet, Dimensions } from 'react-native';
 
 import BorderCube from './BorderCube';
 
@@ -13,12 +13,12 @@ interface Props {
   horizontal?: boolean;
 }
 
-const PokemonSeparator: FC<Props> = ({horizontal}) => {
+const PokemonSeparator: FC<Props> = ({ horizontal }) => {
   const renderHorizontalBorderCubes = () => {
     let borderCubes = [];
     for (let i = 0; i < 9; i++) {
       if (i === 4) {
-        borderCubes.push(<View key={i} style={{width: 28}} />);
+        borderCubes.push(<View key={i} style={{ width: 28 }} />);
       } else {
         borderCubes.push(<BorderCube key={i} horizontal />);
       }

@@ -1,9 +1,9 @@
-import {useNavigation} from '@react-navigation/core';
-import React, {FC, useContext, useState} from 'react';
-import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
+import { useNavigation } from '@react-navigation/core';
+import React, { FC, useContext, useState } from 'react';
+import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
 import Sound from 'react-native-sound';
-import {UserSettingsContext} from '../../context/UserSettings';
-import {PokemonData} from '../../types/PokemonData';
+import { UserSettingsContext } from '../../context/UserSettings';
+import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
 
@@ -27,7 +27,7 @@ const ListItem: FC<Props> = ({
   catched,
 }) => {
   const [pressed, setPressed] = useState(false);
-  const {language} = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   const navigation = useNavigation();
 
@@ -45,7 +45,7 @@ const ListItem: FC<Props> = ({
 
     switch (action) {
       case 'data':
-        navigation.navigate('PokemonDetails', {pokemon});
+        navigation.navigate('PokemonDetails', { pokemon });
         break;
       case 'cry':
         const pokemonCry = new Sound(

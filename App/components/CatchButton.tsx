@@ -1,8 +1,8 @@
-import React, {FC, useContext} from 'react';
-import {Image, StyleSheet, TouchableOpacity} from 'react-native';
+import React, { FC, useContext } from 'react';
+import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 import Sound from 'react-native-sound';
-import {PokedexStatusContext} from '../context/PokedexStatus';
-import {UserSettingsContext} from '../context/UserSettings';
+import { PokedexStatusContext } from '../context/PokedexStatus';
+import { UserSettingsContext } from '../context/UserSettings';
 import text from '../text';
 import PokemonText from './PokemonText';
 
@@ -13,10 +13,10 @@ interface Props {
   pokemonId: number;
 }
 
-const CatchButton: FC<Props> = ({pokemonId}) => {
-  const {catched, releasePokemon} = useContext(PokedexStatusContext);
-  const {language} = useContext(UserSettingsContext);
-  const {setCatchedPokemon} = useContext(PokedexStatusContext);
+const CatchButton: FC<Props> = ({ pokemonId }) => {
+  const { catched, releasePokemon } = useContext(PokedexStatusContext);
+  const { language } = useContext(UserSettingsContext);
+  const { setCatchedPokemon } = useContext(PokedexStatusContext);
 
   const isCatched = catched[pokemonId] === 'true';
 

@@ -1,9 +1,9 @@
-import {StackNavigationProp} from '@react-navigation/stack';
-import React, {FC, useContext, useState} from 'react';
-import {StyleSheet, TouchableOpacity} from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import React, { FC, useContext, useState } from 'react';
+import { StyleSheet, TouchableOpacity } from 'react-native';
 import Sound from 'react-native-sound';
-import {RootStackParamList} from '..';
-import {UserSettingsContext} from '../context/UserSettings';
+import { RootStackParamList } from '..';
+import { UserSettingsContext } from '../context/UserSettings';
 import text from '../text';
 import PokemonText from './PokemonText';
 import Selector from './Selector';
@@ -14,9 +14,9 @@ interface Props {
   navigation: StackNavigationProp<RootStackParamList, 'PokemonDetails'>;
 }
 
-const BackButton: FC<Props> = ({navigation}) => {
+const BackButton: FC<Props> = ({ navigation }) => {
   const [pressed, setPressed] = useState(false);
-  const {language} = useContext(UserSettingsContext);
+  const { language } = useContext(UserSettingsContext);
 
   const handleOnPress = () => {
     selectSound.play();

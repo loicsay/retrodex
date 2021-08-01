@@ -1,12 +1,12 @@
-import React, {FC} from 'react';
-import {Image, ImageStyle, StyleProp} from 'react-native';
+import React, { FC } from 'react';
+import { Image, ImageStyle, StyleProp } from 'react-native';
 
 interface Props {
   style?: StyleProp<ImageStyle>;
   pressed?: boolean;
 }
 
-const Selector: FC<Props> = ({style, pressed}) => {
+const Selector: FC<Props> = ({ style, pressed }) => {
   const imageSource = pressed
     ? require('../../data/red-blue-yellow/sprites/selector-white.png')
     : require('../../data/red-blue-yellow/sprites/selector.png');

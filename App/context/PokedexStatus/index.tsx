@@ -1,8 +1,8 @@
-import React, {useState, useEffect, useContext, FC} from 'react';
+import React, { useState, useEffect, useContext, FC } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import {UserSettingsContext} from '../UserSettings';
-import {defaultPokemonStatusStorage, getPokemonStatusStorage} from './utils';
+import { UserSettingsContext } from '../UserSettings';
+import { defaultPokemonStatusStorage, getPokemonStatusStorage } from './utils';
 
 type VersionState = {
   catchCount: number;
@@ -11,15 +11,15 @@ type VersionState = {
   };
 };
 
-type State = {
-  'red-blue': VersionState;
-  yellow: VersionState;
-};
-
 type Context = {
   setCatchedPokemon: (pokemonId: string) => Promise<void>;
   releasePokemon: (pokemonId: string) => Promise<void>;
 } & VersionState;
+
+type State = {
+  'red-blue': VersionState;
+  yellow: VersionState;
+};
 
 const PokedexStatusContext = React.createContext<Context>({
   ...defaultPokemonStatusStorage['red-blue'],
@@ -27,9 +27,9 @@ const PokedexStatusContext = React.createContext<Context>({
   releasePokemon: () => new Promise(() => {}),
 });
 
-const PokedexStatusProvider: FC = ({children}) => {
+const PokedexStatusProvider: FC = ({ children }) => {
   const [state, setState] = useState<State>(defaultPokemonStatusStorage);
-  const {alreadyLaunched, version} = useContext(UserSettingsContext);
+  const { alreadyLaunched, version } = useContext(UserSettingsContext);
 
   useEffect(() => {
     const initContextState = async () => {
@@ -47,7 +47,7 @@ const PokedexStatusProvider: FC = ({children}) => {
   }, [alreadyLaunched]);
 
   const setCatchedPokemon = async (pokemonId: string) => {
-    const updatedCatched = {...state[version].catched, [pokemonId]: 'true'};
+    const updatedCatched = { ...state[version].catched, [pokemonId]: 'true' };
     const updatedVersion = {
       catched: updatedCatched,
       catchCount: state[version].catchCount + 1,
@@ -55,14 +55,14 @@ const PokedexStatusProvider: FC = ({children}) => {
 
     try {
       await AsyncStorage.setItem(version, JSON.stringify(updatedVersion));
-      setState({...state, [version]: updatedVersion});
+      setState({ ...state, [version]: updatedVersion });
     } catch (error) {
       console.log(error);
     }
   };
 
   const releasePokemon = async (pokemonId: string) => {
-    const updatedCatched = {...state[version].catched, [pokemonId]: 'false'};
+    const updatedCatched = { ...state[version].catched, [pokemonId]: 'false' };
     const updatedVersion = {
       catched: updatedCatched,
       catchCount: state[version].catchCount - 1,
@@ -70,7 +70,7 @@ const PokedexStatusProvider: FC = ({children}) => {
 
     try {
       await AsyncStorage.setItem(version, JSON.stringify(updatedVersion));
-      setState({...state, [version]: updatedVersion});
+      setState({ ...state, [version]: updatedVersion });
     } catch (error) {
       console.log(error);
     }
@@ -88,4 +88,5 @@ const PokedexStatusProvider: FC = ({children}) => {
   );
 };
 
-export {PokedexStatusContext, PokedexStatusProvider};
+export { PokedexStatusContext, PokedexStatusProvider };
+export default () => useContext(PokedexStatusContext);

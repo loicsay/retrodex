@@ -1,4 +1,4 @@
-import React, {useState, useEffect, FC} from 'react';
+import React, { useState, useEffect, FC } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {
@@ -25,7 +25,7 @@ const UserSettingsContext = React.createContext<Context>({
   setVersion: () => {},
 });
 
-const UserSettingsProvider: FC = ({children}) => {
+const UserSettingsProvider: FC = ({ children }) => {
   const [state, setState] = useState<State>(defaultState);
 
   useEffect(() => {
@@ -48,20 +48,20 @@ const UserSettingsProvider: FC = ({children}) => {
   }, []);
 
   const setLanguage = (language: 'en' | 'fr') => {
-    setState({...state, language});
+    setState({ ...state, language });
     AsyncStorage.setItem('language', language);
   };
 
   const setVersion = (version: 'yellow' | 'red-blue') => {
-    setState({...state, version});
+    setState({ ...state, version });
     AsyncStorage.setItem('version', version);
   };
 
   return (
-    <UserSettingsContext.Provider value={{...state, setLanguage, setVersion}}>
+    <UserSettingsContext.Provider value={{ ...state, setLanguage, setVersion }}>
       {children}
     </UserSettingsContext.Provider>
   );
 };
 
-export {UserSettingsContext, UserSettingsProvider};
+export { UserSettingsContext, UserSettingsProvider };

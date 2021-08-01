@@ -1,26 +1,28 @@
-import {RouteProp} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
-import React, {FC, useContext, useEffect} from 'react';
-import {View} from 'react-native';
+import { RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import React, { FC, useContext, useEffect } from 'react';
+import { View } from 'react-native';
 import Sound from 'react-native-sound';
-import {RootStackParamList} from '../..';
+import { RootStackParamList } from '../..';
 import BackButton from '../../components/BackButton';
 import CatchButton from '../../components/CatchButton';
 import Description from '../../components/Description';
 import Infos from '../../components/Infos';
 import Layout from '../../components/Layout';
-import {UserSettingsContext} from '../../context/UserSettings';
+import { UserSettingsContext } from '../../context/UserSettings';
 import getImageSource from './getImageSource';
+
+const SOUND_DELAY_IN_MS = 200;
 
 interface Props {
   navigation: StackNavigationProp<RootStackParamList, 'PokemonDetails'>;
   route: RouteProp<RootStackParamList, 'PokemonDetails'>;
 }
 
-const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
-  const {language} = useContext(UserSettingsContext);
+const PokemonView: FC<Props> = ({ route: { params }, navigation }) => {
+  const { language } = useContext(UserSettingsContext);
 
-  const {pokemon} = params;
+  const { pokemon } = params;
 
   useEffect(() => {
     if (!params) {
@@ -33,14 +35,13 @@ const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
       () => {
         setTimeout(() => {
           pokemonCry.play();
-        }, 200);
+        }, SOUND_DELAY_IN_MS);
       },
     );
 
     return () => {
       pokemonCry.release();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!params) {
