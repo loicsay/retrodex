@@ -1,8 +1,8 @@
-import React, { FC, useContext, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import pokemons from '../../../data/pokemons.json';
-import { PokedexStatusContext } from '../../context/PokedexStatus';
-import { UserSettingsContext } from '../../context/UserSettings';
+import usePokedexStatusContext from '../../context/PokedexStatus';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
 import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
@@ -29,8 +29,8 @@ interface Props {
 
 const List: FC<Props> = ({ action }) => {
   const [selection, setSelection] = useState(new Map());
-  const { language } = useContext(UserSettingsContext);
-  const { catched } = useContext(PokedexStatusContext);
+  const { language } = useUserSettingsContext();
+  const { catched } = usePokedexStatusContext();
 
   useEffect(() => {
     setSelector(1);

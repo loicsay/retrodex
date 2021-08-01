@@ -1,6 +1,6 @@
-import React, { FC, useContext, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
-import { UserSettingsContext } from '../../../context/UserSettings';
+import useUserSettingsContext from '../../../context/UserSettings';
 import text from '../../../text';
 import { LANGUAGE, SETTINGS, VERSION } from '../../constants';
 import MenuItem from '../MenuItem';
@@ -11,7 +11,7 @@ interface Props {
 }
 
 const SettingsMenu: FC<Props> = ({ style }) => {
-  const { language } = useContext(UserSettingsContext);
+  const { language } = useUserSettingsContext();
 
   const [displayModal, setDisplayModal] = useState(false);
   const [modalType, setModalType] = useState<'language' | 'version'>();

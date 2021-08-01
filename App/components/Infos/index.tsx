@@ -1,4 +1,4 @@
-import React, { FC, useContext } from 'react';
+import React, { FC } from 'react';
 import {
   Dimensions,
   Image,
@@ -6,7 +6,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { UserSettingsContext } from '../../context/UserSettings';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
 import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
@@ -53,7 +53,7 @@ interface Props {
 }
 
 const Infos: FC<Props> = ({ imageSource, pokemon }) => {
-  const { language } = useContext(UserSettingsContext);
+  const { language } = useUserSettingsContext();
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);

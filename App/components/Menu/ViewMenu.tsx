@@ -1,7 +1,7 @@
-import React, { FC, useContext } from 'react';
+import React, { FC } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
-import { PokedexStatusContext } from '../../context/PokedexStatus';
-import { UserSettingsContext } from '../../context/UserSettings';
+import usePokedexStatusContext from '../../context/PokedexStatus';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
 import { VIEW } from '../constants';
 import MenuItem from './MenuItem';
@@ -11,8 +11,8 @@ interface Props {
 }
 
 const ViewMenu: FC<Props> = ({ style }) => {
-  const { catchCount } = useContext(PokedexStatusContext);
-  const { language } = useContext(UserSettingsContext);
+  const { catchCount } = usePokedexStatusContext();
+  const { language } = useUserSettingsContext();
 
   return (
     <View style={style}>

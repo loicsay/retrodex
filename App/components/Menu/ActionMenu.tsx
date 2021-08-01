@@ -1,6 +1,6 @@
-import React, { Dispatch, FC, SetStateAction, useContext } from 'react';
+import React, { Dispatch, FC, SetStateAction } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
-import { UserSettingsContext } from '../../context/UserSettings';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
 import { ACTION, CRY, DATA } from '../constants';
 import MenuItem from './MenuItem';
@@ -12,7 +12,7 @@ interface Props {
 }
 
 const ActionMenu: FC<Props> = ({ style, currentAction, setAction }) => {
-  const { language } = useContext(UserSettingsContext);
+  const { language } = useUserSettingsContext();
 
   const generateHandleOnPress = (action: 'data' | 'cry') => () =>
     setAction(action);

@@ -1,8 +1,8 @@
 import { useNavigation } from '@react-navigation/core';
-import React, { FC, useContext, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
 import Sound from 'react-native-sound';
-import { UserSettingsContext } from '../../context/UserSettings';
+import useUserSettingsContext from '../../context/UserSettings';
 import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
@@ -27,7 +27,7 @@ const ListItem: FC<Props> = ({
   catched,
 }) => {
   const [pressed, setPressed] = useState(false);
-  const { language } = useContext(UserSettingsContext);
+  const { language } = useUserSettingsContext();
 
   const navigation = useNavigation();
 
