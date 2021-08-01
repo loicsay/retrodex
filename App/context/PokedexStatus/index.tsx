@@ -18,11 +18,13 @@ type State = {
 
 type Context = {
   setCatchedPokemon: (pokemonId: string) => Promise<void>;
+  releasePokemon: (pokemonId: string) => Promise<void>;
 } & VersionState;
 
 const PokedexStatusContext = React.createContext<Context>({
   ...defaultPokemonStatusStorage['red-blue'],
   setCatchedPokemon: () => new Promise(() => {}),
+  releasePokemon: () => new Promise(() => {}),
 });
 
 const PokedexStatusProvider: FC = ({children}) => {
@@ -59,11 +61,27 @@ const PokedexStatusProvider: FC = ({children}) => {
     }
   };
 
+  const releasePokemon = async (pokemonId: string) => {
+    const updatedCatched = {...state[version].catched, [pokemonId]: 'false'};
+    const updatedVersion = {
+      catched: updatedCatched,
+      catchCount: state[version].catchCount - 1,
+    };
+
+    try {
+      await AsyncStorage.setItem(version, JSON.stringify(updatedVersion));
+      setState({...state, [version]: updatedVersion});
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <PokedexStatusContext.Provider
       value={{
         ...state[version],
         setCatchedPokemon,
+        releasePokemon,
       }}>
       {children}
     </PokedexStatusContext.Provider>

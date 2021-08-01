@@ -6,8 +6,8 @@ import SettingsMenu from './SettingsMenu';
 import ViewMenu from './ViewMenu';
 
 interface Props {
-  currentAction: 'data' | 'cry' | 'area';
-  setAction: Dispatch<SetStateAction<'data' | 'cry' | 'area'>>;
+  currentAction: 'data' | 'cry';
+  setAction: Dispatch<SetStateAction<'data' | 'cry'>>;
 }
 
 const Menu: FC<Props> = ({currentAction, setAction}) => (

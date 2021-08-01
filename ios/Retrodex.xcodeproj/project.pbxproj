@@ -167,6 +167,8 @@
 		FE0E5FA426B30B80006802C4 /* cry140.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE0E5F7C26B30B80006802C4 /* cry140.wav */; };
 		FE0E5FA526B30B80006802C4 /* cry125.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE0E5F7D26B30B80006802C4 /* cry125.wav */; };
 		FE0E5FA626B30B80006802C4 /* cry118.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE0E5F7E26B30B80006802C4 /* cry118.wav */; };
+		FEA704B526B45A7200B566B0 /* catch.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEA704B426B45A7200B566B0 /* catch.wav */; };
+		FEA704B726B45B9600B566B0 /* release.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEA704B626B45B9600B566B0 /* release.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +353,8 @@
 		FE0E5F7C26B30B80006802C4 /* cry140.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry140.wav; path = "../data/red-blue-yellow/sounds/cry140.wav"; sourceTree = "<group>"; };
 		FE0E5F7D26B30B80006802C4 /* cry125.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry125.wav; path = "../data/red-blue-yellow/sounds/cry125.wav"; sourceTree = "<group>"; };
 		FE0E5F7E26B30B80006802C4 /* cry118.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cry118.wav; path = "../data/red-blue-yellow/sounds/cry118.wav"; sourceTree = "<group>"; };
+		FEA704B426B45A7200B566B0 /* catch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = catch.wav; path = "../../../../Downloads/Pokemon Red_Blue Sound Effects/catch.wav"; sourceTree = "<group>"; };
+		FEA704B626B45B9600B566B0 /* release.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = release.wav; path = "../data/red-blue-yellow/sounds/release.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -442,6 +446,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FEA704B626B45B9600B566B0 /* release.wav */,
+				FEA704B426B45A7200B566B0 /* catch.wav */,
 				FE0E5F7B26B30B80006802C4 /* cry113.wav */,
 				FE0E5F7626B30B80006802C4 /* cry114.wav */,
 				FE0E5F6926B30B7F006802C4 /* cry115.wav */,
@@ -775,6 +781,7 @@
 				FE0E5F0D26B30B61006802C4 /* cry33.wav in Resources */,
 				FE0E5F0226B30B61006802C4 /* cry8.wav in Resources */,
 				FE0E5F8826B30B80006802C4 /* cry141.wav in Resources */,
+				FEA704B526B45A7200B566B0 /* catch.wav in Resources */,
 				FE0E5EF726B30B61006802C4 /* cry36.wav in Resources */,
 				FE0E5F9326B30B80006802C4 /* cry121.wav in Resources */,
 				FE0E5F8526B30B80006802C4 /* cry139.wav in Resources */,
@@ -816,6 +823,7 @@
 				FE0E5F0C26B30B61006802C4 /* cry53.wav in Resources */,
 				FE0E5F5626B30B61006802C4 /* cry80.wav in Resources */,
 				FE0E5F2126B30B61006802C4 /* cry102.wav in Resources */,
+				FEA704B726B45B9600B566B0 /* release.wav in Resources */,
 				FE0E5F2226B30B61006802C4 /* cry3.wav in Resources */,
 				FE0E5F3426B30B61006802C4 /* cry20.wav in Resources */,
 				FE0E5EF326B30B61006802C4 /* cry63.wav in Resources */,

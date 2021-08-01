@@ -43,6 +43,14 @@ const text = {
     en: 'back',
     fr: 'retour',
   },
+  catch: {
+    en: 'catch!',
+    fr: 'attraper!',
+  },
+  release: {
+    en: 'release',
+    fr: 'relâcher',
+  },
 };
 
 export default text;

@@ -1,11 +1,10 @@
-import React, {useState, useEffect, useContext, FC} from 'react';
-import {FlatList, View, StyleSheet} from 'react-native';
-import Sound from 'react-native-sound';
-
+import React, {FC, useContext, useEffect, useState} from 'react';
+import {FlatList, StyleSheet, View} from 'react-native';
+import pokemons from '../../../data/pokemons.json';
+import {PokedexStatusContext} from '../../context/PokedexStatus';
+import {UserSettingsContext} from '../../context/UserSettings';
 import text from '../../text';
 import {PokemonData} from '../../types/PokemonData';
-import {UserSettingsContext} from '../../context/UserSettings';
-import {PokedexStatusContext} from '../../context/PokedexStatus';
 import PokemonText from '../PokemonText';
 import ListItem from './ListItem';
 
@@ -24,14 +23,11 @@ const styles = StyleSheet.create({
   },
 });
 
-const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
-
 interface Props {
-  pokemons: PokemonData[];
   action: 'data' | 'cry' | 'area';
 }
 
-const List: FC<Props> = ({pokemons, action}) => {
+const List: FC<Props> = ({action}) => {
   const [selection, setSelection] = useState(new Map());
   const {language} = useContext(UserSettingsContext);
   const {catched} = useContext(PokedexStatusContext);
@@ -41,12 +37,10 @@ const List: FC<Props> = ({pokemons, action}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const keyExtractor = (_item: PokemonData, index: number) => index.toString();
-
   const setSelector = (id: number) => {
-    const updatedSelection = new Map(selection);
+    const updatedSelection = new Map();
 
-    updatedSelection.set(id, !selection.get(id));
+    updatedSelection.set(id, true);
     setSelection(updatedSelection);
   };
 
@@ -59,7 +53,7 @@ const List: FC<Props> = ({pokemons, action}) => {
         style={styles.listContainer}
         data={pokemons}
         extraData={{selection}}
-        keyExtractor={keyExtractor}
+        keyExtractor={(item) => item.national_id.toString()}
         renderItem={({item}) => (
           <ListItem
             key={item.national_id}
@@ -68,7 +62,6 @@ const List: FC<Props> = ({pokemons, action}) => {
             action={action}
             selected={Boolean(selection.get(item.national_id))}
             setSelector={setSelector}
-            selectSound={selectSound}
           />
         )}
         showsVerticalScrollIndicator={false}

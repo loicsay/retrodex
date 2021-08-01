@@ -8,12 +8,13 @@ import text from '../text';
 import PokemonText from './PokemonText';
 import Selector from './Selector';
 
+const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
+
 interface Props {
   navigation: StackNavigationProp<RootStackParamList, 'PokemonDetails'>;
-  selectSound: Sound;
 }
 
-const BackButton: FC<Props> = ({selectSound, navigation}) => {
+const BackButton: FC<Props> = ({navigation}) => {
   const [pressed, setPressed] = useState(false);
   const {language} = useContext(UserSettingsContext);
 

@@ -9,19 +9,19 @@ import Selector from '../Selector';
 
 const SOUND_DELAY = 100; // in ms
 
+const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
+
 interface Props {
   action: 'data' | 'cry' | 'area';
   selected: boolean;
   setSelector: (id: number) => void;
   catched: 'true' | 'false';
   pokemon: PokemonData;
-  selectSound: Sound;
 }
 
 const ListItem: FC<Props> = ({
   pokemon,
   action,
-  selectSound,
   selected,
   setSelector,
   catched,
@@ -36,14 +36,16 @@ const ListItem: FC<Props> = ({
     setSelector(pokemon.national_id);
   };
 
-  const handleOnPressOut = () => setPressed(false);
+  const handleOnPressOut = () => {
+    setPressed(false);
+  };
 
   const handleOnPress = () => {
     selectSound.play();
 
     switch (action) {
       case 'data':
-        navigation.navigate('PokemonDetails', {pokemon, selectSound});
+        navigation.navigate('PokemonDetails', {pokemon});
         break;
       case 'cry':
         const pokemonCry = new Sound(
@@ -77,7 +79,10 @@ const ListItem: FC<Props> = ({
         {selected && <Selector style={styles.selector} pressed={pressed} />}
         <View style={styles.pokemonName}>
           <Image
-            style={[styles.pokeball, catched ? undefined : styles.transparent]}
+            style={[
+              styles.pokeball,
+              catched === 'false' ? styles.transparent : undefined,
+            ]}
             resizeMode="contain"
             source={require('../../../data/red-blue-yellow/sprites/pokeball.png')}
           />
@@ -119,15 +124,15 @@ const listItemIsEqual = (prevProps: Props, nextProps: Props) => {
     return false;
   }
 
-  if (!nextProps.selected) {
-    return prevProps.selected === nextProps.selected;
+  if (prevProps.selected !== nextProps.selected) {
+    return false;
   }
 
   if (prevProps.selected === nextProps.selected) {
     return prevProps.action === nextProps.action;
   }
 
-  return false;
+  return true;
 };
 
 export default React.memo(ListItem, listItemIsEqual);
