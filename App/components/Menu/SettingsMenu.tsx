@@ -1,12 +1,12 @@
 import React, { FC, useState } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
 import Sound from 'react-native-sound';
-import useUserSettingsContext from '../../../context/UserSettings';
-import text from '../../../text';
-import MenuItem from '../MenuItem';
-import LanguageModal from '../Modal/LanguageModal';
-import UnitModal from '../Modal/UnitModal';
-import VersionModal from '../Modal/VersionModal';
+import useUserSettingsContext from '../../context/UserSettings';
+import text from '../../text';
+import MenuItem from './MenuItem';
+import LanguageModal from './Modal/LanguageModal';
+import UnitModal from './Modal/UnitModal';
+import VersionModal from './Modal/VersionModal';
 
 const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
