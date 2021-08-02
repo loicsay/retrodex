@@ -1,42 +1,31 @@
-import React, {FC} from 'react';
-import {StyleSheet, TouchableOpacity, View} from 'react-native';
-import {ACTION, SETTINGS, VIEW} from '../constants';
+import React, { FC } from 'react';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
 
 interface Props {
-  type: 'action' | 'settings' | 'view';
+  type: 'action' | 'view';
   label: string;
   onPress?: () => void;
   selected?: boolean;
 }
 
-const MenuItem: FC<Props> = ({onPress, type, label, selected, children}) => {
-  switch (type) {
-    case ACTION:
-      return (
-        <TouchableOpacity style={styles.menuItem} onPress={onPress}>
-          {selected && <Selector style={styles.selector} />}
-          <PokemonText uppercase>{label}</PokemonText>
-        </TouchableOpacity>
-      );
-    case SETTINGS:
-      return (
-        <TouchableOpacity style={styles.menuItem}>
-          {selected && <Selector style={styles.selector} />}
-          <PokemonText uppercase>{label}</PokemonText>
-        </TouchableOpacity>
-      );
-    case VIEW:
-      return (
-        <View style={styles.menuItem}>
-          <PokemonText uppercase>{label}</PokemonText>
-          {children && <PokemonText uppercase>{children}</PokemonText>}
-        </View>
-      );
-    default:
-      return null;
+const MenuItem: FC<Props> = ({ onPress, type, label, selected, children }) => {
+  if (type === 'action') {
+    return (
+      <TouchableOpacity style={styles.menuItem} onPress={onPress}>
+        {selected && <Selector style={styles.selector} />}
+        <PokemonText uppercase>{label}</PokemonText>
+      </TouchableOpacity>
+    );
   }
+
+  return (
+    <View style={styles.menuItem}>
+      <PokemonText uppercase>{label}</PokemonText>
+      {children && <PokemonText uppercase>{children}</PokemonText>}
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({

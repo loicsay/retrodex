@@ -1,28 +1,29 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import { Version } from '../../types';
+
 export const defaultPokemonStatusStorage = {
-  'red-blue': {
-    catchCount: 0,
-    catched: {},
-  },
-  yellow: {
-    catchCount: 0,
-    catched: {},
-  },
+  catchCount: 0,
+  catched: {},
 };
 
-export const initPokemonStatusStorage = () => {
-  AsyncStorage.setItem(
-    'red-blue',
-    JSON.stringify(defaultPokemonStatusStorage['red-blue']),
+export const initPokemonStatusStorage = async () => {
+  await AsyncStorage.setItem(
+    Version.RedBlue,
+    JSON.stringify(defaultPokemonStatusStorage),
   );
-  AsyncStorage.setItem(
-    'yellow',
-    JSON.stringify(defaultPokemonStatusStorage['yellow']),
+  await AsyncStorage.setItem(
+    Version.Yellow,
+    JSON.stringify(defaultPokemonStatusStorage),
   );
 };
 
-export const getPokemonStatusStorage = async () => ({
-  'red-blue': JSON.parse((await AsyncStorage.getItem('red-blue')) || ''),
-  yellow: JSON.parse((await AsyncStorage.getItem('yellow')) || ''),
-});
+export const getPokemonStatusStorage = async (version: Version) => {
+  const versionStorageData = await AsyncStorage.getItem(version);
+
+  if (!versionStorageData) {
+    return null;
+  }
+
+  return JSON.parse(versionStorageData);
+};

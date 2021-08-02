@@ -1,31 +1,34 @@
-import React, {useState, useEffect, FC} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import React, { FC, useContext, useEffect, useState } from 'react';
+import { Languages, Version, Unit } from '../../types';
 import {
   defaultState,
   getAlreadyLaunched,
-  initUserSettingsStorage,
   getUserSettingsStorage,
+  initUserSettingsStorage,
 } from './utils';
 
 type State = {
   alreadyLaunched: boolean;
-  language: 'en' | 'fr';
-  version: 'yellow' | 'red-blue';
+  language: Languages;
+  version: Version;
+  unit: Unit;
 };
 
 type Context = {
-  setLanguage: (language: 'en' | 'fr') => void;
-  setVersion: (version: 'yellow' | 'red-blue') => void;
+  setLanguage: (language: Languages) => void;
+  setVersion: (version: Version) => void;
+  setUnit: (unit: Unit) => void;
 } & State;
 
 const UserSettingsContext = React.createContext<Context>({
   ...defaultState,
   setLanguage: () => {},
   setVersion: () => {},
+  setUnit: () => {},
 });
 
-const UserSettingsProvider: FC = ({children}) => {
+const UserSettingsProvider: FC = ({ children }) => {
   const [state, setState] = useState<State>(defaultState);
 
   useEffect(() => {
@@ -47,21 +50,28 @@ const UserSettingsProvider: FC = ({children}) => {
     initContextState();
   }, []);
 
-  const setLanguage = (language: 'en' | 'fr') => {
-    setState({...state, language});
+  const setLanguage = (language: Languages) => {
+    setState({ ...state, language });
     AsyncStorage.setItem('language', language);
   };
 
-  const setVersion = (version: 'yellow' | 'red-blue') => {
-    setState({...state, version});
+  const setVersion = (version: Version) => {
+    setState({ ...state, version });
     AsyncStorage.setItem('version', version);
   };
 
+  const setUnit = (unit: Unit) => {
+    setState({ ...state, unit });
+    AsyncStorage.setItem('unit', unit);
+  };
+
   return (
-    <UserSettingsContext.Provider value={{...state, setLanguage, setVersion}}>
+    <UserSettingsContext.Provider
+      value={{ ...state, setLanguage, setVersion, setUnit }}>
       {children}
     </UserSettingsContext.Provider>
   );
 };
 
-export {UserSettingsContext, UserSettingsProvider};
+export { UserSettingsContext, UserSettingsProvider };
+export default () => useContext(UserSettingsContext);

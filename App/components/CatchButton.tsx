@@ -1,8 +1,8 @@
-import React, {FC, useContext} from 'react';
-import {Image, StyleSheet, TouchableOpacity} from 'react-native';
+import React, { FC } from 'react';
+import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 import Sound from 'react-native-sound';
-import {PokedexStatusContext} from '../context/PokedexStatus';
-import {UserSettingsContext} from '../context/UserSettings';
+import usePokedexStatusContext from '../context/PokedexStatus';
+import useUserSettingsContext from '../context/UserSettings';
 import text from '../text';
 import PokemonText from './PokemonText';
 
@@ -13,10 +13,10 @@ interface Props {
   pokemonId: number;
 }
 
-const CatchButton: FC<Props> = ({pokemonId}) => {
-  const {catched, releasePokemon} = useContext(PokedexStatusContext);
-  const {language} = useContext(UserSettingsContext);
-  const {setCatchedPokemon} = useContext(PokedexStatusContext);
+const CatchButton: FC<Props> = ({ pokemonId }) => {
+  const { catched, setCatchedPokemon, releasePokemon } =
+    usePokedexStatusContext();
+  const { language } = useUserSettingsContext();
 
   const isCatched = catched[pokemonId] === 'true';
 
@@ -34,13 +34,13 @@ const CatchButton: FC<Props> = ({pokemonId}) => {
 
   return (
     <TouchableOpacity style={styles.catchButton} onPress={handleOnPress}>
-      {!isCatched ? (
+      {!isCatched && (
         <Image
           style={styles.pokeball}
           resizeMode="contain"
           source={require('../../data/red-blue-yellow/sprites/pokeball.png')}
         />
-      ) : null}
+      )}
       <PokemonText uppercase>{buttonLabel[language]}</PokemonText>
     </TouchableOpacity>
   );
@@ -48,17 +48,14 @@ const CatchButton: FC<Props> = ({pokemonId}) => {
 
 const styles = StyleSheet.create({
   catchButton: {
-    position: 'absolute',
-    bottom: '22%',
-    right: 0,
-    padding: '8%',
     flexDirection: 'row',
     alignItems: 'baseline',
-    backgroundColor: 'rgb(245, 245, 245)',
+    backgroundColor: 'transparent',
   },
   pokeball: {
-    height: 18,
-    width: 18,
+    position: 'relative',
+    height: 16,
+    width: 16,
     marginRight: 8,
   },
 });

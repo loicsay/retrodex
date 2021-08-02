@@ -1,4 +1,4 @@
-import React, {FC, useContext} from 'react';
+import React, { FC } from 'react';
 import {
   Dimensions,
   Image,
@@ -6,9 +6,9 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import {UserSettingsContext} from '../../context/UserSettings';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
-import {PokemonData} from '../../types/PokemonData';
+import { PokemonData, Unit } from '../../types';
 import PokemonText from '../PokemonText';
 import Data from './Data';
 
@@ -52,11 +52,13 @@ interface Props {
   pokemon: PokemonData;
 }
 
-const Infos: FC<Props> = ({imageSource, pokemon}) => {
-  const {language} = useContext(UserSettingsContext);
+const Infos: FC<Props> = ({ imageSource, pokemon }) => {
+  const { language, unit } = useUserSettingsContext();
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
+
+  const isEuUnit = unit === Unit.Metric;
 
   return (
     <View style={styles.infosContainer}>
@@ -75,10 +77,10 @@ const Infos: FC<Props> = ({imageSource, pokemon}) => {
         <Data uppercase label={pokemon.names[language]} />
         <Data uppercase label={pokemon.categories[language]} />
         <Data uppercase label={text.height[language]}>
-          {pokemon.height_eu}
+          {isEuUnit ? pokemon.height_eu : pokemon.height_us}
         </Data>
         <Data uppercase label={text.weight[language]}>
-          {pokemon.weight_eu}
+          {isEuUnit ? pokemon.weight_eu : pokemon.weight_us}
         </Data>
       </View>
     </View>

@@ -1,3 +1,5 @@
+import { Version } from '../../types';
+
 const imagesSources = {
   'red-blue': [
     undefined,
@@ -309,7 +311,7 @@ const imagesSources = {
   ],
 };
 
-const getImageSource = (version: 'red-blue' | 'yellow', id: number) =>
+const getImageSource = (version: Version, id: number) =>
   imagesSources[version][id];
 
 export default getImageSource;

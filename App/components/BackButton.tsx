@@ -1,9 +1,9 @@
-import {StackNavigationProp} from '@react-navigation/stack';
-import React, {FC, useContext, useState} from 'react';
-import {StyleSheet, TouchableOpacity} from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import React, { FC, useState } from 'react';
+import { StyleSheet, TouchableOpacity } from 'react-native';
 import Sound from 'react-native-sound';
-import {RootStackParamList} from '..';
-import {UserSettingsContext} from '../context/UserSettings';
+import { RootStackParamList } from '..';
+import useUserSettingsContext from '../context/UserSettings';
 import text from '../text';
 import PokemonText from './PokemonText';
 import Selector from './Selector';
@@ -14,9 +14,9 @@ interface Props {
   navigation: StackNavigationProp<RootStackParamList, 'PokemonDetails'>;
 }
 
-const BackButton: FC<Props> = ({navigation}) => {
+const BackButton: FC<Props> = ({ navigation }) => {
   const [pressed, setPressed] = useState(false);
-  const {language} = useContext(UserSettingsContext);
+  const { language } = useUserSettingsContext();
 
   const handleOnPress = () => {
     selectSound.play();
@@ -41,12 +41,9 @@ const BackButton: FC<Props> = ({navigation}) => {
 
 const styles = StyleSheet.create({
   backButton: {
-    position: 'absolute',
-    bottom: '22%',
-    padding: '8%',
     flexDirection: 'row',
     alignItems: 'baseline',
-    backgroundColor: 'rgb(245, 245, 245)',
+    backgroundColor: 'transparent',
   },
   selector: {
     position: 'relative',

@@ -1,26 +1,30 @@
-import {RouteProp} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
-import React, {FC, useContext, useEffect} from 'react';
-import {View} from 'react-native';
+import { RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import React, { FC, useEffect } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 import Sound from 'react-native-sound';
-import {RootStackParamList} from '../..';
+import { RootStackParamList } from '../..';
 import BackButton from '../../components/BackButton';
 import CatchButton from '../../components/CatchButton';
 import Description from '../../components/Description';
 import Infos from '../../components/Infos';
 import Layout from '../../components/Layout';
-import {UserSettingsContext} from '../../context/UserSettings';
+import PokemonSeparator from '../../components/PokemonSeparator';
+import useUserSettingsContext from '../../context/UserSettings';
 import getImageSource from './getImageSource';
+
+const SOUND_DELAY_IN_MS = 200;
 
 interface Props {
   navigation: StackNavigationProp<RootStackParamList, 'PokemonDetails'>;
   route: RouteProp<RootStackParamList, 'PokemonDetails'>;
 }
 
-const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
-  const {language} = useContext(UserSettingsContext);
+const PokemonView: FC<Props> = ({ route: { params }, navigation }) => {
+  const { language, version } = useUserSettingsContext();
 
-  const {pokemon} = params;
+  const { pokemon } = params;
 
   useEffect(() => {
     if (!params) {
@@ -33,7 +37,7 @@ const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
       () => {
         setTimeout(() => {
           pokemonCry.play();
-        }, 200);
+        }, SOUND_DELAY_IN_MS);
       },
     );
 
@@ -43,25 +47,40 @@ const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (!params) {
-    return null;
-  }
-
   return (
     <Layout>
-      <View>
+      <View style={styles.container}>
         <Infos
-          imageSource={getImageSource('red-blue', pokemon.national_id)}
+          imageSource={getImageSource(version, pokemon.national_id)}
           pokemon={pokemon}
         />
-        <Description
-          description={pokemon.pokedex_entries['red-blue'][language]}
-        />
+        <PokemonSeparator horizontal />
+        <ScrollView>
+          <Description
+            description={pokemon.pokedex_entries[version][language]}
+          />
+        </ScrollView>
+        <View style={styles.bottomSection}>
+          <BackButton navigation={navigation} />
+          <CatchButton pokemonId={pokemon.national_id} />
+        </View>
       </View>
-      <BackButton navigation={navigation} />
-      <CatchButton pokemonId={pokemon.national_id} />
     </Layout>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  bottomSection: {
+    paddingLeft: '4%',
+    paddingRight: '4%',
+    paddingBottom: '6%',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+});
 
 export default PokemonView;

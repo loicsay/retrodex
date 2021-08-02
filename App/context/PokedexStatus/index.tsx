@@ -1,41 +1,38 @@
-import React, {useState, useEffect, useContext, FC} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { FC, useContext, useEffect, useState } from 'react';
+import useUserSettingsContext from '../UserSettings';
+import { defaultPokemonStatusStorage, getPokemonStatusStorage } from './utils';
 
-import {UserSettingsContext} from '../UserSettings';
-import {defaultPokemonStatusStorage, getPokemonStatusStorage} from './utils';
-
-type VersionState = {
+type PokedexStatusState = {
   catchCount: number;
   catched: {
     [pokemonId: string]: 'true' | 'false';
   };
 };
 
-type State = {
-  'red-blue': VersionState;
-  yellow: VersionState;
-};
-
 type Context = {
   setCatchedPokemon: (pokemonId: string) => Promise<void>;
   releasePokemon: (pokemonId: string) => Promise<void>;
-} & VersionState;
+} & PokedexStatusState;
 
 const PokedexStatusContext = React.createContext<Context>({
-  ...defaultPokemonStatusStorage['red-blue'],
+  ...defaultPokemonStatusStorage,
   setCatchedPokemon: () => new Promise(() => {}),
   releasePokemon: () => new Promise(() => {}),
 });
 
-const PokedexStatusProvider: FC = ({children}) => {
-  const [state, setState] = useState<State>(defaultPokemonStatusStorage);
-  const {alreadyLaunched, version} = useContext(UserSettingsContext);
+const PokedexStatusProvider: FC = ({ children }) => {
+  const { alreadyLaunched, version } = useUserSettingsContext();
+
+  const [state, setState] = useState<PokedexStatusState>(
+    defaultPokemonStatusStorage,
+  );
 
   useEffect(() => {
     const initContextState = async () => {
       if (alreadyLaunched) {
         try {
-          const pokemonStatus = await getPokemonStatusStorage();
+          const pokemonStatus = await getPokemonStatusStorage(version);
           setState(pokemonStatus);
         } catch (error) {
           console.log(error);
@@ -47,30 +44,34 @@ const PokedexStatusProvider: FC = ({children}) => {
   }, [alreadyLaunched]);
 
   const setCatchedPokemon = async (pokemonId: string) => {
-    const updatedCatched = {...state[version].catched, [pokemonId]: 'true'};
-    const updatedVersion = {
+    const updatedCatched = { ...state.catched, [pokemonId]: 'true' as const };
+    const updatedState = {
       catched: updatedCatched,
-      catchCount: state[version].catchCount + 1,
+      catchCount: Object.values(updatedCatched).filter(
+        (pokemonIsCatched) => pokemonIsCatched === 'true',
+      ).length,
     };
 
     try {
-      await AsyncStorage.setItem(version, JSON.stringify(updatedVersion));
-      setState({...state, [version]: updatedVersion});
+      await AsyncStorage.setItem(version, JSON.stringify(updatedState));
+      setState(updatedState);
     } catch (error) {
       console.log(error);
     }
   };
 
   const releasePokemon = async (pokemonId: string) => {
-    const updatedCatched = {...state[version].catched, [pokemonId]: 'false'};
-    const updatedVersion = {
-      catched: updatedCatched,
-      catchCount: state[version].catchCount - 1,
+    const updatedCatched = { ...state.catched, [pokemonId]: 'false' as const };
+    const updatedState = {
+      catched: { ...state.catched, [pokemonId]: 'false' as const },
+      catchCount: Object.values(updatedCatched).filter(
+        (pokemonIsCatched) => pokemonIsCatched === 'true',
+      ).length,
     };
 
     try {
-      await AsyncStorage.setItem(version, JSON.stringify(updatedVersion));
-      setState({...state, [version]: updatedVersion});
+      await AsyncStorage.setItem(version, JSON.stringify(updatedState));
+      setState(updatedState);
     } catch (error) {
       console.log(error);
     }
@@ -79,7 +80,7 @@ const PokedexStatusProvider: FC = ({children}) => {
   return (
     <PokedexStatusContext.Provider
       value={{
-        ...state[version],
+        ...state,
         setCatchedPokemon,
         releasePokemon,
       }}>
@@ -88,4 +89,5 @@ const PokedexStatusProvider: FC = ({children}) => {
   );
 };
 
-export {PokedexStatusContext, PokedexStatusProvider};
+export { PokedexStatusContext, PokedexStatusProvider };
+export default () => useContext(PokedexStatusContext);

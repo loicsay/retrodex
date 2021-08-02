@@ -1,10 +1,10 @@
-import React, {FC, useContext, useEffect, useState} from 'react';
-import {FlatList, StyleSheet, View} from 'react-native';
+import React, { FC, useEffect, useState } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
 import pokemons from '../../../data/pokemons.json';
-import {PokedexStatusContext} from '../../context/PokedexStatus';
-import {UserSettingsContext} from '../../context/UserSettings';
+import usePokedexStatusContext from '../../context/PokedexStatus';
+import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
-import {PokemonData} from '../../types/PokemonData';
+import { PokemonData } from '../../types';
 import PokemonText from '../PokemonText';
 import ListItem from './ListItem';
 
@@ -27,20 +27,19 @@ interface Props {
   action: 'data' | 'cry' | 'area';
 }
 
-const List: FC<Props> = ({action}) => {
-  const [selection, setSelection] = useState(new Map());
-  const {language} = useContext(UserSettingsContext);
-  const {catched} = useContext(PokedexStatusContext);
+const List: FC<Props> = ({ action }) => {
+  const { language } = useUserSettingsContext();
+  const { catched } = usePokedexStatusContext();
+  const [selection, setSelection] = useState<Map<number, boolean>>(new Map());
 
   useEffect(() => {
     setSelector(1);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const setSelector = (id: number) => {
     const updatedSelection = new Map();
-
     updatedSelection.set(id, true);
+
     setSelection(updatedSelection);
   };
 
@@ -52,15 +51,15 @@ const List: FC<Props> = ({action}) => {
       <FlatList<PokemonData>
         style={styles.listContainer}
         data={pokemons}
-        extraData={{selection}}
+        extraData={{ selection }}
         keyExtractor={(item) => item.national_id.toString()}
-        renderItem={({item}) => (
+        renderItem={({ item }) => (
           <ListItem
             key={item.national_id}
             pokemon={item}
             catched={catched[item.national_id]}
             action={action}
-            selected={Boolean(selection.get(item.national_id))}
+            selected={selection.get(item.national_id) || false}
             setSelector={setSelector}
           />
         )}

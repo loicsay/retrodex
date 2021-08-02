@@ -1,11 +1,11 @@
-import React, {FC} from 'react';
-import {Image, StyleSheet} from 'react-native';
+import React, { FC } from 'react';
+import { Image, StyleSheet } from 'react-native';
 
 interface Props {
   horizontal?: boolean;
 }
 
-const BorderCube: FC<Props> = ({horizontal}) => (
+const BorderCube: FC<Props> = ({ horizontal }) => (
   <Image
     style={[styles.borderCube, horizontal && styles.horizontal]}
     resizeMode="contain"
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     width: 18,
     marginTop: 28,
   },
-  horizontal: {marginTop: 0},
+  horizontal: { marginTop: 0 },
 });
 
 export default BorderCube;
