@@ -34,13 +34,13 @@ const CatchButton: FC<Props> = ({ pokemonId }) => {
 
   return (
     <TouchableOpacity style={styles.catchButton} onPress={handleOnPress}>
-      {!isCatched ? (
+      {!isCatched && (
         <Image
           style={styles.pokeball}
           resizeMode="contain"
           source={require('../../data/red-blue-yellow/sprites/pokeball.png')}
         />
-      ) : null}
+      )}
       <PokemonText uppercase>{buttonLabel[language]}</PokemonText>
     </TouchableOpacity>
   );
@@ -48,17 +48,14 @@ const CatchButton: FC<Props> = ({ pokemonId }) => {
 
 const styles = StyleSheet.create({
   catchButton: {
-    position: 'absolute',
-    bottom: '22%',
-    right: 0,
-    padding: '8%',
     flexDirection: 'row',
     alignItems: 'baseline',
-    backgroundColor: 'rgb(245, 245, 245)',
+    backgroundColor: 'transparent',
   },
   pokeball: {
-    height: 18,
-    width: 18,
+    position: 'relative',
+    height: 16,
+    width: 16,
     marginRight: 8,
   },
 });

@@ -41,12 +41,9 @@ const BackButton: FC<Props> = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   backButton: {
-    position: 'absolute',
-    bottom: '22%',
-    padding: '8%',
     flexDirection: 'row',
     alignItems: 'baseline',
-    backgroundColor: 'rgb(245, 245, 245)',
+    backgroundColor: 'transparent',
   },
   selector: {
     position: 'relative',

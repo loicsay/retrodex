@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 export enum Languages {
   En = 'en',
   Fr = 'fr',
@@ -7,6 +8,11 @@ export enum Languages {
 export enum Version {
   RedBlue = 'red-blue',
   Yellow = 'yellow',
+}
+
+export enum Unit {
+  Metric = 'metric',
+  Imperial = 'imperial',
 }
 
 type LanguageEntry = {

@@ -1,9 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NativeModules, Platform } from 'react-native';
-import { Languages, Version } from '../../types';
+import { Languages, Unit, Version } from '../../types';
 import { initPokemonStatusStorage } from '../PokedexStatus/utils';
 
-const supportedLanguage = {
+export const supportedLanguage = {
   [Languages.En]: true,
   [Languages.Fr]: true,
   [Languages.De]: false,
@@ -24,14 +24,16 @@ export const defaultState = {
   alreadyLaunched: false,
   language: getDeviceLanguage() as Languages,
   version: Version.RedBlue as const,
+  unit: Unit.Metric as const,
 };
 
 export const initUserSettingsStorage = () => {
-  const { language, version } = defaultState;
+  const { language, version, unit } = defaultState;
 
   AsyncStorage.setItem('alreadyLaunched', 'true');
   AsyncStorage.setItem('language', language);
   AsyncStorage.setItem('version', version);
+  AsyncStorage.setItem('unit', unit);
 
   // Initialize the status of the pokedex for PokedexStatus Context
   initPokemonStatusStorage();
@@ -43,6 +45,7 @@ export const getUserSettingsStorage = async () => ({
     ((await AsyncStorage.getItem('language')) as Languages) || Languages.En,
   version:
     ((await AsyncStorage.getItem('version')) as Version) || Version.RedBlue,
+  unit: ((await AsyncStorage.getItem('unit')) as Unit) || Unit.Metric,
 });
 
 export const getAlreadyLaunched = async () =>

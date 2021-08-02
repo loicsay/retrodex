@@ -2,7 +2,7 @@ import React, { Dispatch, FC, SetStateAction } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
 import useUserSettingsContext from '../../context/UserSettings';
 import text from '../../text';
-import { ACTION, CRY, DATA } from '../constants';
+import { CRY, DATA } from '../constants';
 import MenuItem from './MenuItem';
 
 interface Props {
@@ -21,13 +21,13 @@ const ActionMenu: FC<Props> = ({ style, currentAction, setAction }) => {
     <View style={style}>
       <MenuItem
         onPress={generateHandleOnPress(DATA)}
-        type={ACTION}
+        type="action"
         label={text.data[language]}
         selected={currentAction === DATA}
       />
       <MenuItem
         onPress={generateHandleOnPress(CRY)}
-        type={ACTION}
+        type="action"
         label={text.cry[language]}
         selected={currentAction === CRY}
       />

@@ -1,10 +1,14 @@
 import React, { FC, useState } from 'react';
 import { StyleProp, View, ViewStyle } from 'react-native';
+import Sound from 'react-native-sound';
 import useUserSettingsContext from '../../../context/UserSettings';
 import text from '../../../text';
-import { LANGUAGE, SETTINGS, VERSION } from '../../constants';
 import MenuItem from '../MenuItem';
-import SettingsModal from './SettingsModal';
+import LanguageModal from '../Modal/LanguageModal';
+import UnitModal from '../Modal/UnitModal';
+import VersionModal from '../Modal/VersionModal';
+
+const selectSound = new Sound('select.wav', Sound.MAIN_BUNDLE);
 
 interface Props {
   style: StyleProp<ViewStyle>;
@@ -13,27 +17,61 @@ interface Props {
 const SettingsMenu: FC<Props> = ({ style }) => {
   const { language } = useUserSettingsContext();
 
-  const [displayModal, setDisplayModal] = useState(false);
-  const [modalType, setModalType] = useState<'language' | 'version'>();
+  const [showModal, setShowModal] =
+    useState<'language' | 'version' | 'unit' | null>(null);
 
-  const handleOnPress = (newModalType: 'language' | 'version') => () => {
-    setModalType(newModalType);
-    setDisplayModal(true);
+  const handleOpenLanguageModal = () => {
+    selectSound.play();
+    setShowModal('language');
+  };
+
+  const handleOpenVersionModal = () => {
+    selectSound.play();
+    setShowModal('version');
+  };
+
+  const handleOpenUnitModal = () => {
+    selectSound.play();
+    setShowModal('unit');
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(null);
   };
 
   return (
     <View style={style}>
       <MenuItem
-        type={SETTINGS}
-        label={text.language[language]}
-        onPress={handleOnPress(LANGUAGE)}
+        type="action"
+        label={text.lang[language]}
+        onPress={handleOpenLanguageModal}
+        selected={showModal === 'language'}
       />
       <MenuItem
-        type={SETTINGS}
-        label={text.version[language]}
-        onPress={handleOnPress(VERSION)}
+        type="action"
+        label={text.ver[language]}
+        onPress={handleOpenVersionModal}
+        selected={showModal === 'version'}
       />
-      <SettingsModal visible={displayModal} modalType={modalType} />
+      <MenuItem
+        type="action"
+        label={text.unitShort[language]}
+        onPress={handleOpenUnitModal}
+        selected={showModal === 'unit'}
+      />
+
+      <LanguageModal
+        showModal={showModal === 'language'}
+        closeModal={handleCloseModal}
+      />
+      <VersionModal
+        showModal={showModal === 'version'}
+        closeModal={handleCloseModal}
+      />
+      <UnitModal
+        showModal={showModal === 'unit'}
+        closeModal={handleCloseModal}
+      />
     </View>
   );
 };

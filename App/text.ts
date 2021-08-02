@@ -1,4 +1,4 @@
-import { Languages } from './types';
+import { Languages, Unit, Version } from './types';
 
 type Text = {
   [key: string]: {
@@ -39,14 +39,39 @@ const text: Text = {
     [Languages.Fr]: 'zone',
     [Languages.De]: '',
   },
-  language: {
+  lang: {
     [Languages.En]: 'lang',
     [Languages.Fr]: 'lang',
     [Languages.De]: '',
   },
+  language: {
+    [Languages.En]: 'language',
+    [Languages.Fr]: 'langage',
+    [Languages.De]: '',
+  },
+  languages: {
+    [Languages.En]: 'english',
+    [Languages.Fr]: 'français',
+    [Languages.De]: '',
+  },
   version: {
+    [Languages.En]: 'version',
+    [Languages.Fr]: 'version',
+    [Languages.De]: '',
+  },
+  ver: {
     [Languages.En]: 'ver',
     [Languages.Fr]: 'ver',
+    [Languages.De]: '',
+  },
+  [Version.RedBlue]: {
+    [Languages.En]: 'red/blue',
+    [Languages.Fr]: 'rouge/bleu',
+    [Languages.De]: '',
+  },
+  [Version.Yellow]: {
+    [Languages.En]: 'yellow',
+    [Languages.Fr]: 'jaune',
     [Languages.De]: '',
   },
   height: {
@@ -66,12 +91,32 @@ const text: Text = {
   },
   catch: {
     [Languages.En]: 'catch!',
-    [Languages.Fr]: 'attraper!',
+    [Languages.Fr]: 'capturer!',
     [Languages.De]: '',
   },
   release: {
     [Languages.En]: 'release',
     [Languages.Fr]: 'relâcher',
+    [Languages.De]: '',
+  },
+  unitShort: {
+    [Languages.En]: 'unit',
+    [Languages.Fr]: 'unit',
+    [Languages.De]: '',
+  },
+  unit: {
+    [Languages.En]: 'unit',
+    [Languages.Fr]: 'unité',
+    [Languages.De]: '',
+  },
+  [Unit.Metric]: {
+    [Languages.En]: 'metric',
+    [Languages.Fr]: 'métrique',
+    [Languages.De]: '',
+  },
+  [Unit.Imperial]: {
+    [Languages.En]: 'imperial',
+    [Languages.Fr]: 'impérial',
     [Languages.De]: '',
   },
 };

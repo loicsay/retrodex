@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import PokemonSeparator from './PokemonSeparator';
 import PokemonText from './PokemonText';
 
 interface Props {
@@ -8,14 +7,11 @@ interface Props {
 }
 
 const Description: FC<Props> = ({ description }) => (
-  <>
-    <PokemonSeparator horizontal />
-    <ScrollView style={styles.description}>
-      <Text style={styles.text}>
-        <PokemonText>{description}</PokemonText>
-      </Text>
-    </ScrollView>
-  </>
+  <ScrollView style={styles.description}>
+    <Text style={styles.text}>
+      <PokemonText>{description}</PokemonText>
+    </Text>
+  </ScrollView>
 );
 
 const styles = StyleSheet.create({
