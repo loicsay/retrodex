@@ -66,6 +66,7 @@ const ListItem: FC<Props> = ({
 
   // Transform the national id with 3 numbers
   const pokemonId = `00${pokemon.national_id}`.slice(-3);
+  const isCatched = catched === 'true';
 
   return (
     <TouchableOpacity
@@ -81,7 +82,7 @@ const ListItem: FC<Props> = ({
           <Image
             style={[
               styles.pokeball,
-              catched === 'false' ? styles.transparent : undefined,
+              !isCatched ? styles.transparent : undefined,
             ]}
             resizeMode="contain"
             source={require('../../../data/red-blue-yellow/sprites/pokeball.png')}
@@ -128,7 +129,7 @@ const listItemIsEqual = (prevProps: Props, nextProps: Props) => {
     return false;
   }
 
-  if (prevProps.selected === nextProps.selected) {
+  if (nextProps.selected && prevProps.selected === nextProps.selected) {
     return prevProps.action === nextProps.action;
   }
 

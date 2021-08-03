@@ -43,15 +43,15 @@ const SettingsMenu: FC<Props> = ({ style }) => {
     <View style={style}>
       <MenuItem
         type="action"
-        label={text.lang[language]}
-        onPress={handleOpenLanguageModal}
-        selected={showModal === 'language'}
-      />
-      <MenuItem
-        type="action"
         label={text.ver[language]}
         onPress={handleOpenVersionModal}
         selected={showModal === 'version'}
+      />
+      <MenuItem
+        type="action"
+        label={text.lang[language]}
+        onPress={handleOpenLanguageModal}
+        selected={showModal === 'language'}
       />
       <MenuItem
         type="action"
@@ -60,12 +60,12 @@ const SettingsMenu: FC<Props> = ({ style }) => {
         selected={showModal === 'unit'}
       />
 
-      <LanguageModal
-        showModal={showModal === 'language'}
-        closeModal={handleCloseModal}
-      />
       <VersionModal
         showModal={showModal === 'version'}
+        closeModal={handleCloseModal}
+      />
+      <LanguageModal
+        showModal={showModal === 'language'}
         closeModal={handleCloseModal}
       />
       <UnitModal

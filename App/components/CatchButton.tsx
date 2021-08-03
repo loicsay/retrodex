@@ -6,7 +6,7 @@ import useUserSettingsContext from '../context/UserSettings';
 import text from '../text';
 import PokemonText from './PokemonText';
 
-const catchSound = new Sound('catch.wav', Sound.MAIN_BUNDLE);
+const catchSound = new Sound('catch_pokemon.wav', Sound.MAIN_BUNDLE);
 const releaseSound = new Sound('release.wav', Sound.MAIN_BUNDLE);
 
 interface Props {
@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
   },
   pokeball: {
     position: 'relative',
-    height: 16,
-    width: 16,
+    height: 18,
+    width: 18,
     marginRight: 8,
   },
 });
