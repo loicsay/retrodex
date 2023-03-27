@@ -19,7 +19,7 @@ Fun! And also because I grew up with this addictive game, like most of the peopl
 
 ## 🚀 Deployment
 
-<a href='https://play.google.com/store/apps/details?id=com.retrodex'><img width="150" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=poke.retrodex'><img width="150" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 > Fully functionnal on iOS but not deployed yet 💸
 

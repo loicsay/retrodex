@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import React, {PropsWithChildren} from 'react';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
 
@@ -10,7 +10,13 @@ interface Props {
   selected?: boolean;
 }
 
-const MenuItem: FC<Props> = ({ onPress, type, label, selected, children }) => {
+const MenuItem = ({
+  onPress,
+  type,
+  label,
+  selected,
+  children,
+}: PropsWithChildren<Props>) => {
   if (type === 'action') {
     return (
       <TouchableOpacity style={styles.menuItem} onPress={onPress}>

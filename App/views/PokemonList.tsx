@@ -1,7 +1,7 @@
-import { RouteProp } from '@react-navigation/native';
-import React, { FC, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { RootStackParamList } from '..';
+import {RouteProp} from '@react-navigation/native';
+import React, {FC, useState} from 'react';
+import {StyleSheet, View} from 'react-native';
+import {RootStackParamList} from '..';
 import Layout from '../components/Layout';
 import List from '../components/List';
 import Menu from '../components/Menu';

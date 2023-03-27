@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import React, { FC, useContext, useEffect, useState } from 'react';
+import React, {PropsWithChildren, useContext, useEffect, useState} from 'react';
 import useUserSettingsContext from '../UserSettings';
-import { defaultPokemonStatusStorage, getPokemonStatusStorage } from './utils';
+import {defaultPokemonStatusStorage, getPokemonStatusStorage} from './utils';
 
 type PokedexStatusState = {
   catchCount: number;
@@ -21,8 +21,8 @@ const PokedexStatusContext = React.createContext<Context>({
   releasePokemon: () => new Promise(() => {}),
 });
 
-const PokedexStatusProvider: FC = ({ children }) => {
-  const { alreadyLaunched, version } = useUserSettingsContext();
+const PokedexStatusProvider = ({children}: PropsWithChildren) => {
+  const {alreadyLaunched, version} = useUserSettingsContext();
 
   const [state, setState] = useState<PokedexStatusState>(
     defaultPokemonStatusStorage,
@@ -44,11 +44,11 @@ const PokedexStatusProvider: FC = ({ children }) => {
   }, [alreadyLaunched]);
 
   const setCatchedPokemon = async (pokemonId: string) => {
-    const updatedCatched = { ...state.catched, [pokemonId]: 'true' as const };
+    const updatedCatched = {...state.catched, [pokemonId]: 'true' as const};
     const updatedState = {
       catched: updatedCatched,
       catchCount: Object.values(updatedCatched).filter(
-        (pokemonIsCatched) => pokemonIsCatched === 'true',
+        pokemonIsCatched => pokemonIsCatched === 'true',
       ).length,
     };
 
@@ -61,11 +61,11 @@ const PokedexStatusProvider: FC = ({ children }) => {
   };
 
   const releasePokemon = async (pokemonId: string) => {
-    const updatedCatched = { ...state.catched, [pokemonId]: 'false' as const };
+    const updatedCatched = {...state.catched, [pokemonId]: 'false' as const};
     const updatedState = {
-      catched: { ...state.catched, [pokemonId]: 'false' as const },
+      catched: {...state.catched, [pokemonId]: 'false' as const},
       catchCount: Object.values(updatedCatched).filter(
-        (pokemonIsCatched) => pokemonIsCatched === 'true',
+        pokemonIsCatched => pokemonIsCatched === 'true',
       ).length,
     };
 
@@ -89,5 +89,5 @@ const PokedexStatusProvider: FC = ({ children }) => {
   );
 };
 
-export { PokedexStatusContext, PokedexStatusProvider };
+export {PokedexStatusContext, PokedexStatusProvider};
 export default () => useContext(PokedexStatusContext);
