@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { Image, StyleSheet, View } from 'react-native';
+import React, {PropsWithChildren} from 'react';
+import {Image, StyleSheet, View} from 'react-native';
 import RNModal from 'react-native-modal';
 
 interface Props {
@@ -12,7 +12,7 @@ const pokeballImageProps = {
   source: require('../../data/red-blue-yellow/sprites/pokeball-bw.png'),
 };
 
-const Modal: FC<Props> = ({ isVisible, closeModal, children }) => (
+const Modal = ({isVisible, closeModal, children}: PropsWithChildren<Props>) => (
   <RNModal
     isVisible={isVisible}
     animationIn="slideInUp"

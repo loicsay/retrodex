@@ -23,7 +23,7 @@
       "en": "Bulbasaur",
       "it": "Bulbasaur"
     },
-    "categories": { "fr": "Graine", "de": "Samen", "en": "Seed" }
+    "categories": {"fr": "Graine", "de": "Samen", "en": "Seed"}
   },
   {
     "weight_us": "28.7lb",
@@ -49,7 +49,7 @@
       "en": "Ivysaur",
       "it": "Ivysaur"
     },
-    "categories": { "fr": "Graine", "de": "Samen", "en": "Seed" }
+    "categories": {"fr": "Graine", "de": "Samen", "en": "Seed"}
   },
   {
     "weight_us": "220.5lb",
@@ -75,7 +75,7 @@
       "en": "Venusaur",
       "it": "Venusaur"
     },
-    "categories": { "fr": "Graine", "de": "Samen", "en": "Seed" }
+    "categories": {"fr": "Graine", "de": "Samen", "en": "Seed"}
   },
   {
     "weight_us": "18.7lb",
@@ -101,7 +101,7 @@
       "en": "Charmander",
       "it": "Charmander"
     },
-    "categories": { "fr": "L\u00e9zard", "de": "Echse", "en": "Lizard" }
+    "categories": {"fr": "L\u00e9zard", "de": "Echse", "en": "Lizard"}
   },
   {
     "weight_us": "41.9lb",
@@ -127,7 +127,7 @@
       "en": "Charmeleon",
       "it": "Charmeleon"
     },
-    "categories": { "fr": "Flamme", "de": "Flamme", "en": "Flame" }
+    "categories": {"fr": "Flamme", "de": "Flamme", "en": "Flame"}
   },
   {
     "weight_us": "199.5lb",
@@ -153,7 +153,7 @@
       "en": "Charizard",
       "it": "Charizard"
     },
-    "categories": { "fr": "Flamme", "de": "Flamme", "en": "Flame" }
+    "categories": {"fr": "Flamme", "de": "Flamme", "en": "Flame"}
   },
   {
     "weight_us": "19.8lb",
@@ -209,7 +209,7 @@
       "en": "Wartortle",
       "it": "Wartortle"
     },
-    "categories": { "fr": "Tortue", "de": "Kr\u00f6te", "en": "Turtle" }
+    "categories": {"fr": "Tortue", "de": "Kr\u00f6te", "en": "Turtle"}
   },
   {
     "weight_us": "188.5lb",
@@ -235,7 +235,7 @@
       "en": "Blastoise",
       "it": "Blastoise"
     },
-    "categories": { "fr": "Carapace", "de": "Panzertier", "en": "Shellfish" }
+    "categories": {"fr": "Carapace", "de": "Panzertier", "en": "Shellfish"}
   },
   {
     "weight_us": "6.4lb",
@@ -261,7 +261,7 @@
       "en": "Caterpie",
       "it": "Caterpie"
     },
-    "categories": { "fr": "Ver", "de": "Wurm", "en": "Worm" }
+    "categories": {"fr": "Ver", "de": "Wurm", "en": "Worm"}
   },
   {
     "weight_us": "21.8lb",
@@ -287,7 +287,7 @@
       "en": "Metapod",
       "it": "Metapod"
     },
-    "categories": { "fr": "Cocon", "de": "Kokon", "en": "Cocoon" }
+    "categories": {"fr": "Cocon", "de": "Kokon", "en": "Cocoon"}
   },
   {
     "weight_us": "70.5lb",
@@ -313,7 +313,7 @@
       "en": "Butterfree",
       "it": "Butterfree"
     },
-    "categories": { "fr": "Papillon", "de": "Falter", "en": "Butterfly" }
+    "categories": {"fr": "Papillon", "de": "Falter", "en": "Butterfly"}
   },
   {
     "weight_us": "7.1lb",
@@ -339,7 +339,7 @@
       "en": "Weedle",
       "it": "Weedle"
     },
-    "categories": { "fr": "Insectopic", "de": "Raupe", "en": "Hairy Bug" }
+    "categories": {"fr": "Insectopic", "de": "Raupe", "en": "Hairy Bug"}
   },
   {
     "weight_us": "22.0lb",
@@ -365,7 +365,7 @@
       "en": "Kakuna",
       "it": "Kakuna"
     },
-    "categories": { "fr": "Cocon", "de": "Kokon", "en": "Cocoon" }
+    "categories": {"fr": "Cocon", "de": "Kokon", "en": "Cocoon"}
   },
   {
     "weight_us": "65.0lb",
@@ -421,7 +421,7 @@
       "en": "Pidgey",
       "it": "Pidgey"
     },
-    "categories": { "fr": "Minoiseau", "de": "Kleinvogel", "en": "Tiny Bird" }
+    "categories": {"fr": "Minoiseau", "de": "Kleinvogel", "en": "Tiny Bird"}
   },
   {
     "weight_us": "66.1lb",
@@ -447,7 +447,7 @@
       "en": "Pidgeotto",
       "it": "Pidgeotto"
     },
-    "categories": { "fr": "Oiseau", "de": "Vogel", "en": "Bird" }
+    "categories": {"fr": "Oiseau", "de": "Vogel", "en": "Bird"}
   },
   {
     "weight_us": "87.1lb",
@@ -473,7 +473,7 @@
       "en": "Pidgeot",
       "it": "Pidgeot"
     },
-    "categories": { "fr": "Oiseau", "de": "Vogel", "en": "Bird" }
+    "categories": {"fr": "Oiseau", "de": "Vogel", "en": "Bird"}
   },
   {
     "weight_us": "7.7lb",
@@ -559,7 +559,7 @@
       "en": "Spearow",
       "it": "Spearow"
     },
-    "categories": { "fr": "Minoiseau", "de": "Kleinvogel", "en": "Tiny Bird" }
+    "categories": {"fr": "Minoiseau", "de": "Kleinvogel", "en": "Tiny Bird"}
   },
   {
     "weight_us": "83.8lb",
@@ -585,7 +585,7 @@
       "en": "Fearow",
       "it": "Fearow"
     },
-    "categories": { "fr": "Bec-Oiseau", "de": "Pickvogel", "en": "Beak" }
+    "categories": {"fr": "Bec-Oiseau", "de": "Pickvogel", "en": "Beak"}
   },
   {
     "weight_us": "15.2lb",
@@ -605,8 +605,8 @@
     "national_id": 23,
     "height_us": "6'07\"",
     "weight_eu": "6.9kg",
-    "names": { "fr": "Abo", "de": "Rettan", "en": "Ekans", "it": "Ekans" },
-    "categories": { "fr": "Serpent", "de": "Schlange", "en": "Snake" }
+    "names": {"fr": "Abo", "de": "Rettan", "en": "Ekans", "it": "Ekans"},
+    "categories": {"fr": "Serpent", "de": "Schlange", "en": "Snake"}
   },
   {
     "weight_us": "143.3lb",
@@ -626,8 +626,8 @@
     "national_id": 24,
     "height_us": "11'06\"",
     "weight_eu": "65.0kg",
-    "names": { "fr": "Arbok", "de": "Arbok", "en": "Arbok", "it": "Arbok" },
-    "categories": { "fr": "Cobra", "de": "Kobra", "en": "Cobra" }
+    "names": {"fr": "Arbok", "de": "Arbok", "en": "Arbok", "it": "Arbok"},
+    "categories": {"fr": "Cobra", "de": "Kobra", "en": "Cobra"}
   },
   {
     "weight_us": "13.2lb",
@@ -653,7 +653,7 @@
       "en": "Pikachu",
       "it": "Pikachu"
     },
-    "categories": { "fr": "Souris", "de": "Maus", "en": "Mouse" }
+    "categories": {"fr": "Souris", "de": "Maus", "en": "Mouse"}
   },
   {
     "weight_us": "66.1lb",
@@ -673,8 +673,8 @@
     "national_id": 26,
     "height_us": "2'07\"",
     "weight_eu": "30.0kg",
-    "names": { "fr": "Raichu", "de": "Raichu", "en": "Raichu", "it": "Raichu" },
-    "categories": { "fr": "Souris", "de": "Maus", "en": "Mouse" }
+    "names": {"fr": "Raichu", "de": "Raichu", "en": "Raichu", "it": "Raichu"},
+    "categories": {"fr": "Souris", "de": "Maus", "en": "Mouse"}
   },
   {
     "weight_us": "26.5lb",
@@ -700,7 +700,7 @@
       "en": "Sandshrew",
       "it": "Sandshrew"
     },
-    "categories": { "fr": "Souris", "de": "Maus", "en": "Mouse" }
+    "categories": {"fr": "Souris", "de": "Maus", "en": "Mouse"}
   },
   {
     "weight_us": "65.0lb",
@@ -726,7 +726,7 @@
       "en": "Sandslash",
       "it": "Sandslash"
     },
-    "categories": { "fr": "Souris", "de": "Maus", "en": "Mouse" }
+    "categories": {"fr": "Souris", "de": "Maus", "en": "Mouse"}
   },
   {
     "weight_us": "15.4lb",
@@ -812,7 +812,7 @@
       "en": "Nidoqueen",
       "it": "Nidoqueen"
     },
-    "categories": { "fr": "Perceur", "de": "Bohrer", "en": "Drill" }
+    "categories": {"fr": "Perceur", "de": "Bohrer", "en": "Drill"}
   },
   {
     "weight_us": "19.8lb",
@@ -898,7 +898,7 @@
       "en": "Nidoking",
       "it": "Nidoking"
     },
-    "categories": { "fr": "Perceur", "de": "Bohrer", "en": "Drill" }
+    "categories": {"fr": "Perceur", "de": "Bohrer", "en": "Drill"}
   },
   {
     "weight_us": "16.5lb",
@@ -924,7 +924,7 @@
       "en": "Clefairy",
       "it": "Clefairy"
     },
-    "categories": { "fr": "F\u00e9e", "de": "Fee", "en": "Fairy" }
+    "categories": {"fr": "F\u00e9e", "de": "Fee", "en": "Fairy"}
   },
   {
     "weight_us": "88.2lb",
@@ -950,7 +950,7 @@
       "en": "Clefable",
       "it": "Clefable"
     },
-    "categories": { "fr": "F\u00e9e", "de": "Fee", "en": "Fairy" }
+    "categories": {"fr": "F\u00e9e", "de": "Fee", "en": "Fairy"}
   },
   {
     "weight_us": "21.8lb",
@@ -970,8 +970,8 @@
     "national_id": 37,
     "height_us": "2'00\"",
     "weight_eu": "9.9kg",
-    "names": { "fr": "Goupix", "de": "Vulpix", "en": "Vulpix", "it": "Vulpix" },
-    "categories": { "fr": "Renard", "de": "Fuchs", "en": "Fox" }
+    "names": {"fr": "Goupix", "de": "Vulpix", "en": "Vulpix", "it": "Vulpix"},
+    "categories": {"fr": "Renard", "de": "Fuchs", "en": "Fox"}
   },
   {
     "weight_us": "43.9lb",
@@ -997,7 +997,7 @@
       "en": "Ninetales",
       "it": "Ninetales"
     },
-    "categories": { "fr": "Renard", "de": "Fuchs", "en": "Fox" }
+    "categories": {"fr": "Renard", "de": "Fuchs", "en": "Fox"}
   },
   {
     "weight_us": "12.1lb",
@@ -1023,7 +1023,7 @@
       "en": "Jigglypuff",
       "it": "Jigglypuff"
     },
-    "categories": { "fr": "Bouboule", "de": "Ballon", "en": "Balloon" }
+    "categories": {"fr": "Bouboule", "de": "Ballon", "en": "Balloon"}
   },
   {
     "weight_us": "26.5lb",
@@ -1049,7 +1049,7 @@
       "en": "Wigglytuff",
       "it": "Wigglytuff"
     },
-    "categories": { "fr": "Bouboule", "de": "Ballon", "en": "Balloon" }
+    "categories": {"fr": "Bouboule", "de": "Ballon", "en": "Balloon"}
   },
   {
     "weight_us": "16.5lb",
@@ -1075,7 +1075,7 @@
       "en": "Zubat",
       "it": "Zubat"
     },
-    "categories": { "fr": "Chovsouris", "de": "Fledermaus", "en": "Bat" }
+    "categories": {"fr": "Chovsouris", "de": "Fledermaus", "en": "Bat"}
   },
   {
     "weight_us": "121.3lb",
@@ -1101,7 +1101,7 @@
       "en": "Golbat",
       "it": "Golbat"
     },
-    "categories": { "fr": "Chovsouris", "de": "Fledermaus", "en": "Bat" }
+    "categories": {"fr": "Chovsouris", "de": "Fledermaus", "en": "Bat"}
   },
   {
     "weight_us": "11.9lb",
@@ -1127,7 +1127,7 @@
       "en": "Oddish",
       "it": "Oddish"
     },
-    "categories": { "fr": "Racine", "de": "Unkraut", "en": "Weed" }
+    "categories": {"fr": "Racine", "de": "Unkraut", "en": "Weed"}
   },
   {
     "weight_us": "19.0lb",
@@ -1147,8 +1147,8 @@
     "national_id": 44,
     "height_us": "2'07\"",
     "weight_eu": "8.6kg",
-    "names": { "fr": "Ortide", "de": "Duflor", "en": "Gloom", "it": "Gloom" },
-    "categories": { "fr": "Racine", "de": "Unkraut", "en": "Weed" }
+    "names": {"fr": "Ortide", "de": "Duflor", "en": "Gloom", "it": "Gloom"},
+    "categories": {"fr": "Racine", "de": "Unkraut", "en": "Weed"}
   },
   {
     "weight_us": "41.0lb",
@@ -1174,7 +1174,7 @@
       "en": "Vileplume",
       "it": "Vileplume"
     },
-    "categories": { "fr": "Fleur", "de": "Blume", "en": "Flower" }
+    "categories": {"fr": "Fleur", "de": "Blume", "en": "Flower"}
   },
   {
     "weight_us": "11.9lb",
@@ -1194,8 +1194,8 @@
     "national_id": 46,
     "height_us": "1'00\"",
     "weight_eu": "5.4kg",
-    "names": { "fr": "Paras", "de": "Paras", "en": "Paras", "it": "Paras" },
-    "categories": { "fr": "Champignon", "de": "Pilz", "en": "Mushroom" }
+    "names": {"fr": "Paras", "de": "Paras", "en": "Paras", "it": "Paras"},
+    "categories": {"fr": "Champignon", "de": "Pilz", "en": "Mushroom"}
   },
   {
     "weight_us": "65.0lb",
@@ -1221,7 +1221,7 @@
       "en": "Parasect",
       "it": "Parasect"
     },
-    "categories": { "fr": "Champignon", "de": "Pilz", "en": "Mushroom" }
+    "categories": {"fr": "Champignon", "de": "Pilz", "en": "Mushroom"}
   },
   {
     "weight_us": "66.1lb",
@@ -1247,7 +1247,7 @@
       "en": "Venonat",
       "it": "Venonat"
     },
-    "categories": { "fr": "Vermine", "de": "Insekt", "en": "Insect" }
+    "categories": {"fr": "Vermine", "de": "Insekt", "en": "Insect"}
   },
   {
     "weight_us": "27.6lb",
@@ -1273,7 +1273,7 @@
       "en": "Venomoth",
       "it": "Venomoth"
     },
-    "categories": { "fr": "Papipoison", "de": "Giftmotte", "en": "Poison Moth" }
+    "categories": {"fr": "Papipoison", "de": "Giftmotte", "en": "Poison Moth"}
   },
   {
     "weight_us": "1.8lb",
@@ -1299,7 +1299,7 @@
       "en": "Diglett",
       "it": "Diglett"
     },
-    "categories": { "fr": "Taupe", "de": "Maulwurf", "en": "Mole" }
+    "categories": {"fr": "Taupe", "de": "Maulwurf", "en": "Mole"}
   },
   {
     "weight_us": "73.4lb",
@@ -1325,7 +1325,7 @@
       "en": "Dugtrio",
       "it": "Dugtrio"
     },
-    "categories": { "fr": "Taupe", "de": "Maulwurf", "en": "Mole" }
+    "categories": {"fr": "Taupe", "de": "Maulwurf", "en": "Mole"}
   },
   {
     "weight_us": "9.3lb",
@@ -1345,8 +1345,8 @@
     "national_id": 52,
     "height_us": "1'04\"",
     "weight_eu": "4.2kg",
-    "names": { "fr": "Miaouss", "de": "Mauzi", "en": "Meowth", "it": "Meowth" },
-    "categories": { "fr": "Chad\u00e9gout", "de": "Katze", "en": "Scratch Cat" }
+    "names": {"fr": "Miaouss", "de": "Mauzi", "en": "Meowth", "it": "Meowth"},
+    "categories": {"fr": "Chad\u00e9gout", "de": "Katze", "en": "Scratch Cat"}
   },
   {
     "weight_us": "70.5lb",
@@ -1372,7 +1372,7 @@
       "en": "Persian",
       "it": "Persian"
     },
-    "categories": { "fr": "Chadeville", "de": "Rassekatze", "en": "Classy Cat" }
+    "categories": {"fr": "Chadeville", "de": "Rassekatze", "en": "Classy Cat"}
   },
   {
     "weight_us": "43.2lb",
@@ -1398,7 +1398,7 @@
       "en": "Psyduck",
       "it": "Psyduck"
     },
-    "categories": { "fr": "Canard", "de": "Ente", "en": "Duck" }
+    "categories": {"fr": "Canard", "de": "Ente", "en": "Duck"}
   },
   {
     "weight_us": "168.9lb",
@@ -1424,7 +1424,7 @@
       "en": "Golduck",
       "it": "Golduck"
     },
-    "categories": { "fr": "Canard", "de": "Ente", "en": "Duck" }
+    "categories": {"fr": "Canard", "de": "Ente", "en": "Duck"}
   },
   {
     "weight_us": "61.7lb",
@@ -1510,7 +1510,7 @@
       "en": "Growlithe",
       "it": "Growlithe"
     },
-    "categories": { "fr": "Chiot", "de": "Hund", "en": "Puppy" }
+    "categories": {"fr": "Chiot", "de": "Hund", "en": "Puppy"}
   },
   {
     "weight_us": "341.7lb",
@@ -1566,7 +1566,7 @@
       "en": "Poliwag",
       "it": "Poliwag"
     },
-    "categories": { "fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": {"fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole"}
   },
   {
     "weight_us": "44.1lb",
@@ -1592,7 +1592,7 @@
       "en": "Poliwhirl",
       "it": "Poliwhirl"
     },
-    "categories": { "fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": {"fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole"}
   },
   {
     "weight_us": "119.0lb",
@@ -1618,7 +1618,7 @@
       "en": "Poliwrath",
       "it": "Poliwrath"
     },
-    "categories": { "fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole" }
+    "categories": {"fr": "T\u00eatard", "de": "Kaulquappe", "en": "Tadpole"}
   },
   {
     "weight_us": "43.0lb",
@@ -1638,8 +1638,8 @@
     "national_id": 63,
     "height_us": "2'11\"",
     "weight_eu": "19.5kg",
-    "names": { "fr": "Abra", "de": "Abra", "en": "Abra", "it": "Abra" },
-    "categories": { "fr": "Psy", "de": "Psi", "en": "Psi" }
+    "names": {"fr": "Abra", "de": "Abra", "en": "Abra", "it": "Abra"},
+    "categories": {"fr": "Psy", "de": "Psi", "en": "Psi"}
   },
   {
     "weight_us": "124.6lb",
@@ -1665,7 +1665,7 @@
       "en": "Kadabra",
       "it": "Kadabra"
     },
-    "categories": { "fr": "Psy", "de": "Psi", "en": "Psi" }
+    "categories": {"fr": "Psy", "de": "Psi", "en": "Psi"}
   },
   {
     "weight_us": "105.8lb",
@@ -1691,7 +1691,7 @@
       "en": "Alakazam",
       "it": "Alakazam"
     },
-    "categories": { "fr": "Psy", "de": "Psi", "en": "Psi" }
+    "categories": {"fr": "Psy", "de": "Psi", "en": "Psi"}
   },
   {
     "weight_us": "43.0lb",
@@ -1717,7 +1717,7 @@
       "en": "Machop",
       "it": "Machop"
     },
-    "categories": { "fr": "Colosse", "de": "Kraftprotz", "en": "Superpower" }
+    "categories": {"fr": "Colosse", "de": "Kraftprotz", "en": "Superpower"}
   },
   {
     "weight_us": "155.4lb",
@@ -1743,7 +1743,7 @@
       "en": "Machoke",
       "it": "Machoke"
     },
-    "categories": { "fr": "Colosse", "de": "Kraftprotz", "en": "Superpower" }
+    "categories": {"fr": "Colosse", "de": "Kraftprotz", "en": "Superpower"}
   },
   {
     "weight_us": "286.6lb",
@@ -1769,7 +1769,7 @@
       "en": "Machamp",
       "it": "Machamp"
     },
-    "categories": { "fr": "Colosse", "de": "Kraftprotz", "en": "Superpower" }
+    "categories": {"fr": "Colosse", "de": "Kraftprotz", "en": "Superpower"}
   },
   {
     "weight_us": "8.8lb",
@@ -1795,7 +1795,7 @@
       "en": "Bellsprout",
       "it": "Bellsprout"
     },
-    "categories": { "fr": "Fleur", "de": "Blume", "en": "Flower" }
+    "categories": {"fr": "Fleur", "de": "Blume", "en": "Flower"}
   },
   {
     "weight_us": "14.1lb",
@@ -1821,7 +1821,7 @@
       "en": "Weepinbell",
       "it": "Weepinbell"
     },
-    "categories": { "fr": "Carnivore", "de": "Fliegentod", "en": "Flycatcher" }
+    "categories": {"fr": "Carnivore", "de": "Fliegentod", "en": "Flycatcher"}
   },
   {
     "weight_us": "34.2lb",
@@ -1877,7 +1877,7 @@
       "en": "Tentacool",
       "it": "Tentacool"
     },
-    "categories": { "fr": "Mollusque", "de": "Qualle", "en": "Jellyfish" }
+    "categories": {"fr": "Mollusque", "de": "Qualle", "en": "Jellyfish"}
   },
   {
     "weight_us": "121.3lb",
@@ -1903,7 +1903,7 @@
       "en": "Tentacruel",
       "it": "Tentacruel"
     },
-    "categories": { "fr": "Mollusque", "de": "Qualle", "en": "Jellyfish" }
+    "categories": {"fr": "Mollusque", "de": "Qualle", "en": "Jellyfish"}
   },
   {
     "weight_us": "44.1lb",
@@ -1929,7 +1929,7 @@
       "en": "Geodude",
       "it": "Geodude"
     },
-    "categories": { "fr": "Roche", "de": "Gestein", "en": "Rock" }
+    "categories": {"fr": "Roche", "de": "Gestein", "en": "Rock"}
   },
   {
     "weight_us": "231.5lb",
@@ -1955,7 +1955,7 @@
       "en": "Graveler",
       "it": "Graveler"
     },
-    "categories": { "fr": "Roche", "de": "Gestein", "en": "Rock" }
+    "categories": {"fr": "Roche", "de": "Gestein", "en": "Rock"}
   },
   {
     "weight_us": "661.4lb",
@@ -1975,8 +1975,8 @@
     "national_id": 76,
     "height_us": "4'07\"",
     "weight_eu": "300.0kg",
-    "names": { "fr": "Grolem", "de": "Geowaz", "en": "Golem", "it": "Golem" },
-    "categories": { "fr": "Titanesque", "de": "Urgestein", "en": "Megaton" }
+    "names": {"fr": "Grolem", "de": "Geowaz", "en": "Golem", "it": "Golem"},
+    "categories": {"fr": "Titanesque", "de": "Urgestein", "en": "Megaton"}
   },
   {
     "weight_us": "66.1lb",
@@ -1996,8 +1996,8 @@
     "national_id": 77,
     "height_us": "3'03\"",
     "weight_eu": "30.0kg",
-    "names": { "fr": "Ponyta", "de": "Ponita", "en": "Ponyta", "it": "Ponyta" },
-    "categories": { "fr": "Cheval Feu", "de": "Feuerpferd", "en": "Fire Horse" }
+    "names": {"fr": "Ponyta", "de": "Ponita", "en": "Ponyta", "it": "Ponyta"},
+    "categories": {"fr": "Cheval Feu", "de": "Feuerpferd", "en": "Fire Horse"}
   },
   {
     "weight_us": "209.4lb",
@@ -2023,7 +2023,7 @@
       "en": "Rapidash",
       "it": "Rapidash"
     },
-    "categories": { "fr": "Cheval Feu", "de": "Feuerpferd", "en": "Fire Horse" }
+    "categories": {"fr": "Cheval Feu", "de": "Feuerpferd", "en": "Fire Horse"}
   },
   {
     "weight_us": "79.4lb",
@@ -2049,7 +2049,7 @@
       "en": "Slowpoke",
       "it": "Slowpoke"
     },
-    "categories": { "fr": "Cr\u00e9tin", "de": "Schnarcher", "en": "Dopey" }
+    "categories": {"fr": "Cr\u00e9tin", "de": "Schnarcher", "en": "Dopey"}
   },
   {
     "weight_us": "173.1lb",
@@ -2075,7 +2075,7 @@
       "en": "Slowbro",
       "it": "Slowbro"
     },
-    "categories": { "fr": "Symbiose", "de": "Symbiose", "en": "Hermit Crab" }
+    "categories": {"fr": "Symbiose", "de": "Symbiose", "en": "Hermit Crab"}
   },
   {
     "weight_us": "13.2lb",
@@ -2101,7 +2101,7 @@
       "en": "Magnemite",
       "it": "Magnemite"
     },
-    "categories": { "fr": "Magn\u00e9tique", "de": "Magnet", "en": "Magnet" }
+    "categories": {"fr": "Magn\u00e9tique", "de": "Magnet", "en": "Magnet"}
   },
   {
     "weight_us": "132.3lb",
@@ -2127,7 +2127,7 @@
       "en": "Magneton",
       "it": "Magneton"
     },
-    "categories": { "fr": "Magn\u00e9tique", "de": "Magnet", "en": "Magnet" }
+    "categories": {"fr": "Magn\u00e9tique", "de": "Magnet", "en": "Magnet"}
   },
   {
     "weight_us": "33.1lb",
@@ -2153,7 +2153,7 @@
       "en": "Farfetch'd",
       "it": "Farfetch'd"
     },
-    "categories": { "fr": "Canard Fou", "de": "Wildente", "en": "Wild Duck" }
+    "categories": {"fr": "Canard Fou", "de": "Wildente", "en": "Wild Duck"}
   },
   {
     "weight_us": "86.4lb",
@@ -2173,8 +2173,8 @@
     "national_id": 84,
     "height_us": "4'07\"",
     "weight_eu": "39.2kg",
-    "names": { "fr": "Doduo", "de": "Dodu", "en": "Doduo", "it": "Doduo" },
-    "categories": { "fr": "Duoiseau", "de": "Duovogel", "en": "Twin Bird" }
+    "names": {"fr": "Doduo", "de": "Dodu", "en": "Doduo", "it": "Doduo"},
+    "categories": {"fr": "Duoiseau", "de": "Duovogel", "en": "Twin Bird"}
   },
   {
     "weight_us": "187.8lb",
@@ -2194,8 +2194,8 @@
     "national_id": 85,
     "height_us": "5'11\"",
     "weight_eu": "85.2kg",
-    "names": { "fr": "Dodrio", "de": "Dodri", "en": "Dodrio", "it": "Dodrio" },
-    "categories": { "fr": "Trioiseau", "de": "Trivogel", "en": "Triple Bird" }
+    "names": {"fr": "Dodrio", "de": "Dodri", "en": "Dodrio", "it": "Dodrio"},
+    "categories": {"fr": "Trioiseau", "de": "Trivogel", "en": "Triple Bird"}
   },
   {
     "weight_us": "198.4lb",
@@ -2215,8 +2215,8 @@
     "national_id": 86,
     "height_us": "3'07\"",
     "weight_eu": "90.0kg",
-    "names": { "fr": "Otaria", "de": "Jurob", "en": "Seel", "it": "Seel" },
-    "categories": { "fr": "Otarie", "de": "Seehund", "en": "Sea Lion" }
+    "names": {"fr": "Otaria", "de": "Jurob", "en": "Seel", "it": "Seel"},
+    "categories": {"fr": "Otarie", "de": "Seehund", "en": "Sea Lion"}
   },
   {
     "weight_us": "264.6lb",
@@ -2242,7 +2242,7 @@
       "en": "Dewgong",
       "it": "Dewgong"
     },
-    "categories": { "fr": "Otarie", "de": "Seehund", "en": "Sea Lion" }
+    "categories": {"fr": "Otarie", "de": "Seehund", "en": "Sea Lion"}
   },
   {
     "weight_us": "66.1lb",
@@ -2268,7 +2268,7 @@
       "en": "Grimer",
       "it": "Grimer"
     },
-    "categories": { "fr": "D\u00e9gueu", "de": "Schlamm", "en": "Sludge" }
+    "categories": {"fr": "D\u00e9gueu", "de": "Schlamm", "en": "Sludge"}
   },
   {
     "weight_us": "66.1lb",
@@ -2288,8 +2288,8 @@
     "national_id": 89,
     "height_us": "3'11\"",
     "weight_eu": "30.0kg",
-    "names": { "fr": "Grotadmorv", "de": "Sleimok", "en": "Muk", "it": "Muk" },
-    "categories": { "fr": "D\u00e9gueu", "de": "Schlamm", "en": "Sludge" }
+    "names": {"fr": "Grotadmorv", "de": "Sleimok", "en": "Muk", "it": "Muk"},
+    "categories": {"fr": "D\u00e9gueu", "de": "Schlamm", "en": "Sludge"}
   },
   {
     "weight_us": "8.8lb",
@@ -2315,7 +2315,7 @@
       "en": "Shellder",
       "it": "Shellder"
     },
-    "categories": { "fr": "Bivalve", "de": "Muschel", "en": "Bivalve" }
+    "categories": {"fr": "Bivalve", "de": "Muschel", "en": "Bivalve"}
   },
   {
     "weight_us": "292.1lb",
@@ -2341,7 +2341,7 @@
       "en": "Cloyster",
       "it": "Cloyster"
     },
-    "categories": { "fr": "Bivalve", "de": "Muschel", "en": "Bivalve" }
+    "categories": {"fr": "Bivalve", "de": "Muschel", "en": "Bivalve"}
   },
   {
     "weight_us": "0.2lb",
@@ -2367,7 +2367,7 @@
       "en": "Gastly",
       "it": "Gastly"
     },
-    "categories": { "fr": "Gaz", "de": "Gas", "en": "Gas" }
+    "categories": {"fr": "Gaz", "de": "Gas", "en": "Gas"}
   },
   {
     "weight_us": "0.2lb",
@@ -2393,7 +2393,7 @@
       "en": "Haunter",
       "it": "Haunter"
     },
-    "categories": { "fr": "Gaz", "de": "Gas", "en": "Gas" }
+    "categories": {"fr": "Gaz", "de": "Gas", "en": "Gas"}
   },
   {
     "weight_us": "89.3lb",
@@ -2419,7 +2419,7 @@
       "en": "Gengar",
       "it": "Gengar"
     },
-    "categories": { "fr": "Ombre", "de": "Schatten", "en": "Shadow" }
+    "categories": {"fr": "Ombre", "de": "Schatten", "en": "Shadow"}
   },
   {
     "weight_us": "463.0lb",
@@ -2439,8 +2439,8 @@
     "national_id": 95,
     "height_us": "28'10\"",
     "weight_eu": "210.0kg",
-    "names": { "fr": "Onix", "de": "Onix", "en": "Onix", "it": "Onix" },
-    "categories": { "fr": "Serpenroc", "de": "Felsnatter", "en": "Rock Snake" }
+    "names": {"fr": "Onix", "de": "Onix", "en": "Onix", "it": "Onix"},
+    "categories": {"fr": "Serpenroc", "de": "Felsnatter", "en": "Rock Snake"}
   },
   {
     "weight_us": "71.4lb",
@@ -2466,7 +2466,7 @@
       "en": "Drowzee",
       "it": "Drowzee"
     },
-    "categories": { "fr": "Hypnose", "de": "Hypnose", "en": "Hypnosis" }
+    "categories": {"fr": "Hypnose", "de": "Hypnose", "en": "Hypnosis"}
   },
   {
     "weight_us": "166.7lb",
@@ -2486,8 +2486,8 @@
     "national_id": 97,
     "height_us": "5'03\"",
     "weight_eu": "75.6kg",
-    "names": { "fr": "Hypnomade", "de": "Hypno", "en": "Hypno", "it": "Hypno" },
-    "categories": { "fr": "Hypnose", "de": "Hypnose", "en": "Hypnosis" }
+    "names": {"fr": "Hypnomade", "de": "Hypno", "en": "Hypno", "it": "Hypno"},
+    "categories": {"fr": "Hypnose", "de": "Hypnose", "en": "Hypnosis"}
   },
   {
     "weight_us": "14.3lb",
@@ -2507,8 +2507,8 @@
     "national_id": 98,
     "height_us": "1'04\"",
     "weight_eu": "6.5kg",
-    "names": { "fr": "Krabby", "de": "Krabby", "en": "Krabby", "it": "Krabby" },
-    "categories": { "fr": "Doux Crabe", "de": "Krabbe", "en": "River Crab" }
+    "names": {"fr": "Krabby", "de": "Krabby", "en": "Krabby", "it": "Krabby"},
+    "categories": {"fr": "Doux Crabe", "de": "Krabbe", "en": "River Crab"}
   },
   {
     "weight_us": "132.3lb",
@@ -2534,7 +2534,7 @@
       "en": "Kingler",
       "it": "Kingler"
     },
-    "categories": { "fr": "Pince", "de": "Kneifer", "en": "Pincer" }
+    "categories": {"fr": "Pince", "de": "Kneifer", "en": "Pincer"}
   },
   {
     "weight_us": "22.9lb",
@@ -2560,7 +2560,7 @@
       "en": "Voltorb",
       "it": "Voltorb"
     },
-    "categories": { "fr": "Balle", "de": "Ball", "en": "Ball" }
+    "categories": {"fr": "Balle", "de": "Ball", "en": "Ball"}
   },
   {
     "weight_us": "146.8lb",
@@ -2586,7 +2586,7 @@
       "en": "Electrode",
       "it": "Electrode"
     },
-    "categories": { "fr": "Balle", "de": "Ball", "en": "Ball" }
+    "categories": {"fr": "Balle", "de": "Ball", "en": "Ball"}
   },
   {
     "weight_us": "5.5lb",
@@ -2612,7 +2612,7 @@
       "en": "Exeggcute",
       "it": "Exeggcute"
     },
-    "categories": { "fr": "\u0153uf", "de": "Ei", "en": "Egg" }
+    "categories": {"fr": "\u0153uf", "de": "Ei", "en": "Egg"}
   },
   {
     "weight_us": "264.6lb",
@@ -2638,7 +2638,7 @@
       "en": "Exeggutor",
       "it": "Exeggutor"
     },
-    "categories": { "fr": "Fruitpalme", "de": "Palmfrucht", "en": "Coconut" }
+    "categories": {"fr": "Fruitpalme", "de": "Palmfrucht", "en": "Coconut"}
   },
   {
     "weight_us": "14.3lb",
@@ -2664,7 +2664,7 @@
       "en": "Cubone",
       "it": "Cubone"
     },
-    "categories": { "fr": "Solitaire", "de": "Einsam", "en": "Lonely" }
+    "categories": {"fr": "Solitaire", "de": "Einsam", "en": "Lonely"}
   },
   {
     "weight_us": "99.2lb",
@@ -2690,7 +2690,7 @@
       "en": "Marowak",
       "it": "Marowak"
     },
-    "categories": { "fr": "Gard'Os", "de": "Knochenfan", "en": "Bone Keeper" }
+    "categories": {"fr": "Gard'Os", "de": "Knochenfan", "en": "Bone Keeper"}
   },
   {
     "weight_us": "109.8lb",
@@ -2716,7 +2716,7 @@
       "en": "Hitmonlee",
       "it": "Hitmonlee"
     },
-    "categories": { "fr": "Latteur", "de": "Kicker", "en": "Kicking" }
+    "categories": {"fr": "Latteur", "de": "Kicker", "en": "Kicking"}
   },
   {
     "weight_us": "110.7lb",
@@ -2742,7 +2742,7 @@
       "en": "Hitmonchan",
       "it": "Hitmonchan"
     },
-    "categories": { "fr": "Puncheur", "de": "Puncher", "en": "Punching" }
+    "categories": {"fr": "Puncheur", "de": "Puncher", "en": "Punching"}
   },
   {
     "weight_us": "144.4lb",
@@ -2768,7 +2768,7 @@
       "en": "Lickitung",
       "it": "Lickitung"
     },
-    "categories": { "fr": "L\u00e9cheur", "de": "Schlecker", "en": "Licking" }
+    "categories": {"fr": "L\u00e9cheur", "de": "Schlecker", "en": "Licking"}
   },
   {
     "weight_us": "2.2lb",
@@ -2794,7 +2794,7 @@
       "en": "Koffing",
       "it": "Koffing"
     },
-    "categories": { "fr": "Gaz Mortel", "de": "Giftwolke", "en": "Poison Gas" }
+    "categories": {"fr": "Gaz Mortel", "de": "Giftwolke", "en": "Poison Gas"}
   },
   {
     "weight_us": "20.9lb",
@@ -2820,7 +2820,7 @@
       "en": "Weezing",
       "it": "Weezing"
     },
-    "categories": { "fr": "Gaz Mortel", "de": "Giftwolke", "en": "Poison Gas" }
+    "categories": {"fr": "Gaz Mortel", "de": "Giftwolke", "en": "Poison Gas"}
   },
   {
     "weight_us": "253.5lb",
@@ -2846,7 +2846,7 @@
       "en": "Rhyhorn",
       "it": "Rhyhorn"
     },
-    "categories": { "fr": "Piquant", "de": "Stachler", "en": "Spikes" }
+    "categories": {"fr": "Piquant", "de": "Stachler", "en": "Spikes"}
   },
   {
     "weight_us": "264.6lb",
@@ -2872,7 +2872,7 @@
       "en": "Rhydon",
       "it": "Rhydon"
     },
-    "categories": { "fr": "Perceur", "de": "Bohrer", "en": "Drill" }
+    "categories": {"fr": "Perceur", "de": "Bohrer", "en": "Drill"}
   },
   {
     "weight_us": "76.3lb",
@@ -2898,7 +2898,7 @@
       "en": "Chansey",
       "it": "Chansey"
     },
-    "categories": { "fr": "\u0152uf", "de": "Ei", "en": "Egg" }
+    "categories": {"fr": "\u0152uf", "de": "Ei", "en": "Egg"}
   },
   {
     "weight_us": "77.2lb",
@@ -2924,7 +2924,7 @@
       "en": "Tangela",
       "it": "Tangela"
     },
-    "categories": { "fr": "Vigne", "de": "Ranke", "en": "Vine" }
+    "categories": {"fr": "Vigne", "de": "Ranke", "en": "Vine"}
   },
   {
     "weight_us": "176.4lb",
@@ -2950,7 +2950,7 @@
       "en": "Kangaskhan",
       "it": "Kangaskhan"
     },
-    "categories": { "fr": "Maternel", "de": "Muttertier", "en": "Parent" }
+    "categories": {"fr": "Maternel", "de": "Muttertier", "en": "Parent"}
   },
   {
     "weight_us": "17.6lb",
@@ -2976,7 +2976,7 @@
       "en": "Horsea",
       "it": "Horsea"
     },
-    "categories": { "fr": "Dragon", "de": "Drache", "en": "Dragon" }
+    "categories": {"fr": "Dragon", "de": "Drache", "en": "Dragon"}
   },
   {
     "weight_us": "55.1lb",
@@ -3002,7 +3002,7 @@
       "en": "Seadra",
       "it": "Seadra"
     },
-    "categories": { "fr": "Dragon", "de": "Drache", "en": "Dragon" }
+    "categories": {"fr": "Dragon", "de": "Drache", "en": "Dragon"}
   },
   {
     "weight_us": "33.1lb",
@@ -3028,7 +3028,7 @@
       "en": "Goldeen",
       "it": "Goldeen"
     },
-    "categories": { "fr": "Poisson", "de": "Goldfisch", "en": "Goldfish" }
+    "categories": {"fr": "Poisson", "de": "Goldfisch", "en": "Goldfish"}
   },
   {
     "weight_us": "86.0lb",
@@ -3054,7 +3054,7 @@
       "en": "Seaking",
       "it": "Seaking"
     },
-    "categories": { "fr": "Poisson", "de": "Goldfisch", "en": "Goldfish" }
+    "categories": {"fr": "Poisson", "de": "Goldfisch", "en": "Goldfish"}
   },
   {
     "weight_us": "76.1lb",
@@ -3074,8 +3074,8 @@
     "national_id": 120,
     "height_us": "2'07\"",
     "weight_eu": "34.5kg",
-    "names": { "fr": "Stari", "de": "Sterndu", "en": "Staryu", "it": "Staryu" },
-    "categories": { "fr": "\u00c9toile", "de": "Sternform", "en": "Star Shape" }
+    "names": {"fr": "Stari", "de": "Sterndu", "en": "Staryu", "it": "Staryu"},
+    "categories": {"fr": "\u00c9toile", "de": "Sternform", "en": "Star Shape"}
   },
   {
     "weight_us": "176.4lb",
@@ -3161,7 +3161,7 @@
       "en": "Scyther",
       "it": "Scyther"
     },
-    "categories": { "fr": "Mante", "de": "Mantis", "en": "Mantis" }
+    "categories": {"fr": "Mante", "de": "Mantis", "en": "Mantis"}
   },
   {
     "weight_us": "89.5lb",
@@ -3181,7 +3181,7 @@
     "national_id": 124,
     "height_us": "4'07\"",
     "weight_eu": "40.6kg",
-    "names": { "fr": "Lippoutou", "de": "Rossana", "en": "Jynx", "it": "Jynx" },
+    "names": {"fr": "Lippoutou", "de": "Rossana", "en": "Jynx", "it": "Jynx"},
     "categories": {
       "fr": "Humano\u00efde",
       "de": "Humanotyp",
@@ -3212,7 +3212,7 @@
       "en": "Electabuzz",
       "it": "Electabuzz"
     },
-    "categories": { "fr": "\u00c9lectrique", "de": "Elektro", "en": "Electric" }
+    "categories": {"fr": "\u00c9lectrique", "de": "Elektro", "en": "Electric"}
   },
   {
     "weight_us": "98.1lb",
@@ -3232,8 +3232,8 @@
     "national_id": 126,
     "height_us": "4'03\"",
     "weight_eu": "44.5kg",
-    "names": { "fr": "Magmar", "de": "Magmar", "en": "Magmar", "it": "Magmar" },
-    "categories": { "fr": "Crache-Feu", "de": "Brenner", "en": "Spitfire" }
+    "names": {"fr": "Magmar", "de": "Magmar", "en": "Magmar", "it": "Magmar"},
+    "categories": {"fr": "Crache-Feu", "de": "Brenner", "en": "Spitfire"}
   },
   {
     "weight_us": "121.3lb",
@@ -3283,8 +3283,8 @@
     "national_id": 128,
     "height_us": "4'07\"",
     "weight_eu": "88.4kg",
-    "names": { "fr": "Tauros", "de": "Tauros", "en": "Tauros", "it": "Tauros" },
-    "categories": { "fr": "Buffle", "de": "Wildbulle", "en": "Wild Bull" }
+    "names": {"fr": "Tauros", "de": "Tauros", "en": "Tauros", "it": "Tauros"},
+    "categories": {"fr": "Buffle", "de": "Wildbulle", "en": "Wild Bull"}
   },
   {
     "weight_us": "22.0lb",
@@ -3310,7 +3310,7 @@
       "en": "Magikarp",
       "it": "Magikarp"
     },
-    "categories": { "fr": "Poisson", "de": "Fisch", "en": "Fish" }
+    "categories": {"fr": "Poisson", "de": "Fisch", "en": "Fish"}
   },
   {
     "weight_us": "518.1lb",
@@ -3336,7 +3336,7 @@
       "en": "Gyarados",
       "it": "Gyarados"
     },
-    "categories": { "fr": "Terrifiant", "de": "Grausam", "en": "Atrocious" }
+    "categories": {"fr": "Terrifiant", "de": "Grausam", "en": "Atrocious"}
   },
   {
     "weight_us": "485.0lb",
@@ -3362,7 +3362,7 @@
       "en": "Lapras",
       "it": "Lapras"
     },
-    "categories": { "fr": "Transport", "de": "Transport", "en": "Transport" }
+    "categories": {"fr": "Transport", "de": "Transport", "en": "Transport"}
   },
   {
     "weight_us": "8.8lb",
@@ -3388,7 +3388,7 @@
       "en": "Ditto",
       "it": "Ditto"
     },
-    "categories": { "fr": "Morphing", "de": "Transform", "en": "Transform" }
+    "categories": {"fr": "Morphing", "de": "Transform", "en": "Transform"}
   },
   {
     "weight_us": "14.3lb",
@@ -3444,7 +3444,7 @@
       "en": "Vaporeon",
       "it": "Vaporeon"
     },
-    "categories": { "fr": "Bulleur", "de": "Blubblase", "en": "Bubble Jet" }
+    "categories": {"fr": "Bulleur", "de": "Blubblase", "en": "Bubble Jet"}
   },
   {
     "weight_us": "54.0lb",
@@ -3470,7 +3470,7 @@
       "en": "Jolteon",
       "it": "Jolteon"
     },
-    "categories": { "fr": "Orage", "de": "Blitz", "en": "Lightning" }
+    "categories": {"fr": "Orage", "de": "Blitz", "en": "Lightning"}
   },
   {
     "weight_us": "55.1lb",
@@ -3496,7 +3496,7 @@
       "en": "Flareon",
       "it": "Flareon"
     },
-    "categories": { "fr": "Flamme", "de": "Feuer", "en": "Flame" }
+    "categories": {"fr": "Flamme", "de": "Feuer", "en": "Flame"}
   },
   {
     "weight_us": "80.5lb",
@@ -3523,7 +3523,7 @@
       "it": "Porygon",
       "gr": "\u03a0\u03bf\u03c1\u03c5\u03b3\u03c9\u03bd"
     },
-    "categories": { "fr": "Virtuel", "de": "Virtuell", "en": "Virtual" }
+    "categories": {"fr": "Virtuel", "de": "Virtuell", "en": "Virtual"}
   },
   {
     "weight_us": "16.5lb",
@@ -3549,7 +3549,7 @@
       "en": "Omanyte",
       "it": "Omanyte"
     },
-    "categories": { "fr": "Spirale", "de": "Spirale", "en": "Spiral" }
+    "categories": {"fr": "Spirale", "de": "Spirale", "en": "Spiral"}
   },
   {
     "weight_us": "77.2lb",
@@ -3575,7 +3575,7 @@
       "en": "Omastar",
       "it": "Omanstar"
     },
-    "categories": { "fr": "Spirale", "de": "Spirale", "en": "Spiral" }
+    "categories": {"fr": "Spirale", "de": "Spirale", "en": "Spiral"}
   },
   {
     "weight_us": "25.4lb",
@@ -3595,8 +3595,8 @@
     "national_id": 140,
     "height_us": "1'08\"",
     "weight_eu": "11.5kg",
-    "names": { "fr": "Kabuto", "de": "Kabuto", "en": "Kabuto", "it": "Kabuto" },
-    "categories": { "fr": "Carapace", "de": "Schaltier", "en": "Shellfish" }
+    "names": {"fr": "Kabuto", "de": "Kabuto", "en": "Kabuto", "it": "Kabuto"},
+    "categories": {"fr": "Carapace", "de": "Schaltier", "en": "Shellfish"}
   },
   {
     "weight_us": "89.3lb",
@@ -3622,7 +3622,7 @@
       "en": "Kabutops",
       "it": "Kabutops"
     },
-    "categories": { "fr": "Carapace", "de": "Schaltier", "en": "Shellfish" }
+    "categories": {"fr": "Carapace", "de": "Schaltier", "en": "Shellfish"}
   },
   {
     "weight_us": "130.1lb",
@@ -3648,7 +3648,7 @@
       "en": "Aerodactyl",
       "it": "Aerodactyl"
     },
-    "categories": { "fr": "Fossile", "de": "Fossil", "en": "Fossil" }
+    "categories": {"fr": "Fossile", "de": "Fossil", "en": "Fossil"}
   },
   {
     "weight_us": "1014.1lb",
@@ -3704,7 +3704,7 @@
       "en": "Articuno",
       "it": "Articuno"
     },
-    "categories": { "fr": "Glaciaire", "de": "Eis", "en": "Freeze" }
+    "categories": {"fr": "Glaciaire", "de": "Eis", "en": "Freeze"}
   },
   {
     "weight_us": "116.0lb",
@@ -3730,7 +3730,7 @@
       "en": "Zapdos",
       "it": "Zapdos"
     },
-    "categories": { "fr": "\u00c9lectrique", "de": "Elektro", "en": "Electric" }
+    "categories": {"fr": "\u00c9lectrique", "de": "Elektro", "en": "Electric"}
   },
   {
     "weight_us": "132.3lb",
@@ -3756,7 +3756,7 @@
       "en": "Moltres",
       "it": "Moltres"
     },
-    "categories": { "fr": "Flamme", "de": "Flamme", "en": "Flame" }
+    "categories": {"fr": "Flamme", "de": "Flamme", "en": "Flame"}
   },
   {
     "weight_us": "7.3lb",
@@ -3782,7 +3782,7 @@
       "en": "Dratini",
       "it": "Dratini"
     },
-    "categories": { "fr": "Dragon", "de": "Drache", "en": "Dragon" }
+    "categories": {"fr": "Dragon", "de": "Drache", "en": "Dragon"}
   },
   {
     "weight_us": "36.4lb",
@@ -3808,7 +3808,7 @@
       "en": "Dragonair",
       "it": "Dragonair"
     },
-    "categories": { "fr": "Dragon", "de": "Drache", "en": "Dragon" }
+    "categories": {"fr": "Dragon", "de": "Drache", "en": "Dragon"}
   },
   {
     "weight_us": "463.0lb",
@@ -3834,7 +3834,7 @@
       "en": "Dragonite",
       "it": "Dragonite"
     },
-    "categories": { "fr": "Dragon", "de": "Drache", "en": "Dragon" }
+    "categories": {"fr": "Dragon", "de": "Drache", "en": "Dragon"}
   },
   {
     "weight_us": "269.0lb",
@@ -3854,7 +3854,7 @@
     "national_id": 150,
     "height_us": "6'07\"",
     "weight_eu": "122.0kg",
-    "names": { "fr": "Mewtwo", "de": "Mewtu", "en": "Mewtwo", "it": "Mewtwo" },
+    "names": {"fr": "Mewtwo", "de": "Mewtu", "en": "Mewtwo", "it": "Mewtwo"},
     "categories": {
       "fr": "G\u00e9n\u00e9tique",
       "de": "Genmutant",
@@ -3879,7 +3879,7 @@
     "national_id": 151,
     "height_us": "1'04\"",
     "weight_eu": "4.0kg",
-    "names": { "fr": "Mew", "de": "Mew", "en": "Mew", "it": "Mew" },
-    "categories": { "fr": "Nouveau", "de": "Neue Art", "en": "New Species" }
+    "names": {"fr": "Mew", "de": "Mew", "en": "Mew", "it": "Mew"},
+    "categories": {"fr": "Nouveau", "de": "Neue Art", "en": "New Species"}
   }
 ]
