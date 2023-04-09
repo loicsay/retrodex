@@ -1,4 +1,4 @@
-import {Version} from '../../types';
+import { Version } from '../../types';
 
 const imagesSources = {
   'red-blue': [
@@ -156,8 +156,7 @@ const imagesSources = {
     require('../../../data/red-blue-yellow/sprites/red-blue/151.png'),
   ],
   yellow: [
-    require('../../../data/red-blue-yellow/sprites/red-blue/0.png'),
-    require('../../../data/red-blue-yellow/sprites/yellow/1.png'),
+    require('../../../data/red-blue-yellow/sprites/yellow/0.png'),
     require('../../../data/red-blue-yellow/sprites/yellow/1.png'),
     require('../../../data/red-blue-yellow/sprites/yellow/2.png'),
     require('../../../data/red-blue-yellow/sprites/yellow/3.png'),

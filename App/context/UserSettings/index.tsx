@@ -6,7 +6,7 @@ import React, {
   useEffect,
   useState,
 } from 'react';
-import {Languages, Version, Unit} from '../../types';
+import { Languages, Version, Unit } from '../../types';
 import {
   defaultState,
   getAlreadyLaunched,
@@ -34,7 +34,7 @@ const UserSettingsContext = React.createContext<Context>({
   setUnit: () => {},
 });
 
-const UserSettingsProvider = ({children}: PropsWithChildren) => {
+const UserSettingsProvider = ({ children }: PropsWithChildren) => {
   const [state, setState] = useState<State>(defaultState);
 
   useEffect(() => {
@@ -57,27 +57,28 @@ const UserSettingsProvider = ({children}: PropsWithChildren) => {
   }, []);
 
   const setLanguage = (language: Languages) => {
-    setState({...state, language});
+    setState({ ...state, language });
     AsyncStorage.setItem('language', language);
   };
 
   const setVersion = (version: Version) => {
-    setState({...state, version});
+    setState({ ...state, version });
     AsyncStorage.setItem('version', version);
   };
 
   const setUnit = (unit: Unit) => {
-    setState({...state, unit});
+    setState({ ...state, unit });
     AsyncStorage.setItem('unit', unit);
   };
 
   return (
     <UserSettingsContext.Provider
-      value={{...state, setLanguage, setVersion, setUnit}}>
+      value={{ ...state, setLanguage, setVersion, setUnit }}
+    >
       {children}
     </UserSettingsContext.Provider>
   );
 };
 
-export {UserSettingsContext, UserSettingsProvider};
+export { UserSettingsContext, UserSettingsProvider };
 export default () => useContext(UserSettingsContext);

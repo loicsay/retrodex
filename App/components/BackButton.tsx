@@ -32,7 +32,8 @@ const BackButton: FC<Props> = ({ navigation }) => {
       style={styles.backButton}
       onPress={handleOnPress}
       onPressIn={handleOnPressIn}
-      onPressOut={handleOnPressOut}>
+      onPressOut={handleOnPressOut}
+    >
       <Selector style={styles.selector} pressed={pressed} />
       <PokemonText uppercase>{text.back[language]}</PokemonText>
     </TouchableOpacity>

@@ -36,7 +36,8 @@ const VersionModal: FC<Props> = ({ showModal, closeModal }) => {
           <TouchableOpacity
             key={versionItem}
             style={styles.item}
-            onPress={handleOnPress}>
+            onPress={handleOnPress}
+          >
             <Selector
               style={[styles.selector, !isCurrentVersion && styles.hide]}
             />

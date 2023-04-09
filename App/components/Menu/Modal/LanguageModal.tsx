@@ -42,7 +42,8 @@ const LanguageModal: FC<Props> = ({ showModal, closeModal }) => {
           <TouchableOpacity
             key={langKey}
             style={styles.item}
-            onPress={handleOnPress}>
+            onPress={handleOnPress}
+          >
             <Selector
               style={[styles.selector, !isCurrentLanguage && styles.hide]}
             />

@@ -17,8 +17,9 @@ interface Props {
 const SettingsMenu: FC<Props> = ({ style }) => {
   const { language } = useUserSettingsContext();
 
-  const [showModal, setShowModal] =
-    useState<'language' | 'version' | 'unit' | null>(null);
+  const [showModal, setShowModal] = useState<
+    'language' | 'version' | 'unit' | null
+  >(null);
 
   const handleOpenLanguageModal = () => {
     selectSound.play();

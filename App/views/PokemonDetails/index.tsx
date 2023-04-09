@@ -1,10 +1,10 @@
-import {RouteProp} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
-import React, {FC, useEffect} from 'react';
-import {StyleSheet, View} from 'react-native';
-import {ScrollView} from 'react-native-gesture-handler';
+import { RouteProp } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import React, { FC, useEffect } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 import Sound from 'react-native-sound';
-import {RootStackParamList} from '../..';
+import { RootStackParamList } from '../..';
 import BackButton from '../../components/BackButton';
 import CatchButton from '../../components/CatchButton';
 import Description from '../../components/Description';
@@ -21,10 +21,10 @@ interface Props {
   route: RouteProp<RootStackParamList, 'PokemonDetails'>;
 }
 
-const PokemonView: FC<Props> = ({route: {params}, navigation}) => {
-  const {language, version} = useUserSettingsContext();
+const PokemonView: FC<Props> = ({ route: { params }, navigation }) => {
+  const { language, version } = useUserSettingsContext();
 
-  const {pokemon} = params;
+  const { pokemon } = params;
 
   useEffect(() => {
     if (!params) {

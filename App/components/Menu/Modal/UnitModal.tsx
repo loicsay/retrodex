@@ -36,7 +36,8 @@ const UnitModal: FC<Props> = ({ showModal, closeModal }) => {
           <TouchableOpacity
             key={unitItem}
             style={styles.item}
-            onPress={handleOnPress}>
+            onPress={handleOnPress}
+          >
             <Selector
               style={[styles.selector, !isCurrentUnit && styles.hide]}
             />

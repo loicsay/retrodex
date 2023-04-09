@@ -72,7 +72,8 @@ const ListItem: FC<Props> = ({
     <TouchableOpacity
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
-      onPress={handleOnPress}>
+      onPress={handleOnPress}
+    >
       <View style={styles.pokemonId}>
         <PokemonText uppercase>{pokemonId}</PokemonText>
       </View>

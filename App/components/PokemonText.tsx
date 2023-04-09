@@ -1,5 +1,5 @@
-import React, {PropsWithChildren} from 'react';
-import {Dimensions, StyleSheet, Text} from 'react-native';
+import React, { PropsWithChildren } from 'react';
+import { Dimensions, StyleSheet, Text } from 'react-native';
 
 const deviceWidth = Dimensions.get('window').width;
 
@@ -7,7 +7,7 @@ interface Props {
   uppercase?: boolean;
 }
 
-const PokemonText = ({uppercase, children}: PropsWithChildren<Props>) => (
+const PokemonText = ({ uppercase, children }: PropsWithChildren<Props>) => (
   <Text style={[styles.pokemonText, uppercase && styles.uppercase]}>
     {children}
   </Text>

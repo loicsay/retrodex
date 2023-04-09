@@ -1,5 +1,5 @@
-import React, {PropsWithChildren} from 'react';
-import {StyleSheet, TouchableOpacity, View} from 'react-native';
+import React, { PropsWithChildren } from 'react';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import PokemonText from '../PokemonText';
 import Selector from '../Selector';
 
